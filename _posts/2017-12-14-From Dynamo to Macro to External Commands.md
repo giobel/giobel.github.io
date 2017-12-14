@@ -3,7 +3,7 @@ layout: post
 title: From Dynamo to Macro to External Commands
 ---
 
-![macro1]({{ site.baseurl }}/images/404.jpg)
+![macro1]({{ site.baseurl }}/images/macro1.png)
 
 Dynamo is a good tool but scripts deployment, version compatibility, non OOTB nodes and the need to start Dynamo or to launch a script from the player can sometimes represent an obstacle.
 
