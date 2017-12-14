@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown Style Guide
+title: From Dynamo to Macro to External Commands
 ---
 
 ![macro1]({{ site.baseurl }}/images/macro1.png)
