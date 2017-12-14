@@ -1,3 +1,5 @@
+![_config.yml]({{ site.baseurl }}/images/macro1.png)
+
 Dynamo is a good tool but scripts deployment, version compatibility, non OOTB nodes and the need to start Dynamo or to launch a script from the player can sometimes represent an obstacle.
 
 For the most used nodes it may be worth to convert them into external commands or bespoke buttons in the toolbar.
