@@ -1,4 +1,4 @@
-![_config.yml]({{ site.baseurl }}/images/macro1.png)
+![_config.yml]({{ site.baseurl }}/images/404.jpg)
 
 Dynamo is a good tool but scripts deployment, version compatibility, non OOTB nodes and the need to start Dynamo or to launch a script from the player can sometimes represent an obstacle.
 
