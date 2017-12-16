@@ -10,25 +10,17 @@ title: Presentazione Milano 21/12
 - ### Revit per l’ingegneria strutturale
 - ### Armature in Revit
 
-[![Alt text](https://img.youtube.com/vi/5oWWmZVL6R0/0.jpg)](https://www.youtube.com/watch?v=5oWWmZVL6R0)
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
 
 This is using pelican
 
 <script src="video.js"></script>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="683" height="384" poster="/images/macro1.PNG"
-data-setup="{}">
+preload="auto" width="1152" height="720" data-setup="{}">
 <source src="/images/1-Dwg to Revit.mp4" type='video/mp4'>
 </video>
+
+poster="/images/macro1.PNG"
 
 <a href="https://www.youtube.com/watch?v=5oWWmZVL6R0" target="_self"><img src="http://img.youtube.com/vi/5oWWmZVL6R0/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="0" /></a>
