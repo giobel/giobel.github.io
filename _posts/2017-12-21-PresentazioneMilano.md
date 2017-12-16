@@ -5,9 +5,9 @@ title: Presentazione Milano 21/12
 
 # Sommario
 
-- **Interfaccia con Revit
-- Revit per l’ingegneria strutturale
-- Armature in Revit**
+- **Interfaccia con Revit**
+- **Revit per l’ingegneria strutturale**
+- **Armature in Revit**
 
 
 **Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
