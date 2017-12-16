@@ -9,18 +9,9 @@ title: Presentazione Milano 21/12
 ##### H5
 ###### H6
 
-Alt-H2
-------
-
-
-
 # Sommario
-======
 
-
-**Sommario**
-
-*Interfaccia con Revit*
+*Interfaccia con Revit
 +Revit per l’ingegneria strutturale+
 -Armature in Revit-
 
