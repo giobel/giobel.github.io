@@ -2,18 +2,12 @@
 layout: post
 title: Presentazione Milano 21/12
 ---
-# Sommario
-## H2
-### H3
-#### H4
-##### H5
-###### H6
 
 # Sommario
 
-### * Interfaccia con Revit
-### * Revit per l’ingegneria strutturale
-### * Armature in Revit
+### > * Interfaccia con Revit
+### > * Revit per l’ingegneria strutturale
+### > * Armature in Revit
 
 
 ![macro1]({{ site.baseurl }}/images/AreaLoads.gif)
