@@ -12,8 +12,8 @@ title: Presentazione Milano 21/12
 # Sommario
 
 ### Interfaccia con Revit
-+Revit per l’ingegneria strutturale+
--Armature in Revit-
+### Revit per l’ingegneria strutturale+
+### Armature in Revit-
 
 
 ![macro1]({{ site.baseurl }}/images/AreaLoads.gif)
