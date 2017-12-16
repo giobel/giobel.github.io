@@ -17,11 +17,11 @@ Alt-H1
 Alt-H2
 ------
 
-Sommario
+**Sommario**
 
-*Interfaccia con Revit
-+Revit per l’ingegneria strutturale
--Armature in Revit
+*Interfaccia con Revit*
++Revit per l’ingegneria strutturale+
+-Armature in Revit-
 
 
 ![macro1]({{ site.baseurl }}/images/AreaLoads.gif)
