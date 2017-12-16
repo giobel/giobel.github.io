@@ -16,7 +16,7 @@ This is using pelican
 <script src="video.js"></script>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="1280" height="720" poster="/images/macro1.PNG"
+preload="auto" width="1152" height="720" poster="/images/macro1.PNG"
 data-setup="{}">
 <source src="/images/1-Dwg to Revit.mp4" type='video/mp4'>
 </video>
