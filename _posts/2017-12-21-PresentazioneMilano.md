@@ -5,7 +5,7 @@ title: Presentazione Milano 21/12
 
 Sommario
 
-![macro1]({{ site.baseurl }}/images/AreaLoads.gif
+![macro1]({{ site.baseurl }}/images/AreaLoads.gif)
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/5oWWmZVL6R0/0.jpg)](http://www.youtube.com/watch?v=5oWWmZVL6R0)
 
