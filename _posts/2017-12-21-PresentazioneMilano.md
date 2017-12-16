@@ -18,6 +18,8 @@ data-setup="{}">
 <source src="/images/1-Dwg to Revit.mp4" type='video/mp4'>
 </video>
 
+<a href="https://www.youtube.com/watch?v=5oWWmZVL6R0" target="_self"><img src="http://img.youtube.com/vi/5oWWmZVL6R0/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="0" /></a>
 
 # Interfaccia con Revit
 ![macro1]({{ site.baseurl }}/images/)
