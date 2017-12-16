@@ -10,12 +10,13 @@ title: Presentazione Milano 21/12
 - ### Revit per l’ingegneria strutturale
 - ### Armature in Revit
 
+<script src="http://vjs.zencdn.net/4.0/video.js"></script>
 
-<div align="center">
-    <iframe width="620" height="315"
-        src="https://www.youtube.com/embed/5oWWmZVL6R0">
-    </iframe>
-</div>
+<video id="pelican-installation" class="video-js vjs-default-skin" controls
+preload="auto" width="683" height="384" poster="/images/macro1.PNG"
+data-setup="{}">
+<source src="/images/1-Dwg to Revit.mp4" type='video/mp4'>
+</video>
 
 # Interfaccia con Revit
 ![macro1]({{ site.baseurl }}/images/)
