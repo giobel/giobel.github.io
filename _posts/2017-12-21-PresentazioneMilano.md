@@ -14,10 +14,10 @@ title: Presentazione Milano 21/12
 
 This is using pelican
 
-<script src="http://vjs.zencdn.net/4.0/video.js"></script>
+<script src="video.js"></script>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="683" height="384" poster="/images/404.jpg"
+preload="auto" width="683" height="384" poster="/images/macro1.PNG"
 data-setup="{}">
 <source src="/images/1-Dwg to Revit.mp4" type='video/mp4'>
 </video>
