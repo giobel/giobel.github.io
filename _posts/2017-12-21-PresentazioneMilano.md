@@ -52,8 +52,8 @@ title: Presentazione Milano 21/12
 
 | **PROS** | **CONS** |
 |------|------|
-|Metodo piu’ rapido per creare modelli in Revit | Precisione|
-| | Rischio di dover ricreare il modello da zero ad ogni cambio di geometrie (perdendo note e tag)|
+|Metodo piu’ rapido per creare modelli in Revit|Precisione|
+| |Rischio di dover ricreare il modello da zero ad ogni cambio di geometrie (perdendo note e tag)|
 
 ## Dynamo
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="1152" height="720" data-setup="{}">
@@ -86,10 +86,10 @@ title: Presentazione Milano 21/12
 
 | **PROS** | **CONS** |
 |------|------|
-|Ripetibilita’ e modularita’ | Estendere/proiettare linee di costruzione|
-|Vasta libreria di elementi | Intersecare piani e superfici|
-| | Creare elementi per coordinate XYZ|
-| | Difficile creare componenti su misura|
+|Ripetibilita’ e modularita’|Estendere/proiettare linee di costruzione|
+|Vasta libreria di elementi|Intersecare piani e superfici|
+| |Creare elementi per coordinate XYZ|
+| |Difficile creare componenti su misura|
 
 # Armature in Revit
 
