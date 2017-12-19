@@ -20,7 +20,7 @@ title: Presentazione Milano 21/12
 
 # Creazione del modello da zero
 ![DynamoGsaRevit]({{ site.baseurl }}/images/gsaDynaRevit.png =900)
-<img src="images/shapeFileDynamo.png" width="900">
+<img src="/images/shapeFileDynamo.png" width="900">
 
 Coordinamento/Studio preliminare
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="1152" height="720" data-setup="{}">
