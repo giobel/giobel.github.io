@@ -17,6 +17,8 @@ title: Test Image
 
 <div id="imageContainer1"></div>
 
+**Second Image**
+
 <div id="imageContainer2"></div>
 
 <script>  
@@ -48,8 +50,6 @@ function zoom() {
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
   }
   </script>    
-
-**Second Image**
 
 <script>
 var imgHeight = 635, imgWidth = 1600,      
