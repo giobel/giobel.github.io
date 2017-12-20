@@ -20,7 +20,7 @@ title: Test Image
 <div id="imageContainer2"></div>
 
 <script>  
-var imgHeight1 = 635, imgWidth1 = 1600,      
+var imgHeight = 635, imgWidth = 1600,      
     width =  960, height = 650,             
     translate0 = [0, 0], scale0 = 0.6;  
 
@@ -39,8 +39,8 @@ svg1 = svg1.append("g")
   .append("g");
 
 svg1.append("image")
-    .attr("width",  imgWidth1 + "px")
-    .attr("height", imgHeight1 + "px")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro1.PNG");
 
 function zoom() {
@@ -50,7 +50,7 @@ function zoom() {
   </script>    
 
 <script>
-var imgHeight2 = 635, imgWidth2 = 1600,      
+var imgHeight = 635, imgWidth = 1600,      
     width =  960, height = 650,             
     translate0 = [0, 0], scale0 = 0.6;  
   
@@ -69,8 +69,8 @@ svg2 = svg2.append("g")
   .append("g");
 
 svg2.append("image")
-    .attr("width",  imgWidth2 + "px")
-    .attr("height", imgHeight2 + "px")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro2.PNG");
 
 function zoom() {
