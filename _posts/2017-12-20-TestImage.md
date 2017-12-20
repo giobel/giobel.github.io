@@ -21,7 +21,7 @@ title: Test Image
 
 <script>  
 var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 650,             
+    width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
@@ -51,7 +51,7 @@ function zoom() {
 
 <script>
 var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 650,             
+    width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
   
 svg2 = d3.select("#imageContainer2").append("svg")
