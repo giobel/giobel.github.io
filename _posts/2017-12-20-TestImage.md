@@ -49,6 +49,8 @@ function zoom() {
   }
   </script>    
 
+**Second Image**
+
 <script>
 var imgHeight = 635, imgWidth = 1600,      
     width =  960, height = 385,             
