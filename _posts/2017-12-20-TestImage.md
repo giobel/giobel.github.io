@@ -43,7 +43,9 @@ svg1.append("image")
     .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro1.PNG");
     
-    svg2 = d3.select("#imageContainer2").append("svg")
+
+
+svg2 = d3.select("#imageContainer2").append("svg")
     .attr("width",  width + "px")
     .attr("height", height + "px");
 
@@ -64,6 +66,8 @@ svg2.append("image")
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
 }
   </script>
