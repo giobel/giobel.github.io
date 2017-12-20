@@ -40,7 +40,7 @@ svg = svg.append("g")
 svg.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
-    .attr("xlink:href", "Base.png");
+    .attr("xlink:href", "/images/macro1.PNG");
 
 function zoom() {
   svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
