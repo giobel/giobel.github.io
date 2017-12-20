@@ -28,23 +28,23 @@ svg1 = d3.select("#imageContainer1").append("svg")
     .attr("width",  width + "px")
     .attr("height", height + "px");
 
-svg.append("rect")
+svg1.append("rect")
     .attr("class", "overlay")
     .attr("width", width + "px")
     .attr("height", height + "px");
 
-svg = svg.append("g")
+svg1 = svg.append("g")
     .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
     .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
   .append("g");
 
-svg.append("image")
+svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro1.PNG");
 
 function zoom() {
-  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
 }
   </script>
