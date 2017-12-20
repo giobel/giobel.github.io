@@ -35,7 +35,7 @@ svg1.append("rect")
 
 svg1 = svg1.append("g")
     .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
   .append("g");
 
 svg1.append("image")
@@ -65,7 +65,7 @@ svg2.append("rect")
 
 svg2 = svg2.append("g")
     .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
   .append("g");
 
 svg2.append("image")
