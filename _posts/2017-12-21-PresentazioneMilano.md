@@ -79,7 +79,7 @@ title: Presentazione Milano 21/12
 
 ## Tools di modellazione in Revit
 
-<img src="/images/distilleryRoof.png" width="900">
+<img src="/images/distilleryRoof.PNG" width="900">
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="720" data-setup="{}">
 <source src="/videos/Revit mass Example.mp4" type='video/mp4'></video>
@@ -93,9 +93,9 @@ title: Presentazione Milano 21/12
 
 # Armature in Revit
 
-<img src="/images/armature.png" width="900">
+<img src="/images/armature.PNG" width="900">
 
-<img src="/images/armature1.png" width="900">
+<img src="/images/armature1.PNG" width="900">
 
-<img src="/images/armature2.png" width="900">
+<img src="/images/armature2.PNG" width="900">
 
