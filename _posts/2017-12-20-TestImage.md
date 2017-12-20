@@ -33,7 +33,7 @@ svg1.append("rect")
     .attr("width", width + "px")
     .attr("height", height + "px");
 
-svg1 = svg.append("g")
+svg1 = svg1.append("g")
     .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
     .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
   .append("g");
