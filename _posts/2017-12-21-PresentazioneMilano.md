@@ -32,19 +32,19 @@ title: Presentazione Milano 21/12
 
 ---
 
-**1. Importazione da DWG (elementi solidi)**
+## 1. Importazione da DWG (elementi solidi)
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/1-Dwg to Revit.mp4" type='video/mp4'></video>
 
-**2. Importazione da DWG (wireframe)**
+## 2. Importazione da DWG (wireframe)
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/2-Gsa To Revit.mp4" type='video/mp4'></video>
 
-**3. Importazione da IFC**
+## 3. Importazione da IFC
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/3-IFC.mp4" type='video/mp4'></video>
 
-**4. GSA plugin**
+## 4. GSA plugin
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/4-gsa Addin.mp4" type='video/mp4'></video>
 
@@ -60,7 +60,7 @@ title: Presentazione Milano 21/12
 - Precisione
 - Rischio di dover ricreare il modello da zero ad ogni cambio di geometrie (perdendo note e tag)
 
-**5. Dynamo**
+## 5. Dynamo
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/5-Dynamo.mp4" type='video/mp4'></video>
 
