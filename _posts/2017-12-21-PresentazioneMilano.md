@@ -53,6 +53,7 @@ title: Presentazione Milano 21/12
 
 **PROS**
 - Metodo piu’ rapido per creare modelli in Revit
+
 **CONS**
 - Precisione
 - Rischio di dover ricreare il modello da zero ad ogni cambio di geometrie (perdendo note e tag)
@@ -66,13 +67,14 @@ title: Presentazione Milano 21/12
 - Modello parametrico
 - Script riutilizzabile
 - Crea direttamente elementi nativi Revit
+
 **CONS**
 - Spesso solo l’autore ha pieno controllo di quanto accade e dell’output prodotto
 - Un singolo script potrebbe risultare troppo complesso
 - Lo script necessita comunque di aggiustamenti se utilizzato per un altro progetto
 - Possibilita’ di esportare verso programmi ad elementi finiti
 
-<img src="/images/dynamoScripts.png" width="900">
+<img src="/images/dynamoScripts.PNG" width="900">
 
 # Revit per l’Ingegneria Strutturale
 
@@ -93,6 +95,7 @@ title: Presentazione Milano 21/12
 **PROS**
 - Ripetibilita’ e modularita’
 - Vasta libreria di elementi
+
 **CONS**
 - Estendere/proiettare linee di costruzione|
 - Intersecare piani e superfici
