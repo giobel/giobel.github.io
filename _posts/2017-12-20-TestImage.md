@@ -19,9 +19,9 @@ title: Test Image
 
 <script>
   
-var imgHeight = 1025, imgWidth = 1538,      
+var imgHeight = 635, imgWidth = 1600,      
     width =  960, height = 650,             
-    translate0 = [-290, -180], scale0 = 1;  
+    translate0 = [-290, -180], scale0 = 0.6;  
 
 svg = d3.select("#imageContainer").append("svg")
     .attr("width",  width + "px")
