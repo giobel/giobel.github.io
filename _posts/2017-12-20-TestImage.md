@@ -46,6 +46,7 @@ svg1.append("image")
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
   </script>    
 
 <script>
