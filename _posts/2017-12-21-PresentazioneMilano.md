@@ -58,7 +58,7 @@ title: Presentazione Milano 21/12
 - Precisione
 - Rischio di dover ricreare il modello da zero ad ogni cambio di geometrie (perdendo note e tag)
 
-**Dynamo
+**5. Dynamo**
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="720" data-setup="{}">
 <source src="/videos/5-Dynamo.mp4" type='video/mp4'></video>
 
@@ -97,7 +97,7 @@ title: Presentazione Milano 21/12
 - Vasta libreria di elementi
 
 **CONS**
-- Estendere/proiettare linee di costruzione|
+- Estendere/proiettare linee di costruzione
 - Intersecare piani e superfici
 - Creare elementi per coordinate XYZ
 - Difficile creare componenti su misura
