@@ -42,9 +42,17 @@ svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro1.PNG");
-    
 
+function zoom() {
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  </script>    
 
+<script>
+var imgHeight = 635, imgWidth = 1600,      
+    width =  960, height = 650,             
+    translate0 = [0, 0], scale0 = 0.6;  
+  
 svg2 = d3.select("#imageContainer2").append("svg")
     .attr("width",  width + "px")
     .attr("height", height + "px");
@@ -65,10 +73,8 @@ svg2.append("image")
     .attr("xlink:href", "/images/macro2.PNG");
 
 function zoom() {
-  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
   svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
-}
+  }
   </script>
   
