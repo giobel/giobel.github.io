@@ -2,13 +2,13 @@
 <head>
 	<title>Dynamo Scripts</title>
 <style>
-	/* the two following properties modify the box-model so that padding is removed from the width instead of being added */
-html {
+	/* the two following properties modify the box-model so that padding is removed from the width instead of being added */html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,27 +19,24 @@ ul:after { /* to clearfix your ul list */
   display: table;
   clear: both;
 }
-ul li {
-  display: block; /* inline-block have an extra 4px margin wich makes it harder to use in this situation */
-  width: 20%; /* You get it (100/5) but use exact number */
-  padding: 10px 5px;
-  float: left; /* if you use block elements you have to float them */
-  text-align: center;
-}
 figure {
-  margin: 0; /* to normalize figure element */
+  width: 20%;
+  position: relative;
+  float: left;
+  text-align: left;
+  margin: 10px;
 }
-figure img {
-	position: relative; 
-  max-width: 100%;
-  max-height: 100%;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-	
-figure text {
+.text {
   z-index: 100;
   position: absolute;
   color: red;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
   left: 0;
   right: 0;
@@ -54,47 +51,53 @@ figure text {
 <ul>
   <li>
     <figure>
-	    <a href="macro1/">
- 		<img src="http://placehold.it/250x250" />
- 		</a>
-	<h2><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+    	    <a href="macro1/">
+ 		<img class="image" src="http://placehold.it/250x250" />
+    <p class="text">A Movie in the Park<br />Kung Fu Panda</p>
+    </a>
     </figure>
-  </li>
+    </li>
+      
 
-	<li>
-    <figure>
-	        <a href="2017-12-24-Macro1/">
-      <img src="http://placehold.it/250x250" />
-		<text>Text to overlay</text>
-	    </a>
-		</figure>
-		 
-  </li>
   <li>
     <figure>
-      <img src="http://placehold.it/250x250" />
-      <figcaption>Text</figcaption>
+    	    <a href="macro1/">
+ 		<img class="image" src="http://placehold.it/250x250" />
+    <p class="text">A Movie in the Park<br />Kung Fu Panda</p>
+    </a>
     </figure>
-  </li>
+    </li>
+      
+
   <li>
     <figure>
-      <img src="http://placehold.it/250x250" />
-      <figcaption>Text</figcaption>
+    	    <a href="macro1/">
+ 		<img class="image" src="http://placehold.it/250x250" />
+    <p class="text">A Movie in the Park<br />Kung Fu Panda</p>
+    </a>
     </figure>
-  </li>
+    </li>
+      
+	
   <li>
     <figure>
-      <img src="http://placehold.it/250x250" />
-      <figcaption>Text</figcaption>
+    	    <a href="macro1/">
+ 		<img class="image" src="http://placehold.it/250x250" />
+    <p class="text">A Movie in the Park<br />Kung Fu Panda</p>
+    </a>
     </figure>
-  </li>
+    </li>
+      
+	
   <li>
     <figure>
-      <img src="http://placehold.it/250x250" />
-      <figcaption>Text</figcaption>
+    	    <a href="macro1/">
+ 		<img class="image" src="http://placehold.it/250x250" />
+    <p class="text">A Movie in the Park<br />Kung Fu Panda</p>
+    </a>
     </figure>
-  </li>
- 
+    </li>
+      
 </ul>
 
 </body>
