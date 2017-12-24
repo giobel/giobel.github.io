@@ -3,8 +3,7 @@ layout: post
 title: Notes on Java
 ---
 
-
-# Thinking in Java 3rd edition
+Thinking in Java 3rd edition
 
 ## Chapter 4
 
