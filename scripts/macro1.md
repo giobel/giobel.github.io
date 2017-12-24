@@ -1,6 +1,6 @@
 ---
-title: macro1
 layout: post
+title: macro1
 ---
 
 test macro 1
