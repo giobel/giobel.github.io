@@ -34,28 +34,17 @@ figure img {
   max-width: 100%;
   max-height: 100%;
 }
-    .caption {
-        width:100%;
-        bottom: .3rem;
-        position: absolute;
-        background:#000;
-        background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    }
-
-    .thumbnail {
-        border: 0 none;
-        box-shadow: none;
-        margin:0;
-        padding:0;
-    }
-
-    .caption h4 {
-        color: #fff;
-        -webkit-font-smoothing: antialiased;
-    }
+	
+figure text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 	</style>
 	
 </head>
@@ -77,9 +66,7 @@ figure img {
 	        <a href="2017-12-24-Macro1/">
       <img src="http://placehold.it/250x250" />
 	    </a>
-	 <div class="caption">
-        	<h4>Lorem ipsum dolor sit amet, consectetur</h4>
-           </div>
+	  <p class="text">Text to overlay</p>
 		</figure>
   </li>
   <li>
