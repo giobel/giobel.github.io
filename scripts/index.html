@@ -30,8 +30,24 @@ figure {
   margin: 0; /* to normalize figure element */
 }
 figure img {
+	position: relative; 
   max-width: 100%;
   max-height: 100%;
+}
+	
+	figure h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+	figure h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
 }
 	</style>
 	
@@ -45,7 +61,7 @@ figure img {
 	    <a href="macro1/">
  		<img src="macro1Thumb.png" width = "500px">
  		</a>
-      <figcaption>Macro1</figcaption>
+<h2><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
     </figure>
   </li>
 
