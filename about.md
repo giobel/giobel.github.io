@@ -1,7 +1,7 @@
 ---
 layout: page
-title: myScripts
-permalink: /Scripts/
+title: about
+permalink: /about/
 ---
 
 Some information about you!
