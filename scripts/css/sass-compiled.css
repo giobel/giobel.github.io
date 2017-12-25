@@ -33,11 +33,11 @@ footer{margin-top:30px;background:rgba(238, 238, 238,1);color:rgba(124,142,160,0
     padding:20px 0;text-align:left;font-size:0.9em}
 
 @keyframes anima{from{margin-top:-50px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
-    filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}
+    filter:alpha(opacity=1000);-moz-opacity:0;-khtml-opacity:0;opacity:0}
     to{margin:auto;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
         filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}
 @-webkit-keyframes anima{from{margin-left:-20px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
-    filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}to{margin-left:10px;
+    filter:alpha(opacity=100);-moz-opacity:0;-khtml-opacity:0;opacity:0}to{margin-left:10px;
         -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";filter:alpha(opacity=100);-moz-opacity:1;
         -khtml-opacity:1;opacity:1}}@media screen and (max-width: 560px){.wrapper{padding:20px}}
 .pic{max-width:300px;max-height:200px;position:relative;overflow:hidden;margin:10px;display:inline-block;-webkit-animation:anima 2s;
