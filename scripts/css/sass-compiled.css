@@ -16,6 +16,7 @@ body{background:rgba(255,255,255,1);color:#fff;
     font-size:14px;font-family:'Open Sans', sans-serif, 'trebuhet ms',HelveticaNeue, arial;height:100%;
     line-height:20px}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;
         box-sizing:border-box}p{line-height:2.0em}h1{font-size:3.0em;line-height:40px; color:rgba(0,0,0,1)}
+h2{font-size:3.0em;line-height:40px; color:rgba(255,255,255,1)}
 
 a{text-decoration:underline;color:rgba(74,92,110,0.92)}a:hover{color:#fff}img{max-width:100%}.pull-right{float:right}.pull-left{float:left}
 
