@@ -43,7 +43,7 @@ footer{margin-top:30px;background:rgba(238, 238, 238,1);color:rgba(124,142,160,0
     -moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}
 .pic-3d{-webkit-perspective:500;-moz-perspective:500;-o-perspective:500;-ms-perspective:500;perspective:500;
     -webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;
-    transform-style:preserve-3d}.pic-caption{cursor:default;position:absolute;width:100%;height:100%;background:rgba(44,62,80,0.92);
+    transform-style:preserve-3d}.pic-caption{cursor:pointer;position:absolute;width:100%;height:100%;background:rgba(44,62,80,0.92);
         padding:10px;text-align:center;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
         filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}.pic-image{-webkit-transform:scale(1.1);
             -moz-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}.pic:hover 
