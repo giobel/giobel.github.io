@@ -44,7 +44,7 @@ svg1 = svg1.append("g")
 svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
-    .attr("xlink:href", "img/leaderElbows.png");
+    .attr("xlink:href", "/scripts/img/leaderElbows.png");
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
