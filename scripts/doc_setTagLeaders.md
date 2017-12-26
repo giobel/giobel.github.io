@@ -53,11 +53,8 @@ function zoom() {
 
 *References:*
 
-Autodesk.Revit.DB.IndependentTag - This method forms a tag relationship to the host object.
-http://www.revitapidocs.com/2018/1f622654-786a-b8fd-1f81-278698bacd5b.htm
+[Autodesk.Revit.DB.IndependentTag - This method forms a tag relationship to the host object.](http://www.revitapidocs.com/2018/1f622654-786a-b8fd-1f81-278698bacd5b.htm)
 
-TextNote Leader Alignment - the building coder
-http://thebuildingcoder.typepad.com/blog/2014/02/textnote-leader-alignment.html
+[TextNote Leader Alignment - the building coder](http://thebuildingcoder.typepad.com/blog/2014/02/textnote-leader-alignment.html)
 
-The script can be downloaded here.
-https://drive.google.com/open?id=0BxH7XsYIEQEhS2dob2JpT2hfajQ
+The script can be downloaded [here](https://drive.google.com/open?id=0BxH7XsYIEQEhS2dob2JpT2hfajQ).
