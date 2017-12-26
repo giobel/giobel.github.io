@@ -16,7 +16,7 @@ title: doc_setTagLeaders
 <script src="//d3js.org/d3.v3.min.js"></script>
 
 
-<img src="img/setLeader.gif" width="900">
+<img src="/scripts/img/setLeader.gif" width="900">
 
 
 <div id="imageContainer1"></div>
