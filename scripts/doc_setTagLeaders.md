@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: doc_setTagLeaders
 ---
 
@@ -16,7 +16,8 @@ title: doc_setTagLeaders
 <script src="//d3js.org/d3.v3.min.js"></script>
 
 
-<img src="/img/setLeader.gif" width="900">
+<img src="img/setLeader.gif" width="900">
+
 
 <div id="imageContainer1"></div>
 
@@ -43,7 +44,7 @@ svg1 = svg1.append("g")
 svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/img/leaderElbows.png");
+    .attr("xlink:href", "img/leaderElbows.png");
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
