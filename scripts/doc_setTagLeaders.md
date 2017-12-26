@@ -23,8 +23,8 @@ title: doc_setTagLeaders
 
 
 <script>  
-var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 385,             
+var imgHeight = 635, imgWidth = 900,      
+    width =  900, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
