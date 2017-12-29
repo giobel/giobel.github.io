@@ -182,3 +182,21 @@ this you’ll just make an ordinary, non-static method.
 ## Cleanup: finalization and garbage collection
 
 - Java has the garbage collector to reclaim the memory of objects that are no longer used.
+- Simply letting go of an object once you are done with it is not always safe.
+- Java has the garbage collector to reclaim the memory of objects that are no longer used.
+Consider an unusual case:
+- your object allocates "special" memory without using new
+- the garbage collector knows only how to release memory allocated with new -> it won't know how to release the object's special memory
+To handle this case Java provides a method called finalize() that you can define for your class.
+When the garbage collector is ready to release the storage it will first call finalize() and only on the next garbage-ollection pass will it reclaim the object's memory.
+Put another way:
+1. Your objects might not get garbage-collected.
+2. Garbage collection is not destruction.
+If there is some activity that must be performed before you no longer need an object, you must perform that yourself.
+- Java has no destructur or similar concept -> you must create an ordinary method to perform this clanuo.
+3. Garbage collection is only about memory.
+- The sole reason of garbage collection is to recover memory that your program is no longer using.
+- finalize( ) is in place because of the possibility that you’ll do something C-like by allocating memory using a mechanism other than the normal one in Java. This can happen primarily through native methods, which are a way to call non-Java code from Java.
+- To clean up an object, the user of that object must call a cleanup method at the point the cleanup is desired.
+- In C++, all objects are destroyed. Or rather, all objects should be destroyed.
+- Java doesn’t allow you to create local objects—you must always use new. But in Java, there’s no “delete” to call to release the object since the garbage collector releases the storage for you.
