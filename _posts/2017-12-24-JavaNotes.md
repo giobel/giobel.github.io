@@ -305,3 +305,69 @@ class Counter {
   // ...
  ```
  then i will first be initialized to 0, then to 7.
+
+## Order of initialization
+- Within a class, the order of initialization is determined by the order that the variables are defined within the class
+- The variables are initialized before any methods can be called, even the constructor.
+- The order of initialization is statics first, if they haven’t already been initialized by a previous object creation, and then the non-static objects.
+Summarize the process of creating an object:
+1. The first time an object of type Dog is created (the constructor is actually a static method), or the first time a static method or
+static field of class Dog is accessed, the Java interpreter must locate Dog.class, which it does by searching through the classpath.
+2. As Dog.class is loaded, all of its static initializers are run. Thus, static initialization takes place only once, as the Class object is loaded for the first time.
+3. When you create a new Dog( ), the construction process for a Dog object first allocates enough storage for a Dog object on the heap.
+4. This storage is wiped to zero, automatically setting all the primitives in that Dog object to their default values (zero for numbers and the equivalent for boolean and char) and the references to null.
+5. Any initializations that occur at the point of field definition are executed.
+6. Constructors are executed.
+
+### Explicit static initialization
+Java allows you to group other static initializations inside a special “static clause” (sometimes called a static block) in a class.
+```java
+class Spoon {
+static int i;
+static {
+i = 47;
+}
+// . . .
+```
+It appears to be a method, but it’s just the static keyword followed by a block of code. This code, like other static initializations, is executed only once, the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
+### Non-static instance initialization
+```java
+public class Mugs {
+static Test monitor = new Test();
+Mug c1;
+Mug c2;
+{
+c1 = new Mug(1);
+c2 = new Mug(2);
+System.out.println("c1 & c2 initialized");
+}
+```
+Looks exactly like the static initialization clause except for the missing static keyword.
+### Array initialization
+- An array is simply a sequence of either objects or primitives, all the same type and packaged together under one identifier name.
+```java
+int[] a1;
+```
+- The compiler doesn’t allow you to tell it how big the array is.
+- All that you have at this point is a reference to an array, and there’s been no space allocated for the array
+- To create storage for the array you must write an initialization expression:
+```java
+int[] a1 = { 1, 2, 3, 4, 5 };
+```
+- **length** = array's intrinsic member that you can query—but not change—to tell you how many elements there are in the array.
+- What if you don’t know how many elements you’re going to need in your array while you’re writing the program? 
+You simply use new to create the elements in the array.
+```java
+int[] a = new int[rand.nextInt(20)];
+```
+- Array elements of primitive types are automatically initialized to “empty” values. (For numerics and char, this is zero, and for boolean, it’s false.)
+- If you’re dealing with an array of nonprimitive objects, you must always use new.
+
+### Multidimensional arrays
+```java
+int[][] a1 = {
+{ 1, 2, 3, },
+{ 4, 5, 6, },
+};
+```
+
