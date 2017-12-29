@@ -7,11 +7,11 @@ Thinking in Java 3rd edition
 
 # Table of Contents
 1. [Chapter 4](#Chapter 4)
-2. [Chapter 5](## chapter 5)
+2. [Chapter 5](#Chapter 5)
 
+<a name="Chapter 4"></a>
 
-## Chapter 4 <a name="Chapter 4"></a>
-
+## Chapter 4 
 ### Constructors
 
 - Many C bugs occur when the programmer forgets to initialize a variable.
@@ -382,6 +382,8 @@ int[][] a1 = {
 - Because constructors allow you to guarantee proper initialization and cleanup, you get complete control and safety.
 - In Java, the garbage collector automatically releases the memory for all objects
 - The garbage collector does add a run-time cost, the expense of which is difficult to put into perspective because of the historical slowness of Java interpreters
+
+<a name="Chapter 5"></a>
 
 ## Chapter 5
 ### Hiding the Implementation
