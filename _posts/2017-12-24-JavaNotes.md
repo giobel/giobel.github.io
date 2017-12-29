@@ -85,5 +85,62 @@ class Hat {
   Hat (double d) {}
 }
 
-new Hat(); //The compiler will complaing that it cannot find a constructor that matches.
+new Hat(); //The compiler will complain that it cannot find a constructor that matches.
 ```
+
+### this keyword
+
+- You have 2 objects of the same type called a and b. How can you call a method f() for both?
+```java
+class Banana {
+  void f(int i) {
+    /* ... */
+  }
+}
+
+Banana a = new Banana();
+Banana b = new Banana();
+
+a.f(1);
+a.f(2);
+```
+- There’s a secret first argument passed to the method f() and that argument is the reference to the object that’s being
+manipulated.
+```java
+Banana.f(a,1);
+Banana.f(b,2);
+```
+This is internal and you can't write these expressions and get the compiler to accept them.
+Suppose you’re inside a method and you’d like to get the reference to the current object:
+- Since that reference is passed secretly by the compiler, there’s no identifier for it.
+- The **this** keyword produces the reference to the object the method has been called for.
+- The **this** keyword can be used only inside a method.
+- if you’re calling a method of your class from within another method of your class, you don’t need to use this. You simply call the method. The current this reference is automatically used for the other method:
+```java 
+class Apricot {
+  void pick() {
+  /* ... */
+  }
+  void pit() {
+  pick();
+  /* ... */
+  }
+}
+```
+inside pit() you could say this.pick() but the compiler does it for you automatically.
+The **this** keyword it's often used in return statements when you want to return the reference to the current object.
+```java
+public class Leaf {
+  int i = 0;
+  Leaf increment() {
+      i++;
+      return this;
+  }
+}
+```
+Because increment() returns the reference to the current object via the this keyword, multiple operations can easily be performed on the same object.
+
+### Calling constructors from constructors
+
+
+
