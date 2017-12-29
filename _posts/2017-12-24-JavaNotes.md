@@ -193,10 +193,31 @@ Put another way:
 1. Your objects might not get garbage-collected.
 2. Garbage collection is not destruction.
 If there is some activity that must be performed before you no longer need an object, you must perform that yourself.
-- Java has no destructur or similar concept -> you must create an ordinary method to perform this clanuo.
+- Java has no destructor or similar concept -> you must create an ordinary method to perform this clanuo.
 3. Garbage collection is only about memory.
 - The sole reason of garbage collection is to recover memory that your program is no longer using.
 - finalize( ) is in place because of the possibility that you’ll do something C-like by allocating memory using a mechanism other than the normal one in Java. This can happen primarily through native methods, which are a way to call non-Java code from Java.
 - To clean up an object, the user of that object must call a cleanup method at the point the cleanup is desired.
 - In C++, all objects are destroyed. Or rather, all objects should be destroyed.
-- Java doesn’t allow you to create local objects—you must always use new. But in Java, there’s no “delete” to call to release the object since the garbage collector releases the storage for you.
+- Java doesn’t allow you to create local objects
+— You must always use new. But in Java, there’s no “delete” to call to release the object since the garbage collector releases the storage for you.
+In general, you can’t rely on finalize( ) being called, and you must create separate “cleanup” methods and call them explicitly. So it appears that finalize( ) is only useful for obscure memory cleanup that most programmers will never use.
+
+There is a very interesting use of finalize( ) which does not rely on it being called every time. This is the
+verification of the *termination condition* of an object.
+At the point that you’re no longer interested in an object—when it’s ready to be cleaned up—that object should be in a state whereby its memory can be safely released. For example, if the object represents an open file, that file should be closed by the programmer before the object is garbagecollected.
+
+### How a garbage collector works
+- The garbage collector can have a significant impact on increasing the speed of object creation.
+- This might sound a bit odd at first: storage release affects storage allocation: allocating storage for heap
+objects in Java can be nearly as fast as creating storage on the stack in other languages.
+- In some JVMs, the Java heap is quite different; it’s more like a conveyor belt that moves forward every time you
+allocate a new object. This means that object storage allocation is remarkably rapid.
+- You might observe that the heap isn’t in fact a conveyor belt: The trick is that the garbage collector steps in and while it collects the garbage it compacts all the objects in the heap so that you’ve effectively moved the “heap pointer” closer to the beginning of the conveyor belt and further away from a page fault.
+Garbage collector (GC) schemes:
+1. Reference counting
+- Each object contains a reference counter, and every time a reference is attached to an object the reference count is increased.
+- Every time a reference goes out of scope or is set to null, the reference count is decreased.
+- The garbage collector moves through the entire list of objects and when it finds one with a reference count of zero it releases that storage.
+- The one drawback is that if objects circularly refer to each other they can have nonzero reference counts while still being garbage.
+Reference counting is commonly used to explain one kind of garbage collection but it doesn’t seem to be used in any JVM implementations.
