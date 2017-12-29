@@ -142,5 +142,41 @@ Because increment() returns the reference to the current object via the this key
 
 ### Calling constructors from constructors
 
+When you write several constructors for a class, there are times when you’d like to call one constructor from another to avoid duplicating code. You can make such a call using the this keyword. 
 
+In a constructor, the this keyword takes on a different meaning when you give it an argument list: it makes an explicit call to the
+constructor that matches that argument list.
 
+```java
+public class Flower {
+    int petalCount = 0;
+    String s = new String("null");
+    Flower (int petals) {
+        petalCount = petals;
+    }
+    Flower (String ss) {
+        s = ss;
+    }
+    Flower (strinig s, int petals) {
+    this(petals);
+    //! this(s); // Can't call two!
+    this.s = s; // Another use of "this"
+    }
+    Flower() {
+    this("hi", 47);
+    }
+}
+```
+- The constructor Flower(String s, int petals) shows that, while you can call one constructor using this, you cannot call two. 
+- The constructor call must be the first thing you do or you’ll get a compiler error message.
+- Since the name of the argument s and the name of the member data s are the same, there’s an ambiguity. You can resolve it by saying this.s to refer to the member data.
+
+### The meaning of static
+
+- It means that there is no this for that particular method.
+- You cannot call non-static methods from inside static methods (although the reverse is possible). The one case in which this is possible occurs if you pass a reference to an object into the static method. Then, via the reference (which is now effectively this), you can call non-static methods and access non-static fields. But typically if you want to do something like
+this you’ll just make an ordinary, non-static method.
+- You can call a static method for the class itself without any object.
+- With a static method you don’t send a message to an object, since there’s no this.
+
+## Cleanup: finalization and garbage collection
