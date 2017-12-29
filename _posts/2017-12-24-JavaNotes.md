@@ -221,3 +221,87 @@ Garbage collector (GC) schemes:
 - The garbage collector moves through the entire list of objects and when it finds one with a reference count of zero it releases that storage.
 - The one drawback is that if objects circularly refer to each other they can have nonzero reference counts while still being garbage.
 Reference counting is commonly used to explain one kind of garbage collection but it doesn’t seem to be used in any JVM implementations.
+2. Adaptive garbage collection scheme -> faster
+- Any nondead object must ultimately be traceable back to a reference that lives either on the stack or in static storage.
+- If you start in the stack and the static storage area and walk through all the references you’ll find all the live objects.
+- There is no problem with detached self-referential groups—these are simply not found, and are therefore automatically garbage.
+
+2.1 One of these variants is stop-and-copy.
+- The program is first stopped
+- Then, each live object that is found is copied from one heap to another, leaving behind all the garbage.
+- As the objects are copied into the new heap they are packed end-to-end, thus compacting the new heap
+There are two issues that make these so-called “copy collectors” inefficient:
+- You have two heaps and you slosh all the memory back and forth between these two separate heaps, maintaining twice as much memory as you actually need.
+- The second issue is the copying. Once your program becomes stable it might be generating little or no garbage. Despite that, a copy collector will still copy all the memory from one place to another, which is wasteful.
+
+2.2 Mark and Sweep
+- It’s what earlier versions of Sun’s JVM used all the time.
+- For general use, mark and sweep is fairly slow, but when you know you’re generating little or no garbage it’s fast
+- Each time it finds a live object that object is marked by setting a flag in it, but the object isn’t collected yet.
+- Only when the marking process is finished does the sweep occur.
+- During the sweep, the dead objects are released.
+- No copying happens, so if the collector chooses to compact a fragmented heap it does so by shuffling objects around
+- Mark-and-sweep requires that the program be stopped
+
+*Adaptive generational stop-and-copy mark-and-sweep*: the JVM monitors the efficiency of GC and if it becomes a waste of time because all objects are long-lived then it switches to mark-and-sweep. Similarly, the JVM keeps track of how successful mark-and-sweep is, and if the heap starts to become fragmented it switches back to stop-and-copy.
+
+There are a number of additional speedups possible in a JVM.
+1. just-in-time (JIT) compiler: partially or fully converts a program into native machine code, so it doesn’t need to be interpreted by the JVM and thus runs much faster. 
+One approach is to simply JIT all the code:
+- it takes a little more time
+- it increases the size of the executable (byte codes are significantly more compact than expanded JIT code) and this might cause paging, which definitely slows down a program.
+2. lazy evaluation: the code is not JIT compiled until necessary. Thus, code that never gets executed might never get JIT compiled.
+The Java HotSpot technologies in recent JDKs take a similar approach by increasingly optimizing a piece of code each time it is executed, so the more the code is executed, the faster it gets.
+
+### Member initialization
+Java goes out of its way to guarantee that variables are properly initialized before they are used.
+1. variables that are defined locally to a method
+```java
+void f() {
+int i;
+i++; // Error -- i not initialized
+}
+```
+Of course, the compiler could have given i a default value, but it’s more likely that this is a programmer error and a default value would have covered that up. Forcing the programmer to provide an initialization value is more likely to catch a bug.
+2. If a primitive is a field in a class
+Since any method can initialize or use that data, it might not be practical to force the user to initialize it to its appropriate value before the data is used. However, it’s unsafe to leave it with a garbage value, so each primitive field of a class is guaranteed to get an initial value.
+
+### Specifying initialization
+Assign the value at the point you define the variable in the class.
+```java
+class InitialValues {
+boolean b = true;
+char c = 'x';
+byte B = 47;
+short s = 0xff;
+int i = 999;
+long l = 1;
+float f = 3.14f;
+double d = 3.14159;
+//. . .
+```
+You can also initialize nonprimitive objects in this same way.
+```java
+class Measurement {
+Depth d = new Depth();
+// . . .
+```
+You can even call a method to provide an initialization value:
+```java
+class CInit {
+int i = f();
+//...
+}
+```
+This method can have arguments, of course, but those arguments cannot be other class members that haven’t been initialized yet.
+
+### Constructor initialization
+- The constructor can be used to perform initialization
+- You aren’t precluding the automatic initialization, which happens before the constructor is entered
+```java
+class Counter {
+  int i;
+  Counter() {i - 7}
+  // ...
+ ```
+ then i will first be initialized to 0, then to 7.
