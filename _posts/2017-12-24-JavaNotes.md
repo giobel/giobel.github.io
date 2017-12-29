@@ -371,3 +371,11 @@ int[][] a1 = {
 };
 ```
 
+## Summary
+- Improper initialization of variables causes a significant portion of programming problems.
+- similar issues apply to improper cleanup
+- Because constructors allow you to guarantee proper initialization and cleanup, you get complete control and safety.
+- In Java, the garbage collector automatically releases the memory for all objects
+- The garbage collector does add a run-time cost, the expense of which is difficult to put into perspective because of the historical slowness of Java interpreters
+
+# Hiding the Implementation
