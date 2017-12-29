@@ -85,5 +85,5 @@ class Hat {
   Hat (double d) {}
 }
 
-new Hat(); \\The compiler will complaing that it cannot find a constructor that matches.
+new Hat(); //The compiler will complaing that it cannot find a constructor that matches.
 ```
