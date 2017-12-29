@@ -5,7 +5,12 @@ title: Notes on Java
 
 Thinking in Java 3rd edition
 
-## Chapter 4
+# Table of Contents
+1. [ch4](## chapter 4)
+2. [Chapter 5](## chapter 5)
+
+
+## Chapter 4 <a name="ch4"></a>
 
 ### Constructors
 
@@ -378,4 +383,5 @@ int[][] a1 = {
 - In Java, the garbage collector automatically releases the memory for all objects
 - The garbage collector does add a run-time cost, the expense of which is difficult to put into perspective because of the historical slowness of Java interpreters
 
-# Hiding the Implementation
+## Chapter 5
+### Hiding the Implementation
