@@ -6,11 +6,11 @@ title: Notes on Java
 Thinking in Java 3rd edition
 
 # Table of Contents
-1. [ch4](## chapter 4)
+1. [Chapter 4](#Chapter 4)
 2. [Chapter 5](## chapter 5)
 
 
-## Chapter 4 <a name="ch4"></a>
+## Chapter 4 <a name="Chapter 4"></a>
 
 ### Constructors
 
