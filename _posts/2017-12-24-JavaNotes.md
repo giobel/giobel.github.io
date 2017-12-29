@@ -180,3 +180,5 @@ this you’ll just make an ordinary, non-static method.
 - With a static method you don’t send a message to an object, since there’s no this.
 
 ## Cleanup: finalization and garbage collection
+
+- Java has the garbage collector to reclaim the memory of objects that are no longer used.
