@@ -507,4 +507,29 @@ java.util.Vector v = new java.util.Vector();
 Since this (along with the CLASSPATH) completely specifies the location of that Vector, there’s no need for the import java.util.* statement unless I’m using something else from java.util.
 
 ## A custom tool library
+Consider, for example, creating an alias for System.out.println( ) to reduce typing.
+```java
+package com.bruceeckel.tools;
+  public class P {
+    public static void rint(String s) {
+    System.out.print(s);
+    }
+    public static void rintln(String s) {
+    System.out.println(s);
+    }
+  } ///:~
+```
+- You can use this shorthand to print a String either with a newline (P.rintln( )) or without a newline (P.rint( )).
+- The location of this file must be in a directory that starts at one of the CLASSPATH locations, then continues com/bruceeckel/tools
 
+## Using imports to change behavior
+- A feature that is missing from Java is C’s conditional compilation, which allows you to change a switch and get different behavior without changing any other code.
+- The reason such a feature was left out of Java is probably because it is most often used in C to solve cross-platform issues:
+- A very common use is for debugging code: 
+  - The debugging features are enabled during development, and disabled in the shipping product. 
+  - You can accomplish this by changing the package that’s imported to change the code that’s used in your program from the debug version to the production version.
+
+## Caveat
+The package must live in the directory indicated by its name, which must be a directory that is searchable starting from the CLASSPATH.
+
+## Java access specifiers
