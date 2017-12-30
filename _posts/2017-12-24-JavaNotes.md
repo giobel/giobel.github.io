@@ -425,4 +425,86 @@ But what about the class names? Suppose you create a Stack class that is install
 - *compilation unit*: source-code file for Java:
   - must have a name ending in .java
   - inside there can be only one public class that must have the same name as the file (excluding .java)
-  
+  - additional classes are hidden (not public) and they comprise support classes for the main public class
+- When you compile a .java file you get an output **for each class** in the .java file.
+  - each output file has the name of a class in the .java file but with an extension of .class
+- A working program is a bunch of .class files which can be packaged and compressed into a JAR file. The Java interpreter is responsible for finding, loading and interpreting these files. 
+- A library is a group of these class files.
+```java
+package mypackage
+```
+- this compilation unit is part of a library named **mypackage**.
+- naming convention: all lowercase letters, even for intermediate words.
+```java
+package mypackage;
+public class MyClass {
+// . . .
+```
+- the name of the file is MyClass.java (the only public class in that file)
+- to use MyClass the user must use the import keyword or to give the fully qualified name
+```java
+mypackage.MyClass m = new mypackage.MyClass();
+```
+The import keyword can make this much cleaner:
+```java
+import mypackage.*
+// ...
+MyClass m = new MyClass();
+```
+## Creating unique package names
+- Since a package never really gets packaged into a single file, a package could be made up of many .class files
+- Place all the .class files for a particular package into a single directory:
+  - package names are unique
+  - finds those classes that might be buried in a directory structure someplace: accomplished by encoding the path of the location of the .class file into the name of the package.
+  - The first part of the package name is the Internet domain name of the creator of the .class, reversed
+  - Since Internet domain names are guaranteed to be unique, if you follow this convention your package name will be unique
+  - The second part of this trick is resolving the package name into a directory on your machine, so when the Java program runs and it needs to load the .class file it can locate the directory where the .class file resides.
+The Java intepreter proceeds as follows:
+1. finds the environment variable CLASSPATH
+2. Starting at that root, the interpreter will take the package name and replace each dot with a slash to generate a path name from the CLASSPATH root (so package foo.bar.baz becomes foo\bar\baz)
+3. This is then concatenated to the various entries in the CLASSPATH. That’s where it looks for the .class file with the name corresponding to the class you’re trying to create.
+```java
+package com.bruceeckel.simple;
+public class Vector {
+  public Vector() {
+  /.../
+  }
+}
+```
+- com.bruceeckel is the name of the package and establishes my unique global name for my classes.
+- a library named **simple** will be created.
+- a class (therefore a .class file) Vector will be created.
+```java
+package com.bruceeckel.simple;
+public class List {
+  public List() {
+  /.../
+  }
+}
+```
+- a class (therefore a .class file) List will be created.
+Both of these files are placed in the subdirectory: C:\DOC\JavaT\com\bruceeckel\simple where CLASSPATH=.;D:\JAVA\LIB;C:\DOC\JavaT
+- CLASSPATH can contain a number of alternative search paths.
+- when using JAR files the name (not just the path) must be in the classpath: CLASSPATH=.;D:\JAVA\LIB;C:\flavors\grape.jar
+
+## Collisions
+```java
+import com.bruceeckel.simple.*;
+import java.util.*;
+```
+What happens if two libraries are imported via * and they include the same names?
+- Sice java.util.* also contains a Vector class, this causes a potential collision. 
+- As long as you don’t write the code that actually causes the collision, everything is OK.
+- The collision does occur if you now try to make a Vector.
+```java
+Vector v = new Vector();
+```
+Which Vector class does this refer to?
+The compiler complains and forces you to be explicit:
+```java
+java.util.Vector v = new java.util.Vector();
+```
+Since this (along with the CLASSPATH) completely specifies the location of that Vector, there’s no need for the import java.util.* statement unless I’m using something else from java.util.
+
+## A custom tool library
+
