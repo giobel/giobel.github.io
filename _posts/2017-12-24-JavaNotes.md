@@ -6,7 +6,7 @@ title: Notes on Java
 [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-1 Chapter 4
+1 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
 1.1 [Constructors](#Chapter 4)
 1.2 [this keyword](#key)
 1.3 [The meaning of static](#tms)
@@ -97,7 +97,6 @@ class Hat {
   Hat (int i) {}
   Hat (double d) {}
 }
-
 new Hat(); //The compiler will complain that it cannot find a constructor that matches.
 ```
 
