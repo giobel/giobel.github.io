@@ -6,7 +6,7 @@ title: Notes on Java
 [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-4.0 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
+4 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
 4.1 [Constructors](#Chapter 4)
 4.2 [this keyword](#key)
 4.3 [The meaning of static](#tms)
@@ -15,8 +15,16 @@ title: Notes on Java
 4.6 [Order of initialization](#order)
 4.7 [Array initialization](#array)
 4.8 [Summary](#summary)
-5.0 [Chapter 5 - Hiding the Implementation](#Chapter 5)
-6.0 [Chapter 6 - Reusing Classes](#Chapter 6)
+5 [Chapter 5 - Hiding the Implementation](#Chapter 5)
+5.1 [package: the library unit](#lunit)
+5.2 [Creating unique package names](#unique)
+5.3 [Collisions](#Collisions)
+5.4 [A custom tool library](#custom)
+5.5 [Java access specifiers](#access)
+5.6 [Interface and Implementation](#interface)
+5.7 [Class access](#classAccess)
+5.8 [Summary](#ch5Summary)
+6 [Chapter 6 - Reusing Classes](#Chapter 6)
 
 <a name="Chapter 4"></a>
 
@@ -410,6 +418,7 @@ To solve this problem Java provides *access specifiers*:
 As a library designer you want to keep everything as private as possible.
 - **package** keyword: controls how components are bundled together into a cohesive unit (a library)
 
+<a name="lunit"></a>
 ## package: the library unit
 ```java
 import java.util.*
@@ -451,6 +460,8 @@ import mypackage.*
 // ...
 MyClass m = new MyClass();
 ```
+
+<a name="unique"></a>
 ## Creating unique package names
 - Since a package never really gets packaged into a single file, a package could be made up of many .class files
 - Place all the .class files for a particular package into a single directory:
@@ -487,6 +498,7 @@ Both of these files are placed in the subdirectory: C:\DOC\JavaT\com\bruceeckel\
 - CLASSPATH can contain a number of alternative search paths.
 - when using JAR files the name (not just the path) must be in the classpath: CLASSPATH=.;D:\JAVA\LIB;C:\flavors\grape.jar
 
+<a name="collisions"></a>
 ## Collisions
 ```java
 import com.bruceeckel.simple.*;
@@ -506,6 +518,7 @@ java.util.Vector v = new java.util.Vector();
 ```
 Since this (along with the CLASSPATH) completely specifies the location of that Vector, there’s no need for the import java.util.* statement unless I’m using something else from java.util.
 
+<a name="custom"></a>
 ## A custom tool library
 Consider, for example, creating an alias for System.out.println( ) to reduce typing.
 ```java
@@ -532,6 +545,7 @@ package com.bruceeckel.tools;
 ## Caveat
 The package must live in the directory indicated by its name, which must be a directory that is searchable starting from the CLASSPATH.
 
+<a name="access"></a>
 ## Java access specifiers
 - Placed in front of each definition for each member in the class (field or method).
 - Package access
@@ -628,6 +642,7 @@ If you create a new package and inherit from a class in another package, the onl
 - Sometimes the creator of the base class would like to take a particular member and grant access to derived classes but not the world in general.
 - protected also gives package access
 
+<a name="interface"></a>
 ## Interface and implementation
 *implementation hiding* : access control
 *encapsulation* : wrapping data and methods within classes with implementation hiding
@@ -643,6 +658,7 @@ The result is a data type with characteristics and behaviors.
 - This will make it only partially easier to read because the interface and implementation are still mixed together.
 - *Class browser* : look at all the available classess and show you what you can do with them (i.e. what members are available)
 
+<a name="classAccess"></a>
 ## Class access
 1. There can be only one public class per compilation unit (file). The idea is that each compilation unit has a single public interface represented by that public class. It can have as many supporting package-access classes as you want. If you have more than one public class inside a compilation unit, the compiler will give you an error message.
 2. The name of the public class must exactly match the name of the file containing the compilation unit, including capitalization. So for Widget, the name of the file must be Widget.java. Again, you’ll get a compile-time error if they don’t agree. 
@@ -690,6 +706,7 @@ How does anyone use this class?
   - The object of class Soup is created as a static private member of Soup, so there’s one and only one, and you can’t get at it except through the public method access().
   - If a static member of that class is public, the client programmer can still access that static member even though they cannot create an object of that class.
 
+<a name="ch5Summary"></a>
 ## Summary
 - A C programming project begins to break down somewhere between 50K and 100K lines of code because C has a single “name space,” so names begin to collide, causing an extra management overhead.
 - In Java, the package keyword, the package naming scheme, and the import keyword give you complete control over names, so the issue of name collision is easily avoided.
