@@ -533,3 +533,101 @@ package com.bruceeckel.tools;
 The package must live in the directory indicated by its name, which must be a directory that is searchable starting from the CLASSPATH.
 
 ## Java access specifiers
+- Placed in front of each definition for each member in the class (field or method).
+- Package access
+  - If you give no access specifier at all, all the other classes in the current package have access to that member, but to all the classes outside of this package the member appears to be private. 
+  - Allows to group related classes together in a package so that they can easily interact with each other.
+- The only way to grant access to a member is to:
+  - Make the member public.
+  - An inherited class can access a protected member as well as a public membet (but not private members).
+  - Provide accessor/mutator methods (get/set methods) that read and change the value.
+## public: interface access
+```java
+package c05.dessert;
+public class Cookie {
+  public Cookie() {
+  System.out.println("Cookie constructor");
+  }
+  void bite() { System.out.println("bite"); }
+} ///:
+```
+ - Cookie.java must reside in a subdirectory called **dessert** in a directory under **c05** that must be under one of the CLASSPATH directories
+ - If you create a program that uses Cookie, you can create a Cookie object.
+ ```java
+import c05.dessert.*;
+public class Dinner {
+  public Dinner() {
+  System.out.println("Dinner constructor");
+  }
+    public static void main(String[] args) {
+    Cookie x = new Cookie();
+    //! x.bite(); // Can't access
+    });
+  }
+} ///:~
+```
+ - The bite() member is inaccessible inside Dinner.java 
+**The default package**
+```java
+class Cake {
+  static Test monitor = new Test();
+  public static void main(String[] args) {
+    Pie x = new Pie();
+    x.f();
+    monitor.expect(new String[] {
+    "Pie.f()"
+    });
+  }
+} ///:~
+```
+In a second file, in the same directory:
+```java
+class Pie {
+  void f() { System.out.println("Pie.f()"); }
+} ///:~
+```
+Cake is able to create a Pie object and call its f( ) method.
+- The reason that they are available in Cake.java is because they are in the same directory and have no explicit package name. 
+- Java treats files like this as implicitly part of the “default package” for that directory.
+
+## private: no access
+- No one can access that member except the class that contains that member, inside methods of that class.
+- Other classes in the same package cannot access private members.
+- private allows you to freely change that member without concern that it will affect another class in the same package.
+- The default package access often provides an adequate amount of hiding:
+  - package-access member is inaccessible to the client programmer using the class
+  - you might not initially think you’ll use the private keyword often since it’s tolerable to get away without it.
+**The consistent use of private is very important, especially where multithreading is concerned.**
+```java
+class Sundae {
+  private Sundae() {}
+  static Sundae makeASundae() {
+  return new Sundae();
+  }
+}
+public class IceCream {
+  public static void main(String[] args) {
+   //! Sundae x = new Sundae();
+   Sundae x = Sundae.makeASundae();
+  }
+} ///:~
+```
+- you cannot create a Sundae object via its constructor
+- you must call the makeASundae( ) method to do it for you
+- Unless you must expose the underlying implementation (which is a much rarer situation than you might think), you should make all fields private.
+- However, just because a reference to an object is private inside a class doesn't mean that some other object can't have a public reference to the same object. 
+
+## protected: inheritance access
+- deals with a concept called inheritance, which takes an existing class—which we refer to as the base class—and adds new members to that class without touching the existing class.
+- You can also change the behavior of existing members of the class.
+- To inherit from an existing class (*base class*), you say that your new class extends an existing class
+```java
+class Foo extends Bar {
+```
+If you create a new package and inherit from a class in another package, the only members you have access to are the public members of the original package.
+- Sometimes the creator of the base class would like to take a particular member and grant access to derived classes but not the world in general.
+- protected also gives package access
+
+## Interface and implementation
+
+
