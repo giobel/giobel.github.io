@@ -6,9 +6,9 @@ title: Notes on Java
 [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-1. [Chapter 4]
+1. [Chapter 4](#Chapter 4)
 1.1 [Constructors](#Chapter 4)
-1.2 [this keyword](#thisK)
+1.2 [this keyword](#key)
 1.3 [The meaning of static](#tms)
 1.4 [Cleanup: finalization and garbage collection](#cleanup)
 1.5 [How a garbage collector works](#garbage)
@@ -32,7 +32,7 @@ title: Notes on Java
 
 Workflow:
 1. A new object is created:
-```
+```java
 new Rock();
 ```
 2. Storage is allocated and the constructor is called.
@@ -101,7 +101,7 @@ class Hat {
 new Hat(); //The compiler will complain that it cannot find a constructor that matches.
 ```
 
-<a name="thisK"></a>
+<a name="key"></a>
 ## this keyword
 
 - You have 2 objects of the same type called a and b. How can you call a method f() for both?
