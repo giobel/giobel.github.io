@@ -655,7 +655,7 @@ class Soup {
   public static Soup makeSoup() {   // (1) Allow creation via static method:
     return new Soup();
   }
-  private static Soup ps1 = new Soup();  // (2) Create a static object and return a reference
+  private static Soup ps1 = new Soup();  // (2) Create a static object and return a reference upon request (Singleton pattern)
   public static Soup access() {
     return ps1;
   }
@@ -673,5 +673,26 @@ public class Lunch {
   }
 }
 ```
+The word before the method name (access) tells what the method returns:
+```java
+public static Soup access() {
+  return ps1;
+  }
+```
+In this case it returns a reference to an object (a new data type).
+- The class Soup shows how to prevent direct creation of a class by making all the constructors private.
+- By writing the default constructor, it won’t be created automatically.
+- By making it private, no one can create an object of that class.
+How does anyone use this class?
+1. a static method is created that creates a new Soup and returns a reference to it (if you want to keep count of how many Soup objects to create).
+2. use a *design pattern*. In this case it is called "singleton" because it allows only a single object to ever be created.
+  - The object of class Soup is created as a static private member of Soup, so there’s one and only one, and you can’t get at it except through the public method access().
+  - If a static member of that class is public, the client programmer can still access that static member even though they cannot create an object of that class.
 
-  
+## Summary
+- A C programming project begins to break down somewhere between 50K and 100K lines of code because C has a single “name space,” so names begin to collide, causing an extra management overhead.
+- In Java, the package keyword, the package naming scheme, and the import keyword give you complete control over names, so the issue of name collision is easily avoided.
+- There are two reasons for controlling access to members:
+  1. keep users’ hands off tools that they shouldn’t touch; tools that are necessary for the internal machinations of the data type
+  2. to allow the library designer to change the internal workings of the class without worrying about how it will affect the client programmer.
+- The public interface to a class is what the user does see, so that is the most important part of the class to get “right” during analysis and design.
