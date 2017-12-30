@@ -15,7 +15,7 @@ title: Notes on Java
 1.6 [Order of initialization](#order)
 1.7 [Array initialization](#array)
 1.8 [Summary](#summary)
-2 [Chapter 5](#Chapter 5)
+2 [Chapter 5 - Hiding the Implementation](#Chapter 5)
 
 <a name="Chapter 4"></a>
 
@@ -403,5 +403,26 @@ int[][] a1 = {
 - Prticularly important for libraries: 
   - the user won't need to rewrite code if a new version comes out.
   - the library creator must have the freedom to make modifications and improvements.
+To solve this problem Java provides *access specifiers*:
+  - public
+  - protected
+  - private
+As a library designer you want to keep everything as private as possible.
+- **package** keyword: controls how components are bundled together into a cohesive unit (a library)
 
-
+## package: the library unit
+```java
+import java.util.*
+```
+This brings in the entire utility library.
+```java
+import java.util.ArrayList
+```
+This brings in a single class.
+- Importing provides a mechanism to manage *name spaces*: the names of all your class members are insulated from each other.
+But what about the class names? Suppose you create a Stack class that is installed on a machine which already has a Stack class that’s written by someone else? -> see Dynamo issues.
+- If you’re planning to create libraries or programs that are friendly to other Java programs on the same machine, you must think about preventing class name clashes.
+- *compilation unit*: source-code file for Java:
+  - must have a name ending in .java
+  - inside there can be only one public class that must have the same name as the file (excluding .java)
+  
