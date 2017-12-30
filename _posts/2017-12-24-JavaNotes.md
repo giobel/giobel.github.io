@@ -7,7 +7,6 @@ title: Notes on Java
 
 # Table of Contents
 1. Chapter 4
-
 1.1 [Constructors](#Chapter 4)
 1.2 [this keyword](#key)
 1.3 [The meaning of static](#tms)
@@ -38,13 +37,13 @@ new Rock();
 ```
 2. Storage is allocated and the constructor is called.
 3. Like any method, the constructor can have args to allow you to specify how an obj is created.
-<code>
+```java
 class Rock{
   Rock(int i) {
     System.out.println("Creating Rock number " + i);
   }
 }
-</code>
+```
 - Constructors eliminate a large class of problems and make the code easier to read.
 - The constructor is an unusual type of method because it has no return value -> != from a **void** return value.
 - Constructors returns nothing.
