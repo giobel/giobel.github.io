@@ -3,16 +3,24 @@ layout: post
 title: Notes on Java
 ---
 
-Thinking in Java 3rd edition
+[Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-1. [Chapter 4](#Chapter 4)
+1. Chapter 4
+1.1 [Constructors](#Chapter 4)
+1.2 [this keyword](#this)
+1.3 [The meaning of static](#tms)
+1.4 [Cleanup: finalization and garbage collection](#cleanup)
+1.5 [How a garbage collector works](#garbage)
+1.6 [Order of initialization](#order)
+1.7 [Array initialization](#array)
+1.8 [Summary](#summary)
 2. [Chapter 5](#Chapter 5)
 
 <a name="Chapter 4"></a>
 
-## Chapter 4 
-### Constructors
+# Chapter 4 
+## Constructors
 
 - Many C bugs occur when the programmer forgets to initialize a variable.
 - Java has: 
@@ -41,7 +49,7 @@ class Rock{
 - The constructor is an unusual type of method because it has no return value -> != from a **void** return value.
 - Constructors returns nothing.
 
-### Method Overloading
+## Method Overloading
 
 - When you create an object, you give a name to a region of storage.
 - A method is a name for an action.
@@ -61,7 +69,7 @@ class Tree {
   }
 }
 ```
-**Watchout**
+**Watch-out**
 
 1. A primitive can be automatically promoted from a smaller type to a larger one and this can be slightly confusing in combination with overloading. You’ll see that the constant value 5 is treated as an int, so if an overloaded method is available that takes an int it is used. In all other cases, if you have a data type that is smaller than the argument in the method, that
 data type is promoted. char produces a slightly different effect, since if it doesn’t find an exact char match, it is promoted to int.
@@ -79,7 +87,7 @@ f();
 ```
 Java can't determine which **f()** should be called. 
 
-### Default constructors
+## Default constructors
 
 - Default constructor is one without args, used to create a basic object. 
 - If you create a class that has no constructors, the compiler will automatically create a default constructor for you.
@@ -93,7 +101,9 @@ class Hat {
 new Hat(); //The compiler will complain that it cannot find a constructor that matches.
 ```
 
-### this keyword
+<a name="this"></a>
+
+## this keyword
 
 - You have 2 objects of the same type called a and b. How can you call a method f() for both?
 ```java
@@ -102,10 +112,8 @@ class Banana {
     /* ... */
   }
 }
-
 Banana a = new Banana();
 Banana b = new Banana();
-
 a.f(1);
 a.f(2);
 ```
@@ -145,7 +153,7 @@ public class Leaf {
 ```
 Because increment() returns the reference to the current object via the this keyword, multiple operations can easily be performed on the same object.
 
-### Calling constructors from constructors
+## Calling constructors from constructors
 
 When you write several constructors for a class, there are times when you’d like to call one constructor from another to avoid duplicating code. You can make such a call using the this keyword. 
 
@@ -176,7 +184,8 @@ public class Flower {
 - The constructor call must be the first thing you do or you’ll get a compiler error message.
 - Since the name of the argument s and the name of the member data s are the same, there’s an ambiguity. You can resolve it by saying this.s to refer to the member data.
 
-### The meaning of static
+<a name="tms"></a>
+## The meaning of static
 
 - It means that there is no this for that particular method.
 - You cannot call non-static methods from inside static methods (although the reverse is possible). The one case in which this is possible occurs if you pass a reference to an object into the static method. Then, via the reference (which is now effectively this), you can call non-static methods and access non-static fields. But typically if you want to do something like
@@ -184,6 +193,7 @@ this you’ll just make an ordinary, non-static method.
 - You can call a static method for the class itself without any object.
 - With a static method you don’t send a message to an object, since there’s no this.
 
+<a name="cleanup"></a>
 ## Cleanup: finalization and garbage collection
 
 - Java has the garbage collector to reclaim the memory of objects that are no longer used.
@@ -212,7 +222,8 @@ There is a very interesting use of finalize( ) which does not rely on it being c
 verification of the *termination condition* of an object.
 At the point that you’re no longer interested in an object—when it’s ready to be cleaned up—that object should be in a state whereby its memory can be safely released. For example, if the object represents an open file, that file should be closed by the programmer before the object is garbagecollected.
 
-### How a garbage collector works
+<a name="garbage"></a>
+## How a garbage collector works
 - The garbage collector can have a significant impact on increasing the speed of object creation.
 - This might sound a bit odd at first: storage release affects storage allocation: allocating storage for heap
 objects in Java can be nearly as fast as creating storage on the stack in other languages.
@@ -258,7 +269,7 @@ One approach is to simply JIT all the code:
 2. lazy evaluation: the code is not JIT compiled until necessary. Thus, code that never gets executed might never get JIT compiled.
 The Java HotSpot technologies in recent JDKs take a similar approach by increasingly optimizing a piece of code each time it is executed, so the more the code is executed, the faster it gets.
 
-### Member initialization
+## Member initialization
 Java goes out of its way to guarantee that variables are properly initialized before they are used.
 1. variables that are defined locally to a method
 ```java
@@ -271,7 +282,7 @@ Of course, the compiler could have given i a default value, but it’s more like
 2. If a primitive is a field in a class
 Since any method can initialize or use that data, it might not be practical to force the user to initialize it to its appropriate value before the data is used. However, it’s unsafe to leave it with a garbage value, so each primitive field of a class is guaranteed to get an initial value.
 
-### Specifying initialization
+## Specifying initialization
 Assign the value at the point you define the variable in the class.
 ```java
 class InitialValues {
@@ -300,7 +311,7 @@ int i = f();
 ```
 This method can have arguments, of course, but those arguments cannot be other class members that haven’t been initialized yet.
 
-### Constructor initialization
+## Constructor initialization
 - The constructor can be used to perform initialization
 - You aren’t precluding the automatic initialization, which happens before the constructor is entered
 ```java
@@ -311,11 +322,12 @@ class Counter {
  ```
  then i will first be initialized to 0, then to 7.
 
+<a name="order"></a>
 ## Order of initialization
 - Within a class, the order of initialization is determined by the order that the variables are defined within the class
 - The variables are initialized before any methods can be called, even the constructor.
 - The order of initialization is statics first, if they haven’t already been initialized by a previous object creation, and then the non-static objects.
-Summarize the process of creating an object:
+**Summarize the process of creating an object:**
 1. The first time an object of type Dog is created (the constructor is actually a static method), or the first time a static method or
 static field of class Dog is accessed, the Java interpreter must locate Dog.class, which it does by searching through the classpath.
 2. As Dog.class is loaded, all of its static initializers are run. Thus, static initialization takes place only once, as the Class object is loaded for the first time.
@@ -324,7 +336,7 @@ static field of class Dog is accessed, the Java interpreter must locate Dog.clas
 5. Any initializations that occur at the point of field definition are executed.
 6. Constructors are executed.
 
-### Explicit static initialization
+## Explicit static initialization
 Java allows you to group other static initializations inside a special “static clause” (sometimes called a static block) in a class.
 ```java
 class Spoon {
@@ -348,7 +360,9 @@ System.out.println("c1 & c2 initialized");
 }
 ```
 Looks exactly like the static initialization clause except for the missing static keyword.
-### Array initialization
+
+<a name="array"></a>
+## Array initialization
 - An array is simply a sequence of either objects or primitives, all the same type and packaged together under one identifier name.
 ```java
 int[] a1;
@@ -368,14 +382,14 @@ int[] a = new int[rand.nextInt(20)];
 - Array elements of primitive types are automatically initialized to “empty” values. (For numerics and char, this is zero, and for boolean, it’s false.)
 - If you’re dealing with an array of nonprimitive objects, you must always use new.
 
-### Multidimensional arrays
+## Multidimensional arrays
 ```java
 int[][] a1 = {
 { 1, 2, 3, },
 { 4, 5, 6, },
 };
 ```
-
+<a name="summary"></a>
 ## Summary
 - Improper initialization of variables causes a significant portion of programming problems.
 - similar issues apply to improper cleanup
