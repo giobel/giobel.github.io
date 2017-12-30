@@ -19,7 +19,7 @@ title: Notes on Java
 
 <a name="Chapter 4"></a>
 
-# Chapter 4 
+# Chapter 4 - Initialization & Cleanup
 ## Constructors
 
 - Many C bugs occur when the programmer forgets to initialize a variable.
@@ -397,5 +397,11 @@ int[][] a1 = {
 
 <a name="Chapter 5"></a>
 
-## Chapter 5
-### Hiding the Implementation
+# Chapter 5 - Hiding the Implementation
+
+- Separate the things that change from the things that stay the same.
+- Prticularly important for libraries: 
+  - the user won't need to rewrite code if a new version comes out.
+  - the library creator must have the freedom to make modifications and improvements.
+
+
