@@ -16,6 +16,7 @@ title: Notes on Java
 4.7 [Array initialization](#array)
 4.8 [Summary](#summary)
 5.0 [Chapter 5 - Hiding the Implementation](#Chapter 5)
+6.0 [Chapter 6 - Reusing Classes](#Chapter 6)
 
 <a name="Chapter 4"></a>
 
@@ -696,3 +697,6 @@ How does anyone use this class?
   1. keep users’ hands off tools that they shouldn’t touch; tools that are necessary for the internal machinations of the data type
   2. to allow the library designer to change the internal workings of the class without worrying about how it will affect the client programmer.
 - The public interface to a class is what the user does see, so that is the most important part of the class to get “right” during analysis and design.
+
+<a name="Chapter 6"></a>
+# Chapter 6 - Reusing Classes
