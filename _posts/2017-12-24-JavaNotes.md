@@ -6,7 +6,7 @@ title: Notes on Java
 [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-1. Chapter 4
+1 Chapter 4
 1.1 [Constructors](#Chapter 4)
 1.2 [this keyword](#key)
 1.3 [The meaning of static](#tms)
@@ -15,7 +15,7 @@ title: Notes on Java
 1.6 [Order of initialization](#order)
 1.7 [Array initialization](#array)
 1.8 [Summary](#summary)
-2. [Chapter 5](#Chapter 5)
+2 [Chapter 5](#Chapter 5)
 
 <a name="Chapter 4"></a>
 
@@ -32,9 +32,10 @@ title: Notes on Java
 
 Workflow:
 1. A new object is created:
-```java
+{% highlight java %}
 new Rock();
-```
+{% endhighlight %}
+
 2. Storage is allocated and the constructor is called.
 3. Like any method, the constructor can have args to allow you to specify how an obj is created.
 ```java
