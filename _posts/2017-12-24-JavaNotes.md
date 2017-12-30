@@ -6,16 +6,16 @@ title: Notes on Java
 [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
-1 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
-1.1 [Constructors](#Chapter 4)
-1.2 [this keyword](#key)
-1.3 [The meaning of static](#tms)
-1.4 [Cleanup: finalization and garbage collection](#cleanup)
-1.5 [How a garbage collector works](#garbage)
-1.6 [Order of initialization](#order)
-1.7 [Array initialization](#array)
-1.8 [Summary](#summary)
-2 [Chapter 5 - Hiding the Implementation](#Chapter 5)
+4.0 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
+4.1 [Constructors](#Chapter 4)
+4.2 [this keyword](#key)
+4.3 [The meaning of static](#tms)
+4.4 [Cleanup: finalization and garbage collection](#cleanup)
+4.5 [How a garbage collector works](#garbage)
+4.6 [Order of initialization](#order)
+4.7 [Array initialization](#array)
+4.8 [Summary](#summary)
+5.0 [Chapter 5 - Hiding the Implementation](#Chapter 5)
 
 <a name="Chapter 4"></a>
 
@@ -35,7 +35,6 @@ Workflow:
 {% highlight java %}
 new Rock();
 {% endhighlight %}
-
 2. Storage is allocated and the constructor is called.
 3. Like any method, the constructor can have args to allow you to specify how an obj is created.
 ```java
@@ -629,5 +628,50 @@ If you create a new package and inherit from a class in another package, the onl
 - protected also gives package access
 
 ## Interface and implementation
+*implementation hiding* : access control
+*encapsulation* : wrapping data and methods within classes with implementation hiding
+The result is a data type with characteristics and behaviors.
+- Access control puts boundaries within a data type for two important reasons;
+  - establish what the client programmers can and can’t use.
+  - separate the interface from the implementation.
+- In the world of object-oriented programming, where a class is actually describing “a class of objects,” as you would describe a class of fishes or a class of birds.
+- Any object belonging to this class will share these characteristics and behaviors.
+- In the original OOP language, Simula-67, the keyword class was used to describe a new data type.
+**This is the focal point of the whole language: the creation of new data types that are more than just boxes containing data and methods.**
+- For clarity, you might prefer a style of creating classes that puts the public members at the beginning, followed by the protected, package access, and private members.
+- This will make it only partially easier to read because the interface and implementation are still mixed together.
+- *Class browser* : look at all the available classess and show you what you can do with them (i.e. what members are available)
 
+## Class access
+1. There can be only one public class per compilation unit (file). The idea is that each compilation unit has a single public interface represented by that public class. It can have as many supporting package-access classes as you want. If you have more than one public class inside a compilation unit, the compiler will give you an error message.
+2. The name of the public class must exactly match the name of the file containing the compilation unit, including capitalization. So for Widget, the name of the file must be Widget.java. Again, you’ll get a compile-time error if they don’t agree. 
+3. It is possible, though not typical, to have a compilation unit with no public class at all. In this case, you can name the file whatever you like.
+- A class cannot be private (that would make it accessible to no one but the class), or protected.
+- You have only two choices for class access: package access or public.
+- If you don’t want anyone else to have access to that class, you can make all the constructors private, thereby preventing anyone but you, inside a static member of the class, from creating an object of that class.
+```java
+class Soup {
+  private Soup() {
+  public static Soup makeSoup() {   // (1) Allow creation via static method:
+    return new Soup();
+  }
+  private static Soup ps1 = new Soup();  // (2) Create a static object and return a reference
+  public static Soup access() {
+    return ps1;
+  }
+  public void f() {}
+}
+class Sandwich { 
+  void f() { new Lunch();
+  }
+}
+public class Lunch {
+  void test() {
+  Soup priv2 = Soup.makeSoup();
+  Sandwich f1 = new Sandwich();
+  Soup.access().f();
+  }
+}
+```
 
+  
