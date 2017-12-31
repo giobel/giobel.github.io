@@ -25,9 +25,10 @@ title: Notes on Java
 5.7 [Class access](#classAccess)
 5.8 [Summary](#ch5Summary)
 6 [Chapter 6 - Reusing Classes](#Chapter 6)
+6.1 [Composition syntax](#composition)
+6.2 [Inheritance syntax](#inheritance)
 
 <a name="Chapter 4"></a>
-
 # Chapter 4 - Initialization & Cleanup
 ## Constructors
 
@@ -353,7 +354,7 @@ i = 47;
 // . . .
 ```
 It appears to be a method, but it’s just the static keyword followed by a block of code. This code, like other static initializations, is executed only once, the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
-### Non-static instance initialization
+## Non-static instance initialization
 ```java
 public class Mugs {
 static Test monitor = new Test();
@@ -404,7 +405,6 @@ int[][] a1 = {
 - The garbage collector does add a run-time cost, the expense of which is difficult to put into perspective because of the historical slowness of Java interpreters
 
 <a name="Chapter 5"></a>
-
 # Chapter 5 - Hiding the Implementation
 
 - Separate the things that change from the things that stay the same.
@@ -724,6 +724,7 @@ Two ways to accomplish this:
 2. *Inheritance* : Create a new class as a type of an existing class. Take the form of the existing class andd add code to it without modifying the existing class. 
 They are both ways of making new types from existing ones.
 
+<a name="composition"></a>
 ## Composition syntax
 Suppose you’d like an object that holds several String objects, a couple of primitives, and an object of another class. For the nonprimitive objects, you put references inside your new class, but you define the primitives directly:
 class WaterSource
@@ -851,5 +852,6 @@ public class Bath {
 - Note that in the Bath constructor a statement is executed before any of the initializations take place.
 - When you don’t initialize at the point of definition, there’s still no guarantee that you’ll perform any initialization before you send a message to an object reference—except for the inevitable run-time exception.
 
+<a name="inheritance"></a>
 ## Inheritance syntax
 You’re always doing inheritance when you create a class, because unless you explicitly inherit from some other class, you implicitly inherit from Java’s standard root class Object.
