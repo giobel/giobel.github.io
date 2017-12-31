@@ -3,7 +3,7 @@ layout: post
 title: Notes on Java
 ---
 
-[Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
+# [Bruce Eckel, Thinking in Java 3rd edition](http://www.mindview.net/Books/TIJ/)
 
 # Table of Contents
 4 [Chapter 4 - Initialization & Cleanup](#Chapter 4)
@@ -717,3 +717,54 @@ How does anyone use this class?
 
 <a name="Chapter 6"></a>
 # Chapter 6 - Reusing Classes
+To be revolutionary, you’ve got to be able to do a lot more than copy code and change it.
+Instead of creating them from scratch, you use existing classes that someone has already built and debugged.
+Two ways to accomplish this:
+1. *Composition* : Create objects of your existing class inside the new class.
+2. *Inheritance* : Create a new class as a type of an existing class. Take the form of the existing class andd add code to it without modifying the existing class. 
+They are both ways of making new types from existing ones.
+
+## Composition syntax
+Suppose you’d like an object that holds several String objects, a couple of primitives, and an object of another class. For the nonprimitive objects, you put references inside your new class, but you define the primitives directly:
+class WaterSource
+```java
+class WaterSource {
+  private String s;
+  WaterSource() {
+  System.out.println("WaterSource()");
+  s = new String("Constructed");
+  }
+  public String toString() { return s; }
+}
+```
+class SprinklerSystem
+```java
+public class SprinklerSystem {
+	private String valve1, valve2, valve3, valve4;
+	private WaterSource source;
+	private int i;
+	private float f;
+	public String toString() {
+	return
+	"valve1 = " + valve1 + "\n" +
+	"valve2 = " + valve2 + "\n" +
+	"valve3 = " + valve3 + "\n" +
+	"valve4 = " + valve4 + "\n" +
+	"i = " + i + "\n" +
+	"f = " + f + "\n" +
+	"source = " + source;
+	}
+}
+```
+main program
+```java
+public class MainProgram {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SprinklerSystem sprinklers = new SprinklerSystem();
+		System.out.println(sprinklers);
+	}
+}
+```
+- One of the methods defined in both classes is special: toString( ).
+- Every nonprimitive object has a toString( ) method, and it’s called in special situations when the compiler wants a String but it’s got an object.
