@@ -773,7 +773,7 @@ public class MainProgram {
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	SprinklerSystem sprinklers = new SprinklerSystem();
-	System.out.println(sprinklers.toString());
+	System.out.println(sprinklers);
 }
 ```
 Returns 
@@ -818,3 +818,38 @@ source = null
 	- In the constructor for that class.
 	- *lazy initialization* : right before you actually need to use the object. It can reduce overhead in situations where
 object creation is expensive and the object does not need to be created every time.
+```java
+public class Bath {
+	private String
+	s1 = new String("Happy"),
+	s2 = "Happy",
+	s3,s4;
+	private Soap castille;
+	private int i;
+	private float toy;
+	public Bath() {
+		System.out.println("Inside Bath()");
+		s3 = new String ("Joy");
+		i = 47;
+		toy = 3.14f;
+		castille = new Soap();
+	}
+	public String toString() {
+		if(s4 == null) // Delayed initialisation:
+		s4 = new String("Joy");
+		return
+		"s1 = " + s1 + "\n" +
+		"s2 = " + s2 + "\n" +
+		"s3 = " + s3 + "\n" +
+		"s4 = " + s4 + "\n" +
+		"i = " + i + "\n" +
+		"toy = " + toy + "\n" +
+		"castille = " + castille;
+		}
+}
+```
+- Note that in the Bath constructor a statement is executed before any of the initializations take place.
+- When you don’t initialize at the point of definition, there’s still no guarantee that you’ll perform any initialization before you send a message to an object reference—except for the inevitable run-time exception.
+
+## Inheritance syntax
+You’re always doing inheritance when you create a class, because unless you explicitly inherit from some other class, you implicitly inherit from Java’s standard root class Object.
