@@ -768,3 +768,53 @@ public class MainProgram {
 ```
 - One of the methods defined in both classes is special: toString( ).
 - Every nonprimitive object has a toString( ) method, and it’s called in special situations when the compiler wants a String but it’s got an object.
+- You can add a toString() method in a class to manipulate the output:
+```java
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	SprinklerSystem sprinklers = new SprinklerSystem();
+	System.out.println(sprinklers.toString());
+}
+```
+Returns 
+```java
+water.SprinklerSystem@15db9742
+```
+as output.
+If you add a toString() method to the SprinklerSystem class:
+```java
+public class SprinklerSystem {
+   private String valve1, valve2, valve3, valve4;
+   private WaterSource source;
+   private int i;
+   private float f;
+   public String toString() {
+	return
+	"valve1 = " + valve1 + "\n" +
+	"valve2 = " + valve2 + "\n" +
+	"valve3 = " + valve3 + "\n" +
+	"valve4 = " + valve4 + "\n" +
+	"i = " + i + "\n" +
+	"f = " + f + "\n" +
+	"source = " + source;
+	}
+}
+```
+the output becomes:
+```java
+valve1 = null
+valve2 = null
+valve3 = null
+valve4 = null
+i = 0
+f = 0.0
+source = null
+```
+- Primitives that are fields in a class are automatically initialized to zero.
+- But the object references are initialized to null, and if you try to call methods for any of them you’ll get an exception.
+- It makes sense that the compiler doesn’t just create a default object for every reference because that would incur unnecessary overhead in many cases.
+- If you want the references initialized, you can do it:
+	- At the point the objects are defined. This means that they’ll always be initialized before the constructor is called
+	- In the constructor for that class.
+	- *lazy initialization* : right before you actually need to use the object. It can reduce overhead in situations where
+object creation is expensive and the object does not need to be created every time.
