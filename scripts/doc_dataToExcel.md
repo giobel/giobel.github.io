@@ -1,6 +1,6 @@
 ---
 layout: post
-title: macro1Post
+title: dataToExcel
 ---
 
 This is a post
