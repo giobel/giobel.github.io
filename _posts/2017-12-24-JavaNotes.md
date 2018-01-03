@@ -913,3 +913,289 @@ public class Detergent extends Cleanser {
     
 <span style="color:red">**So to plan for inheritance, as a general rule make all fields private and all methods public.**</span>
 
+- it’s possible to take a method that’s been defined in the base class and modify it:
+But inside scrub( ) you cannot simply call scrub( ), since that would produce a recursive call, which isn’t what you want. To solve this problem Java has the keyword super that refers to the “superclass” that the current class has been inherited from. Thus the expression super.scrub( ) calls the baseclass version of the method scrub( ).
+- You can also add new methods to the derived class exactly the way you put any method in a class.
+
+## Initializing the base class
+Inheritance doesn’t just copy the interface of the base class:
+When you create an object of the derived class, it contains within it a subobject of the base class. This subobject is the same as if you had created an object of the base class by itself. It’s just that, from the outside, the subobject of the base class is wrapped within the derived-class object.
+- it’s essential that the base-class subobject be initialized correctly, and there’s only one way to guarantee this: perform the initialization in the constructor.
+- Java automatically inserts calls to the base-class constructor in the derived-class constructor
+```java
+class Art {
+    Art() {
+    System.out.println("Art constructor");
+    }
+}
+class Drawing extends Art {
+    Drawing() {
+    System.out.println("Drawing constructor");
+    }
+public class Cartoon extends Drawing {
+    public Cartoon() {
+    System.out.println("Cartoon constructor");
+    }
+    public static void main(String[] args) {
+        Cartoon x = new Cartoon();
+    }
+}    
+```
+Which produces as output:
+```java
+"Art constructor",
+"Drawing constructor",
+"Cartoon constructor"
+```
+- The construction happens from the base “outward,” so the base class is initialized before the derived-class constructors can access it.
+- Even if you don’t create a constructor for Cartoon( ), the compiler will synthesize a default constructor for you that calls the base class constructor.
+
+## Constructors with arguments
+If your class doesn’t have default arguments, or if you want to call a base-class constructor that has an argument, you must explicitly write the calls to the base-class constructor using the super keyword and the appropriate argument list:
+```java
+class Game {
+    Game(int i) {
+    System.out.println("Game constructor");
+    }
+}
+class BoardGame extends Game {
+    BoardGame(int i) {
+    super(i);
+    System.out.println("BoardGame constructor");
+    }
+}
+public class Chess extends BoardGame {
+    private static Test monitor = new Test();
+    Chess() {
+        super(11);
+        System.out.println("Chess constructor");
+        }
+        public static void main(String[] args) {
+        Chess x = new Chess();
+        }
+}
+```
+Output:
+```java
+"Game constructor",
+"BoardGame constructor",
+"Chess constructor"
+```
+- If you don’t call the base-class constructor in BoardGame( ), the compiler will complain that it can’t find a constructor of the form Game( ).
+- The call to the base-class constructor must be the first thing you do in the derived-class constructor
+
+## Catching base constructor exceptions
+The compiler forces you to place the base-class constructor call first in the body of the derived-class constructor.
+This also prevents a derived-class constructor from catching any exceptions that come from a base class.
+
+## Combining composition and inheritance
+It is very common to use composition and inheritance together.
+```java
+//: c06:PlaceSetting.java
+// Combining composition & inheritance.
+import com.bruceeckel.simpletest.*;
+class Plate {
+    Plate(int i) {
+    System.out.println("Plate constructor");
+    }
+}
+class DinnerPlate extends Plate {
+    DinnerPlate(int i) {
+    super(i);
+    System.out.println("DinnerPlate constructor");
+    }
+}
+class Utensil {
+    Utensil(int i) {
+    System.out.println("Utensil constructor");
+    }
+}
+class Spoon extends Utensil {
+    Spoon(int i) {
+    super(i);
+    System.out.println("Spoon constructor");
+    }
+}
+class Fork extends Utensil {
+    Fork(int i) {
+    super(i);
+    System.out.println("Fork constructor");
+    }
+}
+class Knife extends Utensil {
+    Knife(int i) {
+    super(i);
+    System.out.println("Knife constructor");
+    }
+}
+// A cultural way of doing something:
+class Custom {
+    Custom(int i) {
+    System.out.println("Custom constructor");
+    }
+}
+public class PlaceSetting extends Custom {
+    private static Test monitor = new Test();
+    private Spoon sp;
+    private Fork frk;
+    private Knife kn;
+    private DinnerPlate pl;
+    public PlaceSetting(int i) {
+    super(i + 1);
+    sp = new Spoon(i + 2);
+    frk = new Fork(i + 3);
+    kn = new Knife(i + 4);
+    pl = new DinnerPlate(i + 5);
+    System.out.println("PlaceSetting constructor");
+    }
+public static void main(String[] args) {
+    PlaceSetting x = new PlaceSetting(9);
+    }
+} ///:~
+```
+Output:
+```java
+"Custom constructor",
+"Utensil constructor",
+"Spoon constructor",
+"Utensil constructor",
+"Fork constructor",
+"Utensil constructor",
+"Knife constructor",
+"Plate constructor",
+"DinnerPlate constructor",
+"PlaceSetting constructor"
+```
+
+## Guaranteeing proper cleanup
+- Java doesn’t have the C++ concept of a destructor
+- in Java the practice is simply to forget about objects rather than to destroy them, allowing the garbage collector to reclaim the memory as necessary.
+- you can’t know when the garbage collector will be called, or if it will be called.
+- So if you want something cleaned up for a class, you must explicitly write a special method to do it, and make sure that the client programmer knows that they must call this method
+- On top of this you must guard against an exception by putting such cleanup in a finally clause.
+```java
+//: c06:CADSystem.java
+// Ensuring proper cleanup.
+package c06;
+import com.bruceeckel.simpletest.*;
+import java.util.*;
+class Shape {
+    Shape(int i) {
+    System.out.println("Shape constructor");
+    }
+    void dispose() {
+    System.out.println("Shape dispose");
+    }
+}
+class Circle extends Shape {
+    Circle(int i) {
+    super(i);
+    System.out.println("Drawing Circle");
+    }
+    void dispose() {
+    System.out.println("Erasing Circle");
+    super.dispose();
+    }
+}
+class Triangle extends Shape {
+    Triangle(int i) {
+    super(i);
+    System.out.println("Drawing Triangle");
+    }
+    void dispose() {
+    System.out.println("Erasing Triangle");
+    super.dispose();
+    }
+}
+class Line extends Shape {
+    private int start, end;
+    Line(int start, int end) {
+    super(start);
+    this.start = start;
+    this.end = end;
+    System.out.println("Drawing Line: "+ start+ ", "+ end);
+    }
+    void dispose() {
+    System.out.println("Erasing Line: "+ start+ ", "+ end);
+    super.dispose();
+    }
+}
+public class CADSystem extends Shape {
+    private static Test monitor = new Test();
+    private Circle c;
+    private Triangle t;
+    private Line[] lines = new Line[5];
+    public CADSystem(int i) {
+        super(i + 1);
+        for(int j = 0; j < lines.length; j++)
+        lines[j] = new Line(j, j*j);
+        c = new Circle(1);
+        t = new Triangle(1);
+        System.out.println("Combined constructor");
+    }
+    public void dispose() {
+        System.out.println("CADSystem.dispose()");
+        // The order of cleanup is the reverse
+        // of the order of initialization
+        t.dispose();
+        c.dispose();
+        for(int i = lines.length - 1; i >= 0; i--)
+        lines[i].dispose();
+        super.dispose();
+    }
+    public static void main(String[] args) {
+        CADSystem x = new CADSystem(47);
+        try {
+        // Code and exception handling...
+        } 
+        finally {
+        x.dispose();
+        }}
+} ///:~
+```
+Output:
+```java
+"Shape constructor",
+"Shape constructor",
+"Drawing Line: 0, 0",
+"Shape constructor",
+"Drawing Line: 1, 1",
+"Shape constructor",
+"Drawing Line: 2, 4",
+"Shape constructor",
+"Drawing Line: 3, 9",
+"Shape constructor",
+"Drawing Line: 4, 16",
+"Shape constructor",
+"Drawing Circle",
+"Shape constructor",
+"Drawing Triangle",
+"Combined constructor",
+"CADSystem.dispose()",
+"Erasing Triangle",
+"Shape dispose",
+"Erasing Circle",
+"Shape dispose",
+"Erasing Line: 4, 16",
+"Shape dispose",
+"Erasing Line: 3, 9",
+"Shape dispose",
+"Erasing Line: 2, 4",
+"Shape dispose",
+"Erasing Line: 1, 1",
+"Shape dispose",
+"Erasing Line: 0, 0",
+"Shape dispose",
+"Shape dispose"
+```
+- Everything in this system is some kind of Shape
+- Each class overrides Shape’s dispose( ) method in addition to calling the baseclass version of that method using super.
+- The specific Shape classes-Circle, Triangle and Line-all have constructors that “draw,” although any method called during the lifetime of the object could be responsible for doing something that needs cleanup.
+- Each class has its own dispose( ) method to restore nonmemory things back to the way they were before the object existed
+- Main has 2 keywords:
+    - The **try** keyword indicates that the block that follows (delimited by curly braces) is a guarded region, which means that it is given special treatment.
+    - the code in the finally clause following this guarded region is always executed, no matter how the try block exits.
+- in your cleanup method you must also pay attention to the calling order for the base-class and member-object cleanup methods in case one subobject depends on another:
+    - perform all of the cleanup work specific to your class, in the reverse order of creation.
+
+## Name hiding

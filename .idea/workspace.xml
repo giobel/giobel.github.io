@@ -17,12 +17,10 @@
       <file leaf-file-name="2017-12-24-JavaNotes.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="718">
-                <caret line="914" column="0" lean-forward="true" selection-start-line="914" selection-start-column="0" selection-end-line="914" selection-end-column="0" />
-                <folding>
-                  <element signature="e#42153#43401#0" expanded="false" />
-                </folding>
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="802">
+                <caret line="1201" column="0" lean-forward="true" selection-start-line="1201" selection-start-column="0" selection-end-line="1201" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -177,20 +175,27 @@
       <option name="project" value="LOCAL" />
       <updated>1514977551734</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added java notes">
+      <created>1515000816123</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515000816123</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -210,7 +215,8 @@
     <MESSAGE value="added display analysis" />
     <MESSAGE value="added display analysis to index" />
     <MESSAGE value="changed text height to 16px" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed text height to 16px" />
+    <MESSAGE value="added java notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added java notes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -222,9 +228,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <element signature="e#42153#43401#0" expanded="false" />
-            </folding>
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -371,12 +375,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="718">
-            <caret line="914" column="0" lean-forward="true" selection-start-line="914" selection-start-column="0" selection-end-line="914" selection-end-column="0" />
-            <folding>
-              <element signature="e#42153#43401#0" expanded="false" />
-            </folding>
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="802">
+            <caret line="1201" column="0" lean-forward="true" selection-start-line="1201" selection-start-column="0" selection-end-line="1201" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
