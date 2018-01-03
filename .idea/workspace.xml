@@ -4,8 +4,6 @@
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" afterPath="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
-      <change beforePath="$PROJECT_DIR$/scripts/img/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.html" afterPath="$PROJECT_DIR$/scripts/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="756">
@@ -78,12 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doc_Point Analysis Display.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doc_Point Analysis Display.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="441">
-                <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="129" />
+              <first_editor relative-caret-position="609">
+                <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -112,8 +110,8 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2017-12-14-Hello-World.md" />
         <option value="$PROJECT_DIR$/scripts/doc_dataToExcel.md" />
-        <option value="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
         <option value="$PROJECT_DIR$/scripts/index.html" />
+        <option value="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
       </list>
     </option>
   </component>
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514975917931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added display analysis to index">
+      <created>1514976703282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514976703282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -367,22 +372,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="441">
-            <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="129" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="609">
+            <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

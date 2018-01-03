@@ -30,7 +30,7 @@ https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/CloudHe
 
 The Point Analysis Display node needs a View, Point Coordinates (sampleLocations) and a value associated to the point (samples). 
 
-<img src="/scripts/img/pa2.png" width="900"> 
+<img src="/scripts/img/pa2.png" width="400"> 
 
 Name, description and unitType refers to the Analysis Display Settings window:
 
@@ -42,7 +42,7 @@ To assign a colour legend to the points we need to create an Analysis Display St
 
 Text annotations can be turned on selecting "Show All" in the Analysis Display Styles Settings tab:
 
-<img src="/scripts/img/pa5.png" width="900"> 
+<img src="/scripts/img/pa5.png" width="400"> 
 
 <div id="imageContainer1"></div>
 
