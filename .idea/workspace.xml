@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" afterPath="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
+      <change beforePath="$PROJECT_DIR$/style.scss" afterPath="$PROJECT_DIR$/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,15 +76,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doc_Point Analysis Display.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doc_Point Analysis Display.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="609">
-                <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+              <first_editor relative-caret-position="672">
+                <caret line="32" column="105" lean-forward="false" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/scripts/doc_dataToExcel.md" />
         <option value="$PROJECT_DIR$/scripts/index.html" />
         <option value="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
@@ -142,11 +153,6 @@
             <path>
               <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514976703282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added display analysis to index">
+      <created>1514976897580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514976897580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added display analysis to index">
+      <created>1514977323471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514977323471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -380,14 +400,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="609">
-            <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <first_editor relative-caret-position="672">
+            <caret line="32" column="105" lean-forward="false" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
