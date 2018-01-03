@@ -26,23 +26,23 @@ More info here:
 
 https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/CloudHelp/cloudhelp/2014/ENU/Revit/files/GUID-DCA1C6D3-FBD0-4188-A5C2-51821027435E-htm.html
 
-<img src="/images/pa1.png" width="900"> 
+<img src="/scripts/img/pa1.png" width="900"> 
 
 The Point Analysis Display node needs a View, Point Coordinates (sampleLocations) and a value associated to the point (samples). 
 
-<img src="/images/pa2.png" width="900"> 
+<img src="/scripts/img/pa2.png" width="900"> 
 
 Name, description and unitType refers to the Analysis Display Settings window:
 
-<img src="/images/pa3.png" width="900"> 
+<img src="/scripts/img/pa3.png" width="900"> 
 
 To assign a colour legend to the points we need to create an Analysis Display Style:
 
-<img src="/images/pa4.png" width="900"> 
+<img src="/scripts/img/pa4.png" width="900"> 
 
 Text annotations can be turned on selecting "Show All" in the Analysis Display Styles Settings tab:
 
-<img src="/images/pa5.png" width="900"> 
+<img src="/scripts/img/pa5.png" width="900"> 
 
 <div id="imageContainer1"></div>
 
@@ -72,7 +72,7 @@ svg1 = svg1.append("g")
 svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/images/pa6.png");
+    .attr("xlink:href", "/scripts/img/pa6.png");
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
