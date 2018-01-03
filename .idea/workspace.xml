@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/style.scss" afterPath="$PROJECT_DIR$/style.scss" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md" afterPath="$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,87 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2017-12-20-TestImage.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-12-20-TestImage.md">
+      <file leaf-file-name="2017-12-24-JavaNotes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="567">
-                <caret line="51" column="15" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="51" selection-end-column="15" />
-                <folding />
+              <first_editor relative-caret-position="718">
+                <caret line="914" column="0" lean-forward="true" selection-start-line="914" selection-start-column="0" selection-end-line="914" selection-end-column="0" />
+                <folding>
+                  <element signature="e#42153#43401#0" expanded="false" />
+                </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc_setTagLeaders.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/doc_setTagLeaders.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-12-21-PresentazioneMilano.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="462">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="48" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc_dataToExcel.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/doc_dataToExcel.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc_Point Analysis Display.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="672">
-                <caret line="32" column="105" lean-forward="false" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -123,14 +53,15 @@
         <option value="$PROJECT_DIR$/scripts/index.html" />
         <option value="$PROJECT_DIR$/scripts/doc_Point Analysis Display.md" />
         <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1400" />
-    <option name="height" value="992" />
+    <option name="width" value="960" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -147,6 +78,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,12 +87,15 @@
               <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,14 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514977323471</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed text height to 16px">
+      <created>1514977551734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514977551734</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -266,19 +209,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added display analysis" />
     <MESSAGE value="added display analysis to index" />
-    <option name="LAST_COMMIT_MESSAGE" value="added display analysis to index" />
+    <MESSAGE value="changed text height to 16px" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed text height to 16px" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <element signature="e#42153#43401#0" expanded="false" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-14-Hello-World.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="168">
             <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -289,7 +245,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1113">
             <caret line="53" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -299,7 +254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -308,7 +262,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -319,7 +272,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="609">
             <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -331,18 +283,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="168">
             <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="462">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="48" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -353,18 +293,57 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-20-TestImage.md">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="672">
+            <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/doc_dataToExcel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="567">
-            <caret line="51" column="15" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="51" selection-end-column="15" />
-            <folding />
+          <first_editor relative-caret-position="420">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="462">
+            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
@@ -375,55 +354,31 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="378">
             <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="19" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/doc_dataToExcel.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-20-TestImage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="567">
+            <caret line="51" column="15" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="51" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/doc_Point Analysis Display.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="672">
-            <caret line="32" column="105" lean-forward="false" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
-            <folding />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="718">
+            <caret line="914" column="0" lean-forward="true" selection-start-line="914" selection-start-column="0" selection-end-line="914" selection-end-column="0" />
+            <folding>
+              <element signature="e#42153#43401#0" expanded="false" />
+            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>

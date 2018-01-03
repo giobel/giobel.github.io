@@ -855,3 +855,61 @@ public class Bath {
 <a name="inheritance"></a>
 ## Inheritance syntax
 You’re always doing inheritance when you create a class, because unless you explicitly inherit from some other class, you implicitly inherit from Java’s standard root class Object.
+
+- Keyword *extends* before the opening brace of the class body followed by the name of the base class. 
+- Automatically get all the fields and methods in the base class.
+
+```java
+class Cleanser {
+    private String s = new String("Cleanser");
+    public void append(String a) { s += a; }
+    public void dilute() { append(" dilute()"); }
+    public void apply() { append(" apply()"); }
+    public void scrub() { append(" scrub()"); }
+    public String toString() { return s; }
+    // Test the new class:
+    public static void main(String[] args) {
+    Cleanser x = new Cleanser();
+    x.dilute(); x.apply(); x.scrub();
+    System.out.println(x);
+    monitor.expect(new String[] {
+    "Cleanser dilute() apply() scrub()"
+    });
+    }
+}
+public class Detergent extends Cleanser {
+    // Change a method:
+    public void scrub() {
+    append(" Detergent.scrub()");
+    super.scrub(); // Call base-class version
+    }
+    // Add methods to the interface:
+    public void foam() { append(" foam()"); }
+    }
+    // Test the new class:
+    public static void main(String[] args) {
+    Detergent x = new Detergent();
+    x.dilute();
+    x.apply();
+    x.scrub();
+    x.foam();
+    System.out.println(x);
+    System.out.println("Testing base class:");
+    monitor.expect(new String[] {
+    "Cleanser dilute() apply() " +
+    "Detergent.scrub() scrub() foam()",
+    "Testing base class:",
+    });
+    Cleanser.main(args);
+}
+```
+- both Cleanser and Detergent contain a main( ) method. You can create a main( ) for each one of your classes, and it’s often recommended to code this way so that your test code is wrapped in with the class.
+- even if you have a lot of classes in a program, only the main( ) for the class invoked on the command line will be called.
+- as long as main() is public it doesn’t matter whether the class that it’s part of is public.
+- It’s important that all of the methods in Cleanser are public.
+- if you leave off any access specifier the member defaults to package access, which allows access only to package members:
+    - Detergent would have no trouble
+    - However, if a class from some other package were to inherit from Cleanser it could access only public members.
+    
+<span style="color:red">**So to plan for inheritance, as a general rule make all fields private and all methods public.**</span>
+
