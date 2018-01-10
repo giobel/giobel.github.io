@@ -1,6 +1,6 @@
 ---
 layout: page
-title: myScripts
+title: About
 permalink: /about/
 ---
 
