@@ -39,12 +39,13 @@ filterElement = UnwrapElement(IN[0])
 
 setValue = IN[1]
 
-categories = List[Autodesk.Revit.DB.ElementId]()
+#categories = List[Autodesk.Revit.DB.ElementId]()
 
-categories.Add(ElementId(BuiltInCategory.OST_Walls))
+#categories.Add(ElementId(BuiltInCategory.OST_Walls))
 
 parameterCollector = FilteredElementCollector(doc)
 
+# typeof IS NOT RECOGNIZED. WE MUST USE clr.GetClrType()
 #parameter = parameterCollector.OfClass(typeof(Autodesk.Revit.DB.Wall)).FirstElement().get_Parameter("Comments")
 
 comment_param = BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS
