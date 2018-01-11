@@ -18,3 +18,4 @@ for grid in grids:
 			gridRef.Append(gline.Reference)
 ```
 
+<img src="/images/pyRevitAPI.png" width="900">
