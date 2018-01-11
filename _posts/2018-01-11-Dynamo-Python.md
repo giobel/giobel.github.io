@@ -44,10 +44,9 @@ Element methods must be called using ():
 energySrf = UnwrapElement(IN[0])
 OUT = energySrf.GetAnalyticalOpenings()
 ```
-
 <div id="imageContainer2"></div>
 
-
+Iterate through list??
 
 
 
@@ -90,7 +89,7 @@ var imgHeight = 635, imgWidth = 1600,
     width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
-svg2 = d3.select("#imageContainer1").append("svg")
+svg2 = d3.select("#imageContainer2").append("svg")
     .attr("width",  width + "px")
     .attr("height", height + "px");
 
