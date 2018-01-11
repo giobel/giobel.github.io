@@ -2,6 +2,18 @@
 layout: post
 title: Revit API using Python
 ---
+<style>
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+    </style>
+    
+<script src="//code.jquery.com/jquery.js"></script>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+
 
 Accessing geometry
 ```python
@@ -50,3 +62,4 @@ function zoom() {
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
   }
   </script>    
+
