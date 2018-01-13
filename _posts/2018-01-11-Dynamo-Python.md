@@ -265,7 +265,7 @@ somelist.Add(SomeElementId)
 somelist.Add(AnotherElementId)
 # Adds ElementIds to the List
 ```
-If you try to add any object that is not an ElementId, it will raise an exception.
+- If you try to add any object that is not an ElementId, it will raise an exception.
 - Generally, you can/should use Python lists if you are just manipulating data, iterating, etc - they are more flexible, easier to use, and native to Python.
 - When working with the Revit API, there instances when you are asked to pass lists/collections of objects.
 - In those cases, you have to create a List that holds the required type first.
