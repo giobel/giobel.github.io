@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="363">
-                <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+              <first_editor relative-caret-position="431">
+                <caret line="295" column="3" lean-forward="false" selection-start-line="295" selection-start-column="3" selection-end-line="295" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515857914603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated pyRevit">
+      <created>1515862999069</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515862999069</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -429,8 +436,8 @@
     <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="363">
-            <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <first_editor relative-caret-position="431">
+            <caret line="295" column="3" lean-forward="false" selection-start-line="295" selection-start-column="3" selection-end-line="295" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />

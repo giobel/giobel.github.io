@@ -63,7 +63,6 @@ import clr
 clr.AddReference("RevitServices")
 import RevitServices
 from RevitServices.Persistence import DocumentManager
-
 doc = DocumentManager.Instance.CurrentDBDocument
 uiapp = DocumentManager.Instance.CurrentUIApplication
 app = uiapp.Application
@@ -74,40 +73,32 @@ All Elements coming out of Dynamo Nodes are actually wrappers around core Revit 
 If you would prefer to use the RevitAPI directly, you will need to unwrap the Element before operating on it, use our TransactionManager to ensure that you're operating inside of a RevitAPI Transaction, and wrap any Element you wish to return.
 ```python
 import clr
-
 # Import RevitAPI
 clr.AddReference("RevitAPI")
 import Autodesk
 from Autodesk.Revit.DB import ReferencePointArray
-
 # Import DocumentManager and TransactionManager
 clr.AddReference("RevitServices")
 import RevitServices
 from RevitServices.Persistence import DocumentManager
 from RevitServices.Transactions import TransactionManager
-
 # Import ToDSType(bool) extension method
 clr.AddReference("RevitNodes")
 import Revit
 clr.ImportExtensions(Revit.Elements)
-
 # Unwrap
 startRefPt = UnwrapElement( IN[0] )
 endRefPt = UnwrapElement( IN[1] )
-
 # Start Transaction
 doc = DocumentManager.Instance.CurrentDBDocument
 TransactionManager.Instance.EnsureInTransaction(doc)
-
 # Make the CurveByPoints
 arr = ReferencePointArray()
 arr.Append(startRefPt)
 arr.Append(endRefPt)
 cbp = doc.FamilyCreate.NewCurveByPoints(arr)
-
 # End Transaction
 TransactionManager.Instance.TransactionTaskDone()
-
 # Wrap
 OUT = cbp.ToDSType(false)
 ```
@@ -138,12 +129,10 @@ In order to interoperate with our Revit nodes, any raw Autodesk.Revit.DB.Element
 If you are selecting an Element from the Document, then you should mark the wrapped Element as Revit-owned ToDSType(True).
 ```python
 import clr
-
 # Import ToDSType(bool) extension method
 clr.AddReference("RevitNodes")
 import Revit
 clr.ImportExtensions(Revit.Elements)
-
 docPt = FetchRefPtFromDoc() #Fetch an existing ref pt (not a real method)
 newPt = CreateNewRefPt()    #Create a new ref pt (not a real method)
 OUT = [ 
@@ -171,10 +160,8 @@ unitConversion = UnitUtils.ConvertFromInternalUnits(1, getDisplayUnits )
 To import the GeometryConversion tools, do this:
 ```python
 import clr
-
 clr.AddReference("RevitNodes")
 import Revit
-
 # Import ToProtoType, ToRevitType geometry conversion extension methods
 clr.ImportExtensions(Revit.GeometryConversio
 ```
@@ -227,22 +214,17 @@ BoundingBox.ToRevitType() > BoundingBoxXYZ
 - TransactionManager.ForceCloseTransaction(): Tells Dynamo to commit the active Transaction. This is slower than TransactionTaskDone(), so only use it when you actually need to close the Transaction for your script to work.
 ```python
 import clr
-
 # Import DocumentManager and TransactionManager
 clr.AddReference("RevitServices")
 import RevitServices
 from RevitServices.Persistence import DocumentManager
 from RevitServices.Transactions import TransactionManager
-
 # Get the document
 doc = DocumentManager.Instance.CurrentDBDocument
-
 # "Start" the transaction
 TransactionManager.Instance.EnsureInTransaction(doc)
-
 # Create a reference point (requires a transaction)
 refPt = doc.FamilyCreate.NewReferencePoint(XYZ(0, 0, 0))
-
 # "End" the transaction
 TransactionManager.Instance.TransactionTaskDone()
 ```
@@ -294,7 +276,6 @@ For example, if you want to create a FilledRegion, Revit asks you to pass a List
 import sys
 sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\DLLs')
 sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
-
 import sqlite3
 import xml
 ```
@@ -306,17 +287,13 @@ f you open a .dyn file with a text editor, you’ll see that each node balloon i
 ```python
 import sys
 sys.path.append("C:\Program Files (x86)\IronPython 2.7\Lib")
-
 import timeit
- 
 # code snippet to be executed only once
 mysetup = "from math import sqrt"
- 
 # code snippet whose execution time is to be measured
 mycode = """
 myList = list()
 """
- 
 # timeit statement
 OUT = timeit.timeit(setup = mysetup, stmt = mycode, number = 10000)*1000
 ```
