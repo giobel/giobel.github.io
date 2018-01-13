@@ -14,6 +14,8 @@ title: Revit API using Python
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
+Using the [RevitLookup](https://github.com/jeremytammik/RevitLookup) add-in by Jeremy Tammik we can access all the properties and methods available for a Selected Element, the DB or the Active View:
+
 <div id="imageContainer1"></div>
 
 Element Properties can be accessed through Element.PropertyName:
