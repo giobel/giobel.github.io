@@ -17,9 +17,9 @@
       <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="16" column="152" lean-forward="true" selection-start-line="16" selection-start-column="152" selection-end-line="16" selection-end-column="152" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="363">
+                <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -39,6 +39,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>svg1</find>
+      <find>red</find>
     </findStrings>
     <replaceStrings>
       <replace>svg2</replace>
@@ -198,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1515851410261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated pyRevit">
+      <created>1515851639587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515851639587</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated pyRevit">
+      <created>1515857914603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1515857914603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -339,16 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2017-12-21-PresentazioneMilano.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -410,11 +415,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
+    <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="16" column="152" lean-forward="true" selection-start-line="16" selection-start-column="152" selection-end-line="16" selection-end-column="152" />
+          <first_editor relative-caret-position="230">
+            <caret line="913" column="128" lean-forward="true" selection-start-line="913" selection-start-column="0" selection-end-line="913" selection-end-column="128" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="363">
+            <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
