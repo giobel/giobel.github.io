@@ -146,7 +146,8 @@ OUT = [
 You will need to manually do a unit conversion when:
 - passing a length value to a Python node and then invoking the Revit API using those lengths
 - extracting a length from the RevitAPI and then returning that value from a Python node
-<span style="color:red">**The latest Dynamo Build (1.+) for Revit no longer uses meters for length units.**</span>
+
+<a style="color:red">**The latest Dynamo Build (1.+) for Revit no longer uses meters for length units.**</a>
 - Dynamo units are derived from the active Revit document
 - A simple method for dynamically assigning the correct units conversion can be achieved by using the Revit API UnitUtils.ConvertFromInternalUnits() method:
 ```python
