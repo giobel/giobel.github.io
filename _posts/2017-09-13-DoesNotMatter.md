@@ -3,4 +3,4 @@ layout: post
 title: it does not matter
 ---
 
-<img src="/images/itDoesNotMatter/Slide1.png" width="1280">
+<img src="/images/itDoesNotMatter/Slide1.PNG" width="1280">
