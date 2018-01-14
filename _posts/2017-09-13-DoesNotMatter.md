@@ -2,6 +2,7 @@
 layout: post
 title: it does not matter
 ---
+<script src="video.js"></script>
 
 <img src="/images/itDoesNotMatter/Slide1.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide2.PNG" width="1280">
@@ -19,6 +20,7 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide14.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide15.PNG" width="1280">
 
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="1280" height="550" data-setup="{}">
 <source src="/videos/Create Links to Pdf.mp4" type='video/mp4'></video>
 
 <img src="/images/itDoesNotMatter/Slide17.PNG" width="1280">
