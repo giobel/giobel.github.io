@@ -267,8 +267,6 @@ title: it does not matter
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/MNrevit2.mp4" type='video/mp4'></video>
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
-<source src="/videos/MNrevit2.mp4" type='video/mp4'></video>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/Dynamo dll Import.mp4" type='video/mp4'></video>
