@@ -98,6 +98,9 @@ title: it does not matter
 <source src="/videos/Set Tag Leaders.mp4" type='video/mp4'></video>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Automatically place dimensions between beams.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/Section view on the wall.mp4" type='video/mp4'></video>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
