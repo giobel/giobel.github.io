@@ -18,7 +18,9 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide13.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide14.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide15.PNG" width="1280">
-<img src="/images/itDoesNotMatter/Slide16.PNG" width="1280">
+
+<source src="/videos/Create Links to Pdf.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide17.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide18.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide19.PNG" width="1280">
