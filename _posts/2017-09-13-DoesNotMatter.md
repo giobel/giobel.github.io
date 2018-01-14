@@ -60,11 +60,15 @@ title: it does not matter
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/Create and Update Section Location.mp4" type='video/mp4'></video>
 
-
-
 <img src="/images/itDoesNotMatter/Slide33.PNG" width="720">
+<div class="blank"></div> 
+
 <img src="/images/itDoesNotMatter/Slide34.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide35.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/placeActiveView.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide36.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide37.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide38.PNG" width="720">
@@ -72,15 +76,28 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide40.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide41.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide42.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide43.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide44.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/JoinMiter.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/JoinMultipleElements.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide45.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide46.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide47.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide48.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Create void around pipes.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide49.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide50.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide51.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Split Columns By Floor.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Split Walls And Columns By Level Dynamo.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide52.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide53.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide54.PNG" width="720">
@@ -97,11 +114,21 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide65.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide66.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide67.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide68.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/notepadScroll.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide69.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Dynamo to GSA Floors2.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide70.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide71.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide72.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Rhino - Revit WallByProfile.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide73.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide74.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide75.PNG" width="720">
@@ -112,9 +139,19 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide80.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide81.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide82.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide83.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide84.PNG" width="720">
-<img src="/images/itDoesNotMatter/Slide85.PNG" width="720">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Import a python program in Dynamo.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/MNrevit2.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/MNrevit2.mp4" type='video/mp4'></video>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Dynamo dll Import.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide86.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide87.PNG" width="720">
 <img src="/images/itDoesNotMatter/Slide88.PNG" width="720">
