@@ -20,21 +20,34 @@ title: it does not matter
 <img src="/images/itDoesNotMatter/Slide14.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide15.PNG" width="1280">
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="1280" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/Create Links to Pdf.mp4" type='video/mp4'></video>
 
 <img src="/images/itDoesNotMatter/Slide17.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide18.PNG" width="1280">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/Update Annotation Types.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide19.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide20.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide21.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide22.PNG" width="1280">
-<img src="/images/itDoesNotMatter/Slide23.PNG" width="1280">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/FilledRegions.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide24.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide25.PNG" width="1280">
-<img src="/images/itDoesNotMatter/Slide26.PNG" width="1280">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/Revit Swap Grid Bubbles Side.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide27.PNG" width="1280">
-<img src="/images/itDoesNotMatter/Slide28.PNG" width="1280">
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/Change Grid Extents.mp4" type='video/mp4'></video>
+
 <img src="/images/itDoesNotMatter/Slide29.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide30.PNG" width="1280">
 <img src="/images/itDoesNotMatter/Slide31.PNG" width="1280">
