@@ -27,6 +27,16 @@ title: Revit API using Python - Dictionary
 
 [Revit Document/Application](#doc)
 
+[E](#D)
+[Elements](#elements)
+
+[F](#F)
+
+[Filtered Element Collector](#fec)
+
+[Passing Functions to Python](#pFp)
+
+[Passing Python Nodes as Functions](#passing-python-nodes-as-functions)
 # A
 
 # B
@@ -93,6 +103,7 @@ BoundingBox.ToRevitType() > BoundingBoxXYZ
   
   
   
+
 # D
 <a name="doc"></a>
 ## Revit Document/Application
@@ -109,6 +120,7 @@ app = uiapp.Application
 ```
 
 # E
+<a name="elements"></a>
 ## Elements
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace.
 
@@ -146,14 +158,15 @@ OUT = cbp.ToDSType(false)
 ```
 
 # F
+<a name="fec"></a>
 ## Filtered Element Collector
 ```python
 result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
 ```
-
+<a name="pFp"></a>
 ## Passing Functions to Python
 Currently, passing functions to Python scripts through Dynamo is not supported in 0.7.x. This capability will be returning some time in the future.
-
+<a name="pPn"></a>
 ## Passing Python Nodes as Functions
 Currently, passing Python nodes to other nodes as functions is not supported in 0.7.x. This capability will be returning some time in the future.
 
