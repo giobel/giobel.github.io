@@ -16,6 +16,39 @@ title: Revit API using Python - Dictionary
 
 # A
 
+# B
+## Best practice
+
+
+# F
+## Filtered Element Collector
+```python
+result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
+```
+
+# G
+
+## Accessing geometry
+```python
+opt = Options()
+opt.ComputeReferences = True
+opt.IncludeNonVisibleObjects = True
+opt.View = doc.ActiveView
+energySrf = UnwrapElement(IN[0])
+geo = []
+for obj in energySrf[0].get_Geometry(opt):
+	if isinstance(obj, Solid):
+		geo.append(obj)
+```
+This returns an Autodesk.Revit.DB.Solid
+
+```python
+geo = []
+for obj in energySrf[0].get_Geometry(opt):
+	geo.append(obj.ConvertToMany())
+```
+This returns Surfaces and Lines.
+
 # I
 ## Ironpython
 An implementation of the python language specification created by microsoft, written in C#. The C# implementation allows it to use the Common Language Runtime (clr) to talk directly to other .NET applications and libraries. This language interoperability has made Ironpython a popular embedded-scripting-language .
@@ -32,6 +65,7 @@ from Autodesk.DesignScript.Geometry import *
 - load .NET dll references (must be used to enable libraries that are not native python libraries).
 The python template adds a reference to 'ProtoGeometry'. The actual library is stored here: "C:\Program Files\Dynamo\Dynamo Core\1.3\ProtoCore.dll"
 - Once 'ProtoGeometry' has been added, we load things from the DesignScript library.
+
 ### Revit API references.
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace:
 ```python
@@ -59,53 +93,132 @@ doc = DocumentManager.Instance.CurrentDBDocument
 uiapp = DocumentManager.Instance.CurrentUIApplication
 app = uiapp.Application
 ```
-
-
-
-
-
-
-
-
-
-
-Using the [RevitLookup](https://github.com/jeremytammik/RevitLookup) add-in by Jeremy Tammik we can access all the properties and methods available for a Selected Element, the DB or the Active View:
-
-<div id="imageContainer1"></div>
-
-Element Properties can be accessed through Element.PropertyName:
-
+### [How to load external Python modules?](https://forum.dynamobim.com/t/how-to-load-external-python-modules/5678)
 ```python
-energySrf = UnwrapElement(IN[0])
-OUT = energySrf.Id, energySrf.Pinned, energySrf.UniqueId, energySrf.Type
+import sys
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\DLLs')
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
+import sqlite3
+import xml
 ```
-Element methods must be called using ():
-```python
-energySrf = UnwrapElement(IN[0])
-OUT = energySrf.GetAnalyticalOpenings()
-```
-<div id="imageContainer2"></div>
 
-## Accessing geometry
-```python
-opt = Options()
-opt.ComputeReferences = True
-opt.IncludeNonVisibleObjects = True
-opt.View = doc.ActiveView
-energySrf = UnwrapElement(IN[0])
-geo = []
-for obj in energySrf[0].get_Geometry(opt):
-	if isinstance(obj, Solid):
-		geo.append(obj)
-```
-This returns an Autodesk.Revit.DB.Solid
+# L
+## List
+[Gui_Talarico Nov'16](https://forum.dynamobim.com/t/different-ways-of-getting-element-ids/7782/2)
 
+- The list data-type (lower case L) is a native to Python/Ironpython. 
+What’s important is, lists don’t care what type of data they hold, so a list can hold anything and everything: numbers, letters, variables, other lists, etc
 ```python
-geo = []
-for obj in energySrf[0].get_Geometry(opt):
-	geo.append(obj.ConvertToMany())
+somelist = list()
+#or
+somelist = []
 ```
-This returns Surfaces and Lines.
+Both methods create an empty list called *somelist*. Some say the 2nd is [faster](https://stackoverflow.com/questions/2972212/creating-an-empty-list-in-python).
+To add elements (or anything else) to a list, you use the .append method:
+```python
+somelist.append(SomeElemendId)
+somelist.append(AnotherElemendId)
+```
+- List (Capital L), which is a data-type native to the .NET languages.
+One of the main differences, is that when a .NET List is created, you declare what type of objects it will hold, and later it will enforce it.
+Although it’s also a container, the 2 list types are completely different data-types, so how you add/delete/retrieve/iterate will change.
+The List type is not native to Python/Ironpython, so before you can use it, you have to import it from the .NET Collections assembly:
+```python
+from System.Collections.Generic import List
+# Imports List type from .NET's Collections.Generic Namespace
+somelist = List[Autodesk.Revit.DB.ElementId]()
+# Creates an empty List container that can hold only ElementIds
+somelist.Add(SomeElementId)
+somelist.Add(AnotherElementId)
+# Adds ElementIds to the List
+```
+- If you try to add any object that is not an ElementId, it will raise an exception.
+- Generally, you can/should use Python lists if you are just manipulating data, iterating, etc - they are more flexible, easier to use, and native to Python.
+- When working with the Revit API, there instances when you are asked to pass lists/collections of objects.
+- In those cases, you have to create a List that holds the required type first.
+For example, if you want to create a FilledRegion, Revit asks you to pass a List of CurveLoops, so you have to create a List[CurveLoop](), and add your CurveLoop objects.
+
+
+
+
+
+
+
+
+
+Iterate through list??
+
+GetSymbolGeometry vs GetInstanceGeometry??
+
+FilteredElementCollector
+ofType -> crl....
+
+
+
+
+
+<script>  
+var imgHeight = 635, imgWidth = 1600,      
+    width =  960, height = 385,             
+    translate0 = [0, 0], scale0 = 0.6;  
+
+svg1 = d3.select("#imageContainer1").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg1.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg1 = svg1.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg1.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/pyRevitAPI_1.png");
+
+function zoom() {
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+  </script>    
+
+<script>  
+var imgHeight = 635, imgWidth = 1600,      
+    width =  960, height = 385,             
+    translate0 = [0, 0], scale0 = 0.6;  
+
+svg2 = d3.select("#imageContainer2").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg2.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg2 = svg2.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg2.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/pyRevitAPI_2.png");
+
+function zoom() {
+  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+  </script>    
+  
+
+#M
 
 ## Migrations
 
@@ -291,54 +404,30 @@ Currently, passing functions to Python scripts through Dynamo is not supported i
 ### Passing Python Nodes as Functions
 Currently, passing Python nodes to other nodes as functions is not supported in 0.7.x. This capability will be returning some time in the future.
 
-## List
-[Gui_Talarico Nov'16](https://forum.dynamobim.com/t/different-ways-of-getting-element-ids/7782/2)
 
-- The list data-type (lower case L) is a native to Python/Ironpython. 
-What’s important is, lists don’t care what type of data they hold, so a list can hold anything and everything: numbers, letters, variables, other lists, etc
+  
+
+# R
+## RevitLookup
+Using the [RevitLookup](https://github.com/jeremytammik/RevitLookup) add-in by Jeremy Tammik we can access all the properties and methods available for a Selected Element, the DB or the Active View:
+
+<div id="imageContainer1"></div>
+
+Element Properties can be accessed through Element.PropertyName:
+
 ```python
-somelist = list()
-#or
-somelist = []
+energySrf = UnwrapElement(IN[0])
+OUT = energySrf.Id, energySrf.Pinned, energySrf.UniqueId, energySrf.Type
 ```
-Both methods create an empty list called *somelist*. Some say the 2nd is [faster](https://stackoverflow.com/questions/2972212/creating-an-empty-list-in-python).
-To add elements (or anything else) to a list, you use the .append method:
+Element methods must be called using ():
 ```python
-somelist.append(SomeElemendId)
-somelist.append(AnotherElemendId)
+energySrf = UnwrapElement(IN[0])
+OUT = energySrf.GetAnalyticalOpenings()
 ```
-- List (Capital L), which is a data-type native to the .NET languages.
-One of the main differences, is that when a .NET List is created, you declare what type of objects it will hold, and later it will enforce it.
-Although it’s also a container, the 2 list types are completely different data-types, so how you add/delete/retrieve/iterate will change.
-The List type is not native to Python/Ironpython, so before you can use it, you have to import it from the .NET Collections assembly:
-```python
-from System.Collections.Generic import List
-# Imports List type from .NET's Collections.Generic Namespace
-somelist = List[Autodesk.Revit.DB.ElementId]()
-# Creates an empty List container that can hold only ElementIds
-somelist.Add(SomeElementId)
-somelist.Add(AnotherElementId)
-# Adds ElementIds to the List
-```
-- If you try to add any object that is not an ElementId, it will raise an exception.
-- Generally, you can/should use Python lists if you are just manipulating data, iterating, etc - they are more flexible, easier to use, and native to Python.
-- When working with the Revit API, there instances when you are asked to pass lists/collections of objects.
-- In those cases, you have to create a List that holds the required type first.
-For example, if you want to create a FilledRegion, Revit asks you to pass a List of CurveLoops, so you have to create a List[CurveLoop](), and add your CurveLoop objects.
+<div id="imageContainer2"></div>
 
-
-## [How to load external Python modules?](https://forum.dynamobim.com/t/how-to-load-external-python-modules/5678)
-```python
-import sys
-sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\DLLs')
-sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
-import sqlite3
-import xml
-```
-
-## [Why is it that Code blocks execute faster than set of standard nodes?](https://forum.dynamobim.com/t/dynamo-nodes-vs-code-block-who-is-faster/691/4)
-f you open a .dyn file with a text editor, you’ll see that each node balloon is represented by a unique id, contents and 2D coordinates. So when you have a complex chain of code balloons, every time you run your definition, dynamo has to act like a miniature database and an assembler in the background, has to figure out what content is connected to what, sort it and combine it and then finally execute the code.
-
+# T
+## Execution Time
 ## [timeit](https://www.geeksforgeeks.org/timeit-python-examples/)
 ```python
 import sys
@@ -353,75 +442,5 @@ myList = list()
 # timeit statement
 OUT = timeit.timeit(setup = mysetup, stmt = mycode, number = 10000)*1000
 ```
-
-
-Iterate through list??
-
-GetSymbolGeometry vs GetInstanceGeometry??
-
-FilteredElementCollector
-ofType -> crl....
-
-
-
-
-
-<script>  
-var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
-
-svg1 = d3.select("#imageContainer1").append("svg")
-    .attr("width",  width + "px")
-    .attr("height", height + "px");
-
-svg1.append("rect")
-    .attr("class", "overlay")
-    .attr("width", width + "px")
-    .attr("height", height + "px");
-
-svg1 = svg1.append("g")
-    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
-  .append("g");
-
-svg1.append("image")
-    .attr("width",  imgWidth + "px")
-    .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/images/pyRevitAPI_1.png");
-
-function zoom() {
-  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
-  }
-  </script>    
-
-<script>  
-var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
-
-svg2 = d3.select("#imageContainer2").append("svg")
-    .attr("width",  width + "px")
-    .attr("height", height + "px");
-
-svg2.append("rect")
-    .attr("class", "overlay")
-    .attr("width", width + "px")
-    .attr("height", height + "px");
-
-svg2 = svg2.append("g")
-    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
-  .append("g");
-
-svg2.append("image")
-    .attr("width",  imgWidth + "px")
-    .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/images/pyRevitAPI_2.png");
-
-function zoom() {
-  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
-  }
-  </script>    
+## [Why is it that Code blocks execute faster than set of standard nodes?](https://forum.dynamobim.com/t/dynamo-nodes-vs-code-block-who-is-faster/691/4)
+f you open a .dyn file with a text editor, you’ll see that each node balloon is represented by a unique id, contents and 2D coordinates. So when you have a complex chain of code balloons, every time you run your definition, dynamo has to act like a miniature database and an assembler in the background, has to figure out what content is connected to what, sort it and combine it and then finally execute the code.
