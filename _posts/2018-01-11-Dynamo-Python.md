@@ -16,10 +16,16 @@ title: Revit API using Python - Dictionary
 
 # Index
 [A](#A)
-[B](#B)
-[C](#C)
-[Geometry Objects Conversion](#Geometry Objects Conversion)
 
+[B](#B)
+
+[C](#C)
+
+[Geometry Objects Conversion](#geoObj)
+
+[D](#D)
+
+[Revit Document/Application](#doc)
 
 # A
 
@@ -27,6 +33,7 @@ title: Revit API using Python - Dictionary
 ## Best practice
 
 # C
+<a name="geoObj"></a>
 ## Geometry Objects Conversion
 - All Geometry coming out of Dynamo Nodes are NOT Revit GeometryObject's, so they need to be converted when used with the Revit API.
 - Dynamo represents all Geometry in meters, while Revit uses feet. 
@@ -85,7 +92,9 @@ BoundingBox.ToRevitType() > BoundingBoxXYZ
 
   
   
+  
 # D
+<a name="doc"></a>
 ## Revit Document/Application
 ```python
 import clr
