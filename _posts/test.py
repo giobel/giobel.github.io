@@ -1,8 +1,14 @@
-clr.AddReference("RevitAPI")
-import Autodesk
-from Autodesk.Revit.DB import Wall
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
 
-W
+e = Point.ByCoordinates(0,0,0)
+
+
+
+varia = "cc"
+
+OUT = e
 
 
 
