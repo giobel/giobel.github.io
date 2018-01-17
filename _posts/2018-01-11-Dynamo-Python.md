@@ -14,11 +14,14 @@ title: Revit API using Python - Dictionary
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
-#Credits
+# Credits
 ## teocomi
+[teocomi.com](http://teocomi.com/)
 
 ## Gui Talarico
 [Untangling Python: A Crash Course on Dynamo‘s Python Node](http://au.autodesk.com/au-online/classes-on-demand/class-catalog/classes/year-2017/dynamo-studio/as124816-l#chapter=0)
+
+[github](https://github.com/gtalarico)
 
 
 # Index
