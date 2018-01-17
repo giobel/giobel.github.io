@@ -21,29 +21,43 @@ title: Revit API using Python - Dictionary
 
 [C](#C)
 
-[Geometry Objects Conversion](#geoObj)
+[Geometry Objects Conversion](#geometry-objects-conversion)
 
 [D](#D)
 
-[Revit Document/Application](#doc)
+[Revit Document/Application](#revit-document/application)
 
 [E](#D)
-[Elements](#elements)
+- [Elements](#elements)
 
 [F](#F)
+- [Filtered Element Collector](#filtered-element-collector)
+- [Passing Functions to Python](#passing-functions-to-python)
+- [Passing Python Nodes as Functions](#passing-python-nodes-as-functions)
 
-[Filtered Element Collector](#fec)
+[G](#G)
+- [Accessing Geometry](#accessing-geometry)
 
-[Passing Functions to Python](#pFp)
+[I](#I)
+- [Ironpython](#ironpython)
+- [Imports](#imports)
+[L](#L)
+- [List](#list)
+[M](#M)
+- [Migrations](#migrations)
+[R](#R)
+- [Revitlookup](#revitlookup)
+[T](#T)
+- [Transactions](#transactions)
 
-[Passing Python Nodes as Functions](#passing-python-nodes-as-functions)
+
+
 # A
 
 # B
 ## Best practice
 
 # C
-<a name="geoObj"></a>
 ## Geometry Objects Conversion
 - All Geometry coming out of Dynamo Nodes are NOT Revit GeometryObject's, so they need to be converted when used with the Revit API.
 - Dynamo represents all Geometry in meters, while Revit uses feet. 
@@ -105,7 +119,6 @@ BoundingBox.ToRevitType() > BoundingBoxXYZ
   
 
 # D
-<a name="doc"></a>
 ## Revit Document/Application
 ```python
 import clr
@@ -120,7 +133,6 @@ app = uiapp.Application
 ```
 
 # E
-<a name="elements"></a>
 ## Elements
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace.
 
@@ -158,15 +170,12 @@ OUT = cbp.ToDSType(false)
 ```
 
 # F
-<a name="fec"></a>
 ## Filtered Element Collector
 ```python
 result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
 ```
-<a name="pFp"></a>
 ## Passing Functions to Python
 Currently, passing functions to Python scripts through Dynamo is not supported in 0.7.x. This capability will be returning some time in the future.
-<a name="pPn"></a>
 ## Passing Python Nodes as Functions
 Currently, passing Python nodes to other nodes as functions is not supported in 0.7.x. This capability will be returning some time in the future.
 
