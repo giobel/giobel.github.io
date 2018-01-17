@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revit API using Python
+title: Revit API using Python - Dictionary 
 ---
 <style>
 
@@ -13,6 +13,61 @@ title: Revit API using Python
 <script src="//code.jquery.com/jquery.js"></script>
 
 <script src="//d3js.org/d3.v3.min.js"></script>
+
+# A
+
+# I
+## Ironpython
+An implementation of the python language specification created by microsoft, written in C#. The C# implementation allows it to use the Common Language Runtime (clr) to talk directly to other .NET applications and libraries. This language interoperability has made Ironpython a popular embedded-scripting-language .
+
+## Imports
+load additional functionality into your code
+* importing modules within Dynamo requires additional code 
+```python
+import clr
+clr.AddReference("ProtoGeometry")
+from Autodesk.DesignScript.Geometry import *
+```
+- imports the *Common Language Runtime* module
+- load .NET dll references (must be used to enable libraries that are not native python libraries).
+The python template adds a reference to 'ProtoGeometry'. The actual library is stored here: "C:\Program Files\Dynamo\Dynamo Core\1.3\ProtoCore.dll"
+- Once 'ProtoGeometry' has been added, we load things from the DesignScript library.
+### Revit API references.
+All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace:
+```python
+import clr
+# Import RevitNodes
+clr.AddReference("RevitNodes")
+import Revit
+# Import types we need. Instead of listing individual types,
+# you can do 'from Revit.Elements import *'
+from Revit.Elements import CurveByPoints, ReferencePoint
+```
+If you would prefer to use the RevitAPI directly, you will need to unwrap the Element before operating on it, use our TransactionManager to ensure that you're operating inside of a RevitAPI Transaction, and wrap any Element you wish to return.
+```python
+import clr
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import *
+clr.AddReference("RevitAPIUI")
+from Autodesk.Revit.UI import TaskDialog
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+```
+
+
+
+
+
+
+
+
+
 
 Using the [RevitLookup](https://github.com/jeremytammik/RevitLookup) add-in by Jeremy Tammik we can access all the properties and methods available for a Selected Element, the DB or the Active View:
 
