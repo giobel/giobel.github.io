@@ -446,10 +446,12 @@ OUT = timeit.timeit(setup = mysetup, stmt = mycode, number = 10000)*1000
 ```
 ## Codeblock execution time
 [Why is it that Code blocks execute faster than set of standard nodes?](https://forum.dynamobim.com/t/dynamo-nodes-vs-code-block-who-is-faster/691/4)
-f you open a .dyn file with a text editor, you’ll see that each node balloon is represented by a unique id, contents and 2D coordinates. So when you have a complex chain of code balloons, every time you run your definition, dynamo has to act like a miniature database and an assembler in the background, has to figure out what content is connected to what, sort it and combine it and then finally execute the code.
+
+If you open a .dyn file with a text editor, you’ll see that each node balloon is represented by a unique id, contents and 2D coordinates. So when you have a complex chain of code balloons, every time you run your definition, dynamo has to act like a miniature database and an assembler in the background, has to figure out what content is connected to what, sort it and combine it and then finally execute the code.
 ## Template
 Radu Gidei: Adding a Python template that can be used to populate any Python Script nodes when adding to workspace.
 [https://github.com/DynamoDS/Dynamo/pull/8122](https://github.com/DynamoDS/Dynamo/pull/8122)
+
 **Due to come out in version 2.0**
 
 
