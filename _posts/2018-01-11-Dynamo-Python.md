@@ -14,6 +14,13 @@ title: Revit API using Python - Dictionary
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
+#Credits
+## teocomi
+
+## Gui Talarico
+[Untangling Python: A Crash Course on Dynamo‘s Python Node](http://au.autodesk.com/au-online/classes-on-demand/class-catalog/classes/year-2017/dynamo-studio/as124816-l#chapter=0)
+
+
 # Index
 [A](#A)
 
@@ -135,7 +142,6 @@ BoundingBox.ToRevitType() > BoundingBoxXYZ
 ## Revit Document/Application
 ```python
 import clr
-
 # Import DocumentManager
 clr.AddReference("RevitServices")
 import RevitServices
@@ -144,6 +150,21 @@ doc = DocumentManager.Instance.CurrentDBDocument
 uiapp = DocumentManager.Instance.CurrentUIApplication
 app = uiapp.Application
 ```
+## dir()
+prints methods and attributes
+```python
+OUT = dir(FilteredElementCollector)
+```
+## __doc__
+shows docstring of class or function
+```python
+OUT = FilteredElementCollector.__doc__
+```
+This class is used to search, filter and iterate through a set of elements.
+FilteredElementCollector(document: Document, viewId: ElementId)
+FilteredElementCollector(document: Document, elementIds: ICollection[ElementId])
+FilteredElementCollector(document: Document)
+
 
 # E
 ## Elements
