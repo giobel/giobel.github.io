@@ -18,22 +18,22 @@
         <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="617">
-                <caret line="449" column="91" lean-forward="false" selection-start-line="449" selection-start-column="91" selection-end-line="449" selection-end-column="91" />
+              <first_editor relative-caret-position="226">
+                <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
                 <folding>
-                  <element signature="e#1278#1281#0" expanded="false" />
-                  <element signature="e#1300#1303#0" expanded="false" />
-                  <element signature="e#3080#3083#0" expanded="false" />
-                  <element signature="e#3402#3405#0" expanded="false" />
-                  <element signature="e#4830#4833#0" expanded="false" />
-                  <element signature="e#5366#5369#0" expanded="false" />
-                  <element signature="e#5819#5822#0" expanded="false" />
-                  <element signature="e#8311#8314#0" expanded="false" />
-                  <element signature="e#12422#12424#0" expanded="false" />
-                  <element signature="e#12534#12537#0" expanded="false" />
-                  <element signature="e#14327#14393#0" expanded="false" />
-                  <element signature="e#15573#15576#0" expanded="false" />
-                  <element signature="e#17033#17036#0" expanded="false" />
+                  <element signature="e#1184#1187#0" expanded="false" />
+                  <element signature="e#1206#1209#0" expanded="false" />
+                  <element signature="e#2986#2989#0" expanded="false" />
+                  <element signature="e#3308#3311#0" expanded="false" />
+                  <element signature="e#4736#4739#0" expanded="false" />
+                  <element signature="e#5272#5275#0" expanded="false" />
+                  <element signature="e#5725#5728#0" expanded="false" />
+                  <element signature="e#8217#8220#0" expanded="false" />
+                  <element signature="e#12328#12330#0" expanded="false" />
+                  <element signature="e#12440#12443#0" expanded="false" />
+                  <element signature="e#14233#14299#0" expanded="false" />
+                  <element signature="e#15504#15507#0" expanded="false" />
+                  <element signature="e#16964#16967#0" expanded="false" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -534,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516190591939</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="python dictionary">
+      <created>1516190951502</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1516190951502</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,19 +589,19 @@
           <first_editor relative-caret-position="4539">
             <caret line="267" column="2" lean-forward="false" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -615,19 +622,19 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -640,19 +647,19 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -679,19 +686,19 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -711,19 +718,19 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -753,19 +760,19 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -936,22 +943,22 @@
     <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="617">
-            <caret line="449" column="91" lean-forward="false" selection-start-line="449" selection-start-column="91" selection-end-line="449" selection-end-column="91" />
+          <first_editor relative-caret-position="226">
+            <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
             <folding>
-              <element signature="e#1278#1281#0" expanded="false" />
-              <element signature="e#1300#1303#0" expanded="false" />
-              <element signature="e#3080#3083#0" expanded="false" />
-              <element signature="e#3402#3405#0" expanded="false" />
-              <element signature="e#4830#4833#0" expanded="false" />
-              <element signature="e#5366#5369#0" expanded="false" />
-              <element signature="e#5819#5822#0" expanded="false" />
-              <element signature="e#8311#8314#0" expanded="false" />
-              <element signature="e#12422#12424#0" expanded="false" />
-              <element signature="e#12534#12537#0" expanded="false" />
-              <element signature="e#14327#14393#0" expanded="false" />
-              <element signature="e#15573#15576#0" expanded="false" />
-              <element signature="e#17033#17036#0" expanded="false" />
+              <element signature="e#1184#1187#0" expanded="false" />
+              <element signature="e#1206#1209#0" expanded="false" />
+              <element signature="e#2986#2989#0" expanded="false" />
+              <element signature="e#3308#3311#0" expanded="false" />
+              <element signature="e#4736#4739#0" expanded="false" />
+              <element signature="e#5272#5275#0" expanded="false" />
+              <element signature="e#5725#5728#0" expanded="false" />
+              <element signature="e#8217#8220#0" expanded="false" />
+              <element signature="e#12328#12330#0" expanded="false" />
+              <element signature="e#12440#12443#0" expanded="false" />
+              <element signature="e#14233#14299#0" expanded="false" />
+              <element signature="e#15504#15507#0" expanded="false" />
+              <element signature="e#16964#16967#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
