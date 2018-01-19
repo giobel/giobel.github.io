@@ -24,34 +24,34 @@ title: Revit API using Python - Dictionary
 
 
 # Index
-[A](#A)
+[A](#a)
 
-[B](#B)
+[B](#b)
 
-[C](#C)
+[C](#c)
 
 [Geometry Objects Conversion](#geometry-objects-conversion)
 
-[D](#D)
+[D](#d)
 
 [Revit Document/Application](#revit-document/application)
 
-[E](#D)
+[E](#e)
 - [Elements](#elements)
 
-[F](#F)
+[F](#f)
 - [Filtered Element Collector](#filtered-element-collector)
 - [Passing Functions to Python](#passing-functions-to-python)
 - [Passing Python Nodes as Functions](#passing-python-nodes-as-functions)
 
-[G](#G)
+[G](#g)
 - [Accessing Geometry](#accessing-geometry)
 
-[I](#I)
+[I](#i)
 - [Ironpython](#ironpython)
 - [Imports](#imports)
 
-[L](#L)
+[L](#l)
 - [List](#list)
 
 [M](#M)
@@ -211,6 +211,7 @@ Select all the Elements and Element Types Class:
 ```python
 FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls)
 ```
+Gives a list of class as output:
 <img src="/images/collections1.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
 
 ```python
