@@ -4,6 +4,7 @@
     <list default="true" id="a20c8df7-2019-474c-90cd-a8da6862d6d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" afterPath="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" />
+      <change beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,25 +18,33 @@
       <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="408">
-                <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="284">
+                <caret line="209" column="47" lean-forward="false" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
                 <folding>
-                  <element signature="e#1478#1481#0" expanded="false" />
-                  <element signature="e#1500#1503#0" expanded="false" />
-                  <element signature="e#4058#4061#0" expanded="false" />
-                  <element signature="e#5486#5489#0" expanded="false" />
-                  <element signature="e#6022#6025#0" expanded="false" />
-                  <element signature="e#6475#6478#0" expanded="false" />
-                  <element signature="e#8967#8970#0" expanded="false" />
-                  <element signature="e#13078#13080#0" expanded="false" />
-                  <element signature="e#13190#13193#0" expanded="false" />
-                  <element signature="e#14983#15049#0" expanded="false" />
-                  <element signature="e#16257#16260#0" expanded="false" />
-                  <element signature="e#17717#17720#0" expanded="false" />
+                  <element signature="e#1457#1460#0" expanded="false" />
+                  <element signature="e#1479#1482#0" expanded="false" />
+                  <element signature="e#4037#4040#0" expanded="false" />
+                  <element signature="e#6459#6462#0" expanded="false" />
+                  <element signature="e#9469#9472#0" expanded="false" />
+                  <element signature="e#13580#13582#0" expanded="false" />
+                  <element signature="e#13692#13695#0" expanded="false" />
+                  <element signature="e#15485#15551#0" expanded="false" />
+                  <element signature="e#16759#16762#0" expanded="false" />
+                  <element signature="e#18219#18222#0" expanded="false" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,21 +53,8 @@
         <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="537">
-                <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-12-24-JavaNotes.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1887">
-                <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="18" />
+              <first_editor relative-caret-position="520">
+                <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -71,7 +67,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="510">
-                <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+                <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,18 +109,18 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/2017-09-13-DoesNotMatter.md" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/2018-01-10-SetExistingFilterValues.md" />
         <option value="$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1216" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,11 +150,6 @@
             <path>
               <item name="_posts" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="_posts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (giobelBlog) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -199,6 +190,24 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\giovanni.brogiolo\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="_posts" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -561,23 +570,30 @@
       <option name="project" value="LOCAL" />
       <updated>1516197744948</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="python dictionary">
+      <created>1516198716424</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1516198716424</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31793478" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1287594" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298872" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,24 +619,85 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1904">
+            <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1887">
+            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="4539">
             <caret line="267" column="2" lean-forward="false" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -641,18 +718,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -665,18 +740,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -703,18 +776,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -734,18 +805,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -775,18 +844,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -891,20 +958,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018-01-10-SetExistingFilterValues.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="85">
             <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -915,9 +973,27 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="615">
+            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +1001,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="510">
-            <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -935,19 +1011,8 @@
     <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="537">
-            <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1887">
-            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="18" />
+          <first_editor relative-caret-position="520">
+            <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />
@@ -956,22 +1021,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="284">
+            <caret line="209" column="47" lean-forward="false" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
             <folding>
-              <element signature="e#1478#1481#0" expanded="false" />
-              <element signature="e#1500#1503#0" expanded="false" />
-              <element signature="e#4058#4061#0" expanded="false" />
-              <element signature="e#5486#5489#0" expanded="false" />
-              <element signature="e#6022#6025#0" expanded="false" />
-              <element signature="e#6475#6478#0" expanded="false" />
-              <element signature="e#8967#8970#0" expanded="false" />
-              <element signature="e#13078#13080#0" expanded="false" />
-              <element signature="e#13190#13193#0" expanded="false" />
-              <element signature="e#14983#15049#0" expanded="false" />
-              <element signature="e#16257#16260#0" expanded="false" />
-              <element signature="e#17717#17720#0" expanded="false" />
+              <element signature="e#1457#1460#0" expanded="false" />
+              <element signature="e#1479#1482#0" expanded="false" />
+              <element signature="e#4037#4040#0" expanded="false" />
+              <element signature="e#6459#6462#0" expanded="false" />
+              <element signature="e#9469#9472#0" expanded="false" />
+              <element signature="e#13580#13582#0" expanded="false" />
+              <element signature="e#13692#13695#0" expanded="false" />
+              <element signature="e#15485#15551#0" expanded="false" />
+              <element signature="e#16759#16762#0" expanded="false" />
+              <element signature="e#18219#18222#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />

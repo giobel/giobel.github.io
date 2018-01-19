@@ -15,13 +15,12 @@ title: Revit API using Python - Dictionary
 <script src="//d3js.org/d3.v3.min.js"></script>
 
 # Credits
-## teocomi
+
 [teocomi.com](http://teocomi.com/)
 
-## Gui Talarico
 [Untangling Python: A Crash Course on Dynamo‘s Python Node](http://au.autodesk.com/au-online/classes-on-demand/class-catalog/classes/year-2017/dynamo-studio/as124816-l#chapter=0)
 
-[github](https://github.com/gtalarico)
+[guiTalarico](https://github.com/gtalarico)
 
 
 # Index
@@ -208,6 +207,20 @@ OUT = cbp.ToDSType(false)
 
 # F
 ## Filtered Element Collector
+Select all the Elements and Element Types Class:
+```python
+FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls)
+```
+<img src="/images/collections1.PNG" width="720">
+
+```python
+walls = FilteredElementCollector(doc).OfClass(Wall)
+```
+
+
+walls2 = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType()
+walls3 = FilteredElementCollector(doc).OfClass(Wall).WhereElementIsNotElementType().ToElements()
+```
 ```python
 result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
 ```
@@ -251,7 +264,7 @@ import clr
 clr.AddReference("ProtoGeometry")
 from Autodesk.DesignScript.Geometry import *
 ```
-- imports the *Common Language Runtime* module
+- imports the *Common Language Runtime* module (glue between Python and the .NET world, it allows to load .dll)
 - load .NET dll references (must be used to enable libraries that are not native python libraries).
 The python template adds a reference to 'ProtoGeometry'. The actual library is stored here: "C:\Program Files\Dynamo\Dynamo Core\1.3\ProtoCore.dll"
 - Once 'ProtoGeometry' has been added, we load things from the DesignScript library.

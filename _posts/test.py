@@ -1,16 +1,15 @@
 import clr
-clr.AddReference('ProtoGeometry')
-from Autodesk.DesignScript.Geometry import *
 
-e = Point.ByCoordinates(0,0,0)
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import FilteredElementCollector, BuiltInCategory
 
-Autodesk.
+clr.AddReference("RevitServices")
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
 
-
-varia = "cc"
-
-OUT = e
-
-
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
 
 
+doors = FilteredElementCollector(doc).OfCategory
