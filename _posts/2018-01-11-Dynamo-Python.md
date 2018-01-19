@@ -212,7 +212,7 @@ Select all the Elements and Element Types Class:
 FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls)
 ```
 <img src="/images/collections1.PNG" width="400">
-
+<img src="/images/itDoesNotMatter/Slide1.PNG" width="720">
 ```python
 walls = FilteredElementCollector(doc).OfClass(Wall)
 ```
