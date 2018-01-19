@@ -30,6 +30,7 @@ title: Revit API using Python - Dictionary
 
 [C](#c)
 
+[CurveLoop()](#curveloop())
 [Geometry Objects Conversion](#geometry-objects-conversion)
 
 [D](#d)
@@ -54,24 +55,24 @@ title: Revit API using Python - Dictionary
 [L](#l)
 - [List](#list)
 
-[M](#M)
+[M](#m)
 - [Migrations](#migrations)
 
-[R](#R)
+[R](#r)
 - [Revitlookup](#revitlookup)
 
-[T](#T)
+[T](#t)
 - [Transactions](#transactions)
 - [Execution Time](#execution-time)
 - [timeit](#[timeit](https://www.geeksforgeeks.org/timeit-python-examples/))
 - [codeblock speed](#codeblock-execution-time)
 - [Python Template](#template)
 
-[U](#U)
+[U](#u)
 - [Units](#units)
 - [Unwrapping](#unwrapping)
 
-[W](#W)
+[W](#w)
 - [Wrapping](#wrapping)
 
 # A
@@ -80,6 +81,29 @@ title: Revit API using Python - Dictionary
 ## Best practice
 
 # C
+## CurveLoop()
+```python
+TransactionManager.Instance.EnsureInTransaction(doc)
+pts = UnwrapElement(IN[0])
+innerPts = UnwrapElement(IN[1])
+frt = UnwrapElement(IN[2])
+profileLoops = []
+outerProfileLoop = CurveLoop()
+#innerProfileLoop = CurveLoop()
+profileLoops.Add(outerProfileLoop)
+#profileLoops.Add(innerProfileLoop)
+#create filled region
+for i in range(0,len(pts)-1):
+	outerProfileLoop.Append(Autodesk.Revit.DB.Line.CreateBound(XYZ(pts[i].X,pts[i].Y,pts[i].Z),XYZ(pts[i+1].X,pts[i+1].Y,pts[i+1].Z)))
+for j in range(0,len(innerPts)):
+	innerProfileLoop = CurveLoop()
+	profileLoops.Add(innerProfileLoop)
+	for i in range(0,len(innerPts[j])-1):
+		innerProfileLoop.Append(Autodesk.Revit.DB.Line.CreateBound(XYZ(innerPts[j][i].X,innerPts[j][i].Y,innerPts[j][i].Z),XYZ(innerPts[j][i+1].X,innerPts[j][i+1].Y,innerPts[j][i+1].Z)))
+region = FilledRegion.Create(doc,frt[0].Id,activeViewId,profileLoops)
+regions.Add(region)
+TransactionManager.Instance.TransactionTaskDone()
+```
 ## Geometry Objects Conversion
 - All Geometry coming out of Dynamo Nodes are NOT Revit GeometryObject's, so they need to be converted when used with the Revit API.
 - Dynamo represents all Geometry in meters, while Revit uses feet. 
@@ -131,14 +155,6 @@ CoordinateSystem.ToTransform() > Transform
 CoordinateSystem.ToRevitBoundingBox() > BoundingBoxXYZ
 BoundingBox.ToRevitType() > BoundingBoxXYZ
 ```
-
-
-
-
-
-  
-  
-  
 
 # D
 ## Revit Document/Application
@@ -234,6 +250,25 @@ result = FilteredElementCollector(doc).OfClass(Wall).WhereElementIsNotElementTyp
 ```
 <img src="/images/collections3.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
 
+```python
+TransactionManager.Instance.EnsureInTransaction(doc)
+for filter in filterElements:
+	oldRules = filter.GetRules()
+	filterRules = List[Autodesk.Revit.DB.FilterRule]()
+	for fdr in oldRules:
+		ruleType.append(fdr.GetEvaluator().GetType())
+		filterNames.append(filter.Name)
+		if fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringLess)):
+			filterRules.Add(ParameterFilterRuleFactory.CreateLessRule(filter.GetRuleParameters()[0], setValue, True))
+		elif fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringEquals)):
+			filterRules.Add(ParameterFilterRuleFactory.CreateEqualsRule(filter.GetRuleParameters()[0], setValue, True))
+		elif fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringGreater)):
+			filterRules.Add(ParameterFilterRuleFactory.CreateGreaterRule(filter.GetRuleParameters()[0], setValue, True))
+		else:
+			break
+		filter.SetRules(filterRules);
+TransactionManager.Instance.TransactionTaskDone()
+```
 ## Passing Functions to Python
 Currently, passing functions to Python scripts through Dynamo is not supported in 0.7.x. This capability will be returning some time in the future.
 ## Passing Python Nodes as Functions
