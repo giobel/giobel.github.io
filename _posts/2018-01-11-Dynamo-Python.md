@@ -207,24 +207,33 @@ OUT = cbp.ToDSType(false)
 
 # F
 ## Filtered Element Collector
-Select all the Elements and Element Types Class:
 ```python
-FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls)
+result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls)
 ```
-Gives a list of class as output:
+Gives a list of both element and type classes as output:
 <img src="/images/collections1.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
-
 ```python
-walls = FilteredElementCollector(doc).OfClass(Wall)
+result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType()
 ```
-
-
-walls2 = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType()
-walls3 = FilteredElementCollector(doc).OfClass(Wall).WhereElementIsNotElementType().ToElements()
-```
+Gives a list of element class as output:
+<img src="/images/collections2.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
 ```python
 result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
 ```
+ToElements() retrieves the element:
+<img src="/images/collections3.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
+
+Same applies for the OfClass collector
+```python
+result = FilteredElementCollector(doc).OfClass(Wall)
+```
+<img src="/images/collections2.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
+
+```python
+result = FilteredElementCollector(doc).OfClass(Wall).WhereElementIsNotElementType().ToElements()
+```
+<img src="/images/collections3.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
+
 ## Passing Functions to Python
 Currently, passing functions to Python scripts through Dynamo is not supported in 0.7.x. This capability will be returning some time in the future.
 ## Passing Python Nodes as Functions
