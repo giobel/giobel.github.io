@@ -315,7 +315,7 @@ function zoom() {
   
   <script>  
 var imgHeight = 635, imgWidth = 720,      
-    width =  960, height = 385,             
+    width =  720, height = 385,             
     translate0 = [0, 0], scale0 = 1;  
 
 svg3 = d3.select("#imageContainer3").append("svg")
