@@ -1,13 +1,25 @@
 ---
 layout: page
-title: doc_setTagLeaders
+title: Create Pipes from Lines
 ---
 
-<img src="/scripts/img/dwgToPipes.gif" width="720">
+<style>
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+    </style>
+    
+<script src="//code.jquery.com/jquery.js"></script>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
 
 This script will convert a set of detail lines into placeholders and will assign the correct connector (elbows, tees or cross) at every junction. The placeholders can then be converted into pipes using the apposite toolbar command in Revit:
 
-<img src="/scripts/img/pipes1.PNG" width="720">
+<img src="/scripts/img/dwgToPipes.gif" width="720">
+
+<img src="/images/pipes1.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
 The OrganisePipe node organises the lines in line with elbows, with tees and with crosses and gives their index position as output. 
 
