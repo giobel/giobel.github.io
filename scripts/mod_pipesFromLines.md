@@ -15,9 +15,11 @@ title: Create Pipes from Lines
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
-This script will convert a set of detail lines into placeholders and will assign the correct connector (elbows, tees or cross) at every junction. The placeholders can then be converted into pipes using the apposite toolbar command in Revit:
+This script will convert a set of detail lines into placeholders and will assign the correct connector (elbows, tees or cross) at every junction. 
 
 <img src="/scripts/img/dwgToPipes.gif" width="720">
+
+The placeholders can then be converted into pipes using the apposite toolbar command in Revit:
 
 <img src="/scripts/img/pipes1.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
@@ -63,7 +65,7 @@ svg1 = svg1.append("g")
 svg1.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/scripts/img/pipes3.png");
+    .attr("xlink:href", "/scripts/img/pipes3.PNG");
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
@@ -72,8 +74,8 @@ function zoom() {
   </script>    
   
   <script>  
-var imgHeight = 635, imgWidth = 720,      
-    width =  720, height = 385,             
+var imgHeight = 800, imgWidth = 720,      
+    width =  720, height = 800,             
     translate0 = [0, 0], scale0 = 1;  
 
 svg2 = d3.select("#imageContainer2").append("svg")
@@ -102,8 +104,8 @@ function zoom() {
   </script>    
   
   <script>  
-var imgHeight = 635, imgWidth = 720,      
-    width =  720, height = 385,             
+var imgHeight = 800, imgWidth = 720,      
+    width =  720, height = 800,             
     translate0 = [0, 0], scale0 = 1;  
 
 svg3 = d3.select("#imageContainer3").append("svg")
@@ -132,8 +134,8 @@ function zoom() {
   </script>    
 
 <script>  
-var imgHeight = 635, imgWidth = 720,      
-    width =  720, height = 385,             
+var imgHeight = 800, imgWidth = 720,      
+    width =  720, height = 800,             
     translate0 = [0, 0], scale0 = 1;  
 
 svg4 = d3.select("#imageContainer4").append("svg")
@@ -162,8 +164,8 @@ function zoom() {
   </script>    
 
 <script>  
-var imgHeight = 635, imgWidth = 720,      
-    width =  720, height = 385,             
+var imgHeight = 800, imgWidth = 720,      
+    width =  720, height = 800,             
     translate0 = [0, 0], scale0 = 1;  
 
 svg5 = d3.select("#imageContainer5").append("svg")
