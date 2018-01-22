@@ -234,7 +234,7 @@ result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).Whe
 Gives a list of element class as output:
 <img src="/images/collections2.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
 ```python
-result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Revisions).WhereElementIsNotElementType().ToElements()
+result = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType().ToElements()
 ```
 ToElements() retrieves the element:
 <img src="/images/collections3.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">

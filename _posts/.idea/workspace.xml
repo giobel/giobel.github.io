@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20c8df7-2019-474c-90cd-a8da6862d6d0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" afterPath="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,22 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="17">
-                <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+              <first_editor relative-caret-position="694">
+                <caret line="245" column="110" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="110" />
                 <folding>
                   <element signature="e#1485#1488#0" expanded="false" />
                   <element signature="e#5016#5019#0" expanded="false" />
-                  <element signature="e#9053#9056#0" expanded="false" />
-                  <element signature="e#12063#12066#0" expanded="false" />
-                  <element signature="e#16174#16176#0" expanded="false" />
-                  <element signature="e#16286#16289#0" expanded="false" />
-                  <element signature="e#18079#18145#0" expanded="false" />
-                  <element signature="e#19353#19356#0" expanded="false" />
-                  <element signature="e#20813#20816#0" expanded="false" />
+                  <element signature="e#9049#9052#0" expanded="false" />
+                  <element signature="e#12059#12062#0" expanded="false" />
+                  <element signature="e#16170#16172#0" expanded="false" />
+                  <element signature="e#16282#16285#0" expanded="false" />
+                  <element signature="e#18075#18141#0" expanded="false" />
+                  <element signature="e#19349#19352#0" expanded="false" />
+                  <element signature="e#20809#20812#0" expanded="false" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -36,12 +38,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
-              <folding />
+      <file leaf-file-name="2018-01-22-FromDynamoToMacro.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="435">
+                <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -51,7 +56,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="102">
-                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
+                <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -59,12 +64,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-01-12-Dynamo-Python-Example.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md">
+      <file leaf-file-name="2017-12-19-D3jsPanZoom.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2017-12-19-D3jsPanZoom.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-12-19-Test1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2017-12-19-Test1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-12-20-TestImage.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2017-12-20-TestImage.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="714">
+                <caret line="51" column="11" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="51" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,6 +141,7 @@
         <option value="$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/2018-01-11-Dynamo-Python.md" />
+        <option value="$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md" />
       </list>
     </option>
   </component>
@@ -135,8 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +182,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515686645489</updated>
-    </task>
-    <task id="LOCAL-00008" summary="updated pyRevit">
-      <created>1515851639587</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1515851639587</updated>
     </task>
     <task id="LOCAL-00009" summary="updated pyRevit">
       <created>1515857914603</created>
@@ -581,20 +606,27 @@
       <option name="project" value="LOCAL" />
       <updated>1516374150179</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="python dictionary">
+      <created>1516470900679</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1516470900679</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1287594" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298872" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,6 +655,57 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <element signature="e#1485#1488#0" expanded="false" />
+              <element signature="e#5016#5019#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -642,13 +725,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -690,13 +773,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -743,13 +826,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -772,13 +855,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -793,13 +876,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -828,13 +911,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -856,13 +939,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -894,13 +977,13 @@
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor />
@@ -961,58 +1044,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-19-D3jsPanZoom.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-19-Test1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-20-TestImage.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1796406197/Autodesk/DesignScript/Geometry/Core.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1796406197/DSCore/IO.py" />
-    <entry file="file://$PROJECT_DIR$/2018-01-10-SetExistingFilterValues.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017-12-21-PresentazioneMilano.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2017-12-24-JavaNotes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1031,11 +1064,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-21-PresentazioneMilano.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="48" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-19-D3jsPanZoom.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-19-Test1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-10-SetExistingFilterValues.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
+          <first_editor relative-caret-position="527">
             <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-20-TestImage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="714">
+            <caret line="51" column="11" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="51" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1046,7 +1134,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="102">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
+            <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1056,19 +1144,30 @@
     <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="17">
-            <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+          <first_editor relative-caret-position="694">
+            <caret line="245" column="110" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="110" />
             <folding>
               <element signature="e#1485#1488#0" expanded="false" />
               <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9053#9056#0" expanded="false" />
-              <element signature="e#12063#12066#0" expanded="false" />
-              <element signature="e#16174#16176#0" expanded="false" />
-              <element signature="e#16286#16289#0" expanded="false" />
-              <element signature="e#18079#18145#0" expanded="false" />
-              <element signature="e#19353#19356#0" expanded="false" />
-              <element signature="e#20813#20816#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="435">
+            <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
