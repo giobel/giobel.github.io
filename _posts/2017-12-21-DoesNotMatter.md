@@ -4,6 +4,9 @@ title: it does not matter
 ---
 <script src="video.js"></script>
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQr1N0g2VnwcN9OpqMqRR3FwXQxkIp6gI0_xbNedK5pNtGOQdb6vhxH8lC-V7m6rxSd_PxfoyeDwaZm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 <img src="/images/itDoesNotMatter/Slide1.PNG" width="720">
 <div class="blank"></div> 
 
