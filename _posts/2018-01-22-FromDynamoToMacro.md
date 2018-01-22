@@ -105,11 +105,90 @@ The output will simply be the Task Dialog with the sheet zBS-001 Id:
 
 <img src="/images/macro16.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
+Which is what we were expecting:
 
+<img src="/images/macro17.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
+So now we have all the elements to use the Viewport.Create method:
 
+<img src="/images/macro18.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
+but to use it we need to start a Transaction.
 
+A transaction is a context required in order to make any changes to a Revit model. Only one transaction can be open at a time; nesting is not allowed. Each transaction must have a name, which will be listed on the Undo menu in Revit once a transaction is successfully committed.
+
+For best practice, any transaction should be enclosed in a 'using' block or guarded within a try-catch-finally blocks to guarantee that it does not out-live its scope.
+
+<img src="/images/macro19.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+
+If we build our macro and run it the active view will be placed on the sheet zBS-001 at coordinates (0,0,0):
+
+<img src="/images/macro20.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+
+So how can we ask the user to input the Sheet Number? We need to create a Window Form. [I learned about Window Form from this tutorial by Matthew Nelson](http://www.mattbenimble.com/articles/revit-macro-forms/ ).
+
+Right click on ThisApplication.cs in the left project window, Add, New Item...
+
+<img src="/images/macro21.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+...Form and Create.
+
+<img src="/images/macro22.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Open the Design Form
+
+<img src="/images/macro23.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Open the Tools bar from View:
+
+<img src="/images/macro24.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Click on the Windows Forms folder
+
+<img src="/images/macro25.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+If you leave the custom properties the window will appear at the "WindowsDefaultLocation". We can make it appear at the Centre of the Screen simply selecting this value in the Layout - Start Position field:
+
+<img src="/images/macro26.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Then draw a Label and a Text Box. Select the Label and in the Properties window change the Text to something meaningful.
+
+<img src="/images/macro27.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Then select the text box and check its name ("textBox1") as we will need it later.
+
+    <img src="/images/macro28.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Then let's add two buttons, Ok and Cancel.
+
+    <img src="/images/macro29.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+    <img src="/images/macro30.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+    
+And set their Dialog Result to OK and Cancel respectively. This will close the Form and save or cancel the result.
+
+    <img src="/images/macro31.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Then double click on the OK button. This will open the Source Code of our Form1 and will create a void Button1Click() class. We need to store the Sheet Number that the user will type in the text box into a string:
+
+    <img src="/images/macro32.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">    
+
+We can then go back to ThisApplication.cs and import the System.Windows.Forms library in our code:
+
+    <img src="/images/macro33.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+and place the body of the code we have written so far inside an instance of the Form1:
+
+    <img src="/images/macro34.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+We also need to store the user input into a variable (sheetNumber) that we will use to filter the list of Sheets:
+
+    <img src="/images/macro35.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+Now we can build the macro and test it.
+
+You will notice that if you leave the text box empty or you write a sheet number that does not exists Revit will throw an error:
+
+    <img src="/images/macro36.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 
 
