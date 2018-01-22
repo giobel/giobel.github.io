@@ -19,7 +19,7 @@ This script will convert a set of detail lines into placeholders and will assign
 
 <img src="/scripts/img/dwgToPipes.gif" width="720">
 
-<img src="/images/pipes1.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/scripts/img/pipes1.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
 The OrganisePipe node organises the lines in line with elbows, with tees and with crosses and gives their index position as output. 
 
