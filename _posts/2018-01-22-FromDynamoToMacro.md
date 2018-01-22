@@ -211,11 +211,40 @@ We can personalise the message and make it more meaningful adding these lines of
    
 The first if statement will catch the exception that occurs when the user leave the text box empty. It will show a Task Dialog and display a message. Then it will Roll Back the Transaction and re-execute the macro so the user will be presented the Form Dialog again. We are using the Roll Back not to discard the changes we have made to the model (we haven't made any) but because the Transaction we started in line 80 has not been completed yet and if we re-execute the macro without Roll Back the Transaction we will get this error during the second execution:
 
-   <img src="/images/macro41.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro41.PNG" width="500" style="display:block; margin-left: auto; margin-right: auto;">
 
 The second if statement will deal with the exception arising when the input sheet cannot be found in the Revit sheet list. And the else statement will cover the possibility that the view is already placed on another sheet.
 
 The complete macro can be downloaded from [here](https://drive.google.com/open?id=0BxH7XsYIEQEhX3p0cWp3R0xhWDA).
+
+To convert it into an external add-in we can copy and paste the code in VisualStudio with minor amendments, recreate the form and build it.
+
+Start a new project and select the Revit add-in template:
+
+   <img src="/images/macro42.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+The add-in can be downloaded from [Jeremy Tammik's blog](http://thebuildingcoder.typepad.com/blog/2017/04/revit-2018-visual-studio-c-and-vb-net-add-in-wizards.html)
+
+Replace the highlighted code with the one created in the Revit macro:
+
+   <img src="/images/macro43.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+
+To access the active session of Revit we need to create a new UIApplication and then we can access the project opened:
+
+```python
+UIDocument uidoc = this.ActiveUIDocument;
+```
+becomes:
+```python
+UIApplication uiapp = commandData.Application;
+UIDocument uidoc = uiapp.ActiveUIDocument;
+```
+
+If we follow the same steps as in the macro we will then be able to launch the command fromt the External Tools add-in and to assign a keyboard shortcut to it.
+   
+   <img src="/images/macro44.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   
+
 
 
 
