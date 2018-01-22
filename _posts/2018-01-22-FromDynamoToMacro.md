@@ -65,7 +65,7 @@ The command:
 
 will create a macro called placeActiveView accessible by other macros in this module (public) that will place our view on a sheet without returning any object (void).
 
-<img src="/images/macro9.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/macro9.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 If we build the solution (Build -> Solution or F8) and we close the Sharp Developer we will see that our macro has appeared under the myMacros module. Let's click Edit and go back to Sharp Develop.
 
@@ -89,17 +89,17 @@ Let's now get the sheet where the view will be placed.
 
 In Dynamo we would create a list with all the elements of the Sheets category, retrieve their Sheet Number and find the one that matches the desired one:
 
-<img src="/images/macro13.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/macro13.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 Which is the equivalent of:
 
-<img src="/images/macro14.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/macro14.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 We first create a variable viewSh where the sheet will be stored [49]. Then we use a FilteredElementCollector to select all the sheets in the current project [51]. Then we cycle through them and when the sheet number matches the desired one we append the sheet in our variable [53-58]. We can then visualise the sheet Id in a Task Dialog to double check it's the correct one.
 
 To run the macro we first need to build it (F8) and then run it from the macro manager:
 
-<img src="/images/macro15.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/macro15.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 The output will simply be the Task Dialog with the sheet zBS-001 Id:
 
@@ -107,11 +107,11 @@ The output will simply be the Task Dialog with the sheet zBS-001 Id:
 
 Which is what we were expecting:
 
-<img src="/images/macro17.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/macro17.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 So now we have all the elements to use the Viewport.Create method:
 
-<img src="/images/macro18.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro18.PNG" width="600" style="display:block; margin-left: auto; margin-right: auto;">
 
 but to use it we need to start a Transaction.
 
@@ -119,17 +119,17 @@ A transaction is a context required in order to make any changes to a Revit mode
 
 For best practice, any transaction should be enclosed in a 'using' block or guarded within a try-catch-finally blocks to guarantee that it does not out-live its scope.
 
-<img src="/images/macro19.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro19.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 If we build our macro and run it the active view will be placed on the sheet zBS-001 at coordinates (0,0,0):
 
-<img src="/images/macro20.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro20.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 So how can we ask the user to input the Sheet Number? We need to create a Window Form. [I learned about Window Form from this tutorial by Matthew Nelson](http://www.mattbenimble.com/articles/revit-macro-forms/ ).
 
 Right click on ThisApplication.cs in the left project window, Add, New Item...
 
-<img src="/images/macro21.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro21.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 ...Form and Create.
 
