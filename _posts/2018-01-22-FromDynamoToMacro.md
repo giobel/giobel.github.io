@@ -26,34 +26,34 @@ This workflow is essential to adapt the software to the user needs and stimulati
 
 Let's have a look at this script that places the active view on a selected sheet:
 
-<div id="imageContainer1"></div>
+   <div id="imageContainer1"></div>
 
 All the magic happens in SteamNodes's python script:
 
-<div id="imageContainer2"></div>
+   <div id="imageContainer2"></div>
 
 Reading through the script we can see Viewport.Create which is the instructions that tells Revit to create a new Viewport at a given location on a sheet.
 
 In order to understand how this command works we can go to the [RevitAPIdocs](http://www.revitapidocs.com/) website and search Viewport:
 
-<img src="/images/macro3.PNG" width="250" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro3.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
 You can see that there are two Viewport items: Methods and Class. If you select Viewport Class you will see that methods are a subdirectory of the viewport class (along with members and properties):
 
-<img src="/images/macro4.PNG" width="1051" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro4.PNG" width="1051" style="display:block; margin-left: auto; margin-right: auto;">
 
 In simple words, a class is like a family type and a method is what you can do with that family. In this case you can "Return the center of the outline of the viewport on the sheet, excluding the viewport
 label" (GetBoxCenter) or you can "Move this viewport so that the center of the box outline (excluding the viewport label) is at a given point" (SetBoxCenter). Let's focus on the Create method:
 
-<img src="/images/macro5.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro5.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 
 The arguments between the parenthesis are the inputs we need to provide to this method in order to get our viewport on a sheet. If you notice, sheet, view and point are also the inputs of the custom node while document is not explicitly required (but it's defined at the beginning of the python script):
 
-<div id="imageContainer3"></div>
+   <div id="imageContainer3"></div>
 
 So how do we convert this script into a macro? Let's open the Macro Manager and create a new module called myMacros in the Application panel:
 
-<img src="/images/macro7.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro7.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 Macros can reside either in the active project file or within the application. Macros saved within the project file can be used by any user who opens that file. Macros saved in the application are saved to the user's Revit configuration. These macros can be used on any model file, but only by the user who created the macro.
 You can find a detailed explanation of how to create your first macro here.
@@ -241,7 +241,7 @@ svg2 = svg2.append("g")
     .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
   .append("g");
 
-svg3.append("image")
+svg2.append("image")
     .attr("width",  imgWidth + "px")
     .attr("height", imgHeight + "px")
     .attr("xlink:href", "/images/macro2.PNG");
