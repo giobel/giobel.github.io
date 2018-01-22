@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="463">
-                <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+              <first_editor relative-caret-position="468">
+                <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -81,6 +81,7 @@
       <find>leader</find>
       <find>transa</find>
       <find>svg1</find>
+      <find>405</find>
     </findStrings>
     <replaceStrings>
       <replace>720</replace>
@@ -229,13 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515686645489</updated>
-    </task>
-    <task id="LOCAL-00026" summary="does not matter presentation">
-      <created>1515948481651</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1515948481651</updated>
     </task>
     <task id="LOCAL-00027" summary="does not matter presentation">
       <created>1515948619819</created>
@@ -573,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516630050127</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="dynamoToMacro">
+      <created>1516630168176</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1516630168177</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1145,8 +1146,8 @@
     <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="463">
-            <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <first_editor relative-caret-position="468">
+            <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />

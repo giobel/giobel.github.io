@@ -248,7 +248,7 @@ If we follow the same steps as in the macro we will then be able to launch the c
    
 <div class="blank"></div> 
 
-<iframe width="1120" height="630" src="https://www.youtube.com/embed/rh_EJ_7YhuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/rh_EJ_7YhuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <script>  
