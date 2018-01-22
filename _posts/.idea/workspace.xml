@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a20c8df7-2019-474c-90cd-a8da6862d6d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md" afterPath="$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -216,13 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515686645489</updated>
-    </task>
-    <task id="LOCAL-00017" summary="updated pyRevit">
-      <created>1515944084426</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1515944084426</updated>
     </task>
     <task id="LOCAL-00018" summary="updated pyRevit">
       <created>1515944274572</created>
@@ -560,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516619592372</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="dynamoToMacro">
+      <created>1516620606462</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1516620606462</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
