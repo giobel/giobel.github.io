@@ -190,6 +190,33 @@ You will notice that if you leave the text box empty or you write a sheet number
 
    <img src="/images/macro36.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
 
+In order to give the user a more meaningful error message we can use the try and catch statements.
+Try-catch statements are used to "try" and execute a piece of code and then "catch" any exceptions which are generated if the code fails to execute correctly. This means that instead of your application crashing, you can display an error message or handle the exception appropriately.
+
+Before using the try and catch statements let's comment the first TaskDialog.Show otherwise we will get an error:
+
+   <img src="/images/macro37.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+
+Then we need to
+
+   <img src="/images/macro38.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+
+If we build the code, run the macro, leave the text input empty and press OK we now get this TaskDialog:
+   
+   <img src="/images/macro39.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+
+We can personalise the message and make it more meaningful adding these lines of code:
+
+   <img src="/images/macro40.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+   
+The first if statement will catch the exception that occurs when the user leave the text box empty. It will show a Task Dialog and display a message. Then it will Roll Back the Transaction and re-execute the macro so the user will be presented the Form Dialog again. We are using the Roll Back not to discard the changes we have made to the model (we haven't made any) but because the Transaction we started in line 80 has not been completed yet and if we re-execute the macro without Roll Back the Transaction we will get this error during the second execution:
+
+   <img src="/images/macro41.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+
+The second if statement will deal with the exception arising when the input sheet cannot be found in the Revit sheet list. And the else statement will cover the possibility that the view is already placed on another sheet.
+
+The complete macro can be downloaded from [here](https://drive.google.com/open?id=0BxH7XsYIEQEhX3p0cWp3R0xhWDA).
+
 
 
 <script>  
