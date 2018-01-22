@@ -9,6 +9,8 @@ I have modelled some anchors in Revit and I need to check the minimum distance b
 
 This can be easily done exporting the model in Rhino and using a Python script.
 
+<img src="/scripts/img/minDist2.PNG" width="720">
+
 <img src="/scripts/img/minDist1.PNG" width="720">
 
-<img src="/scripts/img/minDist2.PNG" width="720">
+
