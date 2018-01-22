@@ -35,19 +35,19 @@ You can use the node output to subdivide the pipe placeholders in 3 lists. The e
 
 ## The heavy lifting is done by the 4 python scripts:
 
-## 1. Create pipe placeholders
+1. Create pipe placeholders
 
 <div id="imageContainer2"></div>
 
-## 2. Connect pipe placeholders at Elbow
+2. Connect pipe placeholders at Elbow
 
 <div id="imageContainer3"></div>
 
-## 3. Connect pipe placeholders at Tee
+3. Connect pipe placeholders at Tee
 
 <div id="imageContainer4"></div>
 
-## 4. Connect pipe placeholders at Cross
+4. Connect pipe placeholders at Cross
 
 <div id="imageContainer5"></div>
 
