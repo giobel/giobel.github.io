@@ -246,15 +246,17 @@ If we follow the same steps as in the macro we will then be able to launch the c
    
    <img src="/images/macro44.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
    
-<div class="blank"></div> 
+<div class="blank"></div>
+
+<div class="blank"></div>  
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/rh_EJ_7YhuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <script>  
 var imgHeight = 635, imgWidth = 720,      
-    width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
+    width =  720, height = 385,             
+    translate0 = [0, 0], scale0 = 0.8;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
     .attr("width",  width + "px")
@@ -283,7 +285,7 @@ function zoom() {
 
 <script>  
 var imgHeight = 635, imgWidth = 720,      
-    width =  960, height = 385,             
+    width =  720, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
 svg2 = d3.select("#imageContainer2").append("svg")
