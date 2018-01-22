@@ -244,7 +244,7 @@ UIDocument uidoc = uiapp.ActiveUIDocument;
 
 If we follow the same steps as in the macro we will then be able to launch the command fromt the External Tools add-in and to assign a keyboard shortcut to it.
    
-   <img src="/images/macro44.PNG" width="500" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro44.png" width="500" style="display:block; margin-left: auto; margin-right: auto;">
    
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
