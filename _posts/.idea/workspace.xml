@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="697">
-                <caret line="313" column="36" lean-forward="false" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+              <first_editor relative-caret-position="463">
+                <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="867">
-                <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="71" />
+              <first_editor relative-caret-position="833">
+                <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -229,13 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515686645489</updated>
-    </task>
-    <task id="LOCAL-00025" summary="does not matter presentation">
-      <created>1515948270341</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1515948270341</updated>
     </task>
     <task id="LOCAL-00026" summary="does not matter presentation">
       <created>1515948481651</created>
@@ -573,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516629981298</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="dynamoToMacro">
+      <created>1516630050127</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1516630050127</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1077,27 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="694">
-            <caret line="245" column="110" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="110" />
-            <folding>
-              <element signature="e#1485#1488#0" expanded="false" />
-              <element signature="e#5016#5019#0" expanded="false" />
-              <element signature="e#9049#9052#0" expanded="false" />
-              <element signature="e#12059#12062#0" expanded="false" />
-              <element signature="e#16170#16172#0" expanded="false" />
-              <element signature="e#16282#16285#0" expanded="false" />
-              <element signature="e#18075#18141#0" expanded="false" />
-              <element signature="e#19349#19352#0" expanded="false" />
-              <element signature="e#20809#20812#0" expanded="false" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2017-12-19-Test1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1134,9 +1113,30 @@
     <entry file="file://$PROJECT_DIR$/2017-09-13-DoesNotMatter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="867">
-            <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="71" />
+          <first_editor relative-caret-position="833">
+            <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="26" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-01-11-Dynamo-Python.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="694">
+            <caret line="245" column="110" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="110" />
+            <folding>
+              <element signature="e#1485#1488#0" expanded="false" />
+              <element signature="e#5016#5019#0" expanded="false" />
+              <element signature="e#9049#9052#0" expanded="false" />
+              <element signature="e#12059#12062#0" expanded="false" />
+              <element signature="e#16170#16172#0" expanded="false" />
+              <element signature="e#16282#16285#0" expanded="false" />
+              <element signature="e#18075#18141#0" expanded="false" />
+              <element signature="e#19349#19352#0" expanded="false" />
+              <element signature="e#20809#20812#0" expanded="false" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1145,8 +1145,8 @@
     <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="697">
-            <caret line="313" column="36" lean-forward="false" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+          <first_editor relative-caret-position="463">
+            <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
