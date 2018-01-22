@@ -35,9 +35,20 @@ You can use the node output to subdivide the pipe placeholders in 3 lists. The e
 
 The heavy lifting is done by the 4 python scripts:
 
+- Create pipe placeholders
+
 <div id="imageContainer2"></div>
+
+- Connect pipe placeholders at Elbow
+
 <div id="imageContainer3"></div>
+
+- Connect pipe placeholders at Tee
+
 <div id="imageContainer4"></div>
+
+- Connect pipe placeholders at Cross
+
 <div id="imageContainer5"></div>
 
 The custom node can be downloaded [here](https://drive.google.com/open?id=0BxH7XsYIEQEhVkkya2NNYjhXQ1k) and the full script [here](https://drive.google.com/open?id=0BxH7XsYIEQEhbFRYTWFDYWppR0U).
