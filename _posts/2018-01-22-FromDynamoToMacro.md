@@ -14,6 +14,8 @@ title: From Dynamo to Macro to External Commands
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
+<script src="video.js"></script>
+
 Dynamo is a good tool but scripts deployment, version compatibility, non OOTB nodes and the need to start Dynamo or to launch a script from the player can sometimes represent an obstacle.
 
 For the most used nodes it may be worth to convert them into external commands or bespoke buttons in the toolbar.
@@ -242,9 +244,11 @@ UIDocument uidoc = uiapp.ActiveUIDocument;
 
 If we follow the same steps as in the macro we will then be able to launch the command fromt the External Tools add-in and to assign a keyboard shortcut to it.
    
-   <img src="/images/macro44.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro44.PNG" width="500" style="display:block; margin-left: auto; margin-right: auto;">
    
 
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Dynamo Script to Revit Macro.mp4" type='video/mp4'></video>
 
 
 
