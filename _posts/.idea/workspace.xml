@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="468">
-                <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+              <first_editor relative-caret-position="1194">
+                <caret line="314" column="35" lean-forward="false" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -230,13 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515686645489</updated>
-    </task>
-    <task id="LOCAL-00027" summary="does not matter presentation">
-      <created>1515948619819</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1515948619819</updated>
     </task>
     <task id="LOCAL-00028" summary="set existing filters">
       <created>1516182835524</created>
@@ -574,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516630168177</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="dynamoToMacro">
+      <created>1516630331397</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1516630331397</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1146,8 +1146,8 @@
     <entry file="file://$PROJECT_DIR$/2018-01-22-FromDynamoToMacro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="468">
-            <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+          <first_editor relative-caret-position="1194">
+            <caret line="314" column="35" lean-forward="false" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />

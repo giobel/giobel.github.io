@@ -252,7 +252,7 @@ If we follow the same steps as in the macro we will then be able to launch the c
 
 
 <script>  
-var imgHeight = 635, imgWidth = 1000,      
+var imgHeight = 635, imgWidth = 720,      
     width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
@@ -282,7 +282,7 @@ function zoom() {
   </script>
 
 <script>  
-var imgHeight = 635, imgWidth = 1000,      
+var imgHeight = 635, imgWidth = 720,      
     width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
@@ -312,7 +312,7 @@ function zoom() {
   </script>
   
   <script>  
-var imgHeight = 635, imgWidth = 1000,      
+var imgHeight = 635, imgWidth = 720,      
     width =  960, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
