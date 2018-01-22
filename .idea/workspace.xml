@@ -45,7 +45,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="119">
-                <caret line="6" column="312" lean-forward="false" selection-start-line="6" selection-start-column="312" selection-end-line="6" selection-end-column="312" />
+                <caret line="6" column="223" lean-forward="false" selection-start-line="6" selection-start-column="223" selection-end-line="6" selection-end-column="223" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -57,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-errorHandling.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="391">
-                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="265" lean-forward="false" selection-start-line="5" selection-start-column="262" selection-end-line="5" selection-end-column="265" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -357,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516638673352</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="pipes">
+      <created>1516639008306</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1516639008306</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,8 +706,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-errorHandling.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="391">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="265" lean-forward="false" selection-start-line="5" selection-start-column="262" selection-end-line="5" selection-end-column="265" />
             <folding />
           </first_editor>
           <second_editor />
@@ -711,7 +718,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="119">
-            <caret line="6" column="312" lean-forward="false" selection-start-line="6" selection-start-column="312" selection-end-line="6" selection-end-column="312" />
+            <caret line="6" column="223" lean-forward="false" selection-start-line="6" selection-start-column="223" selection-end-line="6" selection-end-column="223" />
             <folding />
           </first_editor>
           <second_editor />
