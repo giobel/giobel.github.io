@@ -247,10 +247,7 @@ If we follow the same steps as in the macro we will then be able to launch the c
    <img src="/images/macro44.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
    
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="560" height="315" data-setup="{}">
-<source src="/videos/Dynamo Script to Revit Macro.mp4" type='video/mp4'></video>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rh_EJ_7YhuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/rh_EJ_7YhuU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <script>  
