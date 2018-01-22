@@ -129,7 +129,7 @@ So how can we ask the user to input the Sheet Number? We need to create a Window
 
 Right click on ThisApplication.cs in the left project window, Add, New Item...
 
-   <img src="/images/macro21.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro21.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 ...Form and Create.
 
@@ -141,11 +141,11 @@ Open the Design Form
 
 Open the Tools bar from View:
 
-   <img src="/images/macro24.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro24.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 Click on the Windows Forms folder
 
-   <img src="/images/macro25.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro25.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 If you leave the custom properties the window will appear at the "WindowsDefaultLocation". We can make it appear at the Centre of the Screen simply selecting this value in the Layout - Start Position field:
 
@@ -166,7 +166,7 @@ Then let's add two buttons, Ok and Cancel.
     
 And set their Dialog Result to OK and Cancel respectively. This will close the Form and save or cancel the result.
 
-   <img src="/images/macro31.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro31.png" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
 
 Then double click on the OK button. This will open the Source Code of our Form1 and will create a void Button1Click() class. We need to store the Sheet Number that the user will type in the text box into a string:
 
