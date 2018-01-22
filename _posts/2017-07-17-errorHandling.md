@@ -3,11 +3,10 @@ layout: post
 title: Error handling in Dynamo
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-</div>
+
 <br />
 
-<img src="/scripts/img/ErrorHandling.jpg" width="720">
+<img src="/images/ErrorHandling.jpg" width="720">
 
 
 <br />
