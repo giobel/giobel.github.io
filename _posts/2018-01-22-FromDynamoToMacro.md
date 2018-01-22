@@ -256,7 +256,7 @@ If we follow the same steps as in the macro we will then be able to launch the c
 <script>  
 var imgHeight = 635, imgWidth = 720,      
     width =  720, height = 385,             
-    translate0 = [0, 0], scale0 = 0.8;  
+    translate0 = [0, 0], scale0 = 1;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
     .attr("width",  width + "px")
@@ -286,7 +286,7 @@ function zoom() {
 <script>  
 var imgHeight = 635, imgWidth = 720,      
     width =  720, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
+    translate0 = [0, 0], scale0 = 1;  
 
 svg2 = d3.select("#imageContainer2").append("svg")
     .attr("width",  width + "px")
@@ -316,7 +316,7 @@ function zoom() {
   <script>  
 var imgHeight = 635, imgWidth = 720,      
     width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
+    translate0 = [0, 0], scale0 = 1;  
 
 svg3 = d3.select("#imageContainer3").append("svg")
     .attr("width",  width + "px")
