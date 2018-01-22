@@ -46,7 +46,7 @@ The custom node can be downloaded [here](https://drive.google.com/open?id=0BxH7X
 <script>  
 var imgHeight = 635, imgWidth = 720,      
     width =  720, height = 385,             
-    translate0 = [0, 0], scale0 = 1;  
+    translate0 = [0, -150], scale0 = 1;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
     .attr("width",  width + "px")
