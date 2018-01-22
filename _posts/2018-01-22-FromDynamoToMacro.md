@@ -256,7 +256,7 @@ If we follow the same steps as in the macro we will then be able to launch the c
 <script>  
 var imgHeight = 635, imgWidth = 720,      
     width =  720, height = 385,             
-    translate0 = [0, 0], scale0 = 1;  
+    translate0 = [0, -100], scale0 = 1;  
 
 svg1 = d3.select("#imageContainer1").append("svg")
     .attr("width",  width + "px")
