@@ -149,7 +149,7 @@ Click on the Windows Forms folder
 
 If you leave the custom properties the window will appear at the "WindowsDefaultLocation". We can make it appear at the Centre of the Screen simply selecting this value in the Layout - Start Position field:
 
-   <img src="/images/macro26.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro26.PNG" width="400" style="display:block; margin-left: auto; margin-right: auto;">
 
 Then draw a Label and a Text Box. Select the Label and in the Properties window change the Text to something meaningful.
 
@@ -174,7 +174,7 @@ Then double click on the OK button. This will open the Source Code of our Form1 
 
 We can then go back to ThisApplication.cs and import the System.Windows.Forms library in our code:
 
-   <img src="/images/macro33.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro33.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
 
 and place the body of the code we have written so far inside an instance of the Form1:
 
@@ -188,7 +188,7 @@ Now we can build the macro and test it.
 
 You will notice that if you leave the text box empty or you write a sheet number that does not exists Revit will throw an error:
 
-   <img src="/images/macro36.PNG" width="1000" style="display:block; margin-left: auto; margin-right: auto;">
+   <img src="/images/macro36.PNG" width="350" style="display:block; margin-left: auto; margin-right: auto;">
 
 
 
