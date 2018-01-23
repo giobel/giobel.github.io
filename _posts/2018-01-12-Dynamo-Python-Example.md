@@ -92,7 +92,7 @@ Let's now see how can we create a line load at the bottom of the wall. First of 
 
 - The method is available from Revit 2016 and it has not been modified since, this can be seen at the top of the page.
 - The class is LineLoad and it has 3 different ways to create a line load. We want to create a line load from a line so we pick the third one.
-- This class is part of the Autodesk.Revit.DB.Structure namespace so we need to be sure that we load it in the python script.
+- This class is part of the Autodesk.Revit.DB.Structure namespace so we need to load that in our python script.
 
 
 

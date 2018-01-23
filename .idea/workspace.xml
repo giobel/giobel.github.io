@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" afterPath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +45,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="176">
-                <caret line="94" column="125" lean-forward="true" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
+                <caret line="94" column="97" lean-forward="false" selection-start-line="94" selection-start-column="97" selection-end-line="94" selection-end-column="97" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1057,7 +1058,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516743351585</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="python example">
+      <created>1516743448435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516743448435</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1546,7 +1554,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="176">
-            <caret line="94" column="125" lean-forward="true" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
+            <caret line="94" column="97" lean-forward="false" selection-start-line="94" selection-start-column="97" selection-end-line="94" selection-end-column="97" />
             <folding />
           </first_editor>
           <second_editor />
