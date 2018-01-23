@@ -41,6 +41,6 @@ app = uiapp.Application
 walls = FilteredElementCollector(doc).OfClass(Wall).ToElements()
 OUT = walls, dir(walls[0]) #RETURN THE WALLS AND THE METHODS THAT CAN BE USED
 ```
-<img src="/images/python1.PNG" width="500">
+<img src="/images/python1.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## 4. Extract parameters
