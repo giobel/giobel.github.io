@@ -2,8 +2,13 @@
 layout: post
 title: Revit API using Python - Example
 ---
+<style>
 
-
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+    </style>
 
 ## 1. Import libraries
 
