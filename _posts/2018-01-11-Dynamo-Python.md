@@ -81,6 +81,7 @@ title: Revit API using Python - Dictionary
 ## Best practice
 
 # C
+
 ## CurveLoop()
 ```python
 TransactionManager.Instance.EnsureInTransaction(doc)
@@ -104,6 +105,7 @@ region = FilledRegion.Create(doc,frt[0].Id,activeViewId,profileLoops)
 regions.Add(region)
 TransactionManager.Instance.TransactionTaskDone()
 ```
+
 ## Geometry Objects Conversion
 - All Geometry coming out of Dynamo Nodes are NOT Revit GeometryObject's, so they need to be converted when used with the Revit API.
 - Dynamo represents all Geometry in meters, while Revit uses feet. 

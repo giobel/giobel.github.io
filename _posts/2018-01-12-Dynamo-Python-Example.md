@@ -44,3 +44,13 @@ OUT = walls, dir(walls[0]) #RETURN THE WALLS AND THE METHODS THAT CAN BE USED
 <img src="/images/python1.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## 4. Extract parameters
+Let's extract the AnalyticalModel Surface
+```python
+analyticalModel = [] #CREATE AN EMPTY LIST TO STORE THE 
+
+for w in walls:
+	analyticalModel.append(w.GetAnalyticalModel())
+
+#Assign your output to the OUT variable.
+OUT = analyticalModel
+```
