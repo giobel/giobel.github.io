@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" afterPath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="2018-01-12-Dynamo-Python-Example.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="260">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="176">
                 <caret line="94" column="125" lean-forward="true" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
                 <folding />
               </first_editor>
@@ -1051,7 +1050,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516742648173</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="python example">
+      <created>1516743351585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516743351585</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1538,8 +1544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="176">
             <caret line="94" column="125" lean-forward="true" selection-start-line="94" selection-start-column="125" selection-end-line="94" selection-end-column="125" />
             <folding />
           </first_editor>
