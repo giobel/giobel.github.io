@@ -9,6 +9,12 @@ title: Revit API using Python - Example
   pointer-events: all;
 }
     </style>
+    
+<script src="//code.jquery.com/jquery.js"></script>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+
+<script src="video.js"></script>
 
 ## 1. Import libraries
 
@@ -49,7 +55,9 @@ OUT = walls, dir(walls[0]) #Return the walls and the methods that can be used
 
 ## 4. Extract parameters
 Let's extract the Wall location. We can get find the method using dir(walls[0]) or the Revit Lookup:
-<img src="/images/python4.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
+
+<div id="imageContainer1"></div>
+
 ```python
 locCrvs = [] #Create an empty list to store the curves 
 for w in walls:
@@ -66,9 +74,43 @@ for w in walls:
 OUT = locCrvs
 ```
 The output is finally a Revit line:
+
 <img src="/images/python2.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 We can use the ToProtoType() method to it into a Dynamo line:
+
 ```python
 locCrvs.append(w.Location.Curve.ToProtoType())
 ```
 <img src="/images/python3.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
+
+
+
+<script>  
+var imgHeight = 635, imgWidth = 720,      
+    width =  720, height = 385,             
+    translate0 = [0, -100], scale0 = 1;  
+
+svg1 = d3.select("#imageContainer1").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg1.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg1 = svg1.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg1.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/python4.PNG");
+
+function zoom() {
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+</script>
