@@ -65,7 +65,10 @@ for w in walls:
 #Assign your output to the OUT variable.
 OUT = locCrvs
 ```
-If we try to convert the output to a Dynamo line using **ToProtoType()** we get an error. That's because we need to extract the Curve from the LocationCurve. This can be seen both from Revit Lookup and the dir(locCrvs[0]) output (there isn't a ToProtoType() method and there is a Curve method). So if we run: 
+If we try to convert the output to a Dynamo line using **ToProtoType()** we get an error. That's because we need to extract the **Curve** from the **LocationCurve**. This can be seen both from Revit Lookup and the dir(locCrvs[0]) output (there isn't a **ToProtoType()** method and there is a **Curve** method). 
+<img src="/images/python5.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
+We can use the ToProtoType() method to it into a Dynamo line:
+So if we run: 
 ```python
 locCrvs = [] #Create an empty list to store the curves 
 for w in walls:
