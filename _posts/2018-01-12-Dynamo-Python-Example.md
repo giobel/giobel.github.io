@@ -43,22 +43,31 @@ app = uiapp.Application
 
 ```python
 walls = FilteredElementCollector(doc).OfClass(Wall).ToElements()
-OUT = walls, dir(walls[0]) #RETURN THE WALLS AND THE METHODS THAT CAN BE USED
+OUT = walls, dir(walls[0]) #Return the walls and the methods that can be used
 ```
 <img src="/images/python1.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## 4. Extract parameters
-Let's extract the Wall location curve:
+Let's extract the Wall location. We can get find the method using dir(walls[0]) or the Revit Lookup:
+<img src="/images/python4.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 ```python
-locCrvs = [] #CREATE AN EMPTY LIST TO STORE THE CURVES 
+locCrvs = [] #Create an empty list to store the curves 
+for w in walls:
+	locCrvs.append(w.Location)
+#Assign your output to the OUT variable.
+OUT = locCrvs
+```
+If we try to convert the output to a Dynamo line using **ToProtoType()** we get an error. That's because we need to extract the Curve from the LocationCurve. This can be seen both from Revit Lookup and the dir(locCrvs[0]) output (there isn't a ToProtoType() method and there is a Curve method). So if we run: 
+```python
+locCrvs = [] #Create an empty list to store the curves 
 for w in walls:
 	locCrvs.append(w.Location.Curve)
 #Assign your output to the OUT variable.
 OUT = locCrvs
 ```
-The output is a Revit line:
+The output is finally a Revit line:
 <img src="/images/python2.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
-If we want to convert it into a Dynamo line we need to use the ToProtoType() method:
+We can use the ToProtoType() method to it into a Dynamo line:
 ```python
 locCrvs.append(w.Location.Curve.ToProtoType())
 ```
