@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="176">
-                <caret line="94" column="97" lean-forward="false" selection-start-line="94" selection-start-column="97" selection-end-line="94" selection-end-column="97" />
+              <first_editor relative-caret-position="293">
+                <caret line="185" column="40" lean-forward="false" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -59,10 +59,12 @@
     <findStrings>
       <find>svg1</find>
       <find>images</find>
+      <find>svg2</find>
     </findStrings>
     <replaceStrings>
       <replace>svg2</replace>
       <replace>img</replace>
+      <replace>svg3</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1065,7 +1067,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516743448435</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="python example">
+      <created>1516743513737</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516743513737</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1553,8 +1562,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="176">
-            <caret line="94" column="97" lean-forward="false" selection-start-line="94" selection-start-column="97" selection-end-line="94" selection-end-column="97" />
+          <first_editor relative-caret-position="293">
+            <caret line="185" column="40" lean-forward="false" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />

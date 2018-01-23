@@ -94,6 +94,9 @@ Let's now see how can we create a line load at the bottom of the wall. First of 
 - The class is LineLoad and it has 3 different ways to create a line load. We want to create a line load from a line so we pick the third one.
 - This class is part of the Autodesk.Revit.DB.Structure namespace so we need to load that in our python script.
 
+We can find a description of each parameter at the bottom of the page:
+
+<div id="imageContainer3"></div>
 
 
 
@@ -154,6 +157,36 @@ svg2.append("image")
 
 function zoom() {
   svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+</script>
+
+<script>  
+var imgHeight = 635, imgWidth = 720,      
+    width =  720, height = 385,             
+    translate0 = [0, -100], scale0 = 1;  
+
+svg3 = d3.select("#imageContainer3").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg3.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg3 = svg3.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg3.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/python7.PNG");
+
+function zoom() {
+  svg3.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
   }
 </script>
