@@ -26,7 +26,7 @@ Problem: I have exported the quantities from Revit and I want to combine a list 
 I also want to extract only five columns and put them in the same order.
 
 <img src="/scripts/img/iterativeSum3.PNG" width="900">
-<br>
+<br />
 <img src="/scripts/img/iterativeSum4.PNG" width="900">
 
 Let's start reading all the excel files into one single list:
@@ -48,8 +48,20 @@ Finally let's Write the data to an Excel File:
 In order to write our data to a single Excel file we need to count the number of rows in each original Excel file to find the start row at which those data will be written. i.e. the first file has 193 rows and it will start from row 0, the second file has 59 rows which must start at row 193, the third file has 118 rows which must start at row 193+59=252 and so on.
 The Python Script add each value to the sum of its predecessors:
 
+<img src="/scripts/img/iterativeSum9.PNG" width="900">
 
+To achieve the same result with Dynamo we need to use List.Scan:
 
+<img src="/scripts/img/iterativeSum11.PNG" width="900">
+
+I also like to store my variables in a function that I can recall further down in the script without drawing a spaghetti line all the way through
+
+<img src="/scripts/img/iterativeSum10.PNG" width="900">
+<img src="/scripts/img/iterativeSum12.PNG" width="900">
+
+Once you have all your quantities combined into one single file you can import that into Power BI to visualise it.
+
+<img src="/scripts/img/iterativeSum13.PNG" width="900">
 
 
 
