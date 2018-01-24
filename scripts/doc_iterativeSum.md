@@ -45,7 +45,8 @@ Finally let's Write the data to an Excel File:
 
 <img src="/scripts/img/iterativeSum8.PNG" width="900">
 
-
+In order to write our data to a single Excel file we need to count the number of rows in each original Excel file to find the start row at which those data will be written. i.e. the first file has 193 rows and it will start from row 0, the second file has 59 rows which must start at row 193, the third file has 118 rows which must start at row 193+59=252 and so on.
+The Python Script add each value to the sum of its predecessors:
 
 
 
