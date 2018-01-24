@@ -65,9 +65,8 @@ for w in walls:
 #Assign your output to the OUT variable.
 OUT = locCrvs
 ```
-If we try to convert the output to a Dynamo line using **ToProtoType()** we get an error. That's because we need to extract the **Curve** from the **LocationCurve**. This can be seen both from Revit Lookup and the dir(locCrvs[0]) output (there isn't a **ToProtoType()** method and there is a **Curve** method). 
+If we try to convert the output to a Dynamo line using **ToProtoType()** we get an error. That's because we need to extract the **Curve** from the **LocationCurve** first. This can be seen both from Revit Lookup and the dir(locCrvs[0]) output (there isn't a **ToProtoType()** method and there is a **Curve** method). 
 <img src="/images/python5.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
-We can use the ToProtoType() method to it into a Dynamo line:
 So if we run: 
 ```python
 locCrvs = [] #Create an empty list to store the curves 
@@ -85,6 +84,20 @@ We can use the ToProtoType() method to it into a Dynamo line:
 locCrvs.append(w.Location.Curve.ToProtoType())
 ```
 <img src="/images/python3.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
+
+## 5. Create a line load
+Let's now see how can we create a line load at the bottom of the wall. First of all let's check on [revitapidocs](revitapidocs.com) which method should we use.
+
+<div id="imageContainer2"></div>
+
+- The method is available from Revit 2016 and it has not been modified since, this can be seen at the top of the page.
+- The class is LineLoad and it has 3 different ways to create a line load. We want to create a line load from a line so we pick the third one.
+- This class is part of the Autodesk.Revit.DB.Structure namespace so we need to load that in our python script.
+
+We can find a description of each parameter at the bottom of the page:
+
+<div id="imageContainer3"></div>
+
 
 
 
@@ -114,6 +127,66 @@ svg1.append("image")
 
 function zoom() {
   svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+</script>
+
+<script>  
+var imgHeight = 635, imgWidth = 720,      
+    width =  720, height = 385,             
+    translate0 = [0, -100], scale0 = 1;  
+
+svg2 = d3.select("#imageContainer2").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg2.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg2 = svg2.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg2.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/python6.PNG");
+
+function zoom() {
+  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+</script>
+
+<script>  
+var imgHeight = 635, imgWidth = 720,      
+    width =  720, height = 385,             
+    translate0 = [0, -100], scale0 = 1;  
+
+svg3 = d3.select("#imageContainer3").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg3.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg3 = svg3.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg3.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/python7.PNG");
+
+function zoom() {
+  svg3.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
   }
 </script>
