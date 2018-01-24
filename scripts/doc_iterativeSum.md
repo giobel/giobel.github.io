@@ -19,7 +19,7 @@ title: Iterative sum with Dynamo
 
 <div id="imageContainer1"></div>
 
-Problem: I have exported the quantities from Revit and I want to combine a list of files together into one single file.
+Problem: I have exported some quantities from Revit and I want to combine a list of files together into one single file.
 
 <img src="/scripts/img/iterativeSum2.PNG" width="900">
 
@@ -35,7 +35,7 @@ Let's start reading all the excel files into one single list:
 
 Then let's extract the five columns, remove the titles and clean the list from null values:
 
-<div id="imageContainer1"></div>
+<div id="imageContainer2"></div>
 
 The python script works as the GetItemAtIndex node:
 
