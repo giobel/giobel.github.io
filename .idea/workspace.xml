@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.html" afterPath="$PROJECT_DIR$/scripts/index.html" />
+      <change beforePath="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" afterPath="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mod_voronoiMerge.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mod_voronoiMerge.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/mod_voronoiMerge.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="850">
-                <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+              <first_editor relative-caret-position="395">
+                <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -40,25 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="121" column="68" lean-forward="false" selection-start-line="121" selection-start-column="68" selection-end-line="121" selection-end-column="68" />
+            <state relative-caret-position="687">
+              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc_dataToExcel.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/doc_dataToExcel.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="123">
-                <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="59" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -108,8 +95,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
         <option value="$PROJECT_DIR$/scripts/doc_iterativeSum.md" />
-        <option value="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" />
         <option value="$PROJECT_DIR$/scripts/index.html" />
+        <option value="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" />
       </list>
     </option>
   </component>
@@ -203,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added java notes">
-      <created>1515000816123</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1515000816123</updated>
     </task>
     <task id="LOCAL-00009" summary="added java notes">
       <created>1515003015189</created>
@@ -547,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516791386368</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="voronoi merge">
+      <created>1516791394997</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1516791394997</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1076,22 +1063,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/mod_voronoiMerge.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="850">
-            <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/scripts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="121" column="68" lean-forward="false" selection-start-line="121" selection-start-column="68" selection-end-line="121" selection-end-column="68" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/scripts/mod_voronoiMerge.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="395">
+            <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -21,10 +21,10 @@ I would use Dynamo to export the geometry in Rhino and create the Voronoi there 
 
 <div id="imageContainer1"></div>
 
-
+check!
 
 <script>  
-var imgHeight = 635, imgWidth = 900,      
+var imgHeight = 664, imgWidth = 4004,      
     width =  900, height = 385,             
     translate0 = [0, 0], scale0 = 0.6;  
 
