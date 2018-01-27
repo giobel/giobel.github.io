@@ -86,7 +86,7 @@ locCrvs.append(w.Location.Curve.ToProtoType())
 <img src="/images/python3.PNG" width="300" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## 5. Create a line load
-Let's now see how can we create a line load at the bottom of the wall. First of all let's check on [revitapidocs](revitapidocs.com) which method should we use.
+Let's now see how can we create a line load at the bottom of the wall. First of all let's check on [revitapidocs](http://www.revitapidocs.com/) which method should we use.
 
 <div id="imageContainer2"></div>
 
@@ -98,6 +98,17 @@ We can find a description of each parameter at the bottom of the page:
 
 <div id="imageContainer3"></div>
 
+```python
+public static LineLoad Create(
+	Document aDoc,
+	XYZ startPoint,
+	XYZ endPoint,
+	XYZ forceVector,
+	XYZ momentVector,
+	LineLoadType symbol,
+	SketchPlane plane
+)
+```
 
 
 

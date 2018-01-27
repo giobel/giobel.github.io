@@ -30,8 +30,8 @@ title: Revit API using Python - Dictionary
 
 [C](#c)
 
-[CurveLoop()](#curveloop())
-[Geometry Objects Conversion](#geometry-objects-conversion)
+- [CurveLoop()](#curveloop())
+- [Geometry Objects Conversion](#geometry-objects-conversion)
 
 [D](#d)
 
@@ -187,7 +187,7 @@ FilteredElementCollector(document: Document)
 
 
 # E
-## Elements
+## Dynamo Elements 
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace.
 
 If you would prefer to use the RevitAPI directly, you will need to unwrap the Element before operating on it, use our TransactionManager to ensure that you're operating inside of a RevitAPI Transaction, and wrap any Element you wish to return.
@@ -222,6 +222,35 @@ TransactionManager.Instance.TransactionTaskDone()
 # Wrap
 OUT = cbp.ToDSType(false)
 ```
+
+## Revit Element Classification [page 64 revit api developer guide]
+Revit Elements are divided into six groups: 
+- Model Elements: represent physical items that exist in a building project. Elements in the Model Elements group can be subdivided into the following:
+    - Family Instances: contain family instance objects. You can load family objects into your project or create them from family templates.
+    - Host Elements: contain system family objects that can contain other model elements (i.e. wall, roof, ceiling and floor)
+    - Structure Elements: contains elements that are only used in Revit Structure.
+- Sketch Elements represent temporary items used to sketch 2D/3D form:
+    - Sketch Plane
+    - Sketch
+    - Path 3D
+    - GenericForm  
+- View Elements represent the way you view and interact with other objects in Revit.
+- Group Elements represent the assistant Elements such as Array and Group objects in Revit. 
+- Annotation and Datum Elements: contain non-physical items that are visible. 
+- Information Elements contain non-physical invisible items used to store project and application data:
+    - Project Datum Elements 
+    - Project Datum Elements (Unique)..
+ 
+Each group contains related Elements and their corresponding symbols.  
+
+Elements are also classified by the following:  
+- Category  
+- Family
+- Symbol (aka Type)
+- Instance  
+
+<img src="/images/elementClassification.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+
 
 # F
 ## Filtered Element Collector
