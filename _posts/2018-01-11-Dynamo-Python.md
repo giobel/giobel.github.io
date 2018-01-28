@@ -304,7 +304,7 @@ for ft in famtypes:
 	#elementlist.append(ftlist)
 OUT = elementlist
 ```
-<img src="/images/elementClassification1.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/elementClassification1.png" width="700" style="display:block; margin-left: auto; margin-right: auto;">
 
 # F
 ## Filtered Element Collector
