@@ -24,7 +24,8 @@ title: Revit API using Python - Dictionary
 
 the [revit 2014 api developer guide](http://thebuildingcoder.typepad.com/files/revit_2014_api_developer_guide.pdf) found on Jeremy Tammik's great blog.
 
-arcvhi-lab, Clockwork, Rhythm, biMorph, Steam Nodes, Wombat. The python code is mainly taken from them and from the Dynamo Forum. 
+archi-lab, Clockwork, Rhythm, biMorph, Steam Nodes, Wombat. 
+The python code is mainly taken from them and from the Dynamo Forum. 
 
 # Index
 [A](#a)
