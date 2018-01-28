@@ -38,7 +38,8 @@ title: Revit API using Python - Dictionary
 [Revit Document/Application](#revit-document/application)
 
 [E](#e)
-- [Elements](#elements)
+- [Dynamo Elements](#dynamo-elements)
+- [Revit Elements](#revit-element-classification)
 
 [F](#f)
 - [Filtered Element Collector](#filtered-element-collector)
@@ -223,27 +224,29 @@ TransactionManager.Instance.TransactionTaskDone()
 OUT = cbp.ToDSType(false)
 ```
 
-## Revit Element Classification [page 64 revit api developer guide]
-Revit Elements are divided into six groups: 
-- Model Elements: represent physical items that exist in a building project. Elements in the Model Elements group can be subdivided into the following:
+## Revit Element Classification
+[page 64 revit api developer guide]
+
+Revit Elements are divided into **six groups**: 
+- **Model Elements**: represent physical items that exist in a building project. Elements in the Model Elements group can be subdivided into the following:
     - Family Instances: contain family instance objects. You can load family objects into your project or create them from family templates.
     - Host Elements: contain system family objects that can contain other model elements (i.e. wall, roof, ceiling and floor)
     - Structure Elements: contains elements that are only used in Revit Structure.
-- Sketch Elements represent temporary items used to sketch 2D/3D form:
+- **Sketch Elements** represent temporary items used to sketch 2D/3D form:
     - Sketch Plane
     - Sketch
     - Path 3D
     - GenericForm  
-- View Elements represent the way you view and interact with other objects in Revit.
-- Group Elements represent the assistant Elements such as Array and Group objects in Revit. 
-- Annotation and Datum Elements: contain non-physical items that are visible. 
-- Information Elements contain non-physical invisible items used to store project and application data:
+- **View Elements** represent the way you view and interact with other objects in Revit.
+- **Group Elements** represent the assistant Elements such as Array and Group objects in Revit. 
+- **Annotation and Datum Elements**: contain non-physical items that are visible. 
+- **Information Elements** contain non-physical invisible items used to store project and application data:
     - Project Datum Elements 
     - Project Datum Elements (Unique)..
  
 Each group contains related Elements and their corresponding symbols.  
 
-Elements are also classified by the following:  
+*Elements are also classified by the following*:  
 - Category  
 - Family
 - Symbol (aka Type)
@@ -251,6 +254,61 @@ Elements are also classified by the following:
 
 <img src="/images/elementClassification.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
 
+Move up from Instance to Category:
+```python
+instanceElement = UnwrapElement(IN[0])
+#Assign your output to the OUT variable.
+OUT = instanceElement.Symbol, instanceElement.Symbol.Family, instanceElement.Symbol.Category.Name
+```
+
+To select all the Family Types we can use a FilteredElementCollector. ToElements() retrieves the Revit elements:
+```python
+collector = FilteredElementCollector(doc).OfClass(FamilySymbol)
+#Assign your output to the OUT variable.
+OUT = collector.ToElements()
+```
+
+To select all the Family Types of a Category given the Category Id:
+```python
+collector = FilteredElementCollector(doc)
+bic = System.Enum.ToObject(BuiltInCategory, -2001320)
+collector.OfCategory(bic)
+#Assign your output to the OUT variable.
+OUT = collector.ToElements()
+```
+Which is equivalent to:
+```python
+collector = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).ToElements()
+```
+And if we want to select only the instances we need to add WhereElementIsNotElementType():
+```python
+collector = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType().ToElements()
+```
+
+To select all the element from a Family Type we need to:
+1. find the category Id to which the Family Type belong
+2. select all the elements of that category [collector.OfCategory(bic)] 
+3. look for the element that has the same TypeId as the Family Type  
+
+```python
+doc = DocumentManager.Instance.CurrentDBDocument
+famtypes = UnwrapElement(IN[0])
+elementlist = list()
+for ft in famtypes:
+	collector = FilteredElementCollector(doc)
+	bic = System.Enum.ToObject(BuiltInCategory, ft.Category.Id.IntegerValue)
+	collector.OfCategory(bic)
+	# This is a workaround
+	# because I was to lazy to learn
+	# how to implement LINQ in Python
+	#ftlist =  list()
+	for item in collector.ToElements():
+		if item.GetTypeId().IntegerValue == ft.Id.IntegerValue:
+			elementlist.append(item)
+	#elementlist.append(ftlist)
+OUT = elementlist
+```
+<img src="/images/elementClassification1.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
 
 # F
 ## Filtered Element Collector
