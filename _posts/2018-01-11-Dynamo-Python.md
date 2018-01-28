@@ -22,6 +22,8 @@ title: Revit API using Python - Dictionary
 
 [guiTalarico](https://github.com/gtalarico)
 
+[Python 0.6.3 to 0.7.x Migration](https://github.com/DynamoDS/Dynamo/wiki/Python-0.6.3-to-0.7.x-Migration)
+
 the [revit 2014 api developer guide](http://thebuildingcoder.typepad.com/files/revit_2014_api_developer_guide.pdf) found on Jeremy Tammik's great blog.
 
 archi-lab, Clockwork, Rhythm, biMorph, Steam Nodes, Wombat. 
@@ -79,6 +81,13 @@ The python code is mainly taken from them and from the Dynamo Forum.
 
 [W](#w)
 - [Wrapping](#wrapping)
+
+To be added:
+
+- Iterate through list
+- GetSymbolGeometry vs GetInstanceGeometry
+- FilteredElementCollector ofType -> crl....
+
 
 # A
 
@@ -256,7 +265,7 @@ Each group contains related Elements and their corresponding symbols.
 - Symbol (aka Type)
 - Instance  
 
-<img src="/images/elementClassification.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/elementClassification.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
 Move up from Instance to Category:
 ```python
@@ -472,86 +481,6 @@ somelist.Add(AnotherElementId)
 - In those cases, you have to create a List that holds the required type first.
 For example, if you want to create a FilledRegion, Revit asks you to pass a List of CurveLoops, so you have to create a List[CurveLoop](), and add your CurveLoop objects.
 
-
-
-
-
-
-
-
-
-Iterate through list??
-
-GetSymbolGeometry vs GetInstanceGeometry??
-
-FilteredElementCollector
-ofType -> crl....
-
-
-
-
-
-<script>  
-var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
-
-svg1 = d3.select("#imageContainer1").append("svg")
-    .attr("width",  width + "px")
-    .attr("height", height + "px");
-
-svg1.append("rect")
-    .attr("class", "overlay")
-    .attr("width", width + "px")
-    .attr("height", height + "px");
-
-svg1 = svg1.append("g")
-    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
-  .append("g");
-
-svg1.append("image")
-    .attr("width",  imgWidth + "px")
-    .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/images/pyRevitAPI_1.png");
-
-function zoom() {
-  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
-  }
-  </script>    
-
-<script>  
-var imgHeight = 635, imgWidth = 1600,      
-    width =  960, height = 385,             
-    translate0 = [0, 0], scale0 = 0.6;  
-
-svg2 = d3.select("#imageContainer2").append("svg")
-    .attr("width",  width + "px")
-    .attr("height", height + "px");
-
-svg2.append("rect")
-    .attr("class", "overlay")
-    .attr("width", width + "px")
-    .attr("height", height + "px");
-
-svg2 = svg2.append("g")
-    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
-    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
-  .append("g");
-
-svg2.append("image")
-    .attr("width",  imgWidth + "px")
-    .attr("height", imgHeight + "px")
-    .attr("xlink:href", "/images/pyRevitAPI_2.png");
-
-function zoom() {
-  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
-  }
-  </script>    
-  
-
 #M
 ## Migrations
 [Dynamo Python Wiki](https://github.com/DynamoDS/Dynamo/wiki/Python-0.6.3-to-0.7.x-Migration)
@@ -679,3 +608,64 @@ OUT = [
     newPt.ToDSType(False) #Created in script, mark as non-Revit-owned
 ]
 ```
+
+
+<script>  
+var imgHeight = 635, imgWidth = 1600,      
+    width =  960, height = 385,             
+    translate0 = [0, 0], scale0 = 0.6;  
+
+svg1 = d3.select("#imageContainer1").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg1.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg1 = svg1.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg1.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/pyRevitAPI_1.png");
+
+function zoom() {
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+  </script>    
+
+<script>  
+var imgHeight = 635, imgWidth = 1600,      
+    width =  960, height = 385,             
+    translate0 = [0, 0], scale0 = 0.6;  
+
+svg2 = d3.select("#imageContainer2").append("svg")
+    .attr("width",  width + "px")
+    .attr("height", height + "px");
+
+svg2.append("rect")
+    .attr("class", "overlay")
+    .attr("width", width + "px")
+    .attr("height", height + "px");
+
+svg2 = svg2.append("g")
+    .attr("transform", "translate(" + translate0 + ")scale(" + scale0 + ")")
+    .call(d3.behavior.zoom().scaleExtent([1, 3]).on("zoom", zoom))
+  .append("g");
+
+svg2.append("image")
+    .attr("width",  imgWidth + "px")
+    .attr("height", imgHeight + "px")
+    .attr("xlink:href", "/images/pyRevitAPI_2.png");
+
+function zoom() {
+  svg2.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+  console.log("translate: " + d3.event.translate + ", scale: " + d3.event.scale);
+  }
+  </script>    
