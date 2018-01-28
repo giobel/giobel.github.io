@@ -22,6 +22,9 @@ title: Revit API using Python - Dictionary
 
 [guiTalarico](https://github.com/gtalarico)
 
+the [revit 2014 api developer guide](http://thebuildingcoder.typepad.com/files/revit_2014_api_developer_guide.pdf) found on Jeremy Tammik's great blog.
+
+arcvhi-lab, Clockwork, Rhythm, biMorph, Steam Nodes, Wombat. The python code is mainly taken from them and from the Dynamo Forum. 
 
 # Index
 [A](#a)
@@ -283,7 +286,7 @@ collector = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).
 ```
 
 To select all the element from a Family Type we need to:
-1. find the category Id to which the Family Type belong
+1. find the category Id to which the Family Type belongs
 2. select all the elements of that category [collector.OfCategory(bic)] 
 3. look for the element that has the same TypeId as the Family Type  
 
@@ -295,10 +298,6 @@ for ft in famtypes:
 	collector = FilteredElementCollector(doc)
 	bic = System.Enum.ToObject(BuiltInCategory, ft.Category.Id.IntegerValue)
 	collector.OfCategory(bic)
-	# This is a workaround
-	# because I was to lazy to learn
-	# how to implement LINQ in Python
-	#ftlist =  list()
 	for item in collector.ToElements():
 		if item.GetTypeId().IntegerValue == ft.Id.IntegerValue:
 			elementlist.append(item)
