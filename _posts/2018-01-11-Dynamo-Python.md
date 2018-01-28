@@ -257,14 +257,12 @@ Each group contains related Elements and their corresponding symbols.
 Move up from Instance to Category:
 ```python
 instanceElement = UnwrapElement(IN[0])
-#Assign your output to the OUT variable.
 OUT = instanceElement.Symbol, instanceElement.Symbol.Family, instanceElement.Symbol.Category.Name
 ```
 
 To select all the Family Types we can use a FilteredElementCollector. ToElements() retrieves the Revit elements:
 ```python
 collector = FilteredElementCollector(doc).OfClass(FamilySymbol)
-#Assign your output to the OUT variable.
 OUT = collector.ToElements()
 ```
 
@@ -273,7 +271,6 @@ To select all the Family Types of a Category given the Category Id:
 collector = FilteredElementCollector(doc)
 bic = System.Enum.ToObject(BuiltInCategory, -2001320)
 collector.OfCategory(bic)
-#Assign your output to the OUT variable.
 OUT = collector.ToElements()
 ```
 Which is equivalent to:
