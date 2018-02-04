@@ -197,9 +197,11 @@ shows docstring of class or function
 OUT = FilteredElementCollector.__doc__
 ```
 This class is used to search, filter and iterate through a set of elements.
-FilteredElementCollector(document: Document, viewId: ElementId)
-FilteredElementCollector(document: Document, elementIds: ICollection[ElementId])
-FilteredElementCollector(document: Document)
+`FilteredElementCollector(document: Document, viewId: ElementId)`
+
+`FilteredElementCollector(document: Document, elementIds: ICollection[ElementId])`
+
+`FilteredElementCollector(document: Document)`
 
 
 # E
