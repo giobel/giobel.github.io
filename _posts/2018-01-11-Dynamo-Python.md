@@ -22,7 +22,7 @@ title: Revit API using Python - Dictionary
 
 [guiTalarico](https://github.com/gtalarico)
 
-[Danny Bentley](https://www.youtube.com/channel/UC1Dx-jGyRbvvHzZ8ZyGWF5w) and [SFDUG Sept 2017 | Beginner's Guide to Python for Dynamo Users](https://www.youtube.com/watch?v=2e6tKofKsSo)
+[Danny Bentley](https://www.youtube.com/channel/UC1Dx-jGyRbvvHzZ8ZyGWF5w) and [SFDUG Sept 2017 Beginner's Guide to Python for Dynamo Users](https://www.youtube.com/watch?v=2e6tKofKsSo)
 
 the [revit 2014 api developer guide](http://thebuildingcoder.typepad.com/files/revit_2014_api_developer_guide.pdf) found on Jeremy Tammik's great blog.
 
