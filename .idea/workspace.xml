@@ -30,9 +30,9 @@
       <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="565">
-                <caret line="544" column="35" lean-forward="false" selection-start-line="544" selection-start-column="34" selection-end-line="544" selection-end-column="35" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2921">
+                <caret line="368" column="76" lean-forward="true" selection-start-line="368" selection-start-column="76" selection-end-line="368" selection-end-column="76" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -292,20 +292,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00022" summary="pipes">
-      <created>1516637898098</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1516637898098</updated>
-    </task>
-    <task id="LOCAL-00023" summary="pipes">
-      <created>1516638215617</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1516638215617</updated>
     </task>
     <task id="LOCAL-00024" summary="pipes">
       <created>1516638396631</created>
@@ -636,7 +622,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517856794574</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="api dictionary">
+      <created>1517857928744</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1517857928744</updated>
+    </task>
+    <task id="LOCAL-00072" summary="api dictionary">
+      <created>1517857952082</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1517857952082</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1145,9 +1145,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="565">
-            <caret line="544" column="35" lean-forward="false" selection-start-line="544" selection-start-column="34" selection-end-line="544" selection-end-column="35" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2921">
+            <caret line="368" column="76" lean-forward="true" selection-start-line="368" selection-start-column="76" selection-end-line="368" selection-end-column="76" />
             <folding />
           </first_editor>
           <second_editor />

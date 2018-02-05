@@ -69,6 +69,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 
 [P](#p)
 - [Project Base Point](#project-base-point)
+
 [R](#r)
 - [Revitlookup](#revitlookup)
 
@@ -361,11 +362,14 @@ for filter in filterElements:
 		ruleType.append(fdr.GetEvaluator().GetType())
 		filterNames.append(filter.Name)
 		if fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringLess)):
-			filterRules.Add(ParameterFilterRuleFactory.CreateLessRule(filter.GetRuleParameters()[0], setValue, True))
+			filterRules.Add(ParameterFilterRuleFactory.
+			CreateLessRule(filter.GetRuleParameters()[0], setValue, True))
 		elif fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringEquals)):
-			filterRules.Add(ParameterFilterRuleFactory.CreateEqualsRule(filter.GetRuleParameters()[0], setValue, True))
+			filterRules.Add(ParameterFilterRuleFactory.
+			CreateEqualsRule(filter.GetRuleParameters()[0], setValue, True))
 		elif fdr.GetEvaluator().GetType().Equals(clr.GetClrType(FilterStringGreater)):
-			filterRules.Add(ParameterFilterRuleFactory.CreateGreaterRule(filter.GetRuleParameters()[0], setValue, True))
+			filterRules.Add(ParameterFilterRuleFactory.
+			CreateGreaterRule(filter.GetRuleParameters()[0], setValue, True))
 		else:
 			break
 		filter.SetRules(filterRules);
@@ -524,7 +528,8 @@ The units can be transformed to the Project Units using UnitUtils:
 getDocUnits = doc.GetUnits()
 getDisplayUnits = getDocUnits.GetFormatOptions(UnitType.UT_Length).DisplayUnits 
 unitConversion = UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits)
-OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBnorthSouth, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBelev, getDisplayUnits))
+OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits), 
+UnitUtils.ConvertFromInternalUnits(PBnorthSouth, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBelev, getDisplayUnits))
 ```
 We can also get the coordinates of the Project Base Point using the BoundingBox method:
 ```python
@@ -542,8 +547,8 @@ we can then convert the Revit XYZ element to a Dynamo Point:
 OUT = surveyPoints[0].get_BoundingBox(None).Max.ToPoint()
 ```
 In this case the Survey Point coordinates will be taken from the Project Base Point as origin:
-<img src="/images/pbp.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
 
+<img src="/images/pbp.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
 
 # R
 ## RevitLookup
