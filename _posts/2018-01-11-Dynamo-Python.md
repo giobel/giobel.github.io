@@ -67,8 +67,13 @@ The python code is mainly taken from them and from the Dynamo Forum.
 [M](#m)
 - [Migrations](#migrations)
 
+[P](#p)
+- [Project Base Point](#project-base-point)
 [R](#r)
 - [Revitlookup](#revitlookup)
+
+[S](#s)
+- [Survey Point](#survey-point)
 
 [T](#t)
 - [Transactions](#transactions)
@@ -197,11 +202,9 @@ shows docstring of class or function
 OUT = FilteredElementCollector.__doc__
 ```
 This class is used to search, filter and iterate through a set of elements.
-`FilteredElementCollector(document: Document, viewId: ElementId)`
-
-`FilteredElementCollector(document: Document, elementIds: ICollection[ElementId])`
-
-`FilteredElementCollector(document: Document)`
+FilteredElementCollector(document: Document, viewId: ElementId)
+FilteredElementCollector(document: Document, elementIds: ICollection[ElementId])
+FilteredElementCollector(document: Document)
 
 
 # E
@@ -489,6 +492,41 @@ For example, if you want to create a FilledRegion, Revit asks you to pass a List
 ## Migrations
 [Dynamo Python Wiki](https://github.com/DynamoDS/Dynamo/wiki/Python-0.6.3-to-0.7.x-Migration)
 
+
+# P
+## Project Base Point
+```python
+# Copyright(c) 2016, Konrad Sobon
+# @arch_laboratory, http://archi-lab.net
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+doc = DocumentManager.Instance.CurrentDBDocument
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+projectBasePt = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_ProjectBasePoint).ToElements()
+bipEW = BuiltInParameter.BASEPOINT_EASTWEST_PARAM
+bipNS = BuiltInParameter.BASEPOINT_NORTHSOUTH_PARAM
+bipElev = BuiltInParameter.BASEPOINT_ELEVATION_PARAM
+PBeastWest = projectBasePt[0].get_Parameter(bipEW).AsDouble()
+PBnorthSouth = projectBasePt[0].get_Parameter(bipNS).AsDouble()
+PBelev = projectBasePt[0].get_Parameter(bipElev).AsDouble()
+OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(PBeastWest, PBnorthSouth, PBelev)
+```
+The units can be transformed to the Project Units using UnitUtils:
+```python
+getDocUnits = doc.GetUnits()
+getDisplayUnits = getDocUnits.GetFormatOptions(UnitType.UT_Length).DisplayUnits 
+unitConversion = UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits)
+OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBnorthSouth, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBelev, getDisplayUnits))
+```
+
 # R
 ## RevitLookup
 Using the [RevitLookup](https://github.com/jeremytammik/RevitLookup) add-in by Jeremy Tammik we can access all the properties and methods available for a Selected Element, the DB or the Active View:
@@ -508,6 +546,32 @@ OUT = energySrf.GetAnalyticalOpenings()
 ```
 <div id="imageContainer2"></div>
 
+# S
+## Survey Point
+```python
+# Copyright(c) 2016, Konrad Sobon
+# @arch_laboratory, http://archi-lab.net
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+doc = DocumentManager.Instance.CurrentDBDocument
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+surveyPoints = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_SharedBasePoint).ToElements()
+bipEW = BuiltInParameter.BASEPOINT_EASTWEST_PARAM
+bipNS = BuiltInParameter.BASEPOINT_NORTHSOUTH_PARAM
+bipElev = BuiltInParameter.BASEPOINT_ELEVATION_PARAM
+SPeastWest = surveyPoints[0].get_Parameter(bipEW).AsDouble()
+SPnorthSouth = surveyPoints[0].get_Parameter(bipNS).AsDouble()
+SPelev = surveyPoints[0].get_Parameter(bipElev).AsDouble()
+OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(SPeastWest, SPnorthSouth, SPelev)
+```
 # T
 ## Transactions
 - Dynamo provides its own Transaction framework for working with the RevitAPI. This means that your Python script will be executing in the context of an overall Dynamo Transaction.
