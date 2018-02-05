@@ -590,6 +590,8 @@ SPnorthSouth = surveyPoints[0].get_Parameter(bipNS).AsDouble()
 SPelev = surveyPoints[0].get_Parameter(bipElev).AsDouble()
 OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(SPeastWest, SPnorthSouth, SPelev)
 ```
+See Project Base Point for other methods.
+
 # T
 ## Transactions
 - Dynamo provides its own Transaction framework for working with the RevitAPI. This means that your Python script will be executing in the context of an overall Dynamo Transaction.
