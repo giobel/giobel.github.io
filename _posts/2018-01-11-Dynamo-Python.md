@@ -526,6 +526,24 @@ getDisplayUnits = getDocUnits.GetFormatOptions(UnitType.UT_Length).DisplayUnits
 unitConversion = UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits)
 OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(UnitUtils.ConvertFromInternalUnits(PBeastWest, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBnorthSouth, getDisplayUnits), UnitUtils.ConvertFromInternalUnits(PBelev, getDisplayUnits))
 ```
+We can also get the coordinates of the Project Base Point using the BoundingBox method:
+```python
+OUT = surveyPoints[0].get_BoundingBox(None).Max, 
+```
+And if we add the Revit.GeometryConversion namespace
+```python
+clr.AddReference("RevitNodes")
+import Revit
+# Import ToProtoType, ToRevitType geometry conversion extension methods
+clr.ImportExtensions(Revit.GeometryConversion)
+```
+we can then convert the Revit XYZ element to a Dynamo Point:
+```python
+OUT = surveyPoints[0].get_BoundingBox(None).Max.ToPoint()
+```
+In this case the Survey Point coordinates will be taken from the Project Base Point as origin:
+<img src="/images/pbp.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+
 
 # R
 ## RevitLookup
