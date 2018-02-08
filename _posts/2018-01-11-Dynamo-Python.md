@@ -58,6 +58,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Accessing Geometry](#accessing-geometry)
 
 [I](#i)
+- [Idling Event](#idling-event)
 - [Ironpython](#ironpython)
 - [Imports](#imports)
 
@@ -88,6 +89,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Unwrapping](#unwrapping)
 
 [W](#w)
+- [Why does Dynamo work](#why-does-dynamo-work?---ian-keough)
 - [Wrapping](#wrapping)
 
 To be added:
@@ -405,7 +407,8 @@ This returns Surfaces and Lines.
 
 # I
 ## Idling Event
-http://thebuildingcoder.typepad.com/blog/2010/04/idling-event.html
+[thebuildingcoder - Idling event](http://thebuildingcoder.typepad.com/blog/2010/04/idling-event.html)
+
 The new event **UIApplication.Idling** is raised when it is safe for the API application to access the active document between user interactions.
 
 ## Ironpython
