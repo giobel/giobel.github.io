@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" afterPath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" afterPath="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2018-01-12-Dynamo-Python-Example.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-01-12-Dynamo-Python-Example.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="561">
-                <caret line="33" column="71" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+              <first_editor relative-caret-position="391">
+                <caret line="177" column="46" lean-forward="false" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/scripts/doc_iterativeSum.md" />
         <option value="$PROJECT_DIR$/scripts/index.html" />
         <option value="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
       </list>
     </option>
   </component>
@@ -162,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00031" summary="pipes">
-      <created>1516639923544</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1516639923544</updated>
     </task>
     <task id="LOCAL-00032" summary="pipes">
       <created>1516639947668</created>
@@ -506,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518107503287</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="api dictionary">
+      <created>1518109342129</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1518109342129</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1014,22 +1014,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="561">
-            <caret line="33" column="71" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <first_editor relative-caret-position="935">
+            <caret line="166" column="169" lean-forward="true" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="935">
-            <caret line="166" column="169" lean-forward="true" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
+          <first_editor relative-caret-position="391">
+            <caret line="177" column="46" lean-forward="false" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />

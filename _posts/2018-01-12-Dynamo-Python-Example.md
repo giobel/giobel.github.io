@@ -110,6 +110,92 @@ public static LineLoad Create(
 )
 ```
 
+We already have the **Document** so we can get the start and end point of our LineLoad. Let's assume that we want them to be the same as the wall location curve. We can use RevitLookup to find a method that gives us the start and end points: 
+<img src="/images/python8.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+
+<img src="/images/python9.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+
+or we can use the *dir()* method inside the python script. This will show us that there is a method called **GetEndPoint** that we can use:
+
+<img src="/images/python10.PNG" width="500" style="display:block; margin-left: auto; margin-right: auto;">
+
+This will give us the start and end points:
+
+```python
+for w in walls:
+	locCrvs = w.Location.Curve
+	stPt = locCrvs.GetEndPoint(0)
+	endPt = locCrvs.GetEndPoint(1)
+```
+
+forceVector and momentVector are just points. We can create them using **XYZ()**
+```python
+XYZ(0,0,-100)
+```
+
+LineLoadType and Sketchplane can be set to null (None in python) to use the default values.
+Because we are modifying the Revit project we need to create a transaction. We can use the Dynamo Transaction framework:
+```python
+TransactionManager.Instance.EnsureInTransaction(doc)
+for w in walls:
+    ...
+TransactionManager.Instance.TransactionTaskDone()
+```
+or the Revit API one, which allows us to give a name to the transaction (which will be shown in the undo list):
+ ```python
+transaction = Transaction(doc)
+transaction.Start("Create Line Loads")
+for w in walls:
+    ...
+transaction.Commit()
+```
+
+Last thing, the LineLoad Class is part of the **Autodesk.Revit.DB.Structure** namespace (shown at the top of the revitapidocs page). Therefore we need to add that to our script:
+```python
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Structure import LineLoad
+```
+
+The completed script will be:
+```python
+import clr
+clr.AddReference("ProtoGeometry")
+from Autodesk.DesignScript.Geometry import *
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Structure import LineLoad
+clr.AddReference("RevitAPIUI")
+from Autodesk.Revit.UI import TaskDialog
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+# Import ToProtoType, ToRevitType geometry conversion extension methods
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.GeometryConversion)
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+walls = FilteredElementCollector(doc).OfClass(Wall).ToElements()
+locCrvs = [] #Create an empty list to store the curves 
+lLoad = []
+transaction = Transaction(doc)
+transaction.Start("Create Line Loads")
+#TransactionManager.Instance.EnsureInTransaction(doc,"Create Line Loads")
+for w in walls:
+	locCrvs = w.Location.Curve
+	stPt = locCrvs.GetEndPoint(0)
+	endPt = locCrvs.GetEndPoint(1)
+	lLoad.append(LineLoad.Create(doc, stPt, endPt, XYZ(0,0,-10000), XYZ(0,5000,0), None, None))
+	
+#TransactionManager.Instance.TransactionTaskDone()
+transaction.Commit()
+#Assign your output to the OUT variable.
+OUT = lLoad
+```
 
 
 <script>  
