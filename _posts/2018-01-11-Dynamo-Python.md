@@ -404,6 +404,10 @@ for obj in energySrf[0].get_Geometry(opt):
 This returns Surfaces and Lines.
 
 # I
+## Idling Event
+http://thebuildingcoder.typepad.com/blog/2010/04/idling-event.html
+The new event **UIApplication.Idling** is raised when it is safe for the API application to access the active document between user interactions.
+
 ## Ironpython
 An implementation of the python language specification created by microsoft, written in C#. The C# implementation allows it to use the Common Language Runtime (clr) to talk directly to other .NET applications and libraries. This language interoperability has made Ironpython a popular embedded-scripting-language .
 
@@ -701,6 +705,15 @@ OUT = [
     newPt.ToDSType(False) #Created in script, mark as non-Revit-owned
 ]
 ```
+
+## Why does dynamo work? - Ian Keough
+http://iankeough.com/wordpress/?p=93
+-  see [this post](http://thebuildingcoder.typepad.com/blog/2010/04/asynchronous-api-calls-and-idling.html) on the Building Coder
+-  check out my implementation in the [dynamoRevit.cs](https://github.com/DynamoDS/DynamoRevit/blob/Revit2018/src/DynamoRevit/DynamoRevit.cs) file from the repo.
+
+The trick is to open a transaction, subscribe to the **OnIdling** event, make the dynamo window a sub process of the main Revit process, then close the transaction and return to Revit whilst leaving dynamo running.
+Controlling Revit this way can be fragile which is why there’s a whole bunch of stuff I do in there to control the process flow, opening and closing of transactions, etc.
+
 
 
 <script>  
