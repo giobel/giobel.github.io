@@ -89,7 +89,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Unwrapping](#unwrapping)
 
 [W](#w)
-- [Why does Dynamo work](#why-does-dynamo-work?---ian-keough)
+- [Why does Dynamo work](#why-does-dynamo-work?-|-ian-keough)
 - [Wrapping](#wrapping)
 
 To be added:
@@ -709,7 +709,7 @@ OUT = [
 ]
 ```
 
-## Why does dynamo work? - Ian Keough
+## Why does dynamo work? | Ian Keough
 http://iankeough.com/wordpress/?p=93
 -  see [this post](http://thebuildingcoder.typepad.com/blog/2010/04/asynchronous-api-calls-and-idling.html) on the Building Coder
 -  check out my implementation in the [dynamoRevit.cs](https://github.com/DynamoDS/DynamoRevit/blob/Revit2018/src/DynamoRevit/DynamoRevit.cs) file from the repo.
