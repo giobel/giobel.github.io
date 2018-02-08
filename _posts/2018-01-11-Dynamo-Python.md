@@ -38,7 +38,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 
 [C](#c)
 
-- [CurveLoop()](#curveloop())
+- [CurveLoop](#curveloop))
 - [Geometry Objects Conversion](#geometry-objects-conversion)
 
 [D](#d)
@@ -105,7 +105,10 @@ To be added:
 
 # C
 
-## CurveLoop()
+## CurveLoop
+[revitapidocs](http://www.revitapidocs.com/2018.1/84824924-cb89-9e20-de6e-3461f429dfd6.htm)
+A class that represents a chain of curves. Required for Filled Regions and Area Loads for example.
+CurveLoops can be created from line start and end points:
 ```python
 TransactionManager.Instance.EnsureInTransaction(doc)
 pts = UnwrapElement(IN[0])
@@ -128,6 +131,42 @@ region = FilledRegion.Create(doc,frt[0].Id,activeViewId,profileLoops)
 regions.Add(region)
 TransactionManager.Instance.TransactionTaskDone()
 ```
+
+or can be extracted from an element using GetBoundarySegments():
+
+```python
+area = UnwrapElement(IN[0])
+F=IN[1] #Load value
+loadtype=UnwrapElement(IN[2])
+opt = SpatialElementBoundaryOptions()
+opt.StoreFreeBoundaryFaces = False
+opt.SpatialElementBoundaryLocation.Center
+listLoad = []
+TransactionManager.Instance.EnsureInTransaction(doc)
+for i in range(0,len(area)):
+	profileLoops = []
+	segs = area[i].GetBoundarySegments(opt)
+	for i in range(0,len(segs)):
+		pL = CurveLoop()
+		profileLoops.Add(pL)	
+		for j in range(0,len(segs[i])):
+			pL.Append(segs[i][j].GetCurve())
+	listLoad.append(AreaLoad.Create(doc,profileLoops,F.ToXyz(False),loadtype[0]))
+TransactionManager.Instance.TransactionTaskDone()
+OUT = listLoad
+```
+
+Remarks:
+- The curves must typically be continuous.
+- It may be either closed (where the start and end points coincide) or open.
+- There should be no self-intersections.
+A CurveLoop is said to be "continuous" if either:
+- the loop contains at most one curve
+- the end of each curve coincides with the start of the next one (if there is a next curve). 
+
+These definitions take the order of the curves and the curves' directions into account. For example, a CurveLoop comprising the four edges of a rectangle in the order {bottom, top, left, right} is discontinuous. Similarly, a CurveLoop comprising the four edges of a rectangle in the order {bottom, right, top, left}, with three of the lines oriented in the counter-clockwise direction of the rectangle and the fourth oriented in the clockwise direction, is discontinuous.
+
+Also see [Sort and Orient Curves to Form a Contiguous Loop](http://thebuildingcoder.typepad.com/blog/2013/03/sort-and-orient-curves-to-form-a-contiguous-loop.html)
 
 ## Geometry Objects Conversion
 - All Geometry coming out of Dynamo Nodes are NOT Revit GeometryObject's, so they need to be converted when used with the Revit API.
@@ -625,6 +664,7 @@ refPt = doc.FamilyCreate.NewReferencePoint(XYZ(0, 0, 0))
 # "End" the transaction
 TransactionManager.Instance.TransactionTaskDone()
 ```
+
 ## Execution Time
 [timeit](https://www.geeksforgeeks.org/timeit-python-examples/)
 ```python
