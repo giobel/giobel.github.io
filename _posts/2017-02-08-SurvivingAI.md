@@ -24,12 +24,17 @@ AI:
  
  # Artificial Narrow Intelligence
  
- Intelligence: ability to acquire information, and use it to achieve a goal. 
- Marcus Hutter and Shane Legg, a co-founder of a company called DeepMind. “intelligence measures an agent’s general ability to achieve goals in a wide range of environments.”
- An American psychologist called Howard Gardner has distinguished nine types of intelligence: linguistic, logic-mathematical, musical, spatial, bodily, interpersonal, intrapersonal, existential and naturalistic.(3)
- Artificial intelligence (AI) is intelligence demonstrated by a machine or by software.
- two very different types of artificial intelligence: artificial narrow intelligence (ANI) and artificial general intelligence (AGI (4)), which are also known as weak AI and strong AI, and as ordinary AI and full AI.
- AGI, is an AI which can carry out any cognitive function that a human can. 
- no computer can yet beat humans at every intellectual endeavour.
- Ordinary AI simply does what we tell it to.
- An AGI will have has the ability to reflect on its goals and decide whether to adjust them. It will have volition.
+- Intelligence: ability to acquire information, and use it to achieve a goal. 
+- Marcus Hutter and Shane Legg, a co-founder of a company called DeepMind: “intelligence measures an agent’s general ability to achieve goals in a wide range of environments.”
+- Howard Gardner (American psychologist) has distinguished 9 types of intelligence: linguistic, logic-mathematical, musical, spatial, bodily, interpersonal, intrapersonal, existential and naturalistic.
+
+**Artificial intelligence (AI) is intelligence demonstrated by a machine or by software.**
+2 very different types of artificial intelligence: 
+- artificial narrow intelligence (ANI) or **weak AI** or ordinary AI: 
+    - can carry out any cognitive function that a human can
+    - no computer can yet beat humans at every intellectual endeavour.
+    - Ordinary AI simply does what we tell it to
+- artificial general intelligence (AGI  or **strong AI** or full AI.
+    - can carry out any cognitive function that a human can
+    - has the ability to reflect on its goals and decide whether to adjust them
+    - It will have volition.
