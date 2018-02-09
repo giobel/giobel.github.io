@@ -29,12 +29,18 @@ AI:
 - Howard Gardner (American psychologist) has distinguished 9 types of intelligence: linguistic, logic-mathematical, musical, spatial, bodily, interpersonal, intrapersonal, existential and naturalistic.
 
 **Artificial intelligence (AI) is intelligence demonstrated by a machine or by software.**
-2 very different types of artificial intelligence: 
+
+Two very different types of artificial intelligence: 
 - artificial narrow intelligence (ANI) or **weak AI** or ordinary AI: 
-    - can carry out any cognitive function that a human can
+    - computers which can play chess better than the best human chess grandmaster 
     - no computer can yet beat humans at every intellectual endeavour.
-    - Ordinary AI simply does what we tell it to
-- artificial general intelligence (AGI  or **strong AI** or full AI.
+    - simply does what we tell it to
+- artificial general intelligence (AGI)  or **strong AI** or full AI.
     - can carry out any cognitive function that a human can
     - has the ability to reflect on its goals and decide whether to adjust them
-    - It will have volition.
+    - it will have volition
+    - probably will need to have self-awareness and be conscious
+    - some people prefer the term “machine intelligence”
+ 
+ ## 1.2 – A short history of AI research
+ 
