@@ -74,4 +74,22 @@ Two very different types of artificial intelligence:
     - some people prefer the term “machine intelligence”
  
 ## 1.2 – A short history of AI research
- 
+
+Charles Babbage, Ada Lovelace 1822
+Alonzo Church, Alan Turing 1936
+1st general-purpose computer to be completed was ENIAC (Electronic Numerical Integrator And Computer), built at the Moore School of Electrical Engineering in Philadelphia, and unveiled in 1946.
+John von Neumann EDVAC
+The Dartmouth Conference, New Hampshire 1956: every . . . feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. John McCarthy, Marvin Minsky, Claude Shannon, and Nathaniel Rochester
+free spending by military research bodies, DARPA 1958
+Herbert Simon said in 1965 that “machines will be capable, within twenty years, of doing any work a man can do
+Marvin Minksy Within a generation . . . the problem of creating ‘artificial intelligence’ will substantially be solved
+James Lighthill report for the British Science Research Council 1973 "combinatorial problem": a simple problem involving two or three variables becomes vast and possibly intractable when the number of variables is increased. 
+1974-1980 hard to get funding: AI Winter
+1980 boom:
+- expert system: 
+    - solving narrowly-defined problems from single domains of expertise (for instance, litigation) using vast data banks
+    - They avoid the messy complications of everyday life, 
+    - Do not tackle the perennial problem of trying to inculcate common sense.
+- Japanese Fifth Generation Computer Systems project:
+    - first generation of computing (vacuum tubes), the second (transistors), the third (integrated circuits) and the fourth (microprocessors).
+    - parallel processing
