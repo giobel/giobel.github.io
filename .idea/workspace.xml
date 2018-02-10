@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="482">
-                <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <first_editor relative-caret-position="84">
+                <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -211,20 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00034" summary="pipes">
-      <created>1516640747100</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1516640747100</updated>
-    </task>
-    <task id="LOCAL-00035" summary="pipes">
-      <created>1516643562692</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1516643562692</updated>
     </task>
     <task id="LOCAL-00036" summary="pipes">
       <created>1516643629215</created>
@@ -555,7 +541,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518297746114</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="api dictionary">
+      <created>1518297797017</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1518297797018</updated>
+    </task>
+    <task id="LOCAL-00084" summary="api dictionary">
+      <created>1518298153826</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1518298153826</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1085,8 +1085,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="482">
-            <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <first_editor relative-caret-position="84">
+            <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
             <folding />
           </first_editor>
           <second_editor />

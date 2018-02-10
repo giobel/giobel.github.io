@@ -3,7 +3,7 @@ title: SURVIVING AI - Calum Chace
 layout: post
 ---
 
-Richard Susskind:
+Richard Susskind: The Future Of Professions
 
 ## Two waves of AI:
 ## 1. 1986-1988: decision tree system
@@ -16,9 +16,7 @@ Failed because:
 To make a computer do clever things:
 
 1. find how human beings do clever things
-
 2. draw decision trees or procedures that captured the human beings reasoning processes
-
 3. put them into a computer systems
 
 The intelligence was more in the representation that the human beings put together than the system
