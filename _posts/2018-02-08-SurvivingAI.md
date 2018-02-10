@@ -3,14 +3,9 @@ title: SURVIVING AI - Calum Chace
 layout: post
 ---
 
-Susskind:
+Richard Susskind:
 
-AI: 
-- bulk process data
-- lots of data
-- find patterns
-
-##Two waves of AI:
+## Two waves of AI:
 ## 1. 1986-1988: decision tree system
 
 Failed because:
@@ -43,8 +38,8 @@ This in the long run is what is going to replace almost all white collar workers
 AI Fallacy: the only way a machine could perform at the level of human experts was by replicating their expertise or judgement. 
 The system does not know anything about the data it is processing. 
 No one is thinking to create a robot that replicates what humans do.
-<img src="/images/susskind1.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
-
+<img src="/images/susskind1.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+[John Searle: Watson doesn't know it won on Jeopardy](http://web.nmsu.edu/~jvessel/Watson_Doesn't_Know_It_Won_on_'Jeopardy!'.pdf)
 
 - The most obvious manifestation of AI today are our smartphones.
 - We are highly social animals
@@ -80,5 +75,5 @@ Two very different types of artificial intelligence:
     - probably will need to have self-awareness and be conscious
     - some people prefer the term “machine intelligence”
  
- ## 1.2 – A short history of AI research
+## 1.2 – A short history of AI research
  
