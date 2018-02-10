@@ -3,10 +3,48 @@ title: SURVIVING AI - Calum Chace
 layout: post
 ---
 
+Susskind:
+
 AI: 
 - bulk process data
 - lots of data
 - find patterns
+
+##Two waves of AI:
+## 1. 1986-1988: decision tree system
+
+Failed because:
+- costly
+- little incentive to adopt (pay by the hour)
+- the invention of the web (lots of documents available at no costs)
+
+To make a computer do clever things:
+
+1. find how human beings do clever things
+
+2. draw decision trees or procedures that captured the human beings reasoning processes
+
+3. put them into a computer systems
+
+The intelligence was more in the representation that the human beings put together than the system
+Human expert relies in tacit knowledge, that cannot be expressed in rules
+Machine are great for doing complex but routine work that you can reduce to a set of procedures but when you need expertise, experience and creativity you could not reduce that to a set of procedures so that for all time will be for humans to do.
+
+## 2. 1997 Deep Blue beat Gary Kasparov: till then has been thought it was impossible.
+
+- We did not predicted the exponential increase of processing power (Deep Blue 300 million moves in 1 second)
+- Kasparov was not beaten by some creative imaginative innovative systems.
+- He was beaten by:
+    1. brute processing power
+    2. huge amounts of past data
+    3. clever algorithms
+This in the long run is what is going to replace almost all white collar workers.
+
+AI Fallacy: the only way a machine could perform at the level of human experts was by replicating their expertise or judgement. 
+The system does not know anything about the data it is processing. 
+No one is thinking to create a robot that replicates what humans do.
+
+<img src="/images/susskind1.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
 - The most obvious manifestation of AI today are our smartphones.
 - We are highly social animals
