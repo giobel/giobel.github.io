@@ -43,8 +43,8 @@ This in the long run is what is going to replace almost all white collar workers
 AI Fallacy: the only way a machine could perform at the level of human experts was by replicating their expertise or judgement. 
 The system does not know anything about the data it is processing. 
 No one is thinking to create a robot that replicates what humans do.
-
 <img src="/images/susskind1.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
+
 
 - The most obvious manifestation of AI today are our smartphones.
 - We are highly social animals
