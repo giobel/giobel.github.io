@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="668">
-                <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+              <first_editor relative-caret-position="710">
+                <caret line="111" column="2" lean-forward="false" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -211,13 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00037" summary="pipes">
-      <created>1516729710725</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1516729710725</updated>
     </task>
     <task id="LOCAL-00038" summary="pipes">
       <created>1516729912767</created>
@@ -555,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518304192669</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="surviving ai">
+      <created>1518305622203</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1518305622203</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -596,7 +596,8 @@
     <MESSAGE value="iterative Sum" />
     <MESSAGE value="voronoi merge" />
     <MESSAGE value="api dictionary" />
-    <option name="LAST_COMMIT_MESSAGE" value="api dictionary" />
+    <MESSAGE value="surviving ai" />
+    <option name="LAST_COMMIT_MESSAGE" value="surviving ai" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1085,8 +1086,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="668">
-            <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <first_editor relative-caret-position="710">
+            <caret line="111" column="2" lean-forward="false" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />

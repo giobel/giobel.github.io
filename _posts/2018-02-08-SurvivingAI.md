@@ -93,3 +93,20 @@ James Lighthill report for the British Science Research Council 1973 "combinator
 - Japanese Fifth Generation Computer Systems project:
     - first generation of computing (vacuum tubes), the second (transistors), the third (integrated circuits) and the fourth (microprocessors).
     - parallel processing
+Britain £350m Alvey project in 1983 
+DARPA set up a Strategic Computer Initiative 1984
+late 1980s when the funding dried up again.:
+- under-estimation of the difficulties of the tasks being addressed
+early 1990s, and AI research has been increasingly well funded since then
+
+## 1.3 – AI today
+
+smartphone, supermarket, netflix, amazon, google search, financial markets (50% of all equities trades)
+Google is an artificial intelligence company. It makes most of its money (and it makes a phenomenal amount of money!) from intelligent algorithms which match adverts with readers and viewers
+In December 2012 Google hired the controversial futurist Ray Kurzweil as a director of engineering. Kurzweil, of whom more later, believes that AGI will arrive in 2029, and that the outcome will be very positive.
+Facebook lost out to Google in a competition to buy DeepMind, but in December 2013 it had hired Yann LeCun, a New York-based professor at the forefront of a branch of AI called Deep Learning
+the technology giants which are major players in AI are almost all US companies. A notable exception is Baidu, founded in 2000 and often referred to as China’s Google.
+### Big Data
+- As well as generating more data, we are quickly expanding our capacity to store and analyse it
+- having more data beats having better data, if what you want is to be able to understand, predict and influence the behaviour of large numbers of people
+- if you find a reliable correlation then it often doesn’t matter if there is a causal link between the two phenomena.
