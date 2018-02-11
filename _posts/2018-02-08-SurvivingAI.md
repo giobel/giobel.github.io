@@ -309,10 +309,13 @@ Usually an approximately accurate model generates approximately accurate results
 In some cases be so far off the mark as to be positively misleading and counter-productive
 
 ### Building on narrow AI
-1. Symbolic AI (Good Old-Fashioned AI) 1950: reduce human thought to the manipulation of symbols, such as language and maths, which could be made comprehensible to computers
+
+###1. Symbolic AI (Good Old-Fashioned AI) 1950
+- reduce human thought to the manipulation of symbols, such as language and maths, which could be made comprehensible to computers
 - Its most successful results were the expert systems which flourished in the late 1980s
 - there were diminishing returns to investment
-2. Machine Learning early 90's
+
+###2. Machine Learning early 90's
 - more statistical approaches
 - creating and refining algorithms which can produce conclusions based on data without being explicitly programmed to do so
 - It overlaps closely with a number of other domains:
@@ -351,3 +354,27 @@ Our brain is not like a car, a single system whose component units all work toge
 It is more like a vast array of disparate systems using hardware components (neurons) that are scattered all over its volume, seemingly at random. 
 
 The speculation that a system containing enough of the types of operations involved in machine learning might generate a conscious mind intrigues some neuroscientists, and strikes others as wildly implausible, or as something that is many years away
+
+Gary Marcus, a psychology professor at New York University
+
+Andrew Ng, formerly head of the Google Brain project and now in charge of Baidu’s AI activities,
+
+Yann LeCun Facebook AI
+
+Dr Dan Goodman of Imperial College London
+
+to teach a computer to recognise a lion you have to show it millions of pictures of different lions in different poses. A human only needs to see a few such pictures. We are able to learn about categories of items at a higher level of abstraction. AGI optimists think that we will work out how to do that with computers too.
+
+There are plenty of serious AI researchers who do believe that the probabilistic techniques of machine learning will lead to AGI within a few decades rather than centuries. The veteran AI researcher Geoff Hinton, now working at Google, forecast in May 2015 that the first machine with common sense could be developed in ten years.
+
+If the first AGI is created using systems like the ones described above it is likely that it would be significantly different from a human brain, both in operation and in behaviour.
+
+###3. A comprehensive theory of mind
+
+- Achieve a complete understanding of how the mind works – and to use that knowledge to build an artificial one
+- we are still very far from a complete theory of mind
+- The first AGI may be the result of whole brain emulation, backed up by only a partial understanding of exactly how all the neurons and other cells in any particular human brain fit together and work. 
+- Or it may be an assemblage of many thousands of deep learning systems, creating a form of intelligence quite different from our own, and operating in a way we don’t understand – at least initially
+
+##Chapter 5 WHEN MIGHT AGI ARRIVE?
+
