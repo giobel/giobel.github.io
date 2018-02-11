@@ -194,3 +194,25 @@ Systems like IBM’s Watson will progress from being decision-support systems to
 In this vision, a requirement for creativity is not necessarily a defence against automation.
 - Some people argue that the fears are over-done because technology is not actually advancing as fast
 - There is an increase in productivity, but for some reason our economic measurements don’t catch it. 
+
+*If computers steal our old jobs, perhaps we can invent lots of new ones?
+- In the past, people whose jobs were automated turned their hands to more value-adding activity, and the net result was higher overall productivity.
+- Martin Ford: in 2014, 90% of the USA’s 150m workers were doing jobs which already existed 100 years earlier.
+- will the rate of churn be too fast for us to keep up?
+**Economic singularity: a majority of jobs can be performed more effectively, efficiently or economically by an AI than they can be done by a human.**
+If and when the economic singularity arrives, we may need to institute what is now called the Universal Basic Income (UBI). 
+Optimistic scenario: radical abundance, leaving humans to pursue self-fulfilment (Peter Diamandis)
+- Martin Ford envisages this as a modification to the market economy, with the UBI being funded by taxes on the rich
+- An alternative is some form of socialism:  common ownership of the means of production (AI systems)
+Even if radical abundance is possible without consuming and polluting the entire planet, there will still be scarce resources.
+- the rich stay rich forever, and the poor stay poor?
+- Or perhaps there will be a tiny elite working in those few remaining jobs that computers can’t yet do, and they will enjoy the best goods and services?
+Perhaps Virtual Reality will ride to the rescue. Indeed, perhaps VR is a necessary element of radical abundance.
+In real life, not everyone can have the beachfront property and a beautiful spouse. In VR, given a generous supply of bandwidth, everyone can.
+**radical abundance is possible, and the need for meaning can be satisfied**
+The third big problem is getting from here to there.
+The most likely outcome is one that no-one has precisely predicted 
+
+# PART TWO
+## AGI Artificial General Intelligence
+
