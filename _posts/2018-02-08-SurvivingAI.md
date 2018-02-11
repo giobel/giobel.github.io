@@ -23,7 +23,7 @@ The intelligence was more in the representation that the human beings put togeth
 Human expert relies in tacit knowledge, that cannot be expressed in rules
 Machine are great for doing complex but routine work that you can reduce to a set of procedures but when you need expertise, experience and creativity you could not reduce that to a set of procedures so that for all time will be for humans to do.
 
-## 2. 1997 Deep Blue beat Gary Kasparov: till then has been thought it was impossible.
+## 2. 1997 Deep Blue beats Gary Kasparov: till then has been thought it was impossible.
 
 - We did not predicted the exponential increase of processing power (Deep Blue 300 million moves in 1 second)
 - Kasparov was not beaten by some creative imaginative innovative systems.
@@ -36,8 +36,13 @@ This in the long run is what is going to replace almost all white collar workers
 AI Fallacy: the only way a machine could perform at the level of human experts was by replicating their expertise or judgement. 
 The system does not know anything about the data it is processing. 
 No one is thinking to create a robot that replicates what humans do.
-<img src="/images/susskind1.PNG" width="700" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/images/susskind1.PNG" width="500" style="display:block; margin-left: auto; margin-right: auto;">
 [John Searle: Watson doesn't know it won on Jeopardy](http://web.nmsu.edu/~jvessel/Watson_Doesn't_Know_It_Won_on_'Jeopardy!'.pdf)
+
+
+# PART ONE - AGI Artificial Narrow Intelligence
+
+## Chapter 1 - History
 
 - The most obvious manifestation of AI today are our smartphones.
 - We are highly social animals
@@ -52,9 +57,9 @@ No one is thinking to create a robot that replicates what humans do.
  The arrival of superintelligence, if and when it happens, would represent a technological singularity 
  Death could become optional 
  If we get it wrong it could spell extinction.
- 
- # Artificial Narrow Intelligence
- 
+
+#1.1 Definitions 
+
 - Intelligence: ability to acquire information, and use it to achieve a goal. 
 - Marcus Hutter and Shane Legg, a co-founder of a company called DeepMind: “intelligence measures an agent’s general ability to achieve goals in a wide range of environments.”
 - Howard Gardner (American psychologist) has distinguished 9 types of intelligence: linguistic, logic-mathematical, musical, spatial, bodily, interpersonal, intrapersonal, existential and naturalistic.
@@ -76,15 +81,25 @@ Two very different types of artificial intelligence:
 ## 1.2 – A short history of AI research
 
 Charles Babbage, Ada Lovelace 1822
+
 Alonzo Church, Alan Turing 1936
+
 1st general-purpose computer to be completed was ENIAC (Electronic Numerical Integrator And Computer), built at the Moore School of Electrical Engineering in Philadelphia, and unveiled in 1946.
+
 John von Neumann EDVAC
+
 The Dartmouth Conference, New Hampshire 1956: every . . . feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. John McCarthy, Marvin Minsky, Claude Shannon, and Nathaniel Rochester
+
 free spending by military research bodies, DARPA 1958
+
 Herbert Simon said in 1965 that “machines will be capable, within twenty years, of doing any work a man can do
+
 Marvin Minksy Within a generation . . . the problem of creating ‘artificial intelligence’ will substantially be solved
+
 James Lighthill report for the British Science Research Council 1973 "combinatorial problem": a simple problem involving two or three variables becomes vast and possibly intractable when the number of variables is increased. 
+
 1974-1980 hard to get funding: AI Winter
+
 1980 boom:
 - expert system: 
     - solving narrowly-defined problems from single domains of expertise (for instance, litigation) using vast data banks
@@ -93,25 +108,34 @@ James Lighthill report for the British Science Research Council 1973 "combinator
 - Japanese Fifth Generation Computer Systems project:
     - first generation of computing (vacuum tubes), the second (transistors), the third (integrated circuits) and the fourth (microprocessors).
     - parallel processing
+    
 Britain £350m Alvey project in 1983 
+
 DARPA set up a Strategic Computer Initiative 1984
-late 1980s when the funding dried up again.:
+
+late 1980s when the funding dried up again
+
 - under-estimation of the difficulties of the tasks being addressed
 early 1990s, and AI research has been increasingly well funded since then
 
 ## 1.3 – AI today
 
 smartphone, supermarket, netflix, amazon, google search, financial markets (50% of all equities trades)
+
 Google is an artificial intelligence company. It makes most of its money (and it makes a phenomenal amount of money!) from intelligent algorithms which match adverts with readers and viewers
+
 In December 2012 Google hired the controversial futurist Ray Kurzweil as a director of engineering. Kurzweil, of whom more later, believes that AGI will arrive in 2029, and that the outcome will be very positive.
+
 Facebook lost out to Google in a competition to buy DeepMind, but in December 2013 it had hired Yann LeCun, a New York-based professor at the forefront of a branch of AI called Deep Learning
+
 the technology giants which are major players in AI are almost all US companies. A notable exception is Baidu, founded in 2000 and often referred to as China’s Google.
+
 ### Big Data
 - As well as generating more data, we are quickly expanding our capacity to store and analyse it
 - having more data beats having better data, if what you want is to be able to understand, predict and influence the behaviour of large numbers of people
 - if you find a reliable correlation then it often doesn’t matter if there is a causal link between the two phenomena.
 - negative aspects of Big Data. Notoriously, government agencies like the NSA and Britain’s GCHQ collect and store gargantuan amounts of data on us.
- NSA and GCHQ that we have to worry about. It is reported that they are desperately short of machine learning experts because they are unable to match the salary, lifestyle or moral prestige offered by Google and the other tech giants.
+NSA and GCHQ that we have to worry about. It is reported that they are desperately short of machine learning experts because they are unable to match the salary, lifestyle or moral prestige offered by Google and the other tech giants.
 
 ## How good is AI today?
 - Computers today out-perform humans in many intellectual tasks. They have been better at arithmetic for decades.
@@ -146,6 +170,7 @@ Most of the tasks that we perform each day can be broken down into 4 fundamental
 - reading
 - writing
 - integrating knowledge.
+
 AI is already helping with all these tasks in a wide range of situation
  Marketers used to observe that much of the value of a product lay in the branding
  The same is now true of the information which surrounds it
@@ -213,6 +238,74 @@ In real life, not everyone can have the beachfront property and a beautiful spou
 The third big problem is getting from here to there.
 The most likely outcome is one that no-one has precisely predicted 
 
-# PART TWO
-## AGI Artificial General Intelligence
+# PART TWO - AGI Artificial General Intelligence
+## Chapter 4 - Can we build an AGI?
+1. Can we build one?
+2. If so, when?
+3. Will it be safe?
 
+It is possible for a general intelligence to be developed using very common materials. This so-called “existence proof” is our own brains. They were developed by a powerful but inefficient process called evolution.
+
+- evolution does not have a purpose or goal -> inefficient
+- So the human brain is the result of a slow, inefficient, un-directed process. 
+- creating artificial intelligence by a very different process, namely science. Science is purposeful and efficient
+
+let’s turn to three arguments that have been advanced to prove that it will not be possible for us to create conscious machines. These are:
+
+1. The Chinese Room thought experiment
+2. The claim that consciousness involves quantum phenomena that cannot be replicated
+3. The claim that we have souls
+
+*The Chinese Room*
+John Searle 1980: 
+- it tries to show that a computer which could engage in a conversation would not understand what it was doing, which means that it would not be conscious.
+- computers do not process information in the way that human brains do: Until and unless one is built which does this, it will not be conscious, however convincing a simulation it produces.
+
+*Quantum consciousness*
+Sir Roger Penrose 1989 
+- human brains do not run the same kind of algorithms as computers.
+- a phenomenon described by quantum physics known as the wave function collapse could explain how consciousness arises:
+In 1992 he met an American anaesthetist called Dr Stuart Hammeroff, and the two collaborated on a theory of mind known as Orchestrated Objective Reduction (Orch-OR). It attributes consciousness to the behaviour of tiny components of cells called microtubules.
+ the great majority of physicists and neuroscientists deny its plausibility. The main line of attack, articulated by US physicist Max Tegmark, is that collections of microtubules forming collapsing wave functions would be too small and act too quickly to have the claimed impact on the much larger scale of neurons.
+ 
+### 3 ways to build a mind (AGI):
+1. Whole brain emulation
+2. Building on artificial narrow intelligence
+3. A comprehensive theory of mind
+
+### 1. Emulation
+Copying or replicating the structures of a brain in very fine detail to produce the same output as the original
+- Emulation = replicated mind which is indistinguishable from the original
+- Simulation = the replicated mind is approximately the same, but differs in some important respects
+- Connectome = wiring diagram of the brain
+Whole brain emulation is a mammoth undertaking. A human brain contains around 85 billion neurons (brain cells) and each neuron may have a thousand connections to other neurons.
+**Is it feasible in practice?**
+We can break the problem down into three components: 
+1. scanning
+    - Scanners in general medical use today, such as MRI (Magnetic Resonance Imaging) are too blunt
+    - Scanning a live brain rather than one which has been finely sliced will probably require sending tiny (molecular-scale) nano-robots into a brain to survey the neurons and glial cells and bring back sufficient data to create a 3D map.
+    - So one way or another, the scanning looks achievable given technology that is available now, or soon will be.
+2. computational capacity
+    - the human brain operates at the exaflop scale, meaning that it carries out one to the billion billion floating point operations per second (10^18)
+    - Major projects have been announced in many of the developed countries to achieve exascale computing before the end of this decade. (2018 Intel)
+3. modelling
+    - This may well turn out to be the hardest part of what is clearly a very hard overall project.
+    - a complete connectome has been available of an organism called C. elegans. It is a tiny worm – just a millimetre long, and it lives in warm soils. C. elegans has a very small connectome compared to humans – just 302 neurons (compared to our 85 billion) and 7,000 synaptic connections. 
+    - in November 2014, a team led by one of the founders of the Open Worm project used the C. elegans connectome to control a small wheeled robot made out of Lego. The robot displayed worm-like behaviour despite having had no programming apart from what was contained in the connectome.
+
+- Henry Markram 2005 Blue Brain project: model the 10,000 neurons and 30 million synapses in the neocortical column of a rat. Neocortex is involved in our higher mental functions, such as conscious thought and our use of language.
+- In November 2007 Markram announced that the model of the rat’s neorcortical column was complete
+- €1.2 billion for the Human Brain Project:
+    -  build “working models” of first a rat brain and then a human brain. 
+    - understand how brain diseases work and to greatly improve the way therapies are developed and tested.
+2013 BRAIN project: funding the development of tools and methodologies
+
+*Reasons why whole brain emulation might not work*
+
+The more detailed a model has to be, the harder it is to build
+- Granularity is one potential source of difficulty
+- Time: Perhaps the models being constructed now will prove uninformative because they lack this time series data.
+Usually an approximately accurate model generates approximately accurate results. 
+In some cases be so far off the mark as to be positively misleading and counter-productive
+
+### Building on narrow AI
