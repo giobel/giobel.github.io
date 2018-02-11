@@ -110,3 +110,22 @@ the technology giants which are major players in AI are almost all US companies.
 - As well as generating more data, we are quickly expanding our capacity to store and analyse it
 - having more data beats having better data, if what you want is to be able to understand, predict and influence the behaviour of large numbers of people
 - if you find a reliable correlation then it often doesn’t matter if there is a causal link between the two phenomena.
+- negative aspects of Big Data. Notoriously, government agencies like the NSA and Britain’s GCHQ collect and store gargantuan amounts of data on us.
+ NSA and GCHQ that we have to worry about. It is reported that they are desperately short of machine learning experts because they are unable to match the salary, lifestyle or moral prestige offered by Google and the other tech giants.
+
+## How good is AI today?
+Computers today out-perform humans in many intellectual tasks. They have been better at arithmetic for decades.
+IBM’s Deep Blue beat the best human chess player in 1997. 
+Kasparov went on to hold two general-purpose computers to draws in 2002 and 2003, but by 2005, the best chess computers were unbeatable by humans.
+The improvements in computer chess are not due solely – or even mainly – to hardware improvements. Software is advancing rapidly too.
+2011 when another IBM system, Watson, beat the most successful human players of a TV quiz game, Jeopardy!
+2013 The most striking thing about DeepMind’s system is that it solves problems and masters skills without being specifically programmed to do so. It shows true general learning ability.
+The system was not given instructions for how to play the game well, or even told the rules and purpose of the game: it was simply rewarded when it played well and not rewarded when it played less well. 
+Stephen Hawking and Elon Musk said in 2014 that the future of artificial intelligence was something to be concerned about
+One reason why people were surprised to hear the warnings that AI could be very dangerous in the medium-term future is that functionality provided by artificial intelligence tends to get re-named as something else as soon as it has been realised. 
+artificial intelligence is re-defined every time a breakthrough is achieved.
+Larry Tesler pointed out that this means AI is being defined as “whatever hasn’t been done yet”, an observation which has become known as Tesler’s Theorem, or the AI effect.
+For many years, people believed that computers would never beat humans at chess. When it finally happened, it was dismissed as mere computation – mere brute force, and not proper thinking at all.
+Computers cannot do what most people probably regard as the core of their own cognition. They are not (as far as we know) self-conscious. They cannot reflect rationally on their goals and adjust them. They do not (as far as we know) get excited about the prospect of achieving their goals. They do not (we believe) actually understand what they are doing when they play a game of chess, for instance.
+In this sense it is fair to say that what AI systems do is “mere computation”. Then again, a lot of what the human brain does is “mere computation”,
+As Douglas Adams said, anything invented after you’re thirty-five is against the natural order of things, anything invented between when you’re fifteen and thirty-five is new and exciting, and anything that is in the world when you’re born is just a natural part of the way the world works.
