@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="676">
-                <caret line="378" column="11" lean-forward="false" selection-start-line="378" selection-start-column="11" selection-end-line="378" selection-end-column="11" />
+              <first_editor relative-caret-position="781">
+                <caret line="393" column="77" lean-forward="false" selection-start-line="393" selection-start-column="77" selection-end-line="393" selection-end-column="77" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -985,13 +985,6 @@
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
     </task>
-    <task id="LOCAL-00043" summary="pipes">
-      <created>1516731358166</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1516731358166</updated>
-    </task>
     <task id="LOCAL-00044" summary="pipes">
       <created>1516731632063</created>
       <option name="number" value="00044" />
@@ -1328,7 +1321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518387363175</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="surviving ai">
+      <created>1518388818437</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1518388818437</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1869,8 +1869,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="676">
-            <caret line="378" column="11" lean-forward="false" selection-start-line="378" selection-start-column="11" selection-end-line="378" selection-end-column="11" />
+          <first_editor relative-caret-position="781">
+            <caret line="393" column="77" lean-forward="false" selection-start-line="393" selection-start-column="77" selection-end-line="393" selection-end-column="77" />
             <folding />
           </first_editor>
           <second_editor />

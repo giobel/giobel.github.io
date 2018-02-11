@@ -378,3 +378,17 @@ If the first AGI is created using systems like the ones described above it is li
 
 ##Chapter 5 WHEN MIGHT AGI ARRIVE?
 
+Rodney Brooks: I think the worry stems from a fundamental error in not distinguishing the difference between the very real recent advances in a particular aspect of AI, and the enormity and complexity of building sentient volitional intelligence.”
+
+Andrew Ng at Baidu and Yann LeCun at Facebook are of a similar mind, as we saw in the last chapter.
+
+However there are also plenty of veteran AI researchers who think AGI may arrive soon.
+Stuart Russell is a British computer scientist and AI researcher who is, along with Peter Norvig, a director of research at Google, co-author of one of the field’s standard university textbooks, “Artificial Intelligence: A Modern Approach”
+
+2014 “Superintelligence”, Nick Bostrom: The combined estimates were as follows: 10% probability of AGI arriving by 2022, 50% chance by 2040 and 90% chance by 2075
+
+arrival time of AGI it is likely to be strongly affected by the continuation or otherwise of the exponential growth in computer processing power known as Moore’s Law
+
+When you compare exponential curves plotted for ten and 100 periods of the same growth, they look pretty much the same: wherever you are on the curve, the past always looks horizontal and the future always looks vertical
+
+Exponential curves do not generally last for long: they are just too powerful
