@@ -119,7 +119,7 @@ the technology giants which are major players in AI are almost all US companies.
 - Kasparov went on to hold two general-purpose computers to draws in 2002 and 2003, but by 2005, the best chess computers were unbeatable by humans.
 - The improvements in computer chess are not due solely – or even mainly – to hardware improvements. Software is advancing rapidly too.
 - 2011: IBM Watson beatS the most successful human players of a TV quiz game, Jeopardy!
-- 2013: DeepMind’s system solves problems and masters skills without being specifically programmed to do so. It shows true general learning ability. The system was not given instructions for how to play the game well, or even told the rules and purpose of the game: it was simply rewarded when it played well and not rewarded when it played less well. 
+- 2013: DeepMind’s system (by Demis Hassabis) solves problems and masters skills without being specifically programmed to do so. It shows true general learning ability. The system was not given instructions for how to play the game well, or even told the rules and purpose of the game: it was simply rewarded when it played well and not rewarded when it played less well. 
 - 2014: Stephen Hawking and Elon Musk said that the future of artificial intelligence was something to be concerned about
 One reason why people were surprised to hear the warnings that AI could be very dangerous in the medium-term future is that functionality provided by artificial intelligence tends to get re-named as something else as soon as it has been realised. 
 **Artificial intelligence is re-defined every time a breakthrough is achieved.**
@@ -130,4 +130,67 @@ One reason why people were surprised to hear the warnings that AI could be very 
     - They do not (as far as we know) get excited about the prospect of achieving their goals. 
     - They do not (we believe) actually understand what they are doing when they play a game of chess, for instance.
 **In this sense it is fair to say that what AI systems do is “mere computation”. Then again, a lot of what the human brain does is “mere computation”**
+
+# 2. Tomorrow's AI
 As Douglas Adams said, anything invented after you’re thirty-five is against the natural order of things, anything invented between when you’re fifteen and thirty-five is new and exciting, and anything that is in the world when you’re born is just a natural part of the way the world works.
+
+- Internet of Things. 
+We don’t yet know whether the myriad devices connecting up to the Internet of Things will communicate with us directly, or via personal digital assistants like Hermione.
+
+- all industries are now part of the **information industry**
+Much of the cost of developing a modern car – and much of the quality of its performance – lies in the software that controls it.
+
+Demis Hassabis has said that AI converts information into knowledge, which he sees as empowering people.
+Most of the tasks that we perform each day can be broken down into 4 fundamental skills: 
+- looking 
+- reading
+- writing
+- integrating knowledge.
+AI is already helping with all these tasks in a wide range of situation
+ Marketers used to observe that much of the value of a product lay in the branding
+ The same is now true of the information which surrounds it
+
+# 3. FROM DIGITAL DISRUPTION TO ECONOMIC SINGULARITY
+
+Concerns about AI:
+- automating our jobs out of existence,
+- is de-humanising war 
+- digital disruption placing millions of people around the world at a sudden and unexpected disadvantage
+
+## 3.1 Digital disruption
+
+Buzzwords:
+- early 2010s: Big Data
+- mid 2010s: Digital Disruption. 
+    - caused by the Internet
+    - peer to peer commerce (AirBnB founded 2008, Uber founded 2009)
+Peter Diamandis, Singularity University, 6Ds of digital disruption of insurgent companies:
+1. Digitized, exploiting the ability to share information at the speed of light
+2. Deceptive, because their growth, being exponential, is hidden for some time and then seems to accelerate almost out of control
+3. Disruptive, because they steal huge chunks of market share from incumbents
+4. Dematerialized, in that much of their value lies in the information they provide rather than anything physical, which means their distribution costs can be minimal or zero
+5. Demonetized, in that they can provide for nothing things which customers previously had to pay for dearly
+6. Democratized, in that they make products and services which were previously the preserve of the rich (like cellphones) available to the many.
+(7.) Data-driven. The disruptive companies exploit the massive amounts of data that are now available, and the computational capacity to analyse them.
+
+*Business leaders often know what they need to do: set up small internal teams of their most talented people to brainstorm potential disruptions and then go ahead and do the disrupting first. These teams need high-level support and freedom from the usual metrics of return on investment, at least for a while. The theory is fairly easy but putting it into practice is hard: most will need external help, and many will fail.*
+
+## 3.2 Killer robots
+- within a decade or two, fully autonomous weapons will be available to military forces with deep pockets
+- They argue that lethal force should never be delegated to machines because they can never be morally responsible.
+
+## 3.3 Economic singularity
+
+*Automation*
+- In the late 20th century, automation came mainly in the form of robots, particularly in the automotive and electrical / electronic industries 
+- 1930 John Maynard Keynes: unemployment due to our discovery of means of economising the use of labour outrunning the pace at which we can find new uses for labour. But this is only a temporary phase of maladjustment.
+- Up to now the replacement of humans by machines has been a gradual process.
+- The idea that each job lost to automation equates to a person rendered permanently unemployed is known as the Luddite Fallacy.
+- Some people argue that soon, people automated out of a job may not find new employment,
+- A report in September 2013 by the Oxford Martin School estimated that 45% of American jobs would disappear in the next 20 years, in two waves:
+    - 1st: low-skilled jobs in transportation and administration.
+    - 2nd: middle and upper-middle class: professional occupations like medicine and the law, managerial jobs, and even in the arts.
+Systems like IBM’s Watson will progress from being decision-support systems to being decision-taking systems.
+In this vision, a requirement for creativity is not necessarily a defence against automation.
+- Some people argue that the fears are over-done because technology is not actually advancing as fast
+- There is an increase in productivity, but for some reason our economic measurements don’t catch it. 
