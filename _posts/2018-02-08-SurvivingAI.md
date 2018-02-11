@@ -309,3 +309,45 @@ Usually an approximately accurate model generates approximately accurate results
 In some cases be so far off the mark as to be positively misleading and counter-productive
 
 ### Building on narrow AI
+1. Symbolic AI (Good Old-Fashioned AI) 1950: reduce human thought to the manipulation of symbols, such as language and maths, which could be made comprehensible to computers
+- Its most successful results were the expert systems which flourished in the late 1980s
+- there were diminishing returns to investment
+2. Machine Learning early 90's
+- more statistical approaches
+- creating and refining algorithms which can produce conclusions based on data without being explicitly programmed to do so
+- It overlaps closely with a number of other domains:
+    - pattern recognition
+    - computational statistics
+    - data mining: make predictions based on information which is already known to the experimenter, using training data.
+        - computer vision:
+            - convolutional neural nets (invented 1980): a large number of artificial neurons are each assigned to a tiny portion of an image. Did not become really useful until the 21st century when graphics processing unit (GPU) computer chips enabled researchers to assemble very large networks.
+ 
+ Seeking to emulate particular intellectual skills at which humans have traditionally beaten computers         
+ 
+ Machine learning computer system does can be
+ - supervised: the computer is given both inputs and outputs by the researcher, and required to work out the rules that connect them
+ - unsupervised: he machine is given no pointers, and has to identify the inputs and the outputs as well as the rules that connect them
+ - reinforcement learning: the computer gets feedback from the environment – for instance by playing a video game
+ 
+ Machine learning employs a host of clever statistical techniques. Two of the most commonly cited are:
+ - “Bayesian networks”: graphical structure that allows you to make hypotheses about uncertain situations. The system generates a flow chart with arrows linking a number of boxes, each of which contains a variable or an event. It assigns probabilities to each of them happening, dependant on what happens with each of the other variables. The system would test the accuracy of the linkages and the probabilities by running large sets of actual data through the model, and end up (hopefully) with a reliably predictive model. 
+ - “Hidden Markov Models” Andrej Markov 1922: in this model the next step depends only on the current step, and not any previous steps. A Hidden Markov Model (often abbreviated to HMM) is one where the current state is only partially observable. They are particularly useful in speech recognition and handwriting recognition systems.
+ 
+ *Deep learning*: subset of machine learning. 
+ - Its algorithms use several layers of processing, each taking data from previous layers and passing an output up to the next layer. 
+ - The nature of the output may vary according to the nature of the input, which is not necessarily binary, but can be weighted. 
+ - The number of layers can vary too, with anything above ten layers seen as very deep learning.
+ Artificial neural nets (ANN) are an important type of deep learning system 1950s Frank Rosenblatt construct the Mark I Perceptron, the first computer which could learn new skills by trial and error. Yann LeCun (now at Facebook), Geoff Hinton (now at Google) and Yoshua Bengio, a professor at the University of Montreal.
+ 
+ Since 2005 a group at Stanford University has hosted the International General Game Playing Competition, which offers a $10,000 prize to the winning machine.
+ - The contestants cannot run specialised software designed specifically for a particular game, as they are only given the rules shortly before play begins. 
+ - In the first competition, humans were able to beat the best machines, but that has not happened since.
+ - The first generation of game-playing software, back in 2005, did not plan ahead; instead they selected moves which maximised the current position. 
+ - The second generation, from 2007, employed the sort of statistical methods discussed above, and in particular the Monte Carlo search technique which plays out large numbers of randomly selected moves and compares the final outcomes. 
+ - The third generation machines currently winning the competition allocate more resources to learning about the game during the short preparation period in order to devise optimal playing strategies.
+ 
+Our brain is not like a car, a single system whose component units all work together in a clearly structured way which is constant over time, and all co-ordinated by a controlling entity (the driver). 
+
+It is more like a vast array of disparate systems using hardware components (neurons) that are scattered all over its volume, seemingly at random. 
+
+The speculation that a system containing enough of the types of operations involved in machine learning might generate a conscious mind intrigues some neuroscientists, and strikes others as wildly implausible, or as something that is many years away
