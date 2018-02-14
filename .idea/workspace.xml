@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="718">
-                <caret line="393" column="0" lean-forward="false" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="77" />
+              <first_editor relative-caret-position="762">
+                <caret line="450" column="309" lean-forward="false" selection-start-line="450" selection-start-column="309" selection-end-line="450" selection-end-column="309" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -213,13 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00045" summary="pipes">
-      <created>1516732382416</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1516732382416</updated>
     </task>
     <task id="LOCAL-00046" summary="python example">
       <created>1516734500539</created>
@@ -557,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518390035049</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="surviving ai">
+      <created>1518648828708</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1518648828709</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1088,8 +1088,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="718">
-            <caret line="393" column="0" lean-forward="false" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="77" />
+          <first_editor relative-caret-position="762">
+            <caret line="450" column="309" lean-forward="false" selection-start-line="450" selection-start-column="309" selection-end-line="450" selection-end-column="309" />
             <folding />
           </first_editor>
           <second_editor />

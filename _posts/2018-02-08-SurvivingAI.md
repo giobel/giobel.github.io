@@ -385,10 +385,67 @@ Andrew Ng at Baidu and Yann LeCun at Facebook are of a similar mind, as we saw i
 However there are also plenty of veteran AI researchers who think AGI may arrive soon.
 Stuart Russell is a British computer scientist and AI researcher who is, along with Peter Norvig, a director of research at Google, co-author of one of the field’s standard university textbooks, “Artificial Intelligence: A Modern Approach”
 
+April 2014 Stephen Hawking leading proponent of the idea that much more work is needed to ensure that AGI is friendly toward humans.
+
 2014 “Superintelligence”, Nick Bostrom: The combined estimates were as follows: 10% probability of AGI arriving by 2022, 50% chance by 2040 and 90% chance by 2075
+
+### 5.2 – Moore’s Law and exponential growth
 
 arrival time of AGI it is likely to be strongly affected by the continuation or otherwise of the exponential growth in computer processing power known as Moore’s Law
 
 When you compare exponential curves plotted for ten and 100 periods of the same growth, they look pretty much the same: wherever you are on the curve, the past always looks horizontal and the future always looks vertical
 
 Exponential curves do not generally last for long: they are just too powerful
+
+In February 2015 Intel updated journalists on their chip programme for the next few years, and it maintains the exponential growth.
+
+One of the first systems to operate at the exascale may be the Square Kilometer Array telescope system. start scanning the sky in the early 2020s
+
+**Most of the things which are of vital interest to us change at a linear rate. **
+
+seven possible reasons why many people shrug off the extraordinary progress of AI as not significant.
+
+1. It is easy to dismiss AI as not progressing very fast if you allocate all its achievements to some other domain.
+
+2. The demise of Moore’s Law has been predicted ever since it was devised fifty years ago. 
+
+3. What’s coming next is no less amazing, but we tend to focus on what we didn’t get more than what we did.
+
+4. Adoption is getting quicker but penetration isn’t.
+
+5. Another aspect of the hype around each new invention is that their early incarnations are often disappointing. 
+
+6. The hedonic treadmill is a name for the fact that most people have a fairly constant level of happiness (hedonic level). what seemed wonderful in prospects becomes ordinary. “Wow” quickly becomes “meh”.
+
+7. Learning about a new AI breakthrough is slightly unsettling for many people. (i.e. Terminator)
+
+standard curve of the product life cycle:
+
+- a small tribe of what marketers call “innovators” jump on it because it is new and shiny
+- They can see its potential and they generate some early hype. 
+- The “early adopters” then try it out and declare it not fit for purpose – and they are right.
+- The backlash sets in, and a wave of cynicism submerges all interest in the product.
+- Over successive months or years the technology gradually improves, and eventually crosses a threshold at which point it is fit for purpose: crossing the chasm
+- then they adopted by the “early majority”, then the “late majority”, and finally by the “laggards”.
+- But by the time the early majority is getting on board the hype is already ancient history, and people are already taking for granted the improvement to their lives
+
+### 5.3 – Unpredictable breakthroughs
+
+Professor Russell thinks AGI will arrive not because of the exponential improvement in computer performance, but because researchers will come up with new paradigms; new ways of thinking about problem-solving.
+- His best guess is that they may be a few decades away.
+
+# PART THREE: ASI ; Artificial Super Intelligence
+
+We have no idea of how much smarter than us it is possible to be. It might be that for some reason humans are near the limit of how intelligent a creature can become, but it seems very unlikely.
+
+we have already been overtaken – and by a very long way – by our own creations in various limited aspects of intelligence (pocket calculator, chess computers, self-driving car)
+
+we humans are subject to a range of cognitive biases which mar our otherwise impressive intelligence:
+- Inattentional blindness
+- The flip side of this is “salience”, when something you have reason to pay attention to starts appearing everywhere you look.
+- “Anchoring”
+- confirmation bias
+
+So it is easy to imagine that there could be minds much smarter than ours.
+
+There is no need to pre-judge whether a superintelligence would be conscious or self-aware. It is logically possible that a mind could have volition, and be greatly more effective than humans at solving all problems based on information it could learn, without having the faintest notion that it was doing so.
