@@ -369,14 +369,14 @@ There are plenty of serious AI researchers who do believe that the probabilistic
 
 If the first AGI is created using systems like the ones described above it is likely that it would be significantly different from a human brain, both in operation and in behaviour.
 
-###3. A comprehensive theory of mind
+### 3. A comprehensive theory of mind
 
 - Achieve a complete understanding of how the mind works – and to use that knowledge to build an artificial one
 - we are still very far from a complete theory of mind
 - The first AGI may be the result of whole brain emulation, backed up by only a partial understanding of exactly how all the neurons and other cells in any particular human brain fit together and work. 
 - Or it may be an assemblage of many thousands of deep learning systems, creating a form of intelligence quite different from our own, and operating in a way we don’t understand – at least initially
 
-##Chapter 5 WHEN MIGHT AGI ARRIVE?
+## Chapter 5 WHEN MIGHT AGI ARRIVE?
 
 Rodney Brooks: I think the worry stems from a fundamental error in not distinguishing the difference between the very real recent advances in a particular aspect of AI, and the enormity and complexity of building sentient volitional intelligence.”
 
