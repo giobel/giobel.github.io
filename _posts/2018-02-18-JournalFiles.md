@@ -120,7 +120,7 @@ we constructed a GST data structure for each modeller’s command string to iden
 ## 5. Conclusion and Future Work 
 
 1. The first phase is to identify the format in which different information items are stored.
-- CLean the obtained data
+- Clean the obtained data
 2. use GST data structures to find common command sequences among BIM users. 
     - First, we transform command sequences into character-based input vectors.  
     - the transformed data is utilized to construct GST
