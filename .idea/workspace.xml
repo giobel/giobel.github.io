@@ -32,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="497">
-                <caret line="151" column="55" lean-forward="true" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
+                <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="684">
-                <caret line="106" column="71" lean-forward="false" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="71" />
+              <first_editor relative-caret-position="548">
+                <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -58,7 +58,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="2822">
-                <caret line="166" column="169" lean-forward="true" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
+                <caret line="166" column="169" lean-forward="false" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -211,13 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00042" summary="pipes">
-      <created>1516730942692</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1516730942692</updated>
     </task>
     <task id="LOCAL-00043" summary="pipes">
       <created>1516731358166</created>
@@ -555,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518977807753</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="journal files">
+      <created>1518978176978</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1518978176978</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1059,7 +1059,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="2822">
-            <caret line="166" column="169" lean-forward="true" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
+            <caret line="166" column="169" lean-forward="false" selection-start-line="166" selection-start-column="169" selection-end-line="166" selection-end-column="169" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1070,7 +1070,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="497">
-            <caret line="151" column="55" lean-forward="true" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
+            <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1080,8 +1080,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="684">
-            <caret line="106" column="71" lean-forward="false" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="71" />
+          <first_editor relative-caret-position="548">
+            <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

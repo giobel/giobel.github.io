@@ -114,10 +114,24 @@ The processed data was stored in .csv format amounting to over 5.5 million recor
 we constructed a GST data structure for each modeller’s command string to identify shared sequences:
 - Several arbitrary minimum frequency threshold values were tested, among which we selected 250 and 500.
 - The minimum length of extracted common command patterns was also set to three. 
- 
+- The primitives extracted for minimum threshold of 250 are longer and represent meaningful modeling activities
+- The obtained patterns became shorter when we increased the minimum frequency threshold. This observation was expected since longer sequences tend to match less frequently
 
+## 5. Conclusion and Future Work 
 
+1. The first phase is to identify the format in which different information items are stored.
+- CLean the obtained data
+2. use GST data structures to find common command sequences among BIM users. 
+    - First, we transform command sequences into character-based input vectors.  
+    - the transformed data is utilized to construct GST
+    - Frequent command patterns are identified by conducting DFS on the trees
+    - Extracted patterns for different users are compared against each other to identify shared sequences.
 
+The obtained results also confirmed our initial hypothesis that there are frequent command execution sequences shared among BIM modelers who work on similar projects
+
+- it might be a good idea to modify the proposed approach to calculate the average time it takes BIM users to executed different command patterns. 
+    - provide customized training to improve designers’ performance. 
+- calculated average times can help design manager to improve project outcomes by choosing an optimal team configuration
 
 
 
@@ -134,8 +148,6 @@ Error posted
 Jrn.Command "AccelKey"
   
 Jrn.Command "Ribbon" 
- 
-build a software that suggests the next command -> autocomplete (pop up window with the most likely commands)
  
 Jrn.MouseMove 0 , 713 , 566
 
