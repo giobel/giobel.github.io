@@ -147,7 +147,7 @@ NSA and GCHQ that we have to worry about. It is reported that they are desperate
 - 2014: Stephen Hawking and Elon Musk said that the future of artificial intelligence was something to be concerned about
 One reason why people were surprised to hear the warnings that AI could be very dangerous in the medium-term future is that functionality provided by artificial intelligence tends to get re-named as something else as soon as it has been realised. 
 **Artificial intelligence is re-defined every time a breakthrough is achieved.**
-- Larry Tesler pointed out that this means AI is being defined as “whatever hasn’t been done yet”, an observation which has become known as Tesler’s Theorem, or the AI effect. For many years, people believed that computers would never beat humans at chess. When it finally happened, it was dismissed as mere computation – mere brute force, and not proper thinking at all.
+- Larry Tesler pointed out that this means AI is being defined as “whatever has not been done yet”, an observation which has become known as Tesler’s Theorem, or the AI effect. For many years, people believed that computers would never beat humans at chess. When it finally happened, it was dismissed as mere computation – mere brute force, and not proper thinking at all.
 - Computers cannot do what most people probably regard as the core of their own cognition: 
     - They are not (as far as we know) self-conscious. 
     - They cannot reflect rationally on their goals and adjust them. 
