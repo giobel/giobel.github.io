@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" afterPath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md" afterPath="$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="633">
-                <caret line="103" column="39" lean-forward="true" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+              <first_editor relative-caret-position="684">
+                <caret line="106" column="71" lean-forward="false" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="71" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -212,13 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00041" summary="pipes">
-      <created>1516730799360</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1516730799360</updated>
     </task>
     <task id="LOCAL-00042" summary="pipes">
       <created>1516730942692</created>
@@ -556,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518371029013</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="journal files">
+      <created>1518977807753</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1518977807753</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +597,8 @@
     <MESSAGE value="voronoi merge" />
     <MESSAGE value="api dictionary" />
     <MESSAGE value="surviving ai" />
-    <option name="LAST_COMMIT_MESSAGE" value="surviving ai" />
+    <MESSAGE value="journal files" />
+    <option name="LAST_COMMIT_MESSAGE" value="journal files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1080,8 +1080,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="633">
-            <caret line="103" column="39" lean-forward="true" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+          <first_editor relative-caret-position="684">
+            <caret line="106" column="71" lean-forward="false" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="71" />
             <folding />
           </first_editor>
           <second_editor />

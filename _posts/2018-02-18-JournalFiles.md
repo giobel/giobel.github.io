@@ -70,7 +70,7 @@ Agrawal and Srikant introduced *Generalized Sequential Pattern* (GSP) algorithm 
 - Guerbas et al. introduced an improved version of GST algorithm with an optimized data structure to extract page visit patterns of internet users
 - The primary objective of the authors was to improve the search experience of users by predicting what pages they intend to view next. -> Which command would you use next?
 
- ## 3. Implementation
+## 3. Implementation
  
 1. parse journal files and extract necessary data items using regular expression matching operations:
     - modeller name
@@ -95,17 +95,31 @@ Agrawal and Srikant introduced *Generalized Sequential Pattern* (GSP) algorithm 
 - We repeat this process for all users to extract their frequent command patterns.
 
 4. the retrieved patterns are compared against each other to identify the ones that are common among different users.
- 
- 
-Table 4 Top three most executed individual commands
 
-| Modeler | Move selected objects or their copies | Align references | Create a line |
-| --- | --- | --- |
-| Modeler 1 | 19.30% | 11.92% | 7.89% |
-| Modeler 2 | 15.27% | 13.56% | 14.23% |
-| Modeler 3 | 18.19% | 6.21% | 11.07% |
-| Modeler 4 | 15.57% | 15.98% | 13.07% |
-| Modeler 5 | 14.31% | 6.94% | 10.00% |
+Prior to using GST, we conducted some preliminary analysis to identify the most frequently executed individual commands:
+
+| Modeler   | Move selected objects | Align references | Create a line |
+| -------   |:---------------------:| ---------------- | ------------- |
+| Modeler 1 | 19.30%                | 11.92%           | 7.89%         |
+| Modeler 2 | 15.27%                | 13.56%           | 14.23%        |
+| Modeler 3 | 18.19%                | 6.21%            | 11.07%        |
+| Modeler 4 | 15.57%                | 15.98%           | 13.07%        |
+| Modeler 5 | 14.31%                | 6.94%            | 10.00%        |
+
+## 4. Experiments and Results
+
+We also filtered out all noisy data (e.g., “cancel the current operation”, “delete”) and entries related to errors. 
+The processed data was stored in .csv format amounting to over 5.5 million records.
+
+we constructed a GST data structure for each modeller’s command string to identify shared sequences:
+- Several arbitrary minimum frequency threshold values were tested, among which we selected 250 and 500.
+- The minimum length of extracted common command patterns was also set to three. 
+ 
+
+
+
+
+
 
 Jrn.Command "KeyboardShortcut"
  
