@@ -10,6 +10,12 @@ Ingredients:
 - [Brackets](http://brackets.io/) open source text editor. Live preview on browser. 
 
 - Node.js open source, cross-platform JavaScript runtime environment. Use it to build a web server.
+Tutorials and Workshops: 
+```python
+ $ npm install -g learnyounode
+ $ npm install -g introtowebgl
+```
+
 
 
 Recipes
