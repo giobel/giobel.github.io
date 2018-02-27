@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" afterPath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" afterPath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -213,13 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00048" summary="iterative Sum">
-      <created>1516789962658</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1516789962658</updated>
     </task>
     <task id="LOCAL-00049" summary="iterative Sum">
       <created>1516790065284</created>
@@ -557,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519645906083</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="code vs node">
+      <created>1519732935444</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1519732935445</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +598,8 @@
     <MESSAGE value="api dictionary" />
     <MESSAGE value="surviving ai" />
     <MESSAGE value="journal files" />
-    <option name="LAST_COMMIT_MESSAGE" value="journal files" />
+    <MESSAGE value="code vs node" />
+    <option name="LAST_COMMIT_MESSAGE" value="code vs node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
