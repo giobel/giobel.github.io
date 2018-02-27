@@ -5,19 +5,25 @@ layout: post
 
 A cookbook made from [The 3D Web Coder](http://the3dwebcoder.typepad.com/)website by Jeremy Tammik
 
+[How to use Node and NPM without installation or admin rights - Shravan Kumar Kasagoni](http://theshravan.net/blog/how-to-use-node-and-npm-without-installation-or-admin-rights/)
+
+
 Ingredients:
 
 - [Brackets](http://brackets.io/) open source text editor. Live preview on browser. 
 
-- Pipenv
-
-
 - Node.js open source, cross-platform JavaScript runtime environment. Use it to build a web server.
+
 Tutorials and Workshops: 
 ```python
  $ npm install -g learnyounode
  $ npm install -g introtowebgl
 ```
+
+
+not working:
+- Pipenv
+- pip install --user nodejs
 
 
 
