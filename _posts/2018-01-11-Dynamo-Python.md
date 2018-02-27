@@ -28,6 +28,8 @@ the [revit 2014 api developer guide](http://thebuildingcoder.typepad.com/files/r
 
 [Python 0.6.3 to 0.7.x Migration](https://github.com/DynamoDS/Dynamo/wiki/Python-0.6.3-to-0.7.x-Migration)
 
+[Michael Kilkelly - Code vs Node](https://learn.archsmarter.com/courses/code-vs-node)
+
 archi-lab, Clockwork, Rhythm, biMorph, Steam Nodes, Wombat. 
 The python code is mainly taken from them and from the Dynamo Forum. 
 
