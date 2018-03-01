@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" afterPath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" afterPath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,15 +44,10 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="231">
-                <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+              <first_editor relative-caret-position="962">
+                <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
                 <folding>
                   <element signature="e#2489#4375#0" expanded="false" />
-                  <marker date="1519924092498" expanded="true" signature="2502:4370" ph="..." />
-                  <marker date="1519924092498" expanded="true" signature="2509:3964" ph="..." />
-                  <marker date="1519924092498" expanded="true" signature="2584:3956" ph="..." />
-                  <marker date="1519924092498" expanded="true" signature="3972:4362" ph="..." />
-                  <marker date="1519924092498" expanded="true" signature="4001:4354" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -220,13 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00053" summary="iterative Sum">
-      <created>1516790570673</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1516790570673</updated>
     </task>
     <task id="LOCAL-00054" summary="voronoi merge">
       <created>1516791274752</created>
@@ -564,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519826920433</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="connectRevitWeb">
+      <created>1519924100392</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1519924100392</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1091,15 +1085,10 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="231">
-            <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+          <first_editor relative-caret-position="962">
+            <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
             <folding>
               <element signature="e#2489#4375#0" expanded="false" />
-              <marker date="1519924092498" expanded="true" signature="2502:4370" ph="..." />
-              <marker date="1519924092498" expanded="true" signature="2509:3964" ph="..." />
-              <marker date="1519924092498" expanded="true" signature="2584:3956" ph="..." />
-              <marker date="1519924092498" expanded="true" signature="3972:4362" ph="..." />
-              <marker date="1519924092498" expanded="true" signature="4001:4354" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
