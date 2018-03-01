@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" afterPath="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" afterPath="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2363">
-                <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+              <first_editor relative-caret-position="1177">
+                <caret line="436" column="19" lean-forward="false" selection-start-line="436" selection-start-column="19" selection-end-line="436" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,9 +45,16 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="956">
-                <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-                <folding />
+              <first_editor relative-caret-position="231">
+                <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+                <folding>
+                  <element signature="e#2489#4375#0" expanded="false" />
+                  <marker date="1519924092498" expanded="true" signature="2502:4370" ph="..." />
+                  <marker date="1519924092498" expanded="true" signature="2509:3964" ph="..." />
+                  <marker date="1519924092498" expanded="true" signature="2584:3956" ph="..." />
+                  <marker date="1519924092498" expanded="true" signature="3972:4362" ph="..." />
+                  <marker date="1519924092498" expanded="true" signature="4001:4354" ph="..." />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -115,15 +123,15 @@
         <option value="$PROJECT_DIR$/scripts/mod_voronoiMerge.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md" />
         <option value="$PROJECT_DIR$/_posts/2017-02-08-SurvivingAI.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-18-JournalFiles.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1096" />
+    <option name="x" value="2666" />
     <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1032" />
@@ -143,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +169,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,20 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00051" summary="iterative Sum">
-      <created>1516790455092</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1516790455092</updated>
-    </task>
-    <task id="LOCAL-00052" summary="iterative Sum">
-      <created>1516790521679</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1516790521679</updated>
     </task>
     <task id="LOCAL-00053" summary="iterative Sum">
       <created>1516790570673</created>
@@ -556,11 +550,25 @@
       <option name="project" value="LOCAL" />
       <updated>1519751404987</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="connectRevitWeb">
+      <created>1519819327710</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1519819327710</updated>
+    </task>
+    <task id="LOCAL-00101" summary="connectRevitWeb">
+      <created>1519826920433</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1519826920433</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1264489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -600,7 +608,8 @@
     <MESSAGE value="surviving ai" />
     <MESSAGE value="journal files" />
     <MESSAGE value="code vs node" />
-    <option name="LAST_COMMIT_MESSAGE" value="code vs node" />
+    <MESSAGE value="connectRevitWeb" />
+    <option name="LAST_COMMIT_MESSAGE" value="connectRevitWeb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1046,17 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2363">
-            <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1079,12 +1077,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-SurvivingAI.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1177">
+            <caret line="436" column="19" lean-forward="false" selection-start-line="436" selection-start-column="19" selection-end-line="436" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="956">
-            <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="231">
+            <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+            <folding>
+              <element signature="e#2489#4375#0" expanded="false" />
+              <marker date="1519924092498" expanded="true" signature="2502:4370" ph="..." />
+              <marker date="1519924092498" expanded="true" signature="2509:3964" ph="..." />
+              <marker date="1519924092498" expanded="true" signature="2584:3956" ph="..." />
+              <marker date="1519924092498" expanded="true" signature="3972:4362" ph="..." />
+              <marker date="1519924092498" expanded="true" signature="4001:4354" ph="..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

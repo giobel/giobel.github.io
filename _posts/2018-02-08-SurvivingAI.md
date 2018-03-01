@@ -434,7 +434,7 @@ standard curve of the product life cycle:
 Professor Russell thinks AGI will arrive not because of the exponential improvement in computer performance, but because researchers will come up with new paradigms; new ways of thinking about problem-solving.
 - His best guess is that they may be a few decades away.
 
-# PART THREE: ASI ; Artificial Super Intelligence
+# PART THREE: ASI - Artificial Super Intelligence
 
 We have no idea of how much smarter than us it is possible to be. It might be that for some reason humans are near the limit of how intelligent a creature can become, but it seems very unlikely.
 

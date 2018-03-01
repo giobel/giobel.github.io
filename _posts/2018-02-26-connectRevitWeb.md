@@ -3,26 +3,27 @@ title: Connect Revit to the Web
 layout: post
 ---
 
-A cookbook made from [The 3D Web Coder](http://the3dwebcoder.typepad.com/)website by Jeremy Tammik
+# A cookbook made from [The 3D Web Coder](http://the3dwebcoder.typepad.com/)website by Jeremy Tammik
 
 [Index here](https://jeremytammik.github.io/3dwc/)
 
 [How to use Node and NPM without installation or admin rights - Shravan Kumar Kasagoni](http://theshravan.net/blog/how-to-use-node-and-npm-without-installation-or-admin-rights/)
 
 
-Ingredients:
+# Ingredients:
 
-- [Brackets](http://brackets.io/) open source text editor. Live preview on browser. 
+## [Brackets](http://brackets.io/) open source text editor. Live preview on browser. 
 
-- Node.js open source, cross-platform JavaScript runtime environment. Use it to build a web server.
+## Node.js open source, cross-platform JavaScript runtime environment. Use it to build a web server.
 
-Tutorials and Workshops: 
+### Tutorials and Workshops:
+ 
 ```python
  $ npm install -g learnyounode
  $ npm install -g introtowebgl
 ```
 
-Installation
+### Installation
 [How to use Node and NPM without installation or admin rights -  Shravan Kumar Kasagoni](http://theshravan.net/blog/how-to-use-node-and-npm-without-installation-or-admin-rights/)
 
 1. Get node binary (node.exe) from nodejs.org site
@@ -31,12 +32,30 @@ Installation
 4. Configure the PATH
 5. Verify the setup. Go to command line then type node -v then npm -v. 
 
+## Miniconda installation
+
+set the .condarc file to:
+```html
+channels:
+  - anaconda-fusion
+  - conda
+  - conda-forge
+  - r
+  - defaults
+show_channel_urls: true
+proxy_servers:
+  http: http://username:password@proxy.ha.arup.com:80
+  https: http://username:password@proxy.ha.arup.com:80
+ssl_verify: 'True'
+```
+Add all the channels to the list.
+
 
 not working:
 - Pipenv
 - pip install --user nodejs
 
-Recipes
+# Recipes
 
 ## The Node.js Server Platform
 
@@ -71,6 +90,9 @@ npm install http-server -g
 ```
 
 ### Implementing a Word Jumbling JavaScript Driven HTML Form
+
+- Add the javascript function to the html <script> section
+- create a form in the html <body>
 
 ```html
 <html>
@@ -152,3 +174,4 @@ function jumble_form(f)
 </body>
 </html>
 ```
+
