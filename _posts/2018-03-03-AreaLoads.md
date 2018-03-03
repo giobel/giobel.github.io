@@ -5,4 +5,8 @@ layout: post
 
 1. Filled Regions
 
-Pros
+
+
+| Pros                               | Cons                    |
+| -----------------------------------| ----------------------- |
+| Automatically generated from Rooms | Manually assign colours |
