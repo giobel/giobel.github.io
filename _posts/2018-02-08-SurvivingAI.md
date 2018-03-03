@@ -449,3 +449,7 @@ we humans are subject to a range of cognitive biases which mar our otherwise imp
 So it is easy to imagine that there could be minds much smarter than ours.
 
 There is no need to pre-judge whether a superintelligence would be conscious or self-aware. It is logically possible that a mind could have volition, and be greatly more effective than humans at solving all problems based on information it could learn, without having the faintest notion that it was doing so.
+
+### 6.2 – How to be smarter
+
+
