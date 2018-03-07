@@ -3,7 +3,7 @@ title: Connect Revit to the Web
 layout: post
 ---
 
-# A cookbook made from [The 3D Web Coder](http://the3dwebcoder.typepad.com/)website by Jeremy Tammik
+# A cookbook made from [The 3D Web Coder](http://the3dwebcoder.typepad.com/) website by Jeremy Tammik
 
 [Index here](https://jeremytammik.github.io/3dwc/)
 
@@ -177,3 +177,13 @@ function jumble_form(f)
 
 https://github.com/hummingburd/aecSpace
 
+1. Install miniconda
+2. Create an environment
+3. Activate the environment
+`source activate pythonocc`
+4. Install pythonocc
+`conda install -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core==0.18.1`
+5. Install sympy
+`conda install -c anaconda sympy`
+6. Navigate to the script folder and type
+`python aecSpaceTowerExample.py`
