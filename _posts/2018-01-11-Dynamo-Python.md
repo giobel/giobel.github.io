@@ -99,7 +99,7 @@ To be added:
 - GetSymbolGeometry vs GetInstanceGeometry
 - FilteredElementCollector ofType -> crl....
 
-<script src="https://gist.githubusercontent.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c/raw/fb4d668eda05c389a11d0c0a5cea83e343dba9fc/BeamEndPointsLoop.py"></script>
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=BeamEndPointsLoop.py"></script>
 
 
 # A
