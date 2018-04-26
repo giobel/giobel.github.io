@@ -99,7 +99,7 @@ To be added:
 - GetSymbolGeometry vs GetInstanceGeometry
 - FilteredElementCollector ofType -> crl....
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js"></script>
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c#file-beamendpointsloop-py"></script>
 
 
 # A
