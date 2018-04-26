@@ -38,6 +38,9 @@ The python code is mainly taken from them and from the Dynamo Forum.
 
 [B](#b)
 
+- [Best practice](#best-practice)
+- [Beam End Points](#beam-end-points)
+
 [C](#c)
 
 - [CurveLoop](#curveloop))
@@ -99,13 +102,26 @@ To be added:
 - GetSymbolGeometry vs GetInstanceGeometry
 - FilteredElementCollector ofType -> crl....
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=BeamEndPointsLoop.py"></script>
+
 
 
 # A
 
 # B
 ## Best practice
+[dynamo primer - chapter 12](http://dynamoprimer.com/en/12_Best-Practice/12-1_Introduction.html)
+
+## Beam End Points
+From location curve
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py"></script> 
+From the element's Instance Geometry
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_InstanceGeometry.py "></script>
+From the element's Solid Geometry
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_SolidGeometry.py "></script>
+Use the correct function depending on the element type:
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPointsLoop.py"></script>
+## Beam Top
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamZTop.py"></script>
 
 # C
 
