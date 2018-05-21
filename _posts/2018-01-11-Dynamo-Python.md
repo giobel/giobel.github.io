@@ -551,6 +551,10 @@ Get a parameter:
 ```python
 param = element.GetParameters("Offset")
 ```
+This will return a list so to return the parameter (item) we can use:
+```python
+param = element.GetParameters("Offset")[0]
+```
 Check the parameter storage type:
 ```python
 param.StorageType
@@ -575,7 +579,6 @@ Return the parameter (integer or double) as String without unit conversion:
 ```python
 param.AsValueString()
 ```
-
 
 ## Get Parameter by Name
 If the parameter type is known:
