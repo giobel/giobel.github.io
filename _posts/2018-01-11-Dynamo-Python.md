@@ -581,22 +581,49 @@ For example, if you want to create a FilledRegion, Revit asks you to pass a List
 # P
 
 ## Get Parameter by Name
+If the parameter type is known:
 ```python
 #credit MEPover
-
-def GetParam(element, name):
-	p = element.get_Parameter(name)	
-	if p.StorageType == StorageType.String:
-		return p.AsString()
-	elif p.StorageType == StorageType.ElementId:
-		elem = doc.GetElement(p.AsElementId())
-		return elem
-	elif p.StorageType == StorageType.Double:
-		ProjectUnits = p.DisplayUnitType
-		newval = UnitUtils.ConvertFromInternalUnits(p.AsDouble(),ProjectUnits)
-		return newval
+def GetParamValue(eType, pName):
+	paramValue = None
+	for i in eType.Parameters:
+		if i.Definition.Name == pName:
+			paramValue = i.AsValueString()
+			#paramValue = i.AsDouble()
+			break
+		else:
+			continue
+	return paramValue
+```
+Otherwise we can use the more generic:
+```python
+#credit MEPover
+element = UnwrapElement(IN[0])
+name = IN[1]
+def checkParameter(param):
+	for p in param:
+		internal = p.Definition
+		if internal.BuiltInParameter != BuiltInParameter.INVALID:
+			return p
+	return param[0]
+	
+for e in element:
+	param = e.GetParameters(name)
+	if len(param) == 0:
+		listout.append(None)
 	else:
-return p.AsInteger()
+		p = checkParameter(param)
+		if p.StorageType == StorageType.String:
+			listout.append(p.AsString())
+		elif p.StorageType == StorageType.ElementId:
+			elem = doc.GetElement(p.AsElementId())
+			listout.append(elem)
+		elif p.StorageType == StorageType.Double:
+			ProjectUnits = p.DisplayUnitType
+			newval = UnitUtils.ConvertFromInternalUnits(p.AsDouble(),ProjectUnits)
+			listout.append(newval)
+		else:
+			listout.append(p.AsInteger())
 ```
 
 ## Project Base Point
