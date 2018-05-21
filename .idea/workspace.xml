@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="632">
-                <caret line="580" column="36" selection-start-line="580" selection-start-column="36" selection-end-line="580" selection-end-column="36" />
+              <first_editor relative-caret-position="425">
+                <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               </first_editor>
               <second_editor />
             </state>
@@ -184,27 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00073" summary="api dictionary">
-      <created>1517858174400</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1517858174400</updated>
-    </task>
-    <task id="LOCAL-00074" summary="api dictionary">
-      <created>1517943690554</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1517943690554</updated>
-    </task>
-    <task id="LOCAL-00075" summary="api dictionary">
-      <created>1518106314740</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1518106314740</updated>
     </task>
     <task id="LOCAL-00076" summary="api dictionary">
       <created>1518106601334</created>
@@ -528,7 +508,28 @@
       <option name="project" value="LOCAL" />
       <updated>1526879349813</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="python Class">
+      <created>1526879429167</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1526879429167</updated>
+    </task>
+    <task id="LOCAL-00123" summary="python Class">
+      <created>1526879579275</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1526879579275</updated>
+    </task>
+    <task id="LOCAL-00124" summary="python Class">
+      <created>1526879656200</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1526879656200</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1040,8 +1041,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="632">
-            <caret line="580" column="36" selection-start-line="580" selection-start-column="36" selection-end-line="580" selection-end-column="36" />
+          <first_editor relative-caret-position="425">
+            <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           </first_editor>
           <second_editor />
         </state>

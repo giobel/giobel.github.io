@@ -10,8 +10,7 @@ title: Revit API using Python - Dictionary
 }
 
  </style>
-    
-<style type="text/css"> /* Better styles for embedding GitHub Gists */ .line-data { font-size:11px; font-family: Consolas,"Liberation Mono",Courier,monospace; } .line-numbers { font-size:11px; background-color: #ECECEC; border-right: 1px solid #DDDDDD; color: #AAAAAA; padding: 0.0em; text-align: right; } .line-pre { font-size:11px;font-family: Consolas,"Liberation Mono",Courier,monospace; } </style> 
+     
     
 <script src="//code.jquery.com/jquery.js"></script>
 
@@ -118,7 +117,8 @@ To be added:
 ## Beam End Points
 From location curve
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py"></script> 
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py" data-gist-hide-footer="true"></script> 
+
 From the element's Instance Geometry
 
 <script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_InstanceGeometry.py"></script>
