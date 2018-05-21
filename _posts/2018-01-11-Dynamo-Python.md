@@ -72,6 +72,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Imports](#imports)
 
 [L](#l)
+- [Import Libraries](#libraries)
 - [List](#list)
 
 [M](#m)
@@ -495,6 +496,12 @@ import xml
 ```
 
 # L
+
+## Libraries
+
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="libraries.py" data-gist-hide-footer="true"></code>
+
+
 ## List
 [Gui_Talarico Nov'16](https://forum.dynamobim.com/t/different-ways-of-getting-element-ids/7782/2)
 

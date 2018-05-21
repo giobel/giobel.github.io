@@ -9,7 +9,7 @@ Context: Check that the openings in a beam are consistent with a typical detail
 
 <img src="/images/class01.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
-To check the openings we will need a list including the opening width and depth, the beam height, the beam start and end point.
+To check the openings we will need a list including the opening width and depth, its centroid, the beam height, the beam start and end point.
 
 This can be achieved through a nested for loop:
 
