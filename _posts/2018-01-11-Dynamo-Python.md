@@ -82,6 +82,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Migrations](#migrations)
 
 [P](#p)
+- [Get Parameter By Name](#get-parameter-by-name)
 - [Project Base Point](#project-base-point)
 
 [R](#r)
@@ -578,6 +579,26 @@ For example, if you want to create a FilledRegion, Revit asks you to pass a List
 
 
 # P
+
+## Get Parameter by Name
+```python
+#credit MEPover
+
+def GetParam(element, name):
+	p = element.get_Parameter(name)	
+	if p.StorageType == StorageType.String:
+		return p.AsString()
+	elif p.StorageType == StorageType.ElementId:
+		elem = doc.GetElement(p.AsElementId())
+		return elem
+	elif p.StorageType == StorageType.Double:
+		ProjectUnits = p.DisplayUnitType
+		newval = UnitUtils.ConvertFromInternalUnits(p.AsDouble(),ProjectUnits)
+		return newval
+	else:
+return p.AsInteger()
+```
+
 ## Project Base Point
 ```python
 # Copyright(c) 2016, Konrad Sobon
