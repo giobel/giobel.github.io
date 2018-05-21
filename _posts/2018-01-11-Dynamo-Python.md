@@ -546,6 +546,37 @@ else:
 
 # P
 
+## Parameter types
+Get a parameter:
+```python
+param = element.GetParameters("Offset")
+```
+Check the parameter storage type:
+```python
+param.StorageType
+```
+Return the parameter as String:
+```python
+param.AsString()
+```
+Return the parameter as Double:
+```python
+param.AsDouble()
+```
+Return the parameter as Integer
+```python
+p.AsInteger()
+```
+Return the parameter as ElementId:
+```python
+param.AsElementId()
+```
+Return the parameter (integer or double) as String without unit conversion: 	
+```python
+param.AsValueString()
+```
+
+
 ## Get Parameter by Name
 If the parameter type is known:
 ```python
