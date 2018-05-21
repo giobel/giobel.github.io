@@ -11,16 +11,11 @@ title: Revit API using Python - Dictionary
 
  </style>
      
-
 <script src="//code.jquery.com/jquery.js"></script>
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 
-
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
-
-<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints_SolidGeometry.py" data-gist-hide-footer="true"></code>
-
 
 
 # Credits
@@ -124,20 +119,22 @@ To be added:
 ## Beam End Points
 From location curve
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py"></script> 
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints.py" data-gist-hide-footer="true"></code>
 
 From the element's Instance Geometry
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_InstanceGeometry.py"></script>
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints_InstanceGeometry.py" data-gist-hide-footer="true"></code>
+
 From the element's Solid Geometry
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_SolidGeometry.py"></script>
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints_SolidGeometry.py" data-gist-hide-footer="true"></code>
+
 Use the correct function depending on the element type:
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPointsLoop.py"></script>
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPointsLoop.py" data-gist-hide-footer="true"></code>
 
 ## Beam Top
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamZTop.py"></script>
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamZTop.py" data-gist-hide-footer="true"></code>
 
 # C
 
