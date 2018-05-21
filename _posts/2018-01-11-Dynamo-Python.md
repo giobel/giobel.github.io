@@ -117,7 +117,9 @@ To be added:
 ## Beam End Points
 From location curve
 
-<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py" data-gist-hide-footer="true"></script> 
+<script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py"></script> 
+
+<code data-gist-id="89224247" data-gist-hide-footer="true" data-gist-caption="this/is/a/sample/path/to/file.extension"></code>
 
 From the element's Instance Geometry
 
