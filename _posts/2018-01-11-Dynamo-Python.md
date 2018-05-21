@@ -11,10 +11,16 @@ title: Revit API using Python - Dictionary
 
  </style>
      
-    
+
 <script src="//code.jquery.com/jquery.js"></script>
 
 <script src="//d3js.org/d3.v3.min.js"></script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+
+<code data-gist-id="<gist-id>"></code>
+<code data-gist-id="89224247" data-gist-hide-footer="true" data-gist-caption="this/is/a/sample/path/to/file.extension"></code>
 
 # Credits
 
@@ -118,8 +124,6 @@ To be added:
 From location curve
 
 <script src="https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints.py"></script> 
-
-<code data-gist-id="89224247" data-gist-hide-footer="true" data-gist-caption="this/is/a/sample/path/to/file.extension"></code>
 
 From the element's Instance Geometry
 
