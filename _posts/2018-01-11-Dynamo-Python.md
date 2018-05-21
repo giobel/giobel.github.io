@@ -142,52 +142,10 @@ Use the correct function depending on the element type:
 [revitapidocs](http://www.revitapidocs.com/2018.1/84824924-cb89-9e20-de6e-3461f429dfd6.htm)
 A class that represents a chain of curves. Required for Filled Regions and Area Loads for example.
 CurveLoops can be created from line start and end points:
-```python
-TransactionManager.Instance.EnsureInTransaction(doc)
-pts = UnwrapElement(IN[0])
-innerPts = UnwrapElement(IN[1])
-frt = UnwrapElement(IN[2])
-profileLoops = []
-outerProfileLoop = CurveLoop()
-#innerProfileLoop = CurveLoop()
-profileLoops.Add(outerProfileLoop)
-#profileLoops.Add(innerProfileLoop)
-#create filled region
-for i in range(0,len(pts)-1):
-	outerProfileLoop.Append(Autodesk.Revit.DB.Line.CreateBound(XYZ(pts[i].X,pts[i].Y,pts[i].Z),XYZ(pts[i+1].X,pts[i+1].Y,pts[i+1].Z)))
-for j in range(0,len(innerPts)):
-	innerProfileLoop = CurveLoop()
-	profileLoops.Add(innerProfileLoop)
-	for i in range(0,len(innerPts[j])-1):
-		innerProfileLoop.Append(Autodesk.Revit.DB.Line.CreateBound(XYZ(innerPts[j][i].X,innerPts[j][i].Y,innerPts[j][i].Z),XYZ(innerPts[j][i+1].X,innerPts[j][i+1].Y,innerPts[j][i+1].Z)))
-region = FilledRegion.Create(doc,frt[0].Id,activeViewId,profileLoops)
-regions.Add(region)
-TransactionManager.Instance.TransactionTaskDone()
-```
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="CurveLoopByLines.py" data-gist-hide-footer="true"></code>
 
 or can be extracted from an element using GetBoundarySegments():
-
-```python
-area = UnwrapElement(IN[0])
-F=IN[1] #Load value
-loadtype=UnwrapElement(IN[2])
-opt = SpatialElementBoundaryOptions()
-opt.StoreFreeBoundaryFaces = False
-opt.SpatialElementBoundaryLocation.Center
-listLoad = []
-TransactionManager.Instance.EnsureInTransaction(doc)
-for i in range(0,len(area)):
-	profileLoops = []
-	segs = area[i].GetBoundarySegments(opt)
-	for i in range(0,len(segs)):
-		pL = CurveLoop()
-		profileLoops.Add(pL)	
-		for j in range(0,len(segs[i])):
-			pL.Append(segs[i][j].GetCurve())
-	listLoad.append(AreaLoad.Create(doc,profileLoops,F.ToXyz(False),loadtype[0]))
-TransactionManager.Instance.TransactionTaskDone()
-OUT = listLoad
-```
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="CurveLoopByBoundary.py" data-gist-hide-footer="true"></code>
 
 Remarks:
 - The curves must typically be continuous.
