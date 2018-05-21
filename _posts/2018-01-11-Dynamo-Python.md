@@ -19,13 +19,8 @@ title: Revit API using Python - Dictionary
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
 
-<code data-gist-id="<gist-id>"></code>
+<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints_SolidGeometry.py" data-gist-hide-footer="true"></code>
 
-<code data-gist = https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c#file-getparametervaluebyname-py data-gist-hide-footer="true" data-gist-caption="this/is/a/sample/path/to/file.extension"></code>
-
-<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c.js?file=GetBeamEndPoints_SolidGeometry.py" data-gist-hide-footer="true"></code>
-
-<code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-hide-footer="true"></code>
 
 
 # Credits
