@@ -574,6 +574,7 @@ somelist.Add(AnotherElementId)
 For example, if you want to create a FilledRegion, Revit asks you to pass a List of CurveLoops, so you have to create a List[CurveLoop](), and add your CurveLoop objects.
 
 ## Return List or Instance
+If the input is of type list then return the input otherwise store the input in a list and return the list:
 ```python
 if isinstance(IN[0], list):
 	element = UnwrapElement(IN[0])
