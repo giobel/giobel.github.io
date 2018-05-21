@@ -9,14 +9,9 @@ title: Revit API using Python - Dictionary
   pointer-events: all;
 }
 
-/* Better styles for embedding GitHub Gists */
-.gist{font-size:13px;line-height:18px;width:53em}
-.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
-.gist-meta{font-family:Arial,sans-serif;font-size:13px !important}
-.gist-meta a{color:#3b5998 !important;font-weight:bold;text-decoration:none}
-.gist-meta a:hover{text-decoration:underline}
-
-    </style>
+ </style>
+    
+<style type="text/css"> /* Better styles for embedding GitHub Gists */ .line-data { font-size:11px; font-family: Consolas,"Liberation Mono",Courier,monospace; } .line-numbers { font-size:11px; background-color: #ECECEC; border-right: 1px solid #DDDDDD; color: #AAAAAA; padding: 0.0em; text-align: right; } .line-pre { font-size:11px;font-family: Consolas,"Liberation Mono",Courier,monospace; } </style> 
     
 <script src="//code.jquery.com/jquery.js"></script>
 
