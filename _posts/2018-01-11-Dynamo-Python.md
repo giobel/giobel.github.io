@@ -274,6 +274,8 @@ FilteredElementCollector(document: Document)
 
 
 # E
+
+
 ## Dynamo Elements 
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace.
 
