@@ -7,6 +7,7 @@ layout: post
 
 ## Example 1: Find beam closest Grids
 
+Method 1:
 ```python
 class GridPoint:
 	pass
@@ -15,7 +16,7 @@ instance = GridPoint()
 instance.pt = Point.ByCoordinates(0,0)
 instance.Name = "1A"
 ```
-
+Method 2:
 ```python
 class GridPoint:
 	def __init__(self):
@@ -28,8 +29,7 @@ instance = GridPoint()
 instance.point = Point.ByCoordinates(0,0)
 instance.name = "1A"
 ```
-
-The 2 method above do not prevent mistakes by the user in the a variable name. To force value into pre-established variables:
+The 2 methods above do not prevent mistakes by the user in the a variable name. To force value into pre-established variables:
 ```python
 class GridPoint:
 	def __init__(self, point, name, vGrid, hGrid):
@@ -40,9 +40,7 @@ class GridPoint:
 #create an instance using the provided constructor
 instance = GridPoint(Point.ByCoordinates(0,0),"1A","1","A")
 ```
-
 Instances can be created inside a loop and appended to a list. Values of an instance can be changed after its creation:
-
 ```python
 list= []
 for vGrid in IN[0]:
