@@ -29,7 +29,7 @@ instance = GridPoint()
 instance.point = Point.ByCoordinates(0,0)
 instance.name = "1A"
 ```
-The 2 methods above do not prevent mistakes by the user in the a variable name. To force value into pre-established variables:
+The 2 methods above do not prevent the user to misspell a variable name. To force value into pre-established variables we can use a constructor:
 ```python
 class GridPoint:
 	def __init__(self, point, name, vGrid, hGrid):
