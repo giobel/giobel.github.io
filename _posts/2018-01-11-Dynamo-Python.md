@@ -89,6 +89,7 @@ The python code is mainly taken from them and from the Dynamo Forum.
 - [Survey Point](#survey-point)
 
 [T](#t)
+- [Python node Template](#template)
 - [Transactions](#transactions)
 - [Execution Time](#execution-time)
 - [codeblock speed](#codeblock-execution-time)
@@ -733,6 +734,12 @@ OUT = Autodesk.DesignScript.Geometry.Point.ByCoordinates(SPeastWest, SPnorthSout
 See Project Base Point for other methods.
 
 # T
+
+## Template
+[github pull 8122](https://github.com/DynamoDS/Dynamo/pull/8122)
+Dynamo checks if the **PythonTemplate.py** file exists at the user location root (%appdata%/Dynamo/Core/{version}/) and if it does, it reads the file and populates the Python script node with its contents
+if the file doesn't exits or it's empty, Dynamo falls back on the hard-coded behaviour
+
 ## Transactions
 - Dynamo provides its own Transaction framework for working with the RevitAPI. This means that your Python script will be executing in the context of an overall Dynamo Transaction.
 - TransactionManager.EnsureInTransaction(): Initializes the Dynamo Transaction
