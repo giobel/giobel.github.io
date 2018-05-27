@@ -5,7 +5,7 @@ layout: post
 
 ## Using functions and classes to simplify iterations and organize data in objects instead of lists.
 
-Example 1: Find beam closest Grids
+## Example 1: Find beam closest Grids
 
 ```python
 class GridPoint:
@@ -56,7 +56,7 @@ for l,p in zip(list, IN[2]):
 
 
 
-Context: Check that the openings in a beam are consistent with a typical detail
+##Example 2: Check that the openings in a beam are consistent with a typical detail
 
 <img src="/images/class01.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
