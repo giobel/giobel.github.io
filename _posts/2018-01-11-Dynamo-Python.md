@@ -735,7 +735,7 @@ See Project Base Point for other methods.
 # T
 
 ## Template
-[github pull 8122](https://github.com/DynamoDS/Dynamo/pull/8122)
+[ Python template support 2.0 #8122 ](https://github.com/DynamoDS/Dynamo/pull/8122)
 Dynamo checks if the **PythonTemplate.py** file exists at the user location root (%appdata%/Dynamo/Core/{version}/) and if it does, it reads the file and populates the Python script node with its contents
 if the file doesn't exits or it's empty, Dynamo falls back on the hard-coded behaviour
 **Only available from version 2.0**
