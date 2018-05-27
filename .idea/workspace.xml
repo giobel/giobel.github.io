@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="223">
-                <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <first_editor relative-caret-position="376">
+                <caret line="31" column="138" selection-start-line="31" selection-start-column="138" selection-end-line="31" selection-end-column="138" />
               </first_editor>
               <second_editor />
             </state>
@@ -189,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00091" summary="journal files">
-      <created>1518978176978</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1518978176978</updated>
     </task>
     <task id="LOCAL-00092" summary="journal files">
       <created>1518978955072</created>
@@ -533,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527412776238</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="python Class">
+      <created>1527412855850</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1527412855850</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1029,8 +1028,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="223">
-            <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <first_editor relative-caret-position="376">
+            <caret line="31" column="138" selection-start-line="31" selection-start-column="138" selection-end-line="31" selection-end-column="138" />
           </first_editor>
           <second_editor />
         </state>
