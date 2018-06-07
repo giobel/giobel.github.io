@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-01-11-Dynamo-Python.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="238">
+              <first_editor relative-caret-position="12529">
                 <caret line="737" column="36" selection-start-line="737" selection-start-column="36" selection-end-line="737" selection-end-column="36" />
               </first_editor>
               <second_editor />
@@ -30,8 +29,32 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="952">
-                <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+              <first_editor relative-caret-position="669">
+                <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dynamoIdeas.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/dynamoIdeas.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="114" selection-start-line="5" selection-start-column="114" selection-end-line="5" selection-end-column="114" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc_viewTemplates.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/doc_viewTemplates.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor>
+                <caret selection-end-line="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,6 +117,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
+        <option value="$PROJECT_DIR$/scripts/dynamoIdeas.md" />
       </list>
     </option>
   </component>
@@ -119,6 +143,11 @@
               <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,13 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00095" summary="journal files">
-      <created>1519645463980</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1519645463980</updated>
     </task>
     <task id="LOCAL-00096" summary="journal files">
       <created>1519645906083</created>
@@ -533,23 +555,30 @@
       <option name="project" value="LOCAL" />
       <updated>1527413275822</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="python Class">
+      <created>1527413354938</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1527413354939</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12604167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12604167" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.1014333" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.09032944" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.09032944" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.10934182" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,16 +613,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="python Class" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/doc_dataToExcel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-204">
-            <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/doc_stairRisersNumbering.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -977,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/doc_viewTemplates.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="856">
-            <caret line="79" selection-start-line="79" selection-end-line="79" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
@@ -1016,21 +1025,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="952">
-            <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <first_editor relative-caret-position="12529">
+            <caret line="737" column="36" selection-start-line="737" selection-start-column="36" selection-end-line="737" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="238">
-            <caret line="737" column="36" selection-start-line="737" selection-start-column="36" selection-end-line="737" selection-end-column="36" />
+          <first_editor relative-caret-position="669">
+            <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/doc_viewTemplates.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/dynamoIdeas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="114" selection-start-line="5" selection-start-column="114" selection-end-line="5" selection-end-column="114" />
           </first_editor>
           <second_editor />
         </state>
