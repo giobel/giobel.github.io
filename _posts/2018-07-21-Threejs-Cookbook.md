@@ -5,26 +5,18 @@ layout: post
 
 ## Based on Lynda course [Learning 3D Graphics on the Web with Three.js by Engin Arslan](https://www.lynda.com/JavaScript-tutorials/Introduction-three-js/586668/633290-4.html)
 
-## Set the scene
+## Create a camera
 
 ```properties
-function init() {
-    var scene = new THREE.Scene();
-    
-    var renderer = new THREE.WebGLRenderer();
-    
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    //anti-div
-    document.getElementById('webgl').appendChild(renderer.domElement);
-    
-    renderer.render(scene,camera);
-    
-    return scene;\
-  }
-var scene = init();
+var camera = new THREE.PerspectiveCamera(45,window.innerWidth/window.innerHeight,1,1000);
+
+camera.position.x = 1;
+camera.position.y = 2;
+camera.position.z = 5;
+
+camera.lookAt(new THREE.Vector3(0,0,0));
 ```
-*return scene* allows to interrogate the scene object in the browser console (simply call **scene** from the console).
-The scene is rendered just once. In order to render the scene continuously we need to use the requestAnimationFrame() function.
+The camera by default is positioned at 0,0,0. You'll need to move it in order to see the geometry.
 
 ## Create and Add an object to the scene
 
@@ -40,14 +32,81 @@ function getBox(w,h,d){
 ```
 The object by default is positioned at 0,0,0 (y direction = height)
 
-## Create a camera
+## Set the scene and the renderer
+
 ```properties
-var camera = new THREE.PerspectiveCamera(45,window.innerWidth/window.innerHeight,1,1000);
-
-camera.position.x = 1;
-camera.position.y = 2;
-camera.position.z = 5;
-
-camera.lookAt(new THREE.Vector3(0,0,0));
+function init() {
+    var scene = new THREE.Scene();
+    
+    var renderer = new THREE.WebGLRenderer();
+    
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    //anti-div
+    document.getElementById('webgl').appendChild(renderer.domElement);
+    
+    renderer.render(scene,camera);
+    
+    return scene;
+  }
+var scene = init();
 ```
-The camera by default is positioned at 0,0,0. You'll need to move it in order to see the geometry.
+*return scene* allows to interrogate the scene object in the browser console (simply call **scene** from the console).
+The scene is rendered just once. In order to render the scene continuously we need to use the requestAnimationFrame() function.
+
+```properties
+    function update (renderer, scene, camera){
+
+        renderer.render(scene, camera);
+
+        requestAnimationFrame(function(){
+            update(renderer,scene,camera);
+        })
+
+    }
+```
+
+and in the init() function, don't use the renderer but the update function
+```properties
+//renderer.render(scene,camera);
+update(renderer, scene, camera);
+```
+
+Now if we set scene.visible = false from the console, the scene will become black. Continuously rendering will allow real time interaction and animation possibilities.
+
+Call **geometry.parameters** to sccess the parameters of an object:
+```properties
+box.position.y = box.geometry.parameters.height/2;
+```
+
+## Common object properties
+
+- Children 
+- Parent
+
+The Scene is the parent object. Objects can be added inside other objects (for logical grouping, shared the transformation of the parent object).
+
+Instead of adding the box to the scene we can add the box to the plane. If the plane moves the box (child of the plane) will move as well.
+
+###Objects can have a name so that can then be found by getObjectByName method on the parent object.
+Inside the init() function:
+```properties
+plane.name = 'plane-1';
+```
+Inside the update function:
+```properties
+  var plane = scene.getObjectByName('plane-1');
+        plane.rotation.y += 0.001;
+        plane.rotation.z +=0.001;
+```
+This will make the plane and the box to rotate.
+
+### Traverse Method
+Apply a transformation to all the children of an object:
+```properties
+       scene.traverse(function(child){
+            child.scale.x +=0.001;
+        })
+```
+
+### Adding fog to the scene
+
