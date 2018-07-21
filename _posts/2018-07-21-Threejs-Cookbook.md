@@ -141,7 +141,8 @@ function getPointLight(intensity){
 
 Add a sphere as child of the light to visualize its position.
 
-### dat.gui create user interface
+### dat.gui create user interface (dat.gui.min.js)
+
 ```properties
 var gui = new dat.GUI();
 
@@ -150,5 +151,26 @@ pointLight.intensity = 2;
 //min and max value
 gui.add(pointLight,'intensity',0,10);
 gui.add(pointLight.position,'y',0,10);
-gui.add(pointLight.position,'x',0,10);
+gui.add(pointLight.position,'x',-10,10);
+```
+
+###orbit controls
+In the init() function:
+```properties
+var controls = new THREE.OrbitControls(camera, renderer.domElement);
+update(renderer, scene, camera, controls);
+```
+and in the update() function:
+```properties
+    function update (renderer, scene, camera, controls){
+
+        renderer.render(scene, camera);
+
+        controls.update();
+
+        requestAnimationFrame(function(){
+            update(renderer,scene,camera, controls);
+        })
+
+    }
 ```
