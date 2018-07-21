@@ -174,3 +174,19 @@ and in the update() function:
 
     }
 ```
+
+### Shadow
+Applies to the renderer:
+```properties
+var renderer = new THREE.WebGLRenderer();
+renderer.shadowMap.enabled = true;
+```
+and to the lights:
+```properties
+light.castShadow = true;
+```
+and to the objects to receive (the plane) and to cast shadows (the box):
+```properties
+mesh.receiveShadow = true;
+mesh.castShadow = true;
+```
