@@ -9,16 +9,17 @@ layout: post
 ```properties
 function init() {
 
-var scene = new THREE.Scene();
-
-var renderer = new THREE.WebGLRenderer();
-
-renderer.setSize(window.innerWidth, window.innerHeight);
-//anti-div
-document.getElementById('webgl').appendChild(renderer.domElement);
-
-renderer.render(scene,camera);
-
-return scene;
+    var scene = new THREE.Scene();
+    
+    var renderer = new THREE.WebGLRenderer();
+    
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    //anti-div
+    document.getElementById('webgl').appendChild(renderer.domElement);
+    
+    renderer.render(scene,camera);
+    
+    return scene;
 }
 ```
+
