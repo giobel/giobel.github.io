@@ -110,3 +110,45 @@ Apply a transformation to all the children of an object:
 
 ### Adding fog to the scene
 
+fog allows to fade the scene to a color. Two types of fog: FogExp2
+```properties
+//color and density
+scene.fog = new THREE.FogExp2(0xffffff,0.2);
+//make plane bigger
+var plane = getPlane(20);
+//color arg
+renderer.setClearColor(0xffffff);
+```
+
+Color definition
+```properties
+//renderer.setClearColor(0xffffff);
+//renderer.setClearColor('#ffffff');
+renderer.setClearColor('rgb(255,255,255)');
+```
+
+### Shading and materials
+MeshPhongMaterial
+
+
+###Lights
+```properties
+function getPointLight(intensity){
+    var light = new THREE.PointLight(0xffffff,intensity);
+    return light;
+}
+```
+
+Add a sphere as child of the light to visualize its position.
+
+### dat.gui create user interface
+```properties
+var gui = new dat.GUI();
+
+pointLight.position.y = 2;
+pointLight.intensity = 2;
+//min and max value
+gui.add(pointLight,'intensity',0,10);
+gui.add(pointLight.position,'y',0,10);
+gui.add(pointLight.position,'x',0,10);
+```
