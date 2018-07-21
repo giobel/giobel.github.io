@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="372">
-                <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+              <first_editor relative-caret-position="508">
+                <caret line="203" column="6" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -255,20 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00102" summary="connectRevitWeb">
-      <created>1519924100392</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1519924100392</updated>
-    </task>
-    <task id="LOCAL-00103" summary="connectRevitWeb">
-      <created>1519925212591</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1519925212591</updated>
     </task>
     <task id="LOCAL-00104" summary="connectRevitWeb">
       <created>1520418687008</created>
@@ -599,7 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532155475405</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="threejs">
+      <created>1532155813814</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1532155813814</updated>
+    </task>
+    <task id="LOCAL-00152" summary="threejs">
+      <created>1532156051258</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1532156051258</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1098,8 +1098,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="372">
-            <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+          <first_editor relative-caret-position="508">
+            <caret line="203" column="6" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>

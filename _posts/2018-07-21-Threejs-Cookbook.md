@@ -190,3 +190,17 @@ and to the objects to receive (the plane) and to cast shadows (the box):
 mesh.receiveShadow = true;
 mesh.castShadow = true;
 ```
+
+rectangular area light are the most realistic ones
+
+## Animation 
+
+- using math random function
+- using noise js
+
+## Camera
+
+- perspective
+- orthographic
+
+
