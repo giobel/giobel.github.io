@@ -7,6 +7,9 @@ layout: post
 
 ## Example 1: Find beam closest Grids
 
+1. Find all the grid intersection points and name them accordingly (1A, 1B, 2A, 2B...). Store them into a Python class or a Dictionary.
+2. Get the beam Start and End points and return the minimum distance to the grid object.
+
 Method 1:
 ```python
 class GridPoint:
@@ -53,6 +56,29 @@ for l,p in zip(list, IN[2]):
 ```
 
 <img src="/images/beamNameObject.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
+
+Now we can check the distance between our beam end points and the grid points. If we store the distances and the grid point names together, we can retrieve the closest grid points using the minimum function.
+
+```python
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import Point
+
+beamEnds = [IN[0].PointAtParameter(0),IN[0].PointAtParameter(1)]
+gridObj = IN[1]
+
+distances = []
+
+for b in beamEnds:
+	subList = []
+	distances.append(subList)
+	for g in gridObj:
+		subList.append([b.DistanceTo(g.pt),g.name])
+		    
+OUT = [min(d) for d in distances]
+```
+
+<img src="/images/beamNameObject2.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## Example 2: Check that the openings in a beam are consistent with a typical detail
 
