@@ -52,7 +52,7 @@ for l,p in zip(list, IN[2]):
 	l.Point = p
 ```
 
-
+<img src="/images/beamNameObject.PNG" width="900" style="display:block; margin-left: auto; margin-right: auto;">
 
 ## Example 2: Check that the openings in a beam are consistent with a typical detail
 

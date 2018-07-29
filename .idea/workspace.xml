@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +26,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-21-pythonClass.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-05-21-pythonClass.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor>
-                <caret selection-end-line="3" selection-end-column="3" />
+              <first_editor relative-caret-position="442">
+                <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-21-Threejs-Cookbook.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-07-21-Threejs-Cookbook.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -78,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="714">
+              <first_editor relative-caret-position="3060">
                 <caret line="180" column="23" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="23" />
               </first_editor>
               <second_editor />
@@ -152,14 +152,14 @@
         <option value="$PROJECT_DIR$/scripts/doc_viewTemplates.md" />
         <option value="$PROJECT_DIR$/scripts/index.html" />
         <option value="$PROJECT_DIR$/_posts/2018-02-26-connectRevitWeb.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
         <option value="$PROJECT_DIR$/scripts/dynamoIdeas.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-21-Threejs-Cookbook.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1004" />
@@ -169,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,13 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00104" summary="connectRevitWeb">
-      <created>1520418687008</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1520418687008</updated>
     </task>
     <task id="LOCAL-00105" summary="connectRevitWeb">
       <created>1520418745249</created>
@@ -599,17 +592,24 @@
       <option name="project" value="LOCAL" />
       <updated>1532156051258</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="threejs">
+      <created>1532168652561</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1532168652561</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1004" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2526096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25260416" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.1014333" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.27559054" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.25929862" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.10934182" />
@@ -1055,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-line="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-22-FromDynamoToMacro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1078,7 +1068,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="714">
+          <first_editor relative-caret-position="3060">
             <caret line="180" column="23" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="23" />
           </first_editor>
           <second_editor />
@@ -1100,6 +1090,16 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="508">
             <caret line="203" column="6" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-21-pythonClass.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="442">
+            <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
