@@ -40,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-156">
-                <caret line="232" column="28" lean-forward="true" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="30" />
+              <first_editor relative-caret-position="68">
+                <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-GLab.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="204">
-                <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <first_editor relative-caret-position="116">
+                <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -239,13 +239,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00126" summary="python Class">
-      <created>1526880471936</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1526880471936</updated>
     </task>
     <task id="LOCAL-00127" summary="python Class">
       <created>1526880919758</created>
@@ -583,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535785508987</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="geomLab">
+      <created>1535786522465</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1535786522466</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1024,15 +1024,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-MacroDraftingView.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="151" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="151" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="151" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="151" />
         </state>
       </provider>
     </entry>
@@ -1079,8 +1079,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-12-Dynamo-Python-Example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-156">
-            <caret line="232" column="28" lean-forward="true" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="30" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -1089,8 +1089,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-GLab.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="204">
-            <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <first_editor relative-caret-position="116">
+            <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
