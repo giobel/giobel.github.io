@@ -6,4 +6,5 @@ title: Presentazione Milano 21/12
 
 # Example #1 – Bauschanzli Restaurant
 
-1.	The basic elements: trunk and crown
+1. The basic elements: trunk and crown
+2. Workflow
