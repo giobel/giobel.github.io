@@ -459,6 +459,12 @@ from Autodesk.DesignScript.Geometry import *
 The python template adds a reference to 'ProtoGeometry'. The actual library is stored here: "C:\Program Files\Dynamo\Dynamo Core\1.3\ProtoCore.dll"
 - Once 'ProtoGeometry' has been added, we load things from the DesignScript library.
 
+It is possible to import all the Design Script methods using [more info here](http://dynamobim.org/forums/topic/import-all-design-script-methods-to-python/)
+```python
+clr.AddReference('DSCoreNodes')
+from DSCore import *
+```
+
 ### Revit API references.
 All Elements coming out of Dynamo Nodes are actually wrappers around core Revit Elements. Inside of Python, you can operate on these types directly by calling our nodes from inside of Python, which are all located in the Revit.Elements namespace:
 ```python
