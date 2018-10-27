@@ -105,7 +105,6 @@ The python code is mainly taken from them and from the Dynamo Forum.
 To be added:
 
 - Iterate through list
-- GetSymbolGeometry vs GetInstanceGeometry
 - FilteredElementCollector ofType -> crl....
 
 
@@ -436,6 +435,34 @@ for obj in energySrf[0].get_Geometry(opt):
 	geo.append(obj.ConvertToMany())
 ```
 This returns Surfaces and Lines.
+
+## GetSymbolGeometry() vs GetInstanceGeometry()
+[knowledge.autodesk.com](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2017/ENU/Revit-API/files/GUID-B4F83374-0DF6-4737-91EB-900E676E862B-htm.html)
+- A GeometryInstance represents a set of geometry stored by Revit in a default configuration, and then transformed into the proper location as a result of the properties of the element. 
+- Revit uses GeometryInstances to allow it to store a single copy of the geometry for a given family and reuse it in multiple instances. 
+- Note that not all Family instances will include GeometryInstances. When Revit needs to make a unique copy of the family geometry for a given instance (because of the effect of local joins, intersections, and other factors related to the instance placement) no GeometryInstance will be encountered; instead the Solid geometry will be found at the top level of the hierarchy. 
+- A GeometryInstance offers the ability to read its geometry through the GetSymbolGeometry() and GetInstanceGeometry() methods. 
+- GetSymbolGeometry() returns the geometry represented in the coordinate system of the family without regards to the orientation and placement location within the project. 
+- GetInstanceGeometry() returns the geometry represented in the coordinate system of the project where the instance is placed. This always returns a copy of the element geometry, so while it would be suitable for implementation of an exporter or a geometric analysis tool, it would **not be appropriate to use this for the creation of other Revit elements referencing this geometry**. 
+- There are also overloads for both GetInstanceGeometry() and GetSymbolGeometry() that transform the geometry by any arbitrary coordinate system. **These methods always return copies similar to GetInstanceGeometry().** 
+- **The GeometryInstance also stored a transformation from the symbol coordinate space to the instance coordinates. This transform is accessible as the Transform property.**
+
+```python
+geomInst = None;
+
+instTransform = None;
+
+for instance in element.get_Geometry(opt):
+	try:
+		geomInst = instance.GetSymbolGeometry()
+		instTransform = instance.Transform;
+	except:
+		continue
+transformedPoint = instTransform.OfPoint(location);
+``` 
+
+See [instanceByFace example](https://gist.github.com/giobel/b5ffcb2e04e31d68ad7687ed4fa48f8c#file-instancebyface-py)
+
 
 # I
 ## Idling Event
