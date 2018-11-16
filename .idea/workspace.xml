@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Dialog.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +19,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-2019">
-                <caret line="446" column="219" lean-forward="true" selection-start-line="446" selection-start-column="219" selection-end-line="446" selection-end-column="219" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-02-01-GLab.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-GLab.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="391">
-                <caret line="145" column="117" lean-forward="true" selection-start-line="145" selection-end-line="145" selection-end-column="117" />
+              <first_editor relative-caret-position="425">
+                <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="127" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,21 +30,9 @@
       <file leaf-file-name="2018-11-16-PythonUI.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-08-12-MacroDraftingView.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-MacroDraftingView.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="153">
-                <caret line="9" column="120" lean-forward="true" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+              <first_editor relative-caret-position="289">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -235,13 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00147" summary="threejs">
-      <created>1532150211448</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1532150211448</updated>
     </task>
     <task id="LOCAL-00148" summary="threejs">
       <created>1532152234726</created>
@@ -579,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540635300436</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="winform">
+      <created>1542348708127</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1542348708128</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,7 +609,8 @@
     <MESSAGE value="threejs" />
     <MESSAGE value="geomLab" />
     <MESSAGE value="symbolgeometry vs instancegeometry" />
-    <option name="LAST_COMMIT_MESSAGE" value="symbolgeometry vs instancegeometry" />
+    <MESSAGE value="winform" />
+    <option name="LAST_COMMIT_MESSAGE" value="winform" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/mod_pipesFromLines.md">
@@ -1081,8 +1059,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-2019">
-            <caret line="446" column="219" lean-forward="true" selection-start-line="446" selection-start-column="219" selection-end-line="446" selection-end-column="219" />
+          <first_editor relative-caret-position="425">
+            <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="127" />
           </first_editor>
           <second_editor />
         </state>
@@ -1090,9 +1068,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
