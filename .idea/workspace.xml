@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="204">
-                <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="120" />
+              <first_editor relative-caret-position="323">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1938">
-                <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,6 +110,7 @@
         <option value="$PROJECT_DIR$/_posts/geomLab.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-01-GLab.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md" />
+        <option value="$PROJECT_DIR$/lib/gist-embed.js" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" />
       </list>
     </option>
@@ -140,7 +142,7 @@
             <path>
               <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,27 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00152" summary="threejs">
-      <created>1532156051258</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1532156051258</updated>
-    </task>
-    <task id="LOCAL-00153" summary="threejs">
-      <created>1532168652561</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1532168652561</updated>
-    </task>
-    <task id="LOCAL-00154" summary="threejs">
-      <created>1532846904904</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1532846904904</updated>
     </task>
     <task id="LOCAL-00155" summary="threejs">
       <created>1532850748952</created>
@@ -554,7 +535,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542352368464</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="winform">
+      <created>1542352522356</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1542352522356</updated>
+    </task>
+    <task id="LOCAL-00202" summary="winform">
+      <created>1542352619804</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1542352619804</updated>
+    </task>
+    <task id="LOCAL-00203" summary="winform">
+      <created>1542352863880</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1542352863880</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,16 +613,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="winform" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/mod_pipesFromLines.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="323">
-            <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1057,18 +1049,25 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="204">
-            <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="120" />
+          <first_editor relative-caret-position="323">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gist-embed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1938">
-            <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
