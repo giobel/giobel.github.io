@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-PythonUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gist-embed.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gist-embed.js" afterDir="false" />
-    </list>
+    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,13 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00162" summary="threejs">
-      <created>1534042354764</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1534042354764</updated>
     </task>
     <task id="LOCAL-00163" summary="threejs">
       <created>1534047777613</created>
@@ -558,12 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542353795011</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="winform">
+      <created>1542354250549</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1542354250549</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20572917" />
       <window_info anchor="bottom" id="TODO" order="6" />
