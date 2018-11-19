@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-11-19-DynaServer.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-19-DynaServer.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="247">
-                <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <first_editor relative-caret-position="672">
+                <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -225,13 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00167" summary="geomLab">
-      <created>1535783488835</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1535783488835</updated>
     </task>
     <task id="LOCAL-00168" summary="geomLab">
       <created>1535783637900</created>
@@ -569,12 +561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542581737581</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="dynasrv">
+      <created>1542623835017</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1542623835017</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -644,7 +642,8 @@
     <MESSAGE value="geomLab" />
     <MESSAGE value="symbolgeometry vs instancegeometry" />
     <MESSAGE value="winform" />
-    <option name="LAST_COMMIT_MESSAGE" value="winform" />
+    <MESSAGE value="dynasrv" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynasrv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-11-Dynamo-Python.md">
@@ -1100,8 +1099,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-19-DynaServer.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="247">
-            <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <first_editor relative-caret-position="672">
+            <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           </first_editor>
           <second_editor />
         </state>
