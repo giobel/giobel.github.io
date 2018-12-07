@@ -299,3 +299,14 @@ void Button3Click(object sender, EventArgs e)
     }
 }
 ```
+
+## 1. ThisApplication 
+    - public Result Execute() -> launches myMacro
+    - public void myMacro() -> creates and shows the modeless form: myForm1.Show()
+    
+## 2. Form1     
+    - an IExternalEventHandler parameter  ```ButtonShowTaskDialog myTaskButtonParameter;``` outside Form1()
+    - an ExternalEvent parameter ```ExternalEvent myTaskButtonEvent;``` outside Form1()
+    - the IExternalEventHandler parameter activation ```myTaskButtonParameter = new ButtonShowTaskDialog();``` inside Form1()
+    - the ExternalEvent parameter  activation ```myTaskButtonEvent = ExternalEvent.Create(myTaskButtonParameter);``` inside Form1()
+    - a ```myTaskButtonEvent.Raise()`` inside a ButtonClick(sender, args) 
