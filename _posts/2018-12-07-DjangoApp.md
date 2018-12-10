@@ -38,3 +38,31 @@ The folder contains:
 - admin.py: for creating an administrative interface
 - tests.py: for unit tests
 
+- add views
+```python
+from django.http import HttpResponse
+def home(request):
+    return HttpResponse("Hello, Django!")
+```
+
+- Create a file, hello/urls.py: specifies patterns to route different URLs to their appropriate views
+```python
+from django.urls import path
+from hello import views
+
+urlpatterns = [
+    path("", views.home, name="home"),
+]
+```
+map root URL of the app ("") to the view.home function that you just added to hello/views.py:
+
+- The web_project folder also contains a urls.py file, which is where URL routing is actually handled
+```python
+from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("", include("hello.urls"))
+]
+```
