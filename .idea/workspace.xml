@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-10-React.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="715">
-                <caret line="174" column="90" selection-start-line="174" selection-start-column="90" selection-end-line="174" selection-end-column="90" />
+              <first_editor relative-caret-position="358">
+                <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="226" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -218,20 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00175" summary="geomLab">
-      <created>1535786522465</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1535786522466</updated>
-    </task>
-    <task id="LOCAL-00176" summary="geomLab">
-      <created>1535789417149</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1535789417149</updated>
     </task>
     <task id="LOCAL-00177" summary="geomLab">
       <created>1535789614331</created>
@@ -562,16 +548,30 @@
       <option name="project" value="LOCAL" />
       <updated>1544445890800</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="react">
+      <created>1544525727226</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1544525727227</updated>
+    </task>
+    <task id="LOCAL-00225" summary="react">
+      <created>1544526550069</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1544526550069</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16438356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16438356" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.09150327" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" weight="0.09150327" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4984375" weight="0.092454836" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32949087" />
@@ -1100,8 +1100,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-10-React.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="715">
-            <caret line="174" column="90" selection-start-line="174" selection-start-column="90" selection-end-line="174" selection-end-column="90" />
+          <first_editor relative-caret-position="358">
+            <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="226" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
