@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Giovanni_Brogiolo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-04-29-MVVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-29-MVVM.md" afterDir="false" />
     </list>
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="663">
-                <caret line="296" column="95" selection-start-line="296" selection-start-column="95" selection-end-line="296" selection-end-column="95" />
+              <first_editor relative-caret-position="721">
+                <caret line="341" selection-start-line="341" selection-end-line="341" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,6 +107,7 @@
       <find>hassabis</find>
       <find>python6</find>
       <find>data-lin</find>
+      <find>xaml</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -263,13 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00189" summary="geomLab">
-      <created>1538100696664</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1538100696664</updated>
     </task>
     <task id="LOCAL-00190" summary="geomLab">
       <created>1538100732743</created>
@@ -607,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556766658490</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="mvvm 6">
+      <created>1556787517481</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1556787517482</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,7 +661,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="pipes" />
     <MESSAGE value="python example" />
     <MESSAGE value="iterative Sum" />
     <MESSAGE value="voronoi merge" />
@@ -686,7 +685,8 @@
     <MESSAGE value="revit dashboard" />
     <MESSAGE value="mvvm" />
     <MESSAGE value="mvvm 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvvm 5" />
+    <MESSAGE value="mvvm 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvvm 6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
@@ -1147,8 +1147,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="663">
-            <caret line="296" column="95" selection-start-line="296" selection-start-column="95" selection-end-line="296" selection-end-column="95" />
+          <first_editor relative-caret-position="721">
+            <caret line="341" selection-start-line="341" selection-end-line="341" />
           </first_editor>
           <second_editor />
         </state>
