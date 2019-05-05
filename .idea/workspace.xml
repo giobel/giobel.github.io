@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="833">
-                <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
+              <first_editor relative-caret-position="714">
+                <caret line="532" column="65" lean-forward="true" selection-start-line="532" selection-start-column="65" selection-end-line="532" selection-end-column="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -263,13 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00194" summary="geomLab">
-      <created>1538102230539</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1538102230539</updated>
     </task>
     <task id="LOCAL-00195" summary="symbolgeometry vs instancegeometry">
       <created>1540635300435</created>
@@ -607,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557027150875</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="mvvm 6">
+      <created>1557032336402</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1557032336402</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1147,8 +1147,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="833">
-            <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
+          <first_editor relative-caret-position="714">
+            <caret line="532" column="65" lean-forward="true" selection-start-line="532" selection-start-column="65" selection-end-line="532" selection-end-column="65" />
           </first_editor>
           <second_editor />
         </state>
