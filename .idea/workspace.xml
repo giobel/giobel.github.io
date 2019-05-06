@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="714">
-                <caret line="532" column="65" lean-forward="true" selection-start-line="532" selection-start-column="65" selection-end-line="532" selection-end-column="65" />
+              <first_editor relative-caret-position="119">
+                <caret line="500" lean-forward="true" selection-start-line="500" selection-end-line="500" />
               </first_editor>
               <second_editor />
             </state>
@@ -172,10 +172,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="2737" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -263,13 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00195" summary="symbolgeometry vs instancegeometry">
-      <created>1540635300435</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1540635300436</updated>
     </task>
     <task id="LOCAL-00196" summary="winform">
       <created>1542348708127</created>
@@ -607,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557032336402</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="mvvm 7">
+      <created>1557035264224</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1557035264225</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.33333334" />
@@ -661,7 +661,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="python example" />
     <MESSAGE value="iterative Sum" />
     <MESSAGE value="voronoi merge" />
     <MESSAGE value="api dictionary" />
@@ -686,7 +685,8 @@
     <MESSAGE value="mvvm" />
     <MESSAGE value="mvvm 5" />
     <MESSAGE value="mvvm 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvvm 6" />
+    <MESSAGE value="mvvm 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvvm 7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
@@ -1147,8 +1147,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="714">
-            <caret line="532" column="65" lean-forward="true" selection-start-line="532" selection-start-column="65" selection-end-line="532" selection-end-column="65" />
+          <first_editor relative-caret-position="119">
+            <caret line="500" lean-forward="true" selection-start-line="500" selection-end-line="500" />
           </first_editor>
           <second_editor />
         </state>
