@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-29-MVVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-29-MVVM.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="357">
-                <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+              <first_editor relative-caret-position="-374">
+                <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -263,13 +262,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00197" summary="winform">
-      <created>1542348947043</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1542348947043</updated>
     </task>
     <task id="LOCAL-00198" summary="winform">
       <created>1542350175280</created>
@@ -607,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557129562397</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="summary">
+      <created>1557538050347</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1557538050347</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,7 +660,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="iterative Sum" />
     <MESSAGE value="voronoi merge" />
     <MESSAGE value="api dictionary" />
     <MESSAGE value="surviving ai" />
@@ -686,7 +684,8 @@
     <MESSAGE value="mvvm 5" />
     <MESSAGE value="mvvm 6" />
     <MESSAGE value="mvvm 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvvm 7" />
+    <MESSAGE value="summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="summary" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-24-JavaNotes.md">
@@ -1147,8 +1146,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-29-MVVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+          <first_editor relative-caret-position="-374">
+            <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
