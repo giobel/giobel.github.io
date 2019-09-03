@@ -3,14 +3,13 @@ layout: post
 title: Pimp my Revit Project
 ---
 
-## Or the advantages of building project specific tools
+`Or the advantages of building project specific tools`
 
-![](/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png)
-
+<img src="/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png" width="900">
 
 ## Inspiration
 
-![](/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png)
+<img src="/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png" width="900">
 
 Danny Bentley - BIM Structural Technician at SOM - 2017
 [https://github.com/dannysbentley/Sections](https://github.com/dannysbentley/Sections)
@@ -54,9 +53,7 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 - Let's ignore IP for simplicity
 
 
-## Examples
-
-## New tool
+## Examples / New tool
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
@@ -69,7 +66,7 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/MetadataViewer.mp4" type='video/mp4'></video>
 
-## Add function to existing one
+## Examples / Add function to existing one
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/BCFierBatch.mp4" type='video/mp4'></video>
