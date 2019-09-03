@@ -3,7 +3,16 @@ layout: post
 title: Pimp my Revit Project
 ---
 
-`Or the advantages of building project specific tools`
+# Or the advantages of building project specific tools
+
+# Summary
+---
+
+- ### Credits
+- ### What tool?
+- ### Examples
+- ### Any Dynamo User in the room?
+- ### Problems
 
 <img src="/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png" width="900">
 
@@ -30,13 +39,13 @@ Dynamic Model Update Section - Revit Samples 2012
 
 Solutions have been out there for a while now, the skillsets to grab them are spreading now and visual programming like Dynamo and Grasshopper have definitely contributed to.
 
-## The good, the bad and the ugly
+# The good, the bad and the ugly
 
 ![](/images/Untitled-d66215c6-7bbf-4d45-83eb-7dd61fe6df1b.png)
 
 ![](/images/Untitled-5911a92c-5cdc-422d-8e4a-c1389edbba38.png)
 
-## What ~~tools~~ risks?
+# What ~~tools~~ risks?
 
 - Small programs that can be built in less than a week by a one person
 - They do one very specific thing for one specific project
@@ -53,29 +62,37 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 - Let's ignore IP for simplicity
 
 
-## Examples / New tool
+# Examples: New tool
 
+## Void By Face
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
 
 1716 Rectangular + 1312 Circular = 3028 → 554mb
 
+## Void By Line
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/VoidByFace.mp4" type='video/mp4'></video>
 
+## Add Metadata to PDF + Viewer
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/MetadataViewer.mp4" type='video/mp4'></video>
 
-## Examples / Add function to existing one
+# Examples: Add function to existing one
 
+## BCFier batch issues
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/BCFierBatch.mp4" type='video/mp4'></video>
 
-## Could have they been created with Dynamo?
+## Print Selected PDFs
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/PrintSelected.mp4" type='video/mp4'></video>
+
+# Could have they been created with Dynamo?
 
 - Yes:
-    - Revit Clouds
-    - Revit Voids
+    - Revit Voids (Dynamo script by Ethan Gear)
+    - Print Selected PDFs
 - No:
     - Pdf Metadata
     - BCFier
@@ -95,7 +112,8 @@ Also:
 ## Problems
 
 - Inevitably buggy (because done in a hurry and not by Software Developers)
-- No customer wants to use an unfinished product that the creators are embarrassed by
-- Someone in each office in charge of creation and deployment
+- Someone in each office should be in charge of creation and deployment
 - Set up personalised toolbars
 - What started as a simple tool with 2 buttons becomes a hell
+
+
