@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="374">
-                <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="48" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -175,6 +175,11 @@
               <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="giobel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="giobel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -244,20 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00210" summary="winform">
-      <created>1542353795011</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1542353795011</updated>
-    </task>
-    <task id="LOCAL-00211" summary="winform">
-      <created>1542354250549</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1542354250549</updated>
     </task>
     <task id="LOCAL-00212" summary="winform">
       <created>1542355013824</created>
@@ -588,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567484500395</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="pimp my revit">
+      <created>1567484864488</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1567484864488</updated>
+    </task>
+    <task id="LOCAL-00260" summary="pimp my revit">
+      <created>1567485673778</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1567485673778</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1122,8 +1127,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="374">
-            <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="48" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
@@ -1132,8 +1137,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

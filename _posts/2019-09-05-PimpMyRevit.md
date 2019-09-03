@@ -3,7 +3,7 @@ layout: post
 title: Pimp my Revit Project
 ---
 
-# Or the advantages of building project specific tools
+## Or the advantages of building project specific tools
 
 # Summary
 ---
@@ -14,11 +14,11 @@ title: Pimp my Revit Project
 - ### Any Dynamo User in the room?
 - ### Problems
 
-<img src="/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png" width="900">
-
 ## Inspiration
 
-<img src="/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png" width="554">
+<img src="/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png" width="900" align="middle">
+
+<img src="/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png" width="554" align="middle">
 
 Danny Bentley - BIM Structural Technician at SOM - 2017
 [https://github.com/dannysbentley/Sections](https://github.com/dannysbentley/Sections)
