@@ -9,7 +9,6 @@ title: Pimp my Revit Project
 
 ![](/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png)
 
-<img src="/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png" width="900">
 ---
 
 ## Inspiration
@@ -19,7 +18,9 @@ title: Pimp my Revit Project
 Danny Bentley - BIM Structural Technician at SOM - 2017
 [https://github.com/dannysbentley/Sections](https://github.com/dannysbentley/Sections)
 
-[https://www.youtube.com/watch?v=gkgV2Ff6zC8&index=1&list=PLlyMZ5IcKcciQwUdE9H1m_sjdoTtXvcGY](https://www.youtube.com/watch?v=gkgV2Ff6zC8&index=1&list=PLlyMZ5IcKcciQwUdE9H1m_sjdoTtXvcGY)
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/dannyBentley.mp4" type='video/mp4'></video>
+
 
 ![](Untitled-c0c247cf-8217-496b-8fb4-9ea8f216f501.png)
 
