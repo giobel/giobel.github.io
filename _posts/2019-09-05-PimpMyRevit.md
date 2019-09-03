@@ -3,16 +3,12 @@ layout: post
 title: Pimp my Revit Project
 ---
 
-## Or the advantages of project specific tools
-
----
+## Or the advantages of building project specific tools
 
 ![](/images/Untitled-e1338e8b-cdb6-42df-8b75-1517f34645ab.png)
 
 
 ## Inspiration
-
----
 
 ![](/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png)
 
@@ -22,12 +18,12 @@ Danny Bentley - BIM Structural Technician at SOM - 2017
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/dannyBentley.mp4" type='video/mp4'></video>
 
+[https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html](https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html)
 
 ![](/images/Untitled-c0c247cf-8217-496b-8fb4-9ea8f216f501.png)
 
-[https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html](https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html)
-
 Dynamic Model Update Section - Revit Samples 2012
+
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/Dynamic Model Updater.mp4" type='video/mp4'></video>
 
@@ -37,16 +33,11 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 ## The good, the bad and the ugly
 
----
-
 ![](/images/Untitled-d66215c6-7bbf-4d45-83eb-7dd61fe6df1b.png)
 
 ![](/images/Untitled-5911a92c-5cdc-422d-8e4a-c1389edbba38.png)
 
-
 ## What ~~tools~~ risks?
-
----
 
 - Small programs that can be built in less than a week by a one person
 - They do one very specific thing for one specific project
@@ -65,11 +56,7 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 ## Examples
 
----
-
 ## New tool
-
----
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
 <source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
@@ -80,11 +67,12 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 <source src="/videos/VoidByFace.mp4" type='video/mp4'></video>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
-<source src="/videos/Add metadata.mp4" type='video/mp4'></video>
+<source src="/videos/MetadataViewer.mp4" type='video/mp4'></video>
 
 ## Add function to existing one
 
-[https://www.youtube.com/watch?v=Z7fj8q9j_oE&feature=youtu.be](https://www.youtube.com/watch?v=Z7fj8q9j_oE&feature=youtu.be)
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<source src="/videos/BCFierBatch.mp4" type='video/mp4'></video>
 
 ## Could have they been created with Dynamo?
 
@@ -114,6 +102,36 @@ Also:
 - Someone in each office in charge of creation and deployment
 - Set up personalised toolbars
 - What started as a simple tool with 2 buttons becomes a hell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## How can we move forward?
 
