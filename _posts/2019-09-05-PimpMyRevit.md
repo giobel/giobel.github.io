@@ -9,12 +9,12 @@ title: Pimp my Revit Project
 
 ## Inspiration
 
-<img src="/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png" width="900">
+<img src="/images/Untitled-5793fb69-abc3-424f-8685-456741121edc.png" width="554">
 
 Danny Bentley - BIM Structural Technician at SOM - 2017
 [https://github.com/dannysbentley/Sections](https://github.com/dannysbentley/Sections)
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/dannyBentley.mp4" type='video/mp4'></video>
 
 [https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html](https://thebuildingcoder.typepad.com/blog/2012/06/create-section-view-parallel-to-wall.html)
@@ -23,8 +23,8 @@ Danny Bentley - BIM Structural Technician at SOM - 2017
 
 Dynamic Model Update Section - Revit Samples 2012
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
-<source src="/videos/Dynamic Model Updater.mp4" type='video/mp4'></video>
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/Dynamic Model Update Section - Revit Samples 2012.mp4" type='video/mp4'></video>
 
 [https://thebuildingcoder.typepad.com/blog/2011/08/associative-section-view-fix.html#2](https://thebuildingcoder.typepad.com/blog/2011/08/associative-section-view-fix.html#2)
 
@@ -55,20 +55,20 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 ## Examples / New tool
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
 
-1716 Rectangular + 1312 Circular = 3028 → 554mb →
+1716 Rectangular + 1312 Circular = 3028 → 554mb
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/VoidByFace.mp4" type='video/mp4'></video>
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/MetadataViewer.mp4" type='video/mp4'></video>
 
 ## Examples / Add function to existing one
 
-<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="900" height="550" data-setup="{}">
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
 <source src="/videos/BCFierBatch.mp4" type='video/mp4'></video>
 
 ## Could have they been created with Dynamo?
@@ -99,51 +99,3 @@ Also:
 - Someone in each office in charge of creation and deployment
 - Set up personalised toolbars
 - What started as a simple tool with 2 buttons becomes a hell
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## How can we move forward?
-
-- Write down any ideas to improve your daily job
-
-![](/images/Untitled-f737d50c-bf45-4466-94e1-cd77e49d4391.png)
-
-[http://tiny.cc/9w43bz](http://tiny.cc/9w43bz)
-
-- Stop thinking C# is too difficult
-- C# can be used like Python (i.e. don't worry about OOP)
-- Remember:
-    - Scripting ≠ Coding
-    - Engineers&Technicians ≠ Software Developers
-- Get the support and supervision of a Software Developer
-- These are proof of concept (mvp) that software developer ultimately should classify as safe to be used or threat
-
-![](/images/Untitled-36f2b198-2e24-4282-a630-a1b03e5b4d62.jpeg)

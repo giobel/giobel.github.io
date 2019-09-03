@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
+    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="pimp my revit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/Add metadata.mp4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="595">
-                <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="66" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="833">
-                <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+              <first_editor relative-caret-position="187">
+                <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
               </first_editor>
               <second_editor />
             </state>
@@ -244,27 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00207" summary="winform">
-      <created>1542353371731</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1542353371731</updated>
-    </task>
-    <task id="LOCAL-00208" summary="winform">
-      <created>1542353483586</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1542353483586</updated>
-    </task>
-    <task id="LOCAL-00209" summary="winform">
-      <created>1542353514506</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1542353514506</updated>
     </task>
     <task id="LOCAL-00210" summary="winform">
       <created>1542353795011</created>
@@ -588,7 +567,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567483418474</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="pimp my revit">
+      <created>1567483859188</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1567483859188</updated>
+    </task>
+    <task id="LOCAL-00257" summary="pimp my revit">
+      <created>1567483884985</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1567483884985</updated>
+    </task>
+    <task id="LOCAL-00258" summary="pimp my revit">
+      <created>1567484500394</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1567484500395</updated>
+    </task>
+    <option name="localTasksCounter" value="259" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1122,8 +1122,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-21-PresentazioneMilano.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="595">
-            <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="66" />
+          <first_editor relative-caret-position="374">
+            <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
@@ -1132,8 +1132,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-09-05-PimpMyRevit.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="833">
-            <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
           </first_editor>
           <second_editor />
         </state>
