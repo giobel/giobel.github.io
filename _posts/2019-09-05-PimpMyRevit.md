@@ -47,12 +47,12 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 # What ~~tools~~ risks?
 
-- Small programs that can be built in less than a week by a one person
+- Small programs that can be built in less than a week by one person
 - They do one very specific thing for one specific project
 - They can automate repetitive tasks or make Revit smarter
-- They can provide new feature or piggyback existing ones
+- They can provide new feature or extend existing ones
 - They are not meant to be uploaded on the Tool Register but they live on GitLab:
-    - Not meant to be deployed globally
+    - Not ready to be deployed outside the office
     - Can be accessed by anyone who want to reuse part of the code
     - Implements version control
     - Colleagues can update and improve the code
@@ -66,13 +66,13 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 ## Void By Face
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
-<source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
+<source src="/videos/VoidByFace.mp4" type='video/mp4'></video>
 
 1716 Rectangular + 1312 Circular = 3028 → 554mb
 
 ## Void By Line
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
-<source src="/videos/VoidByFace.mp4" type='video/mp4'></video>
+<source src="/videos/VoidByLine.mp4" type='video/mp4'></video>
 
 ## Add Metadata to PDF + Viewer
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
@@ -86,7 +86,7 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
 
 ## Print Selected PDFs
 <video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
-<source src="/videos/PrintSelected.mp4" type='video/mp4'></video>
+<source src="/videos/Print Selected.mp4" type='video/mp4'></video>
 
 # Could have they been created with Dynamo?
 
