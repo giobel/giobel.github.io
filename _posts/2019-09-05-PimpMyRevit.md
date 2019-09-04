@@ -37,8 +37,6 @@ Dynamic Model Update Section - Revit Samples 2012
 
 [https://thebuildingcoder.typepad.com/blog/2011/08/associative-section-view-fix.html#2](https://thebuildingcoder.typepad.com/blog/2011/08/associative-section-view-fix.html#2)
 
-Solutions have been out there for a while now, the skillsets to grab them are spreading now and visual programming like Dynamo and Grasshopper have definitely contributed to.
-
 # The good, the bad and the ugly
 
 ![](/images/Untitled-d66215c6-7bbf-4d45-83eb-7dd61fe6df1b.png)
@@ -57,7 +55,8 @@ Solutions have been out there for a while now, the skillsets to grab them are sp
     - Implements version control
     - Colleagues can update and improve the code
 - They are used by a limited and small number of users:
-    - Easier to train on how to use the tool
+    - It can be less user friendly
+    - The workflow to follow can be more complex
     - Immediate feedback for usability and bugs
 - Let's ignore IP for simplicity
 
@@ -107,7 +106,8 @@ Also:
 
 - It's not as fast as a macro or C# addin
 - Easier to share few lines of code than a custom node
-- Dynamo never ending version compatibility issues
+- No version control
+- Dynamo never ending version compatibility issues and custom packages problems
 
 ## Problems
 
