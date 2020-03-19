@@ -89,3 +89,6 @@ From the Rhinoceros tab launch Rhino and then start Grasshopper from Rhino
 ![Dynamo%20scripts/gh_Template.png](/images/Dynamo%20scripts/gh_Template.png)
 
 [SetParametersFromExcel_02.gh](/images/Dynamo%20scripts/SetParametersFromExcel_02.gh)
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls preload="auto" width="720" height="550" data-setup="{}">
+<source src="/videos/wpa.mp4" type='video/mp4'></video>
