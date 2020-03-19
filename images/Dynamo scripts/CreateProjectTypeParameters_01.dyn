@@ -1,0 +1,582 @@
+{
+  "Uuid": "4ad29244-c327-4108-9060-13c0dd9333b5",
+  "IsCustomNode": false,
+  "Description": null,
+  "Name": "CreateProjectTypeParameters_01",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Parameter.CreateProjectParameterForAllCategories@string,string,string,string,bool",
+      "Id": "232e3820cc8c4d23824676daa207d4bf",
+      "Inputs": [
+        {
+          "Id": "6b80344c358444269b15ddb562f0e993",
+          "Name": "parameterName",
+          "Description": "Name\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "4012336f1d2f4ccb8bbaaf7c34499857",
+          "Name": "groupName",
+          "Description": "Group of the parameter for shared parameters\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1665215bc83545768c0cc049ae33f28f",
+          "Name": "type",
+          "Description": "Parameter Type\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d663fffbc80744399f23165f8b33c991",
+          "Name": "group",
+          "Description": "Parameter Group\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "e72a70b98cf945678bae2701613e5237",
+          "Name": "instance",
+          "Description": "Is instance parameter, otherwise it's a type parameter\n\nbool",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4947123954644c14b516b1a5faee0309",
+          "Name": "void",
+          "Description": "void",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Create a new Project Parameter in this current Revit document for all applicable categories\n\nParameter.CreateProjectParameterForAllCategories (parameterName: string, groupName: string, type: string, group: string, instance: bool): void"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Data",
+      "Id": "63a82e441e9a4a508a83c4e4cea0048e",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "cfb9c20f793b48598982c918261dc396",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Text",
+      "Id": "47ab267e496148e9a8964604a6e24e12",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "0332e22423664491986b334b28b2fea6",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.BoolSelector, CoreNodeModels",
+      "NodeType": "BooleanInputNode",
+      "InputValue": true,
+      "Id": "5eca88f5cdee4403a62a7c22974f9eb8",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1290f645964342cdab2cfffbb6f18725",
+          "Name": "",
+          "Description": "Boolean",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Selection between a true and false."
+    },
+    {
+      "ConcreteType": "archilabUI.ParameterGroupUi, archilabUI",
+      "SelectedIndex": 26,
+      "SelectedString": "PG_DATA",
+      "NodeType": "ExtensionNode",
+      "Id": "b4b0f8fba75647c8900b68b134909cf4",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1a605b829f504fa5b2770b9b5abae04b",
+          "Name": "parameterGroup",
+          "Description": "The selected parameterGroup",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Retrieve all available Parameter Groups."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "[\"Model Name\",\n\"Element Author\",\n\"Element Discipline\",\n\"Element Status\",\n\"Element Suitability\",\n\"Design Package Number\",\n\"WPA-WBS-ID\",\n\"Element LOD\",\n\"Is Constructed\",\n\"SBS-ID\",\n\"Handover Lot No\",\n\"Uniclass System code\",\n\"Uniclass System Description\",\n\"Uniclass Element Code\",\n\"Uniclass Element Description\"];",
+      "Id": "86b658a827aa4ed6bf2da79e2d0e5bbe",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "6389f478c034434784a2ca332bf1b27e",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Parameter.CreateProjectParameterForAllCategories@string,string,string,string,bool",
+      "Id": "6bf4c42e81164e4b9c406e69281d4c7b",
+      "Inputs": [
+        {
+          "Id": "4a7ffe557bfc41e4bf1d0060a5936a61",
+          "Name": "parameterName",
+          "Description": "Name\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b950fd88d63a4e2a868e49c452d1b422",
+          "Name": "groupName",
+          "Description": "Group of the parameter for shared parameters\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "257ba7602fff4cacbd40f75a2c7d5608",
+          "Name": "type",
+          "Description": "Parameter Type\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a47e666dbf214696bf0fb60a12424a6b",
+          "Name": "group",
+          "Description": "Parameter Group\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "5635360f2c184b738aa1f9d5009fd481",
+          "Name": "instance",
+          "Description": "Is instance parameter, otherwise it's a type parameter\n\nbool",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "02060bcedf044394b725818c87c81b67",
+          "Name": "void",
+          "Description": "void",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Create a new Project Parameter in this current Revit document for all applicable categories\n\nParameter.CreateProjectParameterForAllCategories (parameterName: string, groupName: string, type: string, group: string, instance: bool): void"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Text",
+      "Id": "21cf12bc15824918aea1c405cb7d8fef",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "c826ab07c05f40b3897093e2a540a16b",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.BoolSelector, CoreNodeModels",
+      "NodeType": "BooleanInputNode",
+      "InputValue": false,
+      "Id": "3efcc996d2b04c16aff7ce5f23be2051",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "f6604ba5633b4113937969d5ef56e88d",
+          "Name": "",
+          "Description": "Boolean",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Selection between a true and false."
+    },
+    {
+      "ConcreteType": "archilabUI.ParameterGroupUi, archilabUI",
+      "SelectedIndex": 26,
+      "SelectedString": "PG_DATA",
+      "NodeType": "ExtensionNode",
+      "Id": "d281dddd88814994bf2f389a29e0e54d",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "fb0993b43f854a5bbf51c42cfb0efc22",
+          "Name": "parameterGroup",
+          "Description": "The selected parameterGroup",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Retrieve all available Parameter Groups."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Data",
+      "Id": "3001568d1c7a4d3897f0250a6721014f",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3e3fcdd1e9924e59b05b92145f5b7306",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "[\"Model Name\",\n\"Element Author\",\n\"Element Discipline\",\n\"Element Status\",\n\"Element Suitability\",\n\"Design Package Number\",\n\"WPA-WBS-ID\",\n\"Element LOD\",\n\"Is Constructed\",\n\"SBS-ID\",\n\"Handover Lot No\",\n\"Uniclass System code\",\n\"Uniclass System Description\",\n\"Uniclass Element Code\",\n\"Uniclass Element Description\"];",
+      "Id": "5480e85bc0284f74a791e560fe2b02ab",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1b0906678d2546019229153ba0c4bbc4",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "cfb9c20f793b48598982c918261dc396",
+      "End": "4012336f1d2f4ccb8bbaaf7c34499857",
+      "Id": "d585b3feb22b49dd84df129f3ddbbde9"
+    },
+    {
+      "Start": "0332e22423664491986b334b28b2fea6",
+      "End": "1665215bc83545768c0cc049ae33f28f",
+      "Id": "a05062604f4c46419e9734219ffbb2d1"
+    },
+    {
+      "Start": "1290f645964342cdab2cfffbb6f18725",
+      "End": "e72a70b98cf945678bae2701613e5237",
+      "Id": "bf1bd3589fdd499898c20145b38dd10b"
+    },
+    {
+      "Start": "1a605b829f504fa5b2770b9b5abae04b",
+      "End": "d663fffbc80744399f23165f8b33c991",
+      "Id": "dc42198b5a574636869eba433c2ff1fe"
+    },
+    {
+      "Start": "6389f478c034434784a2ca332bf1b27e",
+      "End": "6b80344c358444269b15ddb562f0e993",
+      "Id": "370f9799431543b69a9c6c8e61e6d4ac"
+    },
+    {
+      "Start": "c826ab07c05f40b3897093e2a540a16b",
+      "End": "257ba7602fff4cacbd40f75a2c7d5608",
+      "Id": "4c99e23c9d294f699b18426ae2c5e46d"
+    },
+    {
+      "Start": "f6604ba5633b4113937969d5ef56e88d",
+      "End": "5635360f2c184b738aa1f9d5009fd481",
+      "Id": "4487bcab4c384a51b03c33905e9e3b22"
+    },
+    {
+      "Start": "fb0993b43f854a5bbf51c42cfb0efc22",
+      "End": "a47e666dbf214696bf0fb60a12424a6b",
+      "Id": "484df11c158e4b1990fc26fada2ddea1"
+    },
+    {
+      "Start": "3e3fcdd1e9924e59b05b92145f5b7306",
+      "End": "b950fd88d63a4e2a868e49c452d1b422",
+      "Id": "6d8a74e5c80b419c9e55b57bec8a733a"
+    },
+    {
+      "Start": "1b0906678d2546019229153ba0c4bbc4",
+      "End": "4a7ffe557bfc41e4bf1d0060a5936a61",
+      "Id": "6c23e7f9b273497bb4eb9085b2837032"
+    }
+  ],
+  "Dependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.2.0.4667",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "Id": "232e3820cc8c4d23824676daa207d4bf",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Parameter.CreateProjectParameterForAllCategories",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 746.0,
+        "Y": 392.0
+      },
+      {
+        "Id": "63a82e441e9a4a508a83c4e4cea0048e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "String",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 526.25464129184252,
+        "Y": 428.89153735763483
+      },
+      {
+        "Id": "47ab267e496148e9a8964604a6e24e12",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "String",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 537.56380674105344,
+        "Y": 490.83701320026654
+      },
+      {
+        "Id": "5eca88f5cdee4403a62a7c22974f9eb8",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Boolean",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 491.21809662947317,
+        "Y": 682.34629578395175
+      },
+      {
+        "Id": "b4b0f8fba75647c8900b68b134909cf4",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Parameter Groups",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 413.32831628895275,
+        "Y": 560.20070280684581
+      },
+      {
+        "Id": "86b658a827aa4ed6bf2da79e2d0e5bbe",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 74.384011791063926,
+        "Y": 368.291185954212
+      },
+      {
+        "Id": "6bf4c42e81164e4b9c406e69281d4c7b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Parameter.CreateProjectParameterForAllCategories",
+        "ShowGeometry": true,
+        "Excluded": true,
+        "X": 743.42556934411573,
+        "Y": 966.706948008367
+      },
+      {
+        "Id": "21cf12bc15824918aea1c405cb7d8fef",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "String",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 534.98937608516871,
+        "Y": 1065.5439612086338
+      },
+      {
+        "Id": "3efcc996d2b04c16aff7ce5f23be2051",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Boolean",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 488.64366597358867,
+        "Y": 1257.0532437923189
+      },
+      {
+        "Id": "d281dddd88814994bf2f389a29e0e54d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Parameter Groups",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 410.75388563306865,
+        "Y": 1134.9076508152129
+      },
+      {
+        "Id": "3001568d1c7a4d3897f0250a6721014f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "String",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 523.6802106359587,
+        "Y": 1003.598485366002
+      },
+      {
+        "Id": "5480e85bc0284f74a791e560fe2b02ab",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Excluded": false,
+        "X": 79.17327074175887,
+        "Y": 934.16170643468422
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "8125e9c852b84f0fa05054fb33997063",
+        "Title": "Instance Parameters",
+        "Nodes": [
+          "86b658a827aa4ed6bf2da79e2d0e5bbe"
+        ],
+        "Left": 64.384011791063926,
+        "Top": 272.291185954212,
+        "Width": 314.0,
+        "Height": 426.0,
+        "FontSize": 36.0,
+        "InitialTop": 368.291185954212,
+        "InitialHeight": 360.0,
+        "TextblockHeight": 86.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "074ec74006ba4e478dbaa1cfa233b8ba",
+        "Title": "Type Parameters",
+        "Nodes": [
+          "5480e85bc0284f74a791e560fe2b02ab"
+        ],
+        "Left": 69.17327074175887,
+        "Top": 881.16170643468422,
+        "Width": 314.0,
+        "Height": 383.0,
+        "FontSize": 36.0,
+        "InitialTop": 934.16170643468422,
+        "InitialHeight": 360.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": -13.1986804870902,
+    "Y": -196.8719516513296,
+    "Zoom": 0.94876882703760579
+  }
+}
