@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="rhino inside example">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-03-19-RhinoInsideExample.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-19-RhinoInsideExample.md" afterDir="false" />
-    </list>
+    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,13 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00217" summary="suppress warnings">
-      <created>1543035784009</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1543035784009</updated>
     </task>
     <task id="LOCAL-00218" summary="suppress warnings">
       <created>1543378934814</created>
@@ -577,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584594187811</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="update style">
+      <created>1584594739923</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1584594739923</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TodoView">
@@ -591,7 +588,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
@@ -666,7 +662,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="journal files" />
     <MESSAGE value="code vs node" />
     <MESSAGE value="connectRevitWeb" />
     <MESSAGE value="view templates" />
@@ -691,7 +686,8 @@
     <MESSAGE value="dynamo2" />
     <MESSAGE value="pimp my revit" />
     <MESSAGE value="rhino inside example" />
-    <option name="LAST_COMMIT_MESSAGE" value="rhino inside example" />
+    <MESSAGE value="update style" />
+    <option name="LAST_COMMIT_MESSAGE" value="update style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-28-MacroExternal.md">
