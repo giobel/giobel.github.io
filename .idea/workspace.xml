@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="">
+    <list default="true" id="383e8399-652b-4742-8133-d90f3d047f9c" name="Default" comment="update style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-04-16-SAM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-16-SAM.md" afterDir="false" />
     </list>
@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-16-SAM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="680">
-                <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+              <first_editor relative-caret-position="561">
+                <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -246,20 +246,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514802738302</updated>
-    </task>
-    <task id="LOCAL-00220" summary="django app">
-      <created>1544160070006</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1544160070007</updated>
-    </task>
-    <task id="LOCAL-00221" summary="react">
-      <created>1544441539895</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1544441539896</updated>
     </task>
     <task id="LOCAL-00222" summary="react">
       <created>1544445095906</created>
@@ -590,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587036875273</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="update style">
+      <created>1587038726225</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1587038726225</updated>
+    </task>
+    <task id="LOCAL-00270" summary="update style">
+      <created>1587039306664</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1587039306664</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="TodoView">
@@ -900,8 +900,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-16-SAM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="680">
-            <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+          <first_editor relative-caret-position="561">
+            <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
