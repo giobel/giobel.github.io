@@ -20,6 +20,17 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 	<script src="https://ariutta.github.io/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
+	 <script src="three.min.js"></script>
+		<script src="panolens.min.js"></script>
+	
+	
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script> -->
+
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"> -->
+
   </head>
 
   <body>
@@ -97,14 +108,58 @@
 			</div>
 			<div class="col-sm-9">
 				<embed id="project1" class="svg-container" type="image/svg+xml"  src="project1.svg"/>
-				<p class="lead text-center font-weight-bold" id="svgLabel1" style="margin: 0 "></p>
-				<p class="lead text-center" id="svgLabel2" style="margin: 0"></p>
+				<p class="lead text-center font-weight-bold" id="svgLabel1" style="margin: 0 ">Total Area</p>
+				<p class="lead text-center" id="svgLabel2" style="margin: 0">425sqm</p>
 			</div>
+		</div>
+
+		<hr class="my-4">
+		<div class="row justify-content-center" id="panoContainer" style="width:1000px; height:540"></div>
+		<hr class="my-4">
+		<div class="row justify-content-center">
+			<iframe width="1000" height="540"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//i.imgur.com/ZDDmZCC.jpg"></iframe>
+		</div>	
+			<!-- <iframe width='960' height='540' src='https://roundme.com/embed/567856/1843365' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+			<hr class="my-4">
+		<div class="row justify-content-center">
+			<iframe width='1000' height='540' src='https://momento360.com/e/uc/19d01694b95f4a16b0c52ffae5307070?utm_campaign=embed&utm_source=other' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>			
+		</div>
+
+
 
 		</div>
-	</div>
 
 <script>
+
+
+function loadPanellum(){
+	pannellum.viewer('panoContainer', {
+    "type": "equirectangular",
+    "panorama": "https://pannellum.org/images/alma.jpg",
+	
+
+});
+}
+
+function loadPano(){
+	var panorama, viewer, container, infospot;
+
+panocontainer = document.querySelector( '#panoContainer' );
+
+panorama = new PANOLENS.ImagePanorama( 'Office.jpg' );
+
+infospot = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
+infospot.position.set( 0, 0, -5000 );
+infospot.addHoverText( 'Hello Panolens', 30 );
+panorama.add( infospot );
+
+viewer = new PANOLENS.Viewer( {container: panocontainer} );
+viewer.container.style.width = "1000px";
+  viewer.container.style.height = "540px";
+viewer.add( panorama );
+}
+
+
 
 // SVG NAVIGATION
 // Don't use window.onLoad like this in production, because it can only listen to one function.
@@ -120,6 +175,7 @@ window.onload = function() {
 	  });
 	  SD=S.getSVGDocument();
 	  mapRollover(SD);
+	  loadPano();
 	};
 
 
