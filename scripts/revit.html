@@ -11,6 +11,8 @@
 			//alert("The text received from Revit: " + message);
 			document.getElementById("tbReceivedFromRevit").value = message;
 		}
+
+
 		
 	
 	</script>
@@ -24,6 +26,7 @@
 <input type='text' id='tbSendToRevit' value='This will be sent to Revit'>
 <button onclick='sendToRevit(document.getElementById("tbSendToRevit").value);'>Send text to Revit</button>
 <br>
+<button onclick='sendToRevit("Delete");'>Delete</button>
 <br>
 Text received from Revit
 <input type='text' id='tbReceivedFromRevit' style='width: 400px;'>
