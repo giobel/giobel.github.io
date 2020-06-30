@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<script>
+		
+		function sendToRevit(message) {	
+			dotNetInterface.sendTextToRevit(message);		
+		}
+		
+		function receiveFromRevit(message) {
+			//alert("The text received from Revit: " + message);
+			document.getElementById("tbReceivedFromRevit").value = message;
+		}
+		
+	
+	</script>
+	
+</head>
+
+<body>
+
+<h1>Test page</h1>
+
+<input type='text' id='tbSendToRevit' value='This will be sent to Revit'>
+<button onclick='sendToRevit(document.getElementById("tbSendToRevit").value);'>Send text to Revit</button>
+<br>
+<br>
+Text received from Revit
+<input type='text' id='tbReceivedFromRevit' style='width: 400px;'>
+
+
+
+</body>
+
+
+</html>
