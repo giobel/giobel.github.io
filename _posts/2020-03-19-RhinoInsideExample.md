@@ -1,6 +1,6 @@
 ---
-layout: post
 title: RhinoInsideRevit Example
+layout: post
 ---
 
 ## SETUP
