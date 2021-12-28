@@ -9,7 +9,7 @@ date: 21/12/27
 
 1. Empty app
 
-`npm init -y`
+    `npm init -y`
 
 2. install express, ejs and mongoos
 
@@ -113,11 +113,17 @@ Product.insertMany(seedProducts)
 .catch(e => console.log(e))
 ```
 7. run `node seed.js` to save the data in the database
+
 8. check the data has been saved
-`show dbs`
-`use farmStand`
-`show collections`
-`db.products.find()`
+
+    `show dbs`
+
+    `use farmStand`
+
+    `show collections`
+
+    `db.products.find()`
+
 9. setup a route to display the products
 
 ```js
