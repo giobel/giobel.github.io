@@ -135,7 +135,6 @@ app.get('/products', async (req, res)=>{
 
 10. create a folder *products* in views and *index.ejs* 
 
-
 ```html
 {% raw %}
 <body>
@@ -148,8 +147,6 @@ app.get('/products', async (req, res)=>{
 </body>
 {% endraw %}
 ```
-
-
 
 11. setup a show route using find by id
 
