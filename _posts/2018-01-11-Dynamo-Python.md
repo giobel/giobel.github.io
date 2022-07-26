@@ -130,7 +130,7 @@ From the element's Solid Geometry
 
 <code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPoints_SolidGeometry.py" data-gist-hide-footer="true"></code>
 
-Use the correct function depending on the element type:
+Use the correct [function](https://www.scaler.com/topics/python/functions-in-python/) depending on the element type:
 
 <code data-gist-id="b5ffcb2e04e31d68ad7687ed4fa48f8c" data-gist-file="GetBeamEndPointsLoop.py" data-gist-hide-footer="true"></code>
 
