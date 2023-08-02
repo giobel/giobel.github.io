@@ -1,7 +1,7 @@
 {
   "icon": "https://components.stage.connect.trimble.com/trimble-connect-project-workspace-api/logo192.png",
   "title": "React example",
-  "url": "http://localhost:3000/",
+  "url": "https://localhost:443/",
   "description": "Test react extension",
   "configCommand": "do_config",
   "enabled": true
