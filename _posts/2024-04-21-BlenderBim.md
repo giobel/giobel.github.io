@@ -4,7 +4,7 @@ layout: post
 date: 24/04/21
 ---
 
-# Blender BIM Cookbok
+# Blender BIM Cookbook
 
 ## Create and assign materials
 
@@ -16,6 +16,10 @@ date: 24/04/21
 
 <img width="347" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/0604b4ea-7369-4ab4-b067-469961fc5559">
 
+The diffuse colour changes the appearance in Blender:
+
+<img width="857" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/4543fec1-dbd2-4143-9a46-a27026da2a1b">
+
 3. Assign the style to the material previously created
 
 <img width="347" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/eb8596a8-653f-4e17-b312-8bdb07eb959e">
@@ -23,3 +27,5 @@ date: 24/04/21
 <img width="348" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/7a291e9d-3301-43d4-8155-f5b8fc599ec3">
 
 4. Assign the material to the objects
+
+<img width="867" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/e60e3e4e-ab18-4797-8eb0-c92338dcb7bd">
