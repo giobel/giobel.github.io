@@ -29,3 +29,12 @@ The diffuse colour changes the appearance in Blender:
 4. Assign the material to the objects
 
 <img width="867" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/e60e3e4e-ab18-4797-8eb0-c92338dcb7bd">
+
+## Add Pset properties
+
+Use Bulk Add/Edit Custom Properties 
+
+<img width="925" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/4dda09a8-034e-485b-86f8-36ecf2e0bdc8">
+
+<img width="1002" alt="image" src="https://github.com/giobel/giobel.github.io/assets/27025848/a5e0b9d5-82dc-4180-a200-8a6bb583d995">
+
