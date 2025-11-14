@@ -10,7 +10,7 @@ title: Blender Mesh Fill Hole
 <img width="2880"  alt="image" src="https://github.com/user-attachments/assets/9ca62b1c-3953-40da-8200-1e71f1d52426" />
 
 ### Import in Blender and scale/rotate to fit
-<img width="2880" height="1524" alt="image" src="https://github.com/user-attachments/assets/ae5026ca-44e7-479e-ad5b-618b5f670521" />
+<img width="2880" alt="image" src="https://github.com/user-attachments/assets/ae5026ca-44e7-479e-ad5b-618b5f670521" />
 
 ### Go in Edit Mode (Tab), Select Face Mode and Select by Circle (C) faces around the opening to fill. Increase/Decrease the circle size with middle mouse button. Press Esc to pause the selection and to navigate the model.
 <img width="2880" alt="image" src="https://github.com/user-attachments/assets/f4456fef-0e41-4963-9961-8bd13bebb013" />
