@@ -1,15 +1,15 @@
 ## INFRASTRUCTURE WORKS
 
-### Temporary Works
-
 - Models federation and coordination
+- Model compliance and quality control
 - Clash detection and space proofing
+- Construction sequence
+
+<img width="1355" height="877" alt="PileCapReinforcementInstallation" src="https://github.com/user-attachments/assets/309b8ccf-b0c1-49b7-9202-0889d382a56b" />
 
 <img width="1209" height="602" alt="image" src="https://github.com/user-attachments/assets/1f2e4429-a33d-430e-924b-3777a8945684" />
 
 <img width="1945" height="1440" alt="image" src="https://github.com/user-attachments/assets/e949693b-e687-44ed-bd66-4b0ae6f7987b" />
-
-<img width="1355" height="877" alt="PileCapReinforcementInstallation" src="https://github.com/user-attachments/assets/309b8ccf-b0c1-49b7-9202-0889d382a56b" />
 
 ### Construction Sequence (Synchro 4D)
 
@@ -27,9 +27,9 @@
 
 ## MODEL MANAGEMENT
 
-### Model Federation - Navisworks to Revizto
+### Revit model health check
 
-<img width="528" height="95" alt="image" src="https://github.com/user-attachments/assets/b36cf847-091d-4656-8e71-d6e98a6162ab" />
+<img width="1918" height="1040" alt="Screenshot 2025-01-08 134516" src="https://github.com/user-attachments/assets/ec50df76-2e65-443d-a6ab-5ad796f84eb3" />
 
 ### PowerBi Dashboard
 
@@ -42,7 +42,7 @@ Python script using [IfcOpenShell](https://ifcopenshell.org/) to pull properties
 
 ## COMPUTATIONAL DESIGN
 
-#### Earth fill/excavation volume
+### Earth fill/excavation volume
 
 - Create a 1x1 grid of points
 - Project points to top and bottom surfaces
@@ -51,9 +51,7 @@ Python script using [IfcOpenShell](https://ifcopenshell.org/) to pull properties
 
 ![image](https://github.com/giobel/giobel.github.io/assets/27025848/6fed1529-037c-46ce-ae3f-8d3e2d3e65dd)
 
-#### Salamander//Geometry Gym model geometry
-
-[Wall and Fence](https://github.com/giobel/Storage/blob/main/Grasshopper/BED/R001-Survey%20Wall%20and%20Fence.gh)
+### Salamander//Geometry Gym model geometry
 
 ![image](https://github.com/giobel/giobel.github.io/assets/27025848/03ddedb2-6851-4f16-a711-7fdd60f573cf)
 
@@ -90,15 +88,19 @@ Project specific addins.
 
 ## WEB APPS / EXTENSIONS
 
-#### Clip Planes at chainage (Trimble Connect)
+### Clip Planes at chainage (Trimble Connect)
 
 [TC Clip Planes](https://github.com/giobel/tcapp)
 
 ![image](https://github.com/giobel/giobel.github.io/assets/27025848/a2bf0ced-6f58-4c4f-8cce-fb54c9147068)
 
-#### Models Health Report (Trimble Connect)
+### Models Health Report (Trimble Connect)
 
 ![image](https://github.com/giobel/giobel.github.io/assets/27025848/0a81b197-70f6-4d60-8fee-ae817496b4b4)
+
+### Revizto template generator
+
+<img width="1360" height="572" alt="image" src="https://github.com/user-attachments/assets/99e5acfa-dcef-4cad-8cc4-e1e4f288092c" />
 
 ---
 
