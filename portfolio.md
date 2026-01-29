@@ -61,12 +61,6 @@ Python script using [IfcOpenShell](https://ifcopenshell.org/) to pull properties
 
 ![image](https://github.com/giobel/giobel.github.io/assets/27025848/03ddedb2-6851-4f16-a711-7fdd60f573cf)
 
-### Rhino Compute
-
-Rhino compute + Geometry Gym to edit model and save it to ifc file
-
-![rhinoComputeIfc](https://github.com/giobel/giobel.github.io/assets/27025848/c9447f05-c1fd-43b5-8be7-5de380939dc2)
-
 ### Tekla - Grasshopper Live Link
 
 - Create Custom Components in Tekla:
