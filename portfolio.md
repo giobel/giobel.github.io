@@ -69,6 +69,18 @@ Rhino compute + Geometry Gym to edit model and save it to ifc file
 
 ---
 
+## MODELLING AND DRAFTING
+
+![GBPortfolio-Redux 1 _Page_06](https://github.com/user-attachments/assets/c4be161f-ea94-4137-ac94-de86b9c667b5)
+
+![GBPortfolio-Redux 1 _Page_10](https://github.com/user-attachments/assets/0edb0c16-78a8-47cb-a717-a13498ce86e0)
+
+![GBPortfolio-Redux 1 _Page_12](https://github.com/user-attachments/assets/ca824c2e-8b94-4595-a8ae-e7651159d48c)
+
+![GBPortfolio-Redux 1 _Page_13](https://github.com/user-attachments/assets/39d33dbb-11e1-4a54-98b0-3bcb39fdd371)
+
+---
+
 ## ADDINS
 
 ### Revit Addin Development
@@ -104,13 +116,4 @@ Project specific addins.
 
 ---
 
-## MODELLING AND DRAFTING
-
-![GBPortfolio-Redux 1 _Page_06](https://github.com/user-attachments/assets/c4be161f-ea94-4137-ac94-de86b9c667b5)
-
-![GBPortfolio-Redux 1 _Page_10](https://github.com/user-attachments/assets/0edb0c16-78a8-47cb-a717-a13498ce86e0)
-
-![GBPortfolio-Redux 1 _Page_12](https://github.com/user-attachments/assets/ca824c2e-8b94-4595-a8ae-e7651159d48c)
-
-![GBPortfolio-Redux 1 _Page_13](https://github.com/user-attachments/assets/39d33dbb-11e1-4a54-98b0-3bcb39fdd371)
 
