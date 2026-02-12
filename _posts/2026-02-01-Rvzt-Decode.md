@@ -45,15 +45,41 @@ The decoded output is more readable:
 ```python
 {'1': b'MarkerSearchSets', '2': 1, '3': 0, '4': {'1': b'0cca6a0f-ca95-4dd6-bd50-a71e109587ae', '2': 639064519730000000, '3': 639064519730000000, '4': b'07408a06-3eae-47dc-aaed-39aa1fc2f6b2', '5': 0, '6': 1, '7': b'Actual Start or End Date_2026-02-01', '8': {'1': 0, '2': [{'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual Start Date', '2': b'Actual Start Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}, {'1': 3}, {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual End Date', '2': b'Actual End Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}], '3': 0}}}
 ```
-We can extract the search set id and name:
+
+This is a python dictionary and we can extract the search set id and name by using their keys:
 
 ```python
 print (f"id: {decdata['4']['1']}, name: {decdata['4']['7'].decode('utf-8')}")
 ```
 
-and all the conditions:
+Conditions are stored in a list at key ['4']['8']['2']:
 
+```python
+for c in decdata['4']['8']['2']:
+    print (f"{c}")
+```
 
+```python
+[
+    {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual Start Date', '2': b'Actual Start Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}},
+    {'1': 3},
+    {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual End Date', '2': b'Actual End Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}
+]
+```
+
+Index 0 → Condition for Actual Start Date
+
+Index 1 → {'1': 3} → Logical operator OR
+
+Index 2 → Condition for Actual End Date
+
+If we change the Logical operator to AND, Index 1 will become:
+
+```python
+  {'1': 4}
+```
+
+The date is stored in nanoseconds starting from 01-01-0001 (.NET DateTime counts the number of ticks since midnight, January 1, 0001). Converted to 
 
 ### 3. Edit the file
 
