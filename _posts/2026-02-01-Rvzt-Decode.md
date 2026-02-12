@@ -7,6 +7,10 @@ The most efficient way to create appearance templates is to use search sets. Sea
 
 ### 1. Export a Search Set (folder and its content in the example below) to .vimsst file
 
+Let's export a folder containing two search sets:
+
+<img width="1098" height="571" alt="image" src="https://github.com/user-attachments/assets/c5453514-0a1f-4204-843a-5b4bdc4cff33" />
+
 If we print the file:
 
 ```python
