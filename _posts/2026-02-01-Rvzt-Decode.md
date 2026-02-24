@@ -7,7 +7,7 @@ The most efficient way to create appearance templates is to use search sets. Sea
 
 Let's look at the content of one search set with only two conditions and an OR operator:
 
-<img width="1099" height="572" alt="image" src="https://github.com/user-attachments/assets/072a0207-41ca-4d33-88be-01cb46aaac08" />
+<img width="1099" alt="image" src="https://github.com/user-attachments/assets/072a0207-41ca-4d33-88be-01cb46aaac08" />
 
 ### 1. Export the Search Set to .vimsst file
 
@@ -85,7 +85,7 @@ The date is stored in nanoseconds starting from 01-01-0001 (.NET DateTime counts
 
 Now let's export a folder containing two search sets:
 
-<img width="1350" height="431" alt="image" src="https://github.com/user-attachments/assets/358c477e-b97b-4f81-9a33-281218860f8e" />
+<img width="1350" alt="image" src="https://github.com/user-attachments/assets/358c477e-b97b-4f81-9a33-281218860f8e" />
 
 
 Our code does not work anymore because the data structure has changed:
@@ -136,6 +136,31 @@ id: b'81160f0d-1160-4928-8567-97312b71db46', name: Actual Start or End Date_2026
 {'1': 4}
 {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual End Date', '2': b'Actual End Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}
 </details>
+
+If our searchset contains grouped conditions:
+
+<img width="1351" alt="image" src="https://github.com/user-attachments/assets/a92294ec-383d-4436-a6eb-6bcf4326751c" />
+
+<details>
+<summary>the output will be:</summary>
+id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', searchset name: Ex Bridge Demo Hidden
+conditions
+id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', name: Ex Bridge Demo Hidden
+{'1': 1}
+{'1': 0, '2': {'2': {'1': 0, '2': {'1': b'LcOaNode', '2': b'Item'}, '3': {'1': b'LcOaNodeLayer', '2': b'Layer'}, '4': {'1': 5, '2': b'EXISTING BRIDGE'}, '5': 6}}}
+{'1': 4}
+{'1': 0, '2': {'2': {'1': 0, '2': {'1': b'LcOaNode', '2': b'Item'}, '3': {'1': b'LcOaNodeLayer', '2': b'Layer'}, '4': {'1': 5, '2': b'STAGE 5 - Existing Abutment Demo Pile Sheet Removal$T-Roffs'}, '5': 6}}}
+{'1': 3}
+{'1': 0, '2': {'2': {'1': 0, '2': {'1': b'LcOaNode', '2': b'Item'}, '3': {'1': b'LcOaNodeLayer', '2': b'Layer'}, '4': {'1': 5, '2': b'STAGE 5 - Existing Abutment Demo Pile Sheet Removal$T-Roffs'}, '5': 6}}}
+{'1': 2}
+{'1': 3}
+{'1': 0, '2': {'2': {'1': 0, '2': {'1': b'LcOaNode', '2': b'Item'}, '3': {'1': b'LcOaNodeLayer', '2': b'Layer'}, '4': {'1': 5, '2': b'STAGE 6 - Excavation Skirt Wall$Link Slab'}, '5': 6}}}
+</details>
+
+{'1': 1} defines the conditions inside the group
+{'1': 2} defines the condition outside the group
+{'1': 3} and {'1': 4} defines the OR and AND operators
+
 
 ### 3. Edit the file
 
