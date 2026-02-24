@@ -150,6 +150,8 @@ If our searchset contains grouped conditions:
 
 <details>
 <summary>the output will be:</summary>
+
+```text
 id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', searchset name: Ex Bridge Demo Hidden
 
 conditions
@@ -172,6 +174,7 @@ id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', name: Ex Bridge Demo Hidden
 {'1': 3}
 
 {'1': 0, '2': {'2': {'1': 0, '2': {'1': b'LcOaNode', '2': b'Item'}, '3': {'1': b'LcOaNodeLayer', '2': b'Layer'}, '4': {'1': 5, '2': b'STAGE 6 - Excavation Skirt Wall$Link Slab'}, '5': 6}}}
+```
 </details>
 
 {'1': 1} defines the conditions inside the group
