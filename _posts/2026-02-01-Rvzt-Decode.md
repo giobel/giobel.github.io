@@ -3,8 +3,39 @@ layout: post
 title: Rvzt Decode-Encode
 ---
 
-The most efficient way to create appearance templates is to use search sets. Search sets can be added to apperance templates using their id and their name. Therefore before generating appearance templates we need to collect all the search sets that we will be using. 
+## Summary
 
+### 1.Search Sets
+
+- [1.1 Get Search Sets](#11-get-search-sets)
+- [1.2 Create Search Sets with xml](#beam-end-points)
+- [1.3 Create Search Sets with .vimsst](#beam-end-points)
+
+### 2.Appearance Templates
+
+- [2.1 Create Appearance Template from items property](#beam-end-points)
+- [2.2 Create Appearance Template from Search Sets](#beam-end-points) 
+
+### 3.Rvzt API
+
+- [3.1 Get Tokens]()
+- [3.2 Refresh Tokens]()
+- [3.3 Get Licence]()
+- [3.4 Get Projects]()
+- [3.5 Get Sheets]()
+- [3.6 Get Workflows]()
+- [3.7 Add Stamps]()
+
+---
+
+## 1. Search Sets
+
+### 1.1 Get Search Sets
+
+<details>
+
+<summary>Expand</summary>
+    
 Let's look at the content of one search set with only two conditions and an OR operator:
 
 <img alt="image" src="https://github.com/user-attachments/assets/072a0207-41ca-4d33-88be-01cb46aaac08" />
@@ -182,11 +213,25 @@ id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', name: Ex Bridge Demo Hidden
 {'1': 3} and {'1': 4} defines the OR and AND operators
 
 
-### 3. Edit the file
+</details>
+    
+### 3. Create Search Sets with xml
 
 
 
-### 4. Save the edited file
+### 
+
+
+
+### 4. Create Appearance Templates
+
+The most efficient way to create appearance templates is to use search sets. Search sets can be added to apperance templates using their id and their name. Therefore before generating appearance templates we need to collect all the search sets that we will be using. 
+
+We can create 
+
+
+
+### 5. Save the edited file
 
 ```python
 filename = 'output.vimsst'
