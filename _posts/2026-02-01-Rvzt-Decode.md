@@ -8,8 +8,8 @@ title: Rvzt Decode-Encode
 ### 1.Search Sets
 
 - [1.1 Get Search Sets](#11-get-search-sets)
-- [1.2 Create Search Sets with xml](#beam-end-points)
-- [1.3 Create Search Sets with .vimsst](#beam-end-points)
+- [1.2 Create Search Sets with xml](#12-create-search-sets-with-xml)
+- [1.3 Create Search Sets with .vimsst](#13-create-search-sets-with-vimsst)
 
 ### 2.Appearance Templates
 
@@ -35,14 +35,16 @@ title: Rvzt Decode-Encode
 <details>
 
 <summary>Expand</summary>
-    
-Let's look at the content of one search set with only two conditions and an OR operator:
+
+Exported Search Sets are saved in a .vimsst file format.
+
+Let's start by looking at the content of one search set with only two conditions and an OR operator:
 
 <img alt="image" src="https://github.com/user-attachments/assets/072a0207-41ca-4d33-88be-01cb46aaac08" />
 
-### 1. Export the Search Set to .vimsst file
+**1.1.A Export the Search Set to .vimsst file**
 
-If we print the file:
+If we print the .vimsst file:
 
 ```python
 path = r'Demo.vimsst'
@@ -58,7 +60,9 @@ b'\n\x10MarkerSearchSets\x10\x01\x18\x00"\xce\x02\n$0cca6a0f-ca95-4dd6-bd50-a71e
 
 Which is a a binary data serialization using the Protocol Buffers (protobuf) format created by Google.
 
-### 2. Decode the file using the python Blackbox protobuf library
+**1.1.B Decode the file using the python Blackbox protobuf library**
+
+The file can be decoded using the blackboxprotobuf library:
 
 ```python
 import blackboxprotobuf
@@ -71,13 +75,13 @@ with open(path2, "rb") as f:
 ```
 
 <details>
-<summary>The decoded output is more readable:</summary>
+<summary>Which makes it more readable:</summary>
 {'1': b'MarkerSearchSets', '2': 1, '3': 0, '4': {'1': b'0cca6a0f-ca95-4dd6-bd50-a71e109587ae', '2': 639064519730000000, '3': 639064519730000000, '4': b'07408a06-3eae-47dc-aaed-39aa1fc2f6b2', '5': 0, '6': 1, '7': b'Actual Start or End Date_2026-02-01', '8': {'1': 0, '2': [{'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual Start Date', '2': b'Actual Start Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}, {'1': 3}, {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual End Date', '2': b'Actual End Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}], '3': 0}}}
 </details>
 
 This is a python dictionary and we can extract the search set id and name by using their keys:
 
-Searchset Id and Name are stored at keys ['4']['1'] and ['4']['7']
+By looking at the output we can see that Search Set Id and Name are stored at keys ['4']['1'] and ['4']['7']
 
 ```python
 print (f"id: {decdata['4']['1']}, name: {decdata['4']['7'].decode('utf-8')}")
@@ -114,6 +118,8 @@ If we change the Logical operator to AND, Index 1 will become:
 
 The date is stored in nanoseconds starting from 01-01-0001 (.NET DateTime counts the number of ticks since midnight, January 1, 0001). Converted to 
 
+**1.1.C Search Sets inside a folder**
+
 Now let's export a folder containing two search sets:
 
 <img alt="image" src="https://github.com/user-attachments/assets/358c477e-b97b-4f81-9a33-281218860f8e" />
@@ -142,14 +148,14 @@ def searchsetIterator(_decdata):
                 print (f"id: {sset['1']}, folder name: {sset['7'].decode('utf-8')}")
             else:
                 #print (sset)
-                print (f"id: {sset['1']}, searchset name: {sset['7'].decode('utf-8')}")
+                print (f"id: {sset['1']}, Search Set name: {sset['7'].decode('utf-8')}")
                 print ("conditions")
                 print (f"id: {sset['1']}, name: {sset['7'].decode('utf-8')}")
                 for c in sset['8']['2']:
                     print (c)
     else:
-        print("only one searchset found")
-        #searchset id and name
+        print("only one Search Set found")
+        #Search Set id and name
         print (f"id: {_decdata['4']['1']}, name: {_decdata['4']['7'].decode('utf-8')}")
         print ("conditions")
         for c in _decdata['4']['8']['2']:
@@ -157,12 +163,12 @@ def searchsetIterator(_decdata):
 ```
 
 <details>
-<summary>If we place the previous searchset inside a folder named "Test", the output will be:</summary>
+<summary>If we place the previous Search Set inside a folder named "Test", the output will be:</summary>
 searchsets are inside a folder
 
 id: b'c536c502-4483-4218-bec4-ba706ad3fb71', folder name: Test
 
-id: b'81160f0d-1160-4928-8567-97312b71db46', searchset name: Actual Start or End Date_2026-02-01
+id: b'81160f0d-1160-4928-8567-97312b71db46', Search Set name: Actual Start or End Date_2026-02-01
 
 conditions
 
@@ -175,7 +181,9 @@ id: b'81160f0d-1160-4928-8567-97312b71db46', name: Actual Start or End Date_2026
 {'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual End Date', '2': b'Actual End Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}
 </details>
 
-If our searchset contains grouped conditions:
+#### 1.1.C Search Set with grouped conditions
+
+If our search set contains grouped conditions:
 
 <img alt="image" src="https://github.com/user-attachments/assets/a92294ec-383d-4436-a6eb-6bcf4326751c" />
 
@@ -183,7 +191,7 @@ If our searchset contains grouped conditions:
 <summary>the output will be:</summary>
 
 ```text
-id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', searchset name: Ex Bridge Demo Hidden
+id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', Search Set name: Ex Bridge Demo Hidden
 
 conditions
 
@@ -211,16 +219,26 @@ id: b'774f3d34-9e56-4f23-bbc8-ed998a997574', name: Ex Bridge Demo Hidden
 {'1': 1} defines the conditions inside the group
 {'1': 2} defines the condition outside the group
 {'1': 3} and {'1': 4} defines the OR and AND operators
+</details>
 
+### 1.2 Create Search Sets with xml
+
+<details>
+
+<summary>Expand</summary>
 
 </details>
-    
-### 3. Create Search Sets with xml
+
+
+### 1.3 Create Search Sets with vimsst
 
 
 
-### 
+<details>
 
+<summary>Expand</summary>
+
+</details>
 
 
 ### 4. Create Appearance Templates
