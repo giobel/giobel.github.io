@@ -116,7 +116,40 @@ If we change the Logical operator to AND, Index 1 will become:
   {'1': 4}
 ```
 
-The date is stored in nanoseconds starting from 01-01-0001 (.NET DateTime counts the number of ticks since midnight, January 1, 0001). Converted to 
+The date is stored in nanoseconds starting from 01-01-0001 (.NET DateTime counts the number of ticks since midnight, January 1, 0001).
+
+We can use a function to convert the date to a readable format:
+
+```python
+def from_revizto_time(revizto_time: int) -> datetime:
+    
+    nanoseconds = 1_000_000_000
+
+    #revizto timestamp (time at 31-12-2023 23:00)
+    reviztoStartTime = 638396604*nanoseconds
+
+    #revizto start date in project timezone (+8 hours)
+    reviztoStartDate = datetime.strptime("20240101 07:00", "%Y%m%d %H:%M")
+
+    # Compute the difference in seconds
+    seconds_delta = (revizto_time - reviztoStartTime) * 100 / nanoseconds
+    
+    # Add to the base datetime
+    return reviztoStartDate + timedelta(seconds=seconds_delta)
+```
+
+If we use this condition as input:
+
+{'1': 0, '2': {'2': {'1': 10, '2': {'1': b'TimeLiner+', '2': b'TimeLiner +'}, '3': {'1': b'Actual Start Date', '2': b'Actual Start Date'}, '4': {'1': 6, '3': 639054721500000000, '5': 0}, '5': 6}}}
+
+The date will be:
+
+```python
+time = c['2']['2']['4']['3']
+print (f"date: {from_revizto_time(time).strftime('%Y-%m-%d %H:%M')}")
+
+OUTPUT: date: 2026-02-01 00:02
+```
 
 **1.1.C Search Sets inside a folder**
 
@@ -164,6 +197,7 @@ def searchsetIterator(_decdata):
 
 <details>
 <summary>If we place the previous Search Set inside a folder named "Test", the output will be:</summary>
+
 searchsets are inside a folder
 
 id: b'c536c502-4483-4218-bec4-ba706ad3fb71', folder name: Test
