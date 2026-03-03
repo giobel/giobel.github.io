@@ -42,7 +42,7 @@ Let's start by looking at the content of one search set with only two conditions
 
 <img alt="image" src="https://github.com/user-attachments/assets/072a0207-41ca-4d33-88be-01cb46aaac08" />
 
-### 1.1.A Export the Search Set to .vimsst file
+###1.1.A Export the Search Set to .vimsst file
 
 If we print the .vimsst file:
 
@@ -63,7 +63,7 @@ b'\n\x10MarkerSearchSets\x10\x01\x18\x00"\xce\x02\n$0cca6a0f-ca95-4dd6-bd50-a71e
 
 Which is a a binary data serialization using the Protocol Buffers (protobuf) format created by Google.
 
-### 1.1.B Decode the file using the python Blackbox protobuf library
+###1.1.B Decode the file using the python Blackbox protobuf library
 
 The file can be decoded using the blackboxprotobuf library:
 
@@ -160,7 +160,7 @@ print (f"date: {from_revizto_time(time).strftime('%Y-%m-%d %H:%M')}")
 OUTPUT: date: 2026-02-01 00:02
 ```
 
-### 1.1.C Search Sets inside a folder
+###1.1.C Search Sets inside a folder
 
 Now let's export a folder containing two search sets:
 
