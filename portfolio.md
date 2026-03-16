@@ -5,11 +5,11 @@
 - Clash detection and space proofing
 - Construction sequence
 
-<img width="1355" height="877" alt="PileCapReinforcementInstallation" src="https://github.com/user-attachments/assets/309b8ccf-b0c1-49b7-9202-0889d382a56b" />
+<img alt="PileCapReinforcementInstallation" src="https://github.com/user-attachments/assets/309b8ccf-b0c1-49b7-9202-0889d382a56b" />
 
-<img width="1209" height="602" alt="image" src="https://github.com/user-attachments/assets/1f2e4429-a33d-430e-924b-3777a8945684" />
+<img alt="image" src="https://github.com/user-attachments/assets/1f2e4429-a33d-430e-924b-3777a8945684" />
 
-<img width="1945" height="1440" alt="image" src="https://github.com/user-attachments/assets/e949693b-e687-44ed-bd66-4b0ae6f7987b" />
+<img alt="image" src="https://github.com/user-attachments/assets/e949693b-e687-44ed-bd66-4b0ae6f7987b" />
 
 ### Construction Sequence (Synchro 4D)
 
