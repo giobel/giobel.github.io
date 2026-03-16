@@ -27,7 +27,7 @@
 
 ## BUILDING WORKS
 
-<img width="910" height="678" alt="image" src="https://github.com/user-attachments/assets/2949918b-e0fe-446d-bad0-523be53e2054" />
+<img alt="image" src="https://github.com/user-attachments/assets/2949918b-e0fe-446d-bad0-523be53e2054" />
 
 ---
 
